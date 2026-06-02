@@ -1,103 +1,92 @@
-# Configuration Overview
+# Konfigurace systému Kramerius
 
-Tato kapitola poskytuje **referenční přehled konfiguračního modelu Krameria**. Popisuje základní principy konfigurace, typy konfiguračních zdrojů a jejich vzájemné vztahy. Neslouží jako instalační návod – cílem je vysvětlit *co* se konfiguruje a *proč*.
-
----
-
-## Základní principy konfigurace
-
-Konfigurace Krameria je rozdělena do několika vrstev, které se navzájem doplňují:
-
-- **Aplikační konfigurace**  
-  Řídí chování samotné aplikace (repozitáře, indexace, protokoly, cache, integrace).
-
-- **Provozní konfigurace**  
-  Závisí na prostředí, ve kterém je Kramerius spuštěn (on-premise, Docker, cluster).
-
-- **Konfigurace úložišť a sdílených služeb**  
-  Řeší práci s perzistentními daty a synchronizaci mezi instancemi.
-
-Jednotlivé konfigurační prvky nejsou izolované – změna v jedné části (např. úložiště) má přímý dopad na další subsystémy (indexace, IIIF, exporty).
+Tato kapitola popisuje konfigurační principy systému Kramerius, architekturu nastavení jednotlivých komponent a způsob, jakým se konfigurace aplikuje v různých prostředích (zejména Docker).
 
 ---
 
-## Konfigurační zdroje
+## 1. Konfigurační strategie a hierarchie
 
-Kramerius využívá kombinaci několika typů konfiguračních zdrojů.
+Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
 
-### Konfigurační soubory
-
-Základ konfigurace je definován v souborech uložených na filesystemu aplikace. Tyto soubory:
-
-- popisují strukturovaná nastavení (např. storage, indexy, služby),
-- jsou čitelné a verzovatelné,
-- tvoří hlavní referenční bod konfigurace.
-
-Konkrétní přehled souborů a jejich význam je popsán v kapitole **Configuration Files**.
+1. **Výchozí hodnoty (Defaults):** Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker obrazech.
+2. **Globální/Instalační konfigurace:** Společná nastavení pro celé nasazení (např. URL adresy, přístupy do databází) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí (Environment Variables).
+3. **Specifická/Detailní konfigurace:** Detailní chování aplikací (např. vnitřní ladění Kramerius jádra) se konfiguruje pomocí externích konfiguračních souborů namontovaných do kontejnerů.
 
 ---
 
-### Systémové proměnné
+## 2. Přehled konfiguračních úrovní
 
-Některé hodnoty mohou být dodány nebo přepsány pomocí systémových proměnných:
+Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-- typicky pro rozdíly mezi prostředími,
-- bez nutnosti měnit samotné konfigurační soubory,
-- často využívané v kontejnerových instalacích.
-
----
-
-### Externí služby
-
-Část konfigurace se netýká pouze aplikace samotné, ale definuje vazby na externí komponenty:
-
-- úložiště (Akubra, legacy filesystem),
-- distribuované zámky (Hazelcast),
-- indexační a exportní mechanismy,
-- integrační protokoly (IIIF, OAI-PMH).
-
-Tyto oblasti jsou popsány v samostatných referenčních kapitolách.
+| Komponenta | Typ konfigurace | Primární umístění / Mechanismus | Odkaz na detail |
+| :--- | :--- | :--- | :--- |
+| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `kramerius.properties`, `solr.properties` přes environment variables | [Detail viz níže](#31-kramerius-jadro) |
+| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml` | [Detail viz níže](#4-konfigurace-v-docker-nasazeni) |
+| **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON) | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
+| **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#) |
 
 ---
 
-## Hierarchie a precedence
+## 3. Detailní konfigurace komponent
 
-Konfigurace má jasnou hierarchii, která určuje, odkud je výsledná hodnota převzata:
+### 3.1. Kramerius Jádro
 
-1. **Explicitní konfigurace v souborech**
-2. **Přepsání pomocí systémových proměnných**
-3. **Implicitní výchozí hodnoty aplikace**
+Jádro aplikace (Java/Tomcat) obsahuje velké množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 
-Tento model umožňuje:
+> ⚠️ **Pravidlo pro dokumentaci:** Konfigurační vlastnosti (properties) **nejsou** v této Wiki duplikovány textově, aby nedocházelo k chybám při aktualizacích. Aktuální seznam a výchozí hodnoty naleznete vždy přímo v repozitáři.
 
-- mít stabilní základní konfiguraci,
-- zároveň snadno přizpůsobit chování konkrétnímu prostředí.
+#### Odkazy na zdrojové konfigurační soubory (Master Copy):
+* 📄 [Kramerius Core Configuration (GitHub)](https://github.com/ceskaexpedice/akubra/blob/main/.../kramerius.properties) – *Hlavní konfigurační soubor pro chování systému, napojení na repozitář Akubra atd.*
+* 📄 [Solr Index Configuration (GitHub)](https://github.com/ceskaexpedice/akubra/blob/main/.../solr.properties) – *Nastavení vyhledávacího jádra.*
 
----
+#### Způsob přepisování (Override):
+V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory uvnitř kontejneru. Místo toho využíváme mechanismus **předávání proměnných prostředí**, které Tomcat aplikace mapuje na Java vlastnosti, případně montujeme (volume mount) externí soubor:
 
-## Konfigurace a běhové prostředí
-
-Konfigurační model Krameria počítá s tím, že aplikace může běžet:
-
-- jako jedna instance,
-- nebo jako více instancí sdílejících společná data.
-
-V takovém případě se konfigurace musí zabývat:
-
-- konzistencí zápisů,
-- sdíleným přístupem k úložišti,
-- synchronizací operací mezi uzly.
-
-Tyto aspekty jsou detailně rozebrány v kapitolách **Akubra Storage** a **Hazelcast Locking**.
+* **Možnost A (Doporučeno):** Přepis pomocí ENV v `docker-compose.yml` (např. `KRAMERIUS_DATABASE_URL=...`).
+* **Možnost B:** Namontování vlastního souboru do cesty `/usr/local/tomcat/conf/kramerius.properties`.
 
 ---
 
-## Vazba na další referenční kapitoly
+### 3.2. Akubra Repository
 
-Tato stránka slouží jako vstupní bod do referenční dokumentace konfigurace. Podrobnosti jsou rozděleny do následujících kapitol:
+Konfigurace nízkoúrovňového úložiště digitálních dokumentů. Obsahuje specifická nastavení pro FS (File System) nebo vazbu na databázi.
 
-- **Configuration Files** – konkrétní soubory a jejich role
-- **Akubra Storage** – perzistentní úložiště digitálních objektů
-- **Legacy Storage** – původní model práce s filesystemem
-- **Hazelcast Locking** – distribuované zámky a synchronizace
-- **Protocols (IIIF, OAI-PMH)** – konfigurační dopady integračních rozhraní  
+* 📄 [Akubra Configuration Reference (GitHub)](https://github.com/ceskaexpedice/akubra)
+* **Klíčové parametry k úpravě:**
+    * `akubra.storage.dir` – Cesta k hlavnímu datovému adresáři.
+
+---
+
+### 3.3. Převzaté komponenty (Keycloak, IIIF, atd.)
+
+U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace omezuje **pouze na integrační vazby**. Detailní konfiguraci naleznete v oficiální dokumentaci daných projektů.
+
+* **Keycloak:** Konfiguruje se primárně přes UI. Pro automatické nasazení se používá inicializační soubor `realm-export.json`, který je součástí našeho Docker deploymentu.
+* **IIIF Image Server:** Konfigurace cachování a limitů pro generování obrazů.
+
+---
+
+## 4. Konfigurace v Docker nasazení (Deployment)
+
+Při nasazení pomocí Docker Compose je veškerá konfigurace centralizovaná do jednoho místa – souboru `.env`, ze kterého čerpá `docker-compose.yml`.
+
+### Soubor `.env` (Příklad a šablona)
+
+Zde udržujte seznam pouze těch proměnných, které **musí** administrátor před spuštěním změnit (tzv. "Základní setup").
+
+```env
+# --- NASTAVENÍ PROSTŘEDÍ ---
+COMPOSE_PROJECT_NAME=kramerius-produkce
+KRAMERIUS_VERSION=7.x.x
+
+# --- SÍŤ A DOMÉNY ---
+KRAMERIUS_DOMAIN=kramerius.knihovna.cz
+EXTERNAL_PORT=80
+
+# --- DATABÁZE ---
+DB_USER=kramerius
+DB_PASSWORD=ZmenMojeHeslo123!
+DB_NAME=kramerius_db
+
+# --- INTEGRACE ---
+KEYCLOAK_URL=[https://auth.knihovna.cz](https://auth.knihovna.cz)
