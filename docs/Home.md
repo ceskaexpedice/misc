@@ -32,7 +32,7 @@ Využívá úložiště Akubra a nové schéma indexu vyhledávacího systému S
 Nevíte, kde začít?  
 Zvolte si svou roli a projděte základní orientaci v systému:
 
-👉 **[Getting Started](getting-started/index)**  
+👉 **[Getting Started](getting-started/index.md)**  
 *(Kurátor / Administrátor / Vývojář)*
 
 Getting Started vám pomůže:
