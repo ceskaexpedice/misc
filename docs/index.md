@@ -89,7 +89,7 @@ Praktické návody „jak nasadit“.
 ### 🛠 Konfigurace
 Jak nastavit.
 
-👉 **[Konfigurace](configuration/index2)**
+👉 **[Konfigurace](configuration/index)**
 
 ---
 
