@@ -1,0 +1,25 @@
+# Akubra
+
+Tato sekce obsahuje referenci k modulu **Akubra**, který slouží pro práci s digitálním obsahem a správu repozitářů v rámci systému.
+
+---
+
+## Hlavní dokumentace
+
+Veškerá detailní technická dokumentace k modulu Akubra je dostupná přímo v jeho oficiální GitHub Wiki:
+
+:contentReference[oaicite:1]{index=1}
+
+Wiki je primárním zdrojem informací a obsahuje zejména:
+
+- architekturu a návrh systému
+- konfiguraci úložiště a provozní nastavení
+- popis API a integračních rozhraní
+- správu dat a jejich ukládání
+- doporučené postupy pro nasazení a provoz
+
+---
+
+## Poznámka
+
+Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuální a detailní informace jsou udržovány výhradně ve výše uvedené Wiki.
