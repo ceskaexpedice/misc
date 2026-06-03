@@ -4,7 +4,11 @@ Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy p
 
 ---
 
-## Začínáme (Getting Started)
+## Jak je dokumentace strukturována
+
+Dokumentace je rozdělena do hlavních částí. Každá odpovídá na jiný typ otázek:
+
+### Začínáme (Getting Started)
 
 Nevíte, kde začít?  
 Zvolte si svou roli a projděte základní orientaci v systému:
@@ -13,11 +17,6 @@ Zvolte si svou roli a projděte základní orientaci v systému:
 *(Kurátor / Administrátor / Vývojář)*
 
 ---
-
-## Jak je dokumentace strukturována
-
-Dokumentace je rozdělena do hlavních částí. Každá odpovídá na jiný typ otázek:
-
 ### 🧠 Základní pojmy
 Co znamenají pojmy v doméně
 
