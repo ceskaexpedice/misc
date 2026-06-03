@@ -12,7 +12,7 @@ Co znamenají pojmy v doméně
 ---
 
 ## 🏗️ Architektura
-Jak jsou části systému organizované a jak spolu spolupracují
+Jak jsou části systému organizované a jak spolupracují
 
 👉 **[Architektura](architecture/index)**
 
