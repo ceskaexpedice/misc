@@ -4,60 +4,60 @@ Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy p
 
 ---
 
-## Začínáme (Getting Started)
+## 🚀 Začínáme
 
 Nevíte, kde začít?  
 Zvolte si svou roli a projděte základní orientaci v systému:
 
-👉 **[Getting Started](getting-started/index.md)**  
+👉 **[Začínáme](getting-started/index.md)**  
 *(Kurátor / Administrátor / Vývojář)*
 
 ---
-## 🧠 Základní pojmy
+## 📚 Základní pojmy
 Co znamenají pojmy v doméně
 
 👉 **[Základní pojmy](core-concepts/index)**
 
 ---
 
-## 🧠 Architektura
+## 🏗️ Architektura
 Jak jsou části systému organizované a jak spolu spolupracují
 
 👉 **[Architektura](architecture/index)**
 
 ---
 
-## 📚 Reference
+## 📖 Reference
 Jak přesně fungují komponenty
 
 👉 **[Reference](reference/index)**
 
 ---
 
-## 🛠 Konfigurace
+## ⚙️ Konfigurace
 Jak se systém nastavuje
 
 👉 **[Konfigurace](configuration/index)**
 
 ---
 
-## 🛠 Deployment
+## 🚢 Deployment
 jak systém běží v infrastruktuře
 
 👉 **[Deployment](deployment/index)**
 
 ---
 
-## 🛠 Návody
+## 🛠️ Návody
 Jak udělat konkrétní úkol
 
 👉 **[Návody](guides/index)**
 
 ---
 
-## 🔀 Scénáře
-Ucelené průřezové návody pro reálné situace
-ace
+## 🎯 Scénáře
+Use cases pro reálné situace
+
 
 👉 **[Scénáře](scenarios/index)**
 
@@ -66,11 +66,12 @@ ace
 
 ## Jak dokumentaci používat
 
-- **Noví uživatelé** → Getting Started
-- **Porozumění systému** → Core Concepts
-- **Konkrétní úkol** → Guides
-- **Reálný problém** → Scenarios
-- **Technické detaily** → Reference
+- **Noví uživatelé** → Začínáme
+- **Porozumění systému** → Základní pojmy, Architektura
+- **Konkrétní úkol** → Návody
+- **Reálný problém** → Scénáře
+- **Technické detaily** → Reference 
+- **Nasazení, konfigurace** → Deployment, Konfigurace
 
 ---
 
