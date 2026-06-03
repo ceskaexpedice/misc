@@ -4,11 +4,7 @@ Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy p
 
 ---
 
-## Jak je dokumentace strukturována
-
-Dokumentace je rozdělena do hlavních částí. Každá odpovídá na jiný typ otázek:
-
-### Začínáme (Getting Started)
+## Začínáme (Getting Started)
 
 Nevíte, kde začít?  
 Zvolte si svou roli a projděte základní orientaci v systému:
@@ -17,49 +13,49 @@ Zvolte si svou roli a projděte základní orientaci v systému:
 *(Kurátor / Administrátor / Vývojář)*
 
 ---
-### 🧠 Základní pojmy
+## 🧠 Základní pojmy
 Co znamenají pojmy v doméně
 
 👉 **[Základní pojmy](core-concepts/index)**
 
 ---
 
-### 🧠 Architektura
+## 🧠 Architektura
 Jak jsou části systému organizované a jak spolu spolupracují
 
 👉 **[Architektura](architecture/index)**
 
 ---
 
-### 📚 Reference
+## 📚 Reference
 Jak přesně fungují komponenty
 
 👉 **[Reference](reference/index)**
 
 ---
 
-### 🛠 Konfigurace
+## 🛠 Konfigurace
 Jak se systém nastavuje
 
 👉 **[Konfigurace](configuration/index)**
 
 ---
 
-### 🛠 Deployment
+## 🛠 Deployment
 jak systém běží v infrastruktuře
 
 👉 **[Deployment](deployment/index)**
 
 ---
 
-### 🛠 Návody
+## 🛠 Návody
 Jak udělat konkrétní úkol
 
 👉 **[Návody](guides/index)**
 
 ---
 
-### 🔀 Scénáře
+## 🔀 Scénáře
 Ucelené průřezové návody pro reálné situace
 ace
 
