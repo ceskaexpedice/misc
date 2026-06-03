@@ -4,15 +4,6 @@ Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy p
 
 ---
 
-## 🚀 Začínáme
-
-Nevíte, kde začít?  
-Zvolte si svou roli a projděte základní orientaci v systému:
-
-👉 **[Začínáme](getting-started/index.md)**  
-*(Kurátor / Administrátor / Vývojář)*
-
----
 ## 📚 Základní pojmy
 Co znamenají pojmy v doméně
 
@@ -60,6 +51,16 @@ Use cases pro reálné situace
 
 
 👉 **[Scénáře](scenarios/index)**
+
+---
+
+## 🚀 Začínáme
+
+Nevíte, kde začít?  
+Zvolte si svou roli a projděte základní orientaci v systému:
+
+👉 **[Začínáme](getting-started/index.md)**  
+*(Kurátor / Administrátor / Vývojář)*
 
 ---
 
