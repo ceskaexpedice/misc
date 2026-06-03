@@ -2,29 +2,6 @@
 
 Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
 
-Tato dokumentace popisuje **celý ekosystém Kramerius jádro**: jeho základní principy, provoz, integrace i typické reálné scénáře nasazení v knihovnách.
-
----
-
-## Co je Kramerius
-
-Kramerius je systém pro:
-- správu digitálních dokumentů a metadat
-- dlouhodobé ukládání digitálních objektů (Akubra / Fedora)
-- indexaci a vyhledávání (Solr)
-- řízení importních a hromadných procesů
-- správu přístupových práv a bezpečnosti
-
-Jádro systému běží jako **Java aplikace v Tomcatu** a poskytuje **REST API**.  
-Nad jádrem existují samostatné klientské aplikace (Čtenářský a Admin klient) a navazující moduly.
-
-Kramerius je open source sw řešení pro zpřístupnění digitálních dokumentů. Primárně je určen pro digitalizované knihovní sbírky, monografie a periodika.
-Využit může být ke zpřístupnění dalších typů dokumentů např. map, hudebnin a starých tisků, kronik, případně částí dokumentů jako jsou články a kapitoly.
-Systém je vhodný také pro digital born dokumenty, tedy dokumenty, které vznikly v elektronické podobě. Kramerius je průběžně upravován tak, aby struktura metadat odpovídala standardům vyhlašovaným Národní knihovnou České republiky.
-Systém poskytuje rozhraní pro přístup koncových uživatelů, zajišťující vyhledávání v metadatech a v plných textech, generování vícestránkových PDF dokumentů z vybraných stran,
-vytváření virtuálních sbírek a další operace nad uloženou sbírkou digitálních dokumentů.
-Využívá úložiště Akubra a nové schéma indexu vyhledávacího systému SOLR. Klientské prostředí zahrnuje uživatelského klienta a administrátorského určeného na správu systému.
-
 ---
 
 ## Začínáme (Getting Started)
@@ -99,6 +76,27 @@ ace
 - **Konkrétní úkol** → Guides
 - **Reálný problém** → Scenarios
 - **Technické detaily** → Reference
+
+---
+
+## Co je Kramerius
+
+Kramerius je systém pro:
+- správu digitálních dokumentů a metadat
+- dlouhodobé ukládání digitálních objektů (Akubra / Fedora)
+- indexaci a vyhledávání (Solr)
+- řízení importních a hromadných procesů
+- správu přístupových práv a bezpečnosti
+
+Jádro systému běží jako **Java aplikace v Tomcatu** a poskytuje **REST API**.  
+Nad jádrem existují samostatné klientské aplikace (Čtenářský a Admin klient) a navazující moduly.
+
+Kramerius je open source sw řešení pro zpřístupnění digitálních dokumentů. Primárně je určen pro digitalizované knihovní sbírky, monografie a periodika.
+Využit může být ke zpřístupnění dalších typů dokumentů např. map, hudebnin a starých tisků, kronik, případně částí dokumentů jako jsou články a kapitoly.
+Systém je vhodný také pro digital born dokumenty, tedy dokumenty, které vznikly v elektronické podobě. Kramerius je průběžně upravován tak, aby struktura metadat odpovídala standardům vyhlašovaným Národní knihovnou České republiky.
+Systém poskytuje rozhraní pro přístup koncových uživatelů, zajišťující vyhledávání v metadatech a v plných textech, generování vícestránkových PDF dokumentů z vybraných stran,
+vytváření virtuálních sbírek a další operace nad uloženou sbírkou digitálních dokumentů.
+Využívá úložiště Akubra a nové schéma indexu vyhledávacího systému SOLR. Klientské prostředí zahrnuje uživatelského klienta a administrátorského určeného na správu systému.
 
 ---
 
