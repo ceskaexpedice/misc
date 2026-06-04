@@ -8,7 +8,7 @@ Tato kapitola popisuje konfigurační principy systému Kramerius, architekturu 
 
 Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
 
-1. **Výchozí hodnoty (Defaults):** Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker obrazech.
+1. **Výchozí hodnoty (Defaults):** Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker images.
 2. **Globální/Instalační konfigurace:** Společná nastavení pro celé nasazení (např. URL adresy, přístupy do databází) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí (Environment Variables).
 3. **Specifická/Detailní konfigurace:** Detailní chování aplikací (např. vnitřní ladění Kramerius jádra) se konfiguruje pomocí externích konfiguračních souborů namontovaných do kontejnerů.
 
@@ -18,11 +18,11 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-| Komponenta | Typ konfigurace | Primární umístění / Mechanismus | Odkaz na detail                                                |
-| :--- | :--- | :--- |:---------------------------------------------------------------|
-| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `kramerius.properties`, `solr.properties` přes environment variables | [Detail viz níže](application/configuration-files)          |
-| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml` | [Detail viz níže](#4-konfigurace-v-docker-nasazeni)            |
-| **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON) | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
+| Komponenta | Typ konfigurace | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
+| :--- | :--- |:----------------------------------------------------------|:---------------------------------------------------------------|
+| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `configuration.properties` properties files               | [Konfiguracni soubory](application/configuration-files)        |
+| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | Docker Compose](../deployment/docker/index)                    |
+| **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
 | **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
 
 ---
