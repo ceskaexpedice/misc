@@ -21,7 +21,7 @@ Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co
 | Komponenta | Typ konfigurace | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
 | :--- | :--- |:----------------------------------------------------------|:---------------------------------------------------------------|
 | **Kramerius Jádro** | Aplikace (Java/Tomcat) | `configuration.properties` properties files               | [Konfiguracni soubory](application/configuration-files)        |
-| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | Docker Compose](../deployment/docker/index)                    |
+| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                    |
 | **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
 | **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
 
