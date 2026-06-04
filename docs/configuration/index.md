@@ -31,30 +31,36 @@ Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co
 
 ### 3.1. Kramerius jádro
 
-Jádro aplikace (Java/Tomcat) obsahuje velké množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
+Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 
-Konfigurační parametry jsou uloženy v [konfiguračních souborech](files/configuration-files).  
+[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/configuration-files).  
 
-#### Odkazy na základní konfigurační parametry ze souborů:
-* 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému, napojení na repozitář Akubra atd.*
-* 📄 [Akubra](files/configuration-akubra) – *Nastavení vyhledávacího jádra.*
-* 📄 [Search](files/configuration-solr) – *Nastavení vyhledávacího jádra.*
+#### Důležité konfigurační parametry:
+* 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému.*
+* 📄 [Akubra](files/configuration-akubra) – *Nastavení repository.*
+* 📄 [Search](files/configuration-solr) – *Nastavení vyhledávání.*
 
 #### Způsob přepisování (Override):
 V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory uvnitř kontejneru. Místo toho využíváme mechanismus **předávání proměnných prostředí**, které Tomcat aplikace mapuje na Java vlastnosti, případně montujeme (volume mount) externí soubor:
 
-* **Možnost A (Doporučeno):** Přepis pomocí ENV v `docker-compose.yml` (např. `KRAMERIUS_DATABASE_URL=...`).
-* **Možnost B:** Namontování vlastního souboru do cesty `/usr/local/tomcat/conf/kramerius.properties`.
+* **Možnost A (Doporučeno):** Přepis pomocí ENV v `docker-compose.yml` (např. `JDBC_URL=...`).
+* **Možnost B:** Namontování vlastního souboru do cesty `/usr/local/tomcat/conf/configuration.properties`.
 
 ---
 
 ### 3.2. Akubra Repository
 
-Konfigurace nízkoúrovňového úložiště digitálních dokumentů. Obsahuje specifická nastavení pro FS (File System) nebo vazbu na databázi.
+Konfigurace nízkoúrovňového úložiště digitálních dokumentů.
 
-* 📄 [Akubra Configuration Reference (GitHub)](https://github.com/ceskaexpedice/akubra)
-* **Klíčové parametry k úpravě:**
-    * `akubra.storage.dir` – Cesta k hlavnímu datovému adresáři.
+* 📄 [Akubra (GitHub)](https://github.com/ceskaexpedice/akubra)
+
+---
+
+### 3.3. Process Platform
+
+Konfigurace framework pro asynchronní spouštění úloh.
+
+* 📄 [Process Platform)](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
 
 ---
 
@@ -70,6 +76,7 @@ U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace
 ## 4. Konfigurace v Docker nasazení (Deployment)
 
 Při nasazení pomocí Docker Compose je veškerá konfigurace centralizovaná do jednoho místa – souboru `.env`, ze kterého čerpá `docker-compose.yml`.
+Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose](https://github.com/ceskaexpedice/kramerius-docker-compose), který obsahuje všechny komponenty kontejnerizované.
 
 ### Soubor `.env` (Příklad a šablona)
 
