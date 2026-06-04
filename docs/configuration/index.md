@@ -18,26 +18,27 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-| Komponenta | Typ konfigurace | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
-| :--- | :--- |:----------------------------------------------------------|:---------------------------------------------------------------|
-| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `configuration.properties` properties files               | [Konfiguracni soubory](application/configuration-files)        |
-| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                    |
-| **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
+| Komponenta            | Typ konfigurace | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
+|:----------------------| :--- |:----------------------------------------------------------|:---------------------------------------------------------------|
+| **Kramerius jádro**   | Aplikace (Java/Tomcat) | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)        |
+| **Docker Compose**    | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                    |
+| **Keycloak**          | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
 | **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
 
 ---
 
 ## 3. Detailní konfigurace komponent
 
-### 3.1. Kramerius Jádro
+### 3.1. Kramerius jádro
 
 Jádro aplikace (Java/Tomcat) obsahuje velké množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 
-> ⚠️ **Pravidlo pro dokumentaci:** Konfigurační vlastnosti (properties) **nejsou** v této Wiki duplikovány textově, aby nedocházelo k chybám při aktualizacích. Aktuální seznam a výchozí hodnoty naleznete vždy přímo v repozitáři.
+Konfigurační parametry jsou uloženy v [konfiguračních souborech](files/configuration-files).  
 
-#### Odkazy na zdrojové konfigurační soubory (Master Copy):
-* 📄 [Kramerius Core Configuration (GitHub)](https://github.com/ceskaexpedice/akubra/blob/main/.../kramerius.properties) – *Hlavní konfigurační soubor pro chování systému, napojení na repozitář Akubra atd.*
-* 📄 [Solr Index Configuration (GitHub)](https://github.com/ceskaexpedice/akubra/blob/main/.../solr.properties) – *Nastavení vyhledávacího jádra.*
+#### Odkazy na základní konfigurační parametry ze souborů:
+* 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému, napojení na repozitář Akubra atd.*
+* 📄 [Akubra](files/configuration-akubra) – *Nastavení vyhledávacího jádra.*
+* 📄 [Search](files/configuration-solr) – *Nastavení vyhledávacího jádra.*
 
 #### Způsob přepisování (Override):
 V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory uvnitř kontejneru. Místo toho využíváme mechanismus **předávání proměnných prostředí**, které Tomcat aplikace mapuje na Java vlastnosti, případně montujeme (volume mount) externí soubor:
