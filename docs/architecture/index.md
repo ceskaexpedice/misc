@@ -70,6 +70,8 @@ Systém typicky obsahuje následující komponenty:
 
 Kramerius je dodáván jako **WAR soubor**, který běží v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
 
+![Architecture](assets/architecture.svg)
+
 ```mermaid
 flowchart TB
   subgraph Tomcat
