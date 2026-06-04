@@ -64,7 +64,16 @@ Konfigurace framework pro asynchronní spouštění úloh.
 
 ---
 
-### 3.3. Převzaté komponenty (Keycloak, IIIF, atd.)
+### 3.4. Kramerius Web Client
+
+Konfigurace wub klient.
+
+* 📄 [Web klient)](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+
+---
+
+
+### 3.5. Převzaté komponenty (Keycloak, IIIF, atd.)
 
 U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace omezuje **pouze na integrační vazby**. Detailní konfiguraci naleznete v oficiální dokumentaci daných projektů.
 
