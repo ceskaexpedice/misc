@@ -18,12 +18,12 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-| Komponenta | Typ konfigurace | Primární umístění / Mechanismus | Odkaz na detail |
-| :--- | :--- | :--- | :--- |
-| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `kramerius.properties`, `solr.properties` přes environment variables | [Detail viz níže](#31-kramerius-jadro) |
-| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml` | [Detail viz níže](#4-konfigurace-v-docker-nasazeni) |
+| Komponenta | Typ konfigurace | Primární umístění / Mechanismus | Odkaz na detail                                                |
+| :--- | :--- | :--- |:---------------------------------------------------------------|
+| **Kramerius Jádro** | Aplikace (Java/Tomcat) | `kramerius.properties`, `solr.properties` přes environment variables | [Detail viz níže](application/configuration-files)          |
+| **Docker Compose** | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml` | [Detail viz níže](#4-konfigurace-v-docker-nasazeni)            |
 | **Keycloak** | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON) | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
-| **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#) |
+| **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
 
 ---
 
