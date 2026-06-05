@@ -227,7 +227,7 @@ Doporučené pokračování:
 - Metadata
 - Datastreams
 - Collections
-- Licenses
+- [Licenses](license/index)
 - Search Index
 - Process Framework
 
