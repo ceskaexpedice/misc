@@ -17,15 +17,8 @@ CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systé
 
 ## Architecture
 
-CDK je samostatná instance Krameria a obsahuje:
+Architektura je popsána [zde](../architecture/cdk)
 
-- CDK Kramerius runtime
-- CDK Worker (orchestrace procesů)
-- Migration plugin (asynchronní indexační proces)
-- Central Solr index
-- Keycloak (CDK autentizační vrstva)
-
-Na rozdíl od zdrojových knihoven CDK **neobsahuje vlastní Akubra repository**.
 
 ---
 
@@ -84,80 +77,6 @@ Tento přístup umožňuje:
 - zabezpečený přístup přes API klíče
 
 ---
-
-## High level architecture
-
-```mermaid
-flowchart LR
-
-    subgraph LIB1["Source library A (protected channel)"]
-        K1[Kramerius]
-        API1[Kramerius API]
-        KC1[Keycloak]
-        AK1[Akubra]
-    end
-
-    subgraph LIB2["Source library B (protected channel)"]
-        K2[Kramerius]
-        API2[Kramerius API]
-        KC2[Keycloak]
-        AK2[Akubra]
-    end
-
-    subgraph CDK["Czech Digital Library"]
-        W[CDK Worker]
-        MIG[Migration Plugin]
-        CK[CDK Kramerius]
-        SOLR[Central Solr]
-        AUTH[CDK Keycloak]
-    end
-
-    W --> MIG
-
-    MIG -->|API request| API1
-    MIG -->|API request| API2
-
-    MIG --> SOLR
-
-    CK -.-> API1
-    CK -.-> API2
-```
-
-## CDK aggregation model
-
-```mermaid
-flowchart TB
-
-    subgraph SourceLibraries["Source libraries"]
-
-        subgraph MZK["Moravian Library"]
-            MZK_K[Kramerius]
-            MZK_S[Solr]
-            MZK_A[Akubra]
-        end
-
-        subgraph JIHLAVA["Jihlava Library"]
-            J_K[Kramerius]
-            J_S[Solr]
-            J_A[Akubra]
-        end
-    end
-
-    subgraph CDK["Czech Digital Library"]
-
-        C_K[CDK Kramerius]
-        C_S[Central Solr]
-        C_KC[Keycloak]
-
-        NOTE["No Akubra storage"]
-    end
-
-    MZK_K -->|index export| C_S
-    J_K -->|index export| C_S
-
-    C_K -. content request .-> MZK_K
-    C_K -. content request .-> J_K
-```
 
 ## Benefits
 

@@ -1,4 +1,4 @@
-# Architecture
+# Architektura
 
 ## Přehled
 
@@ -50,27 +50,27 @@ Kramerius je modulární distribuovaný systém složený z několika hlavních 
 
 Systém typicky obsahuje následující komponenty:
 
-| Komponenta | Účel |
-|---|---|
-| Kramerius backend | hlavní business logika |
-| Reader UI | uživatelské rozhraní pro čtenáře |
-| Admin UI | administrace systému |
-| Keycloak | autentizace |
-| Solr | search index |
-| Fedora / Akubra | repository a storage |
-| Image Server | poskytování obrazových dat |
-| Process Platform | orchestrace background procesů |
-| Worker služby | zpracování tasků |
-| PostgreSQL | persistence |
-| Hazelcast | distribuované locky |
+| Komponenta               | Účel                             |
+|--------------------------|----------------------------------|
+| Kramerius backend        | hlavní business logika           |
+| Reader UI                | uživatelské rozhraní pro čtenáře |
+| Admin UI                 | administrace systému             |
+| Keycloak                 | autentizace                      |
+| Solr                     | search index                     |
+| Fedora / Akubra          | repository a storage             |
+| Image Server             | poskytování obrazových dat       |
+| Process Platform Manager | orchestrace background procesů   |
+| Process Platform Worker  | zpracování tasků                 |
+| PostgreSQL               | persistence                      |
+| Hazelcast                | distribuované zámky              |
 
 ---
 
-## Diagram
+### Schema komponent
 
-Kramerius je dodáván jako **WAR soubor**, který běží v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
+Kramerius jádro je **WAR soubor**, který běží typicky v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/core-components.png)
 
 ```mermaid
 flowchart TB
@@ -80,12 +80,14 @@ flowchart TB
 
   KrameriusWAR -->|využívá| PostgreSQL["PostgreSQL\n(metadata + access rights)"]
   KrameriusWAR -->|vyhledávání| Solr["Solr (search, processing, logs)"]
-  KrameriusWAR -->|spouští procesy| ProcFramework["Procesní framework"]
-  ProcFramework -->|používá| Akubra["Akubra Storage\n(object & datastream)"]
+  KrameriusWAR -->|spouští procesy| ProcPlatform["Procesní framework"]
+  ProcPlatform -->|používá| Akubra["Akubra Storage\n(object & datastream)"]
   KrameriusWAR -->|používá| Akubra
   Akubra -->|využívá| Hazelcast["Hazelcast Server\n(distributed locking)"]
   KrameriusWAR --> IIIF["IIIF Image Server"]
   KrameriusWAR --> Keycloak["Keycloak\n(authentication)"]
+  UIClients --> KrameriusWAR["Kramerius WAR"]
+  UIClients --> Keycloak["Keycloak\n(authentication)"]
 ```
 
 ---
@@ -162,8 +164,6 @@ Import typicky probíhá:
 
 XML metadata
 ↓
-Fedora repository
-↓
 Akubra storage
 ↓
 Search indexace
@@ -195,8 +195,6 @@ UI viewer
 Kramerius API
 ↓
 IIIF image server
-↓
-Storage
 
 ---
 
@@ -238,31 +236,7 @@ Typické architektonické pohledy:
 - processing architecture
 - security architecture
 - deployment architecture
-
----
-
-## Vztah k ostatním částem dokumentace
-
-| Sekce | Obsah |
-|---|---|
-| core-concepts | doménové koncepty systému |
-| reference | detailní reference komponent |
-| configuration | konfigurace systému |
-| deployment | deployment modely |
-| guides | workflow a návody |
-
----
-
-## Doporučené pokračování
-
-Další doporučené stránky:
-
-- `runtime-topology.md`
-- `security-architecture.md`
-- `processing-architecture.md`
-- `search-architecture.md`
-- `storage-architecture.md`
-- `import-pipeline.md`
+- [ČDK](cdk)
 
 ---
 
