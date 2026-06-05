@@ -17,7 +17,7 @@ CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systé
 
 ## Architecture
 
-Architektura je popsána [zde](../architecture/cdk)
+Architektura je popsána [zde](../../architecture/cdk)
 
 
 ---
