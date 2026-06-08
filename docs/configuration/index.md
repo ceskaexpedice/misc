@@ -18,12 +18,13 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-| Komponenta            | Typ konfigurace | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
-|:----------------------| :--- |:----------------------------------------------------------|:---------------------------------------------------------------|
-| **Kramerius jádro**   | Aplikace (Java/Tomcat) | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)        |
-| **Docker Compose**    | Infrastruktura / Prostředí | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                    |
+| Komponenta            | Typ konfigurace              | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
+|:----------------------|:-----------------------------|:----------------------------------------------------------|:---------------------------------------------------------------|
+| **Kramerius jádro**   | Aplikace (Java/Tomcat)       | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)              |
+| **Docker Compose**    | Infrastruktura / Prostředí   | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                   |
 | **Keycloak**          | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
-| **IIIF Image Server** | Obrazový server | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
+| **IIIF Image Server** | Obrazový server              | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
+| **Security**          | Kombinovana                  | Keycloak, Admin klient, databaze                          | [Security](security/index)                                     |
 
 ---
 

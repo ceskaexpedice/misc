@@ -1,46 +1,71 @@
-# Security Administration
+# Security Administration Model
 
-Tato část popisuje, jak je autorizační model Krameria spravován v systému.
+Tato část popisuje, jak se bezpečnostní model Krameria nastavuje a spravuje v běžícím systému.
 
-Nejde o technickou konfiguraci aplikace (properties, docker apod.), ale o **datový model uložený v databázi a spravovaný přes administraci**.
+Na rozdíl od technické konfigurace (properties, deployment) jde o **datový model uložený v databázi a externím identity provideru**.
 
 ---
 
-## Přehled spravovaných částí
+## Co je spravováno externě ([Keycloak](keycloak))
+
+- uživatelé
+- role
+- autentizace (login, tokeny)
+
+Kramerius tato data pouze využívá.
+
+---
+
+## Co je spravováno v Krameriu
+
+Kramerius obsahuje administrační model pro:
+
+- mapování rolí na akce
+- přiřazení kritérií k akcím
+- definici oprávnění (rights)
+
+Tato data jsou uložena v databázi.
+
+---
+
+## Základní entity
 
 ### Role (externí)
-Spravované v Keycloak.
+Role pochází z Keycloaku a nejsou v Krameriu definovány.
 
 ### Actions (interní)
-Definované v kódu Krameria.
+Akce jsou pevně definované v kódu Krameria.
 
-### Criteria (interní / rozšiřitelné)
-Implementované v Krameriovi.
+### Criteria (interní + konfigurovatelné)
+Kritéria mohou být:
+- pevně implementovaná
+- nebo konfigurovatelná (např. rozsahy IP, licence)
 
-### Rights (databáze)
-Mapování:
+### Rights (DB model)
+Rights definují vztah:
 
-- Role → Action
-- Action → Criteria
+```text
+Role + Action + Criteria
+```
 
 ---
 
 ## Admin model
 
-Administrátor definuje:
+V administrátorském klientovi se nastavuje:
 
-- které role mají jaké akce
-- jaká kritéria se vztahují k akcím
+- které role mají přístup k jakým akcím
+- jaká kritéria se k akci vztahují
 
-Tato data se ukládají do databáze jako „rights“.
+Výsledkem je záznam v databázi.
 
 ---
 
-## Životní cyklus
+## Životní cyklus konfigurace
 
-1. Role vznikne v Keycloak
+1. Role vznikne v Keycloaku
 2. Role se objeví v Krameriu
-3. Admin ji namapuje na akce
-4. Přidá kritéria
+3. Administrátor ji namapuje na akce
+4. Přidají se kritéria
 5. Uloží se do DB
-6. Runtime engine to vyhodnocuje
+6. Runtime engine je používá při rozhodování
