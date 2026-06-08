@@ -31,8 +31,8 @@ Additional criteria may be evaluated before access is granted. Criteria can rest
 
 ## Concepts
 
-- [Authentication](authentication/)
-- [Authorization](authorization/)
-- [Roles](roles/)
-- [Actions](actions/)
-- [Criteria](criteria/)
+- [Autentizace](authentication)
+- [Autorizace](authorization)
+- [Role](roles)
+- [Akce](actions)
+- [Kriteria](criteria)

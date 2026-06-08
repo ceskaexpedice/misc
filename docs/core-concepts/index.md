@@ -130,7 +130,7 @@ Reader klient využívá search index jako hlavní zdroj pro vyhledávání doku
 
 ---
 
-## Přístupová práva
+## [Přístupová práva](security/index)
 
 Kramerius rozlišuje autentizaci a autorizaci.
 

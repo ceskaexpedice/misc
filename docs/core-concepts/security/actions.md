@@ -33,6 +33,6 @@ The complete list of available actions is documented in the reference documentat
 
 ## Related Topics
 
-- [Roles](../roles/)
-- [Criteria](../criteria/)
+- [Role](roles)
+- [Kriteria](criteria)
 - [Actions Reference](../../../reference/security/actions/)
