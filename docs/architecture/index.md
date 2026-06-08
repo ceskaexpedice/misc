@@ -234,7 +234,7 @@ Typické architektonické pohledy:
 - import pipeline
 - search architecture
 - processing architecture
-- security architecture
+- [Přístupová práva](security/index)
 - deployment architecture
 - [ČDK](cdk)
 

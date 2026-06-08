@@ -73,5 +73,5 @@ Každá chráněná operace deklaruje požadovanou akci, kterou musí uživatel 
 
 ## Související kapitoly
 
-- [Autentizace](authentication/)
-- [Autorizace](authorization/)
+- [Autentizace](authentication)
+- [Autorizace](authorization)

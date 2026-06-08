@@ -84,5 +84,7 @@ Autorizační model je navržen tak, aby bylo možné přidávat nové typy krit
 
 ## Související kapitoly
 
+- [Vyhodnoceni podminek](criteria-evaluation)
+- [mapovani rolo](role-mapping)
 - [Reference / Authorization](../../../reference/security/authorization/)
 - [Reference / Criteria](../../../reference/security/criteria/)
