@@ -43,3 +43,8 @@ Po úspěšné validaci tokenu vzniká interní reprezentace uživatele.
 | Invalid token | Token cannot be validated |
 | Expired token | Token expired |
 | Missing token | No token provided |
+
+
+## [Token lifecycle](token-lifecycle)
+
+## [Token model](token-model)
