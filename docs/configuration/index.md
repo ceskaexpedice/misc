@@ -4,7 +4,7 @@ Tato kapitola popisuje konfiguraci systému Kramerius a jeho integrovaných komp
 
 Konfigurace je rozdělena do dvou hlavních úrovní:
 
-- **Konfigurace aplikací Kramerius**
+- **Konfigurace Core Kramerius**
 - **Konfigurace integrovaných služeb**
 
 Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavuje:
@@ -41,20 +41,20 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 ## Přehled konfiguračních oblastí
 
-| Komponenta            | Kategorie                         | Popis |
-|:----------------------|:----------------------------------|:------|
-| **Kramerius jádro**   | Aplikace Kramerius               | Hlavní konfigurační parametry systému (`configuration.properties`, ENV proměnné) |
-| **Process Platform**  | Aplikace Kramerius               | Konfigurace asynchronního zpracování úloh |
-| **Web Client**       | Aplikace Kramerius               | Konfigurace frontend klienta |
-| **Docker Compose**    | Infrastruktura                  | `.env` a `docker-compose.yml` |
-| **Search (SOLR)**     | Integrovaná služba               | Schémata, analyzéry, indexační konfigurace |
+| Komponenta              | Kategorie                         | Popis |
+|:------------------------|:----------------------------------|:------|
+| **Kramerius core**      | Aplikace Kramerius               | Hlavní konfigurační parametry systému (`configuration.properties`, ENV proměnné) |
+| **Process Platform**    | Aplikace Kramerius               | Konfigurace asynchronního zpracování úloh |
+| **Web Client**          | Aplikace Kramerius               | Konfigurace frontend klienta |
+| **Docker Compose**      | Infrastruktura                  | `.env` a `docker-compose.yml` |
+| **Search (SOLR)**       | Integrovaná služba               | Schémata, analyzéry, indexační konfigurace |
 | **Security (Keycloak)** | Integrovaná služba            | Realm, klienti, role a mapování oprávnění |
-| **Akubra**           | Integrovaná služba               | Repository a úložiště digitálních objektů |
-| **IIIF Image Server** | Integrovaná služba               | Konfigurace generování a cachování obrazů |
+| **Akubra**              | Integrovaná služba               | Repository a úložiště digitálních objektů |
+| **IIIF Image Server**   | Integrovaná služba               | Konfigurace generování a cachování obrazů |
 
 ---
 
-## Konfigurace jadra Kramerius
+## Konfigurace core Kramerius
 
 Tato část popisuje konfiguraci jadra projektu Kramerius.
 
@@ -66,7 +66,7 @@ Typicky jde o parametry, které přímo ovlivňují chování systému:
 - nastavení procesní platformy
 - další runtime parametry
 
-### Příklad hlavních parametrů Kramerius jádra
+### Příklad hlavních parametrů Kramerius core
 
 - `solrSearchUrl` – URL adresa SOLR serveru
 - `akubraUrl` – URL adresa repository
@@ -88,7 +88,7 @@ Používají se tyto mechanismy:
 
 ---
 
-### Kramerius jádro
+### Kramerius core
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 

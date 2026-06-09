@@ -75,7 +75,7 @@ Kramerius jádro je **WAR soubor**, který běží typicky v aplikačním server
 ```mermaid
 flowchart TB
   subgraph Tomcat
-    KrameriusWAR["Kramerius WAR (Tomcat)"]
+    KrameriusWAR["Kramerius Core (Tomcat)"]
   end
 
   KrameriusWAR -->|využívá| PostgreSQL["PostgreSQL\n(metadata + access rights)"]
@@ -230,6 +230,7 @@ Další části architecture dokumentace popisují detailnější pohledy na sys
 
 Typické architektonické pohledy:
 
+- [Core](core/index)
 - [Search](search/index)
 - [Process platform](process-platform/index)
 - [Security](security/index)

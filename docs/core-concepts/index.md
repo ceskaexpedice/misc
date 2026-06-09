@@ -36,6 +36,9 @@ Core Concepts představují společný slovník používaný ve všech ostatníc
 
 ## Obsah
 
+### [kramerius Core](core/index)
+Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
+
 ### [Akubra](akubra/index)
 Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
 
