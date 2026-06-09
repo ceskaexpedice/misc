@@ -4,7 +4,7 @@ Tato kapitola popisuje konfigurační principy systému Kramerius, architekturu 
 
 ---
 
-## 1. Konfigurační strategie a hierarchie
+## Konfigurační strategie a hierarchie
 
 Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
 
@@ -14,23 +14,23 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 
 ---
 
-## 2. Přehled konfiguračních úrovní
+## Přehled konfiguračních úrovní
 
 Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
 
-| Komponenta            | Typ konfigurace              | Primární umístění / Mechanismus                           | Odkaz na detail                                                |
-|:----------------------|:-----------------------------|:----------------------------------------------------------|:---------------------------------------------------------------|
-| **Kramerius jádro**   | Aplikace (Java/Tomcat)       | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)              |
-| **Docker Compose**    | Infrastruktura / Prostředí   | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)                   |
-| **Keycloak**          | Bezpečnost (Cizí komponenta) | Administrační rozhraní + exportovaná sféra (Realm JSON)   | [Dokumentace Keycloak](https://www.keycloak.org/documentation) |
-| **IIIF Image Server** | Obrazový server              | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                         |
-| **Security**          | Kombinovana                  | Keycloak, Admin klient, databaze                          | [Security](security/index)                                     |
+| Komponenta            | Typ konfigurace                   | Primární umístění / Mechanismus                           | Odkaz na detail                                            |
+|:----------------------|:----------------------------------|:----------------------------------------------------------|:-----------------------------------------------------------|
+| **Kramerius jádro**   | Aplikace (Java/Tomcat)            | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)          |
+| **Docker Compose**    | Infrastruktura / Prostředí        | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)               |
+| **SOLR**              | Vyhledavani (Cizí komponenta)     | Konfiguracni soubory serveru, schemata                    | [Dokumentace SOLR](#) |
+| **IIIF Image Server** | Obrazový server (Cizi komponenta) | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                     |
+| **Security**          | Kombinovana                       | Keycloak, Admin klient, databaze                          | [Security](security/index)                                 |
 
 ---
 
-## 3. Detailní konfigurace komponent
+## Detailní konfigurace komponent
 
-### 3.1. Kramerius jádro
+### Kramerius jádro
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 
@@ -49,7 +49,7 @@ V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory
 
 ---
 
-### 3.2. Akubra Repository
+### Akubra Repository
 
 Konfigurace nízkoúrovňového úložiště digitálních dokumentů.
 
@@ -57,7 +57,7 @@ Konfigurace nízkoúrovňového úložiště digitálních dokumentů.
 
 ---
 
-### 3.3. Process Platform
+### Process Platform
 
 Konfigurace framework pro asynchronní spouštění úloh.
 
@@ -65,16 +65,32 @@ Konfigurace framework pro asynchronní spouštění úloh.
 
 ---
 
-### 3.4. Kramerius Web Client
+### Kramerius Web Client
 
 Konfigurace wub klient.
 
-* 📄 [Web klient)](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+* 📄 [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+
+---
+
+### Search
+
+Konfigurace vyhledavani.
+
+* 📄 [Search](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+
+---
+
+### Security
+
+Konfigurace security.
+
+* 📄 [Security](security/index)
 
 ---
 
 
-### 3.5. Převzaté komponenty (Keycloak, IIIF, atd.)
+### Převzaté komponenty (Keycloak, IIIF, atd.)
 
 U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace omezuje **pouze na integrační vazby**. Detailní konfiguraci naleznete v oficiální dokumentaci daných projektů.
 
@@ -83,7 +99,7 @@ U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace
 
 ---
 
-## 4. Konfigurace v Docker nasazení (Deployment)
+## Konfigurace v Docker nasazení (Deployment)
 
 Při nasazení pomocí Docker Compose je veškerá konfigurace centralizovaná do jednoho místa – souboru `.env`, ze kterého čerpá `docker-compose.yml`.
 Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose](https://github.com/ceskaexpedice/kramerius-docker-compose), který obsahuje všechny komponenty kontejnerizované.
