@@ -33,16 +33,17 @@ Cílem této části není detailní konfigurace jednotlivých komponent, ale po
 
 Kramerius je modulární distribuovaný systém složený z několika hlavních vrstev.
 
-| Vrstva | Odpovědnost |
-|---|---|
-| UI | Reader a Admin aplikace |
-| API | hlavní aplikační backend |
-| Security | autentizace a autorizace |
-| Search | indexace a vyhledávání |
-| Processing | background processing |
-| Storage | digitální repository |
-| Media | image a audio služby |
-| Persistence | PostgreSQL databáze |
+| Vrstva      | Odpovědnost              |
+|-------------|--------------------------|
+| Core        | REST API, integrator     |
+| UI          | Reader a Admin aplikace  |
+| API         | hlavní aplikační backend |
+| Security    | autentizace a autorizace |
+| Search      | indexace a vyhledávání   |
+| Processing  | background processing    |
+| Storage     | digitální repository     |
+| Media       | image a audio služby     |
+| Persistence | PostgreSQL databáze      |
 
 ---
 
@@ -52,7 +53,7 @@ Systém typicky obsahuje následující komponenty:
 
 | Komponenta               | Účel                             |
 |--------------------------|----------------------------------|
-| Kramerius backend        | hlavní business logika           |
+| Kramerius Core           | REST API, integrace              |
 | Reader UI                | uživatelské rozhraní pro čtenáře |
 | Admin UI                 | administrace systému             |
 | Keycloak                 | autentizace                      |
@@ -68,7 +69,7 @@ Systém typicky obsahuje následující komponenty:
 
 ### Schema komponent
 
-Kramerius jádro je **WAR soubor**, který běží typicky v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
+Kramerius Core je **WAR soubor**, který běží typicky v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
 
 ![Architecture](assets/core-components.png)
 
