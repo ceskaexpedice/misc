@@ -81,5 +81,4 @@ Implementace repository je založena na Fedora repository a modulu Akubra.
 
 ## Next Steps
 
-- 🏗️ [Akubra Architecture](../../architecture/akubra/)
 - 📚 [Akubra Reference](../../reference/akubra/)

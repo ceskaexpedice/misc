@@ -1,5 +1,9 @@
 # Security Reference
 
+> ℹ️ New to Kramerius security?
+>
+> Read [Zakladni pojmy → Security](../../core-concepts/security/) first for an introduction to roles, permissions and access policies.
+
 Tato část obsahuje úplný technický popis bezpečnostního modelu Krameria.
 
 ## Obsah
@@ -27,3 +31,11 @@ REST API související s bezpečností.
 ### [Datovy model](data-model/index)
 
 REST API související s bezpečností.
+
+---
+
+## Related Documentation
+
+- 🧠 [Core Concepts → Security](../../core-concepts/security/)
+- 🏗️ [Architecture → Security](../../architecture/security/)
+- ⚙️ [Configuration → Security](../../configuration/security/)

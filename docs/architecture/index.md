@@ -249,3 +249,4 @@ Kramerius je distribuovaný modulární systém složený z oddělených služeb
 - persistence
 
 Jednotlivé komponenty spolu komunikují pomocí REST API, messaging a sdílené persistence vrstvy.
+

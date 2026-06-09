@@ -75,3 +75,11 @@ Každá chráněná operace deklaruje požadovanou akci, kterou musí uživatel 
 
 - [Autentizace](authentication)
 - [Autorizace](authorization)
+
+---
+
+## Related Documentation
+
+- 🧠 [Core Concepts → Security](../../core-concepts/security/)
+- 📚 [Reference → Security](../../reference/security/)---
+
