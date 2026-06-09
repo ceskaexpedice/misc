@@ -1,6 +1,26 @@
 # Konfigurace systému Kramerius
 
-Tato kapitola popisuje konfigurační principy systému Kramerius, architekturu nastavení jednotlivých komponent a způsob, jakým se konfigurace aplikuje v různých prostředích (zejména Docker).
+Tato kapitola popisuje konfiguraci systému Kramerius a jeho integrovaných komponent.
+
+Konfigurace je rozdělena do dvou hlavních úrovní:
+
+- **Konfigurace aplikací Kramerius**
+- **Konfigurace integrovaných služeb**
+
+Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavuje:
+- část konfigurace přímo ovlivňuje chování aplikace Kramerius
+- část konfigurace se týká externích systémů, které Kramerius využívá
+
+---
+
+## Jak číst tuto kapitolu
+
+Pro správnou orientaci:
+
+- Pokud nastavujete **chování Krameria** → sekce *Konfigurace aplikací Kramerius*
+- Pokud nastavujete **externí služby** → sekce *Konfigurace integrovaných služeb*
+- Pokud hledáte detailní technické chování systému → kapitola *Reference*
+- Pokud řešíte nasazení → kapitola *Deployment*
 
 ---
 
@@ -8,33 +28,71 @@ Tato kapitola popisuje konfigurační principy systému Kramerius, architekturu 
 
 Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
 
-1. **Výchozí hodnoty (Defaults):** Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker images.
-2. **Globální/Instalační konfigurace:** Společná nastavení pro celé nasazení (např. URL adresy, přístupy do databází) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí (Environment Variables).
-3. **Specifická/Detailní konfigurace:** Detailní chování aplikací (např. vnitřní ladění Kramerius jádra) se konfiguruje pomocí externích konfiguračních souborů namontovaných do kontejnerů.
+1. **Výchozí hodnoty (Defaults)**  
+   Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker image.
+
+2. **Globální / instalační konfigurace**  
+   Společná nastavení pro celé nasazení (např. URL adresy, databáze, připojení ke službám) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí.
+
+3. **Detailní konfigurace komponent**  
+   Specifické chování jednotlivých modulů nebo integrovaných služeb (např. Solr schema, Keycloak role) se konfiguruje v jejich vlastních konfiguračních souborech.
 
 ---
 
-## Přehled konfiguračních úrovní
+## Přehled konfiguračních oblastí
 
-Pro rychlou orientaci slouží následující tabulka, která ukazuje, kde se co konfiguruje:
-
-| Komponenta            | Typ konfigurace                   | Primární umístění / Mechanismus                           | Odkaz na detail                                            |
-|:----------------------|:----------------------------------|:----------------------------------------------------------|:-----------------------------------------------------------|
-| **Kramerius jádro**   | Aplikace (Java/Tomcat)            | `configuration.properties` properties files               | [Konfiguracni soubory](files/configuration-files)          |
-| **Docker Compose**    | Infrastruktura / Prostředí        | Soubor `.env` a `docker-compose.yml`                      | [Docker Compose](../deployment/docker/index)               |
-| **SOLR**              | Vyhledavani (Cizí komponenta)     | Konfiguracni soubory serveru, schemata                    | [Dokumentace SOLR](#) |
-| **IIIF Image Server** | Obrazový server (Cizi komponenta) | Konfigurační soubor serveru (např. Cantaloupe.properties) | [Reference serveru](#)                                     |
-| **Security**          | Kombinovana                       | Keycloak, Admin klient, databaze                          | [Security](security/index)                                 |
+| Komponenta            | Kategorie                         | Popis |
+|:----------------------|:----------------------------------|:------|
+| **Kramerius jádro**   | Aplikace Kramerius               | Hlavní konfigurační parametry systému (`configuration.properties`, ENV proměnné) |
+| **Process Platform**  | Aplikace Kramerius               | Konfigurace asynchronního zpracování úloh |
+| **Web Client**       | Aplikace Kramerius               | Konfigurace frontend klienta |
+| **Docker Compose**    | Infrastruktura                  | `.env` a `docker-compose.yml` |
+| **Search (SOLR)**     | Integrovaná služba               | Schémata, analyzéry, indexační konfigurace |
+| **Security (Keycloak)** | Integrovaná služba            | Realm, klienti, role a mapování oprávnění |
+| **Akubra**           | Integrovaná služba               | Repository a úložiště digitálních objektů |
+| **IIIF Image Server** | Integrovaná služba               | Konfigurace generování a cachování obrazů |
 
 ---
 
-## Detailní konfigurace komponent
+## Konfigurace jadra Kramerius
+
+Tato část popisuje konfiguraci jadra projektu Kramerius.
+
+Typicky jde o parametry, které přímo ovlivňují chování systému:
+
+- URL adresy integrovaných služeb (SOLR, Akubra, Keycloak)
+- databázová připojení
+- cache, timeouty
+- nastavení procesní platformy
+- další runtime parametry
+
+### Příklad hlavních parametrů Kramerius jádra
+
+- `solrSearchUrl` – URL adresa SOLR serveru
+- `akubraUrl` – URL adresa repository
+- databázové připojení
+- systémové timeouty
+
+### Způsob přepisování (override)
+
+V produkčním prostředí (Docker) se konfigurace nemění uvnitř `.war` souborů.
+
+Používají se tyto mechanismy:
+
+- **ENV proměnné (doporučeno)**  
+  Předávání hodnot přes `docker-compose.yml`
+
+- **Externí konfigurační soubor**  
+  Například mount do kontejneru:
+  `/usr/local/tomcat/conf/configuration.properties`
+
+---
 
 ### Kramerius jádro
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 
-[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/configuration-files).  
+[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/configuration-files).
 
 #### Důležité konfigurační parametry:
 * 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému.*
@@ -49,55 +107,36 @@ V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory
 
 ---
 
-### Akubra Repository
+## Konfigurace integrovaných služeb
 
-Konfigurace nízkoúrovňového úložiště digitálních dokumentů.
+Tato část popisuje konfiguraci externích systémů, které Kramerius využívá.
 
-* 📄 [Akubra (GitHub)](https://github.com/ceskaexpedice/akubra)
+Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dokumentaci.
 
----
+### Search (SOLR)
+- definice indexů
+- analyzéry
+- schema
+- boostování a relevance
 
-### Process Platform
+### Security (Keycloak)
+- realm konfigurace
+- klienti
+- role a oprávnění
+- mapování uživatelů
 
-Konfigurace framework pro asynchronní spouštění úloh.
+### Akubra
+- storage backend
+- ukládání digitálních objektů
+- konfigurace persistence
 
-* 📄 [Process Platform)](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
-
----
-
-### Kramerius Web Client
-
-Konfigurace wub klient.
-
-* 📄 [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
-
----
-
-### Search
-
-Konfigurace vyhledavani.
-
-* 📄 [Search](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+### IIIF Image Server
+- cachování obrazů
+- limity generování
+- zdroje obrazů
 
 ---
 
-### Security
-
-Konfigurace security.
-
-* 📄 [Security](security/index)
-
----
-
-
-### Převzaté komponenty (Keycloak, IIIF, atd.)
-
-U komponent, které nejsou vyvíjeny v rámci projektu Kramerius, se dokumentace omezuje **pouze na integrační vazby**. Detailní konfiguraci naleznete v oficiální dokumentaci daných projektů.
-
-* **Keycloak:** Konfiguruje se primárně přes UI. Pro automatické nasazení se používá inicializační soubor `realm-export.json`, který je součástí našeho Docker deploymentu.
-* **IIIF Image Server:** Konfigurace cachování a limitů pro generování obrazů.
-
----
 
 ## Konfigurace v Docker nasazení (Deployment)
 
@@ -108,19 +147,5 @@ Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose
 
 Zde udržujte seznam pouze těch proměnných, které **musí** administrátor před spuštěním změnit (tzv. "Základní setup").
 
-```env
-# --- NASTAVENÍ PROSTŘEDÍ ---
-COMPOSE_PROJECT_NAME=kramerius-produkce
-KRAMERIUS_VERSION=7.x.x
+---
 
-# --- SÍŤ A DOMÉNY ---
-KRAMERIUS_DOMAIN=kramerius.knihovna.cz
-EXTERNAL_PORT=80
-
-# --- DATABÁZE ---
-DB_USER=kramerius
-DB_PASSWORD=ZmenMojeHeslo123!
-DB_NAME=kramerius_db
-
-# --- INTEGRACE ---
-KEYCLOAK_URL=[https://auth.knihovna.cz](https://auth.knihovna.cz)
