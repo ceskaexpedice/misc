@@ -81,5 +81,5 @@ Implementace repository je založena na Fedora repository a modulu Akubra.
 
 ## Next Steps
 
-- 🏗️ [Akubra Architecture](../../architecture/security/)
-- 📚 [Akubra Reference](../../reference/security/)
+- 🏗️ [Akubra Architecture](../../architecture/akubra/)
+- 📚 [Akubra Reference](../../reference/akubra/)
