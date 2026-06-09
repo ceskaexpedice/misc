@@ -36,8 +36,8 @@ Core Concepts představují společný slovník používaný ve všech ostatníc
 
 ## Obsah
 
-### [kramerius Core](core/index)
-Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
+### [Kramerius Core](core/index)
+Kramerius Core je centrální aplikační vrstva systému Kramerius, která poskytuje REST API, implementuje business logiku a bezpečnost, a zároveň orchestruje spolupráci interních i externích komponent, na kterých je celý systém postaven.
 
 ### [Akubra](akubra/index)
 Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
