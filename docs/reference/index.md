@@ -1,7 +1,39 @@
 # Reference
 
 Tato kapitola obsahuje technickou referenci jednotlivých částí systému. Každá podkapitola popisuje konkrétní modul, jeho rozhraní, konfiguraci a způsob použití.
+# Reference
 
+Reference obsahuje technický popis systému Kramerius z hlediska jeho chování a provozu.
+
+Slouží dvěma hlavním skupinám uživatelů:
+
+- **vývojáři**, kteří potřebují znát technické chování API a interních komponent
+- **administrátoři a provozovatelé**, kteří potřebují informace pro provoz systému
+
+---
+
+## Struktura Reference
+
+Reference je rozdělena do dvou oblastí:
+
+### System Reference
+Popisuje technické chování systému a jeho komponent.
+
+Například:
+- REST API Kramerius Core
+- chování vyhledávání (Search)
+- bezpečnostní model (Security)
+- integrace s Akubra a dalšími systémy
+
+### Operations Reference
+Popisuje provozní aspekty systému.
+
+Například:
+- logging
+- monitoring
+- backup a restore
+- troubleshooting
+- provozní DevOps nástroje
 ---
 
 ## System
