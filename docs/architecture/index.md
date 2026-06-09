@@ -230,12 +230,9 @@ Další části architecture dokumentace popisují detailnější pohledy na sys
 
 Typické architektonické pohledy:
 
-- runtime topology
-- import pipeline
-- search architecture
-- processing architecture
-- [Přístupová práva](security/index)
-- deployment architecture
+- [Search](search/index)
+- [Process platform](process-platform/index)
+- [Security](security/index)
 - [ČDK](cdk)
 
 ---

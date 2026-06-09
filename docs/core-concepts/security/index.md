@@ -36,3 +36,8 @@ Additional criteria may be evaluated before access is granted. Criteria can rest
 - [Role](roles)
 - [Akce](actions)
 - [Kriteria](criteria)
+
+## Next Steps
+
+- 🏗️ [Security Architecture](../../architecture/security/)
+- 📚 [Security Reference](../../reference/security/)
