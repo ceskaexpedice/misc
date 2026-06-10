@@ -6,7 +6,7 @@ Na rozdíl od technické konfigurace (properties, deployment) jde o **datový mo
 
 ---
 
-## Co je spravováno externě ([Keycloak](keycloak))
+## Co je spravováno externě - [Keycloak](keycloak)
 
 - uživatelé
 - role
@@ -16,7 +16,7 @@ Kramerius tato data pouze využívá.
 
 ---
 
-## Co je spravováno v Krameriu
+## Co je spravováno v Krameriu - [Admin aplikace](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)
 
 Kramerius obsahuje administrační model pro:
 
