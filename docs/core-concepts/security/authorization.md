@@ -1,48 +1,95 @@
-# Authorization
+# Autorizace
 
-Authorization answers the question:
+Autorizace odpovídá na otázku:
 
-> Is the authenticated user allowed to perform a specific action?
+> Je autentizovaný uživatel oprávněn provést konkrétní akci?
 
-Authorization is evaluated by Kramerius.
+Autorizace je vyhodnocována systémem Kramerius.
 
-Access decisions are based on:
+Rozhodování o přístupu je založeno na:
 
-- Roles
-- Actions
-- Criteria
+- rolích
+- akcích
+- podmínkách
 
-## Authorization Model
+---
 
-```text
-Authenticated User
-        ↓
-       Roles
-        ↓
-      Actions
-        ↓
-      Criteria
-        ↓
- Access Decision
-```
+## Seznam akcí
 
-A role alone does not grant access.
+- Kramerius má pevně definovaný seznam akcí, např.:
+    - `READ`
+    - `WRITE`
+    - `EXPORT`
+    - `ADMIN_ACTION`
+- Každá akce může být chráněna více pravidly (rules).
 
-Instead, roles are associated with actions, and actions may be subject to additional criteria.
+---
 
-## Examples
+## Pravidla přiřazení oprávnění
 
-A user may have a role that allows viewing digital objects.
+Ke každé akci lze přiřadit:
 
-However, access may still be denied if:
+1. **Role** – uživatel musí mít danou roli, aby mohl akci provést.
+2. **Licence** – kontrola, zda dokument nebo sbírka má přiřazenou licenci, která oprávnění umožňuje.
+3. **Další kritéria** – např. `IPAddress`, které omezí přístup podle sítě uživatele.
 
-- the request originates from an unauthorized IP address,
-- a required license is not available,
-- another access criterion is not satisfied.
+> Při vyhodnocování více pravidel hraje roli **priorita pravidel a licencí**.
 
-## Related Topics
+---
 
-- [Roles](../roles/)
-- [Actions](../actions/)
-- [Criteria](../criteria/)
-- [Authorization Reference](../../../reference/security/authorization/)
+## Hierarchie licencí
+
+- Licence jsou součástí FOXML dokumentů v Akubra repository.
+- Každý objekt (stránka, kniha, periodikum) může mít 0–n licencí.
+- Licence vyššího objektu (např. kniha nebo repo) se **implicitně uplatní na všechny nižší objekty** při vyhodnocování (ne fyzicky).
+- Licence mohou být **globální** nebo **lokální**.
+
+---
+
+## Vyhodnocení oprávnění – příklad
+
+Akce: READ
+Pravidla:
+
+Role = krameriusAdmin
+
+Licence = dnnto
+
+Kritérium = IPAddress = 192.168.0.0/24
+Výsledek: povolení, pokud uživatel má roli krameriusAdmin
+nebo dokument má licenci dnnto
+a je přihlášen z IP v povoleném rozsahu
+
+
+- K jedné akci lze přiřadit více pravidel – systém je vyhodnocuje postupně.
+- Licence mohou mít **prioritu**, pokud se na akci vztahuje více licencí.
+
+---
+
+## Hierarchické vyhodnocování přístupů
+
+Při vyhodnocování oprávnění Kramerius postupuje **hierarchicky** podle struktury objektů v repository:
+
+- Každý digitální objekt (stránka, kniha, periodikum) může mít přiřazenu 0–n licencí.
+- Pokud u konkrétního objektu není licence explicitně definována, systém **dědí licence z nadřazeného objektu**.
+    - Například:
+        - Licence je definována u **monografie**.
+        - Stránka `page` uvnitř této monografie nemá žádnou vlastní licenci.
+        - Při vyhodnocování přístupu pro stránku se použije licence definovaná u monografie.
+- Toto dědění probíhá pouze při **runtime vyhodnocení přístupů**, licence se fyzicky nepřepisuje do nižších objektů.
+
+> Poznámka: Tato hierarchie platí i pro skupiny dokumentů nebo celé repozitáře. Vyšší objekt určuje implicitní pravidla pro všechny podřízené objekty.
+
+
+## Integrace s procesy a UI klientem
+
+- **Admin Client** zobrazuje sekci Procesy, ale všechny procesy volají REST API **Manageru procesního frameworku**.
+- Oprávnění pro spuštění procesů jsou vyhodnocována pomocí role + licence + kritéria.
+- Kurátor nebo admin uvidí pouze procesy, ke kterým má právo přístupu.
+
+---
+
+## Další zdroje
+
+- [Akce](actions) –seynam akci
+- [Licence](license) – detailní popis typů licencí

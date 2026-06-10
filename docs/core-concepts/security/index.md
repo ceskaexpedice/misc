@@ -1,5 +1,8 @@
 # 🔐 Zabezpečení
 
+Tato dokumentace popisuje **aplikační úroveň zabezpečení** v systému Kramerius.
+
+Nezabývá se infrastrukturním ani systémovým zabezpečením, jako je konfigurace HTTPS/TLS, oprávnění operačního systému nebo síťová bezpečnost.
 Zabezpečení v systému Kramerius je založeno na dvou nezávislých konceptech:
 
 - **Autentizace** – určení, kdo je uživatel.

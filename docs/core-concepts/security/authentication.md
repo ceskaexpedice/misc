@@ -1,26 +1,26 @@
-# Authentication
+# Autentizace
 
-Authentication answers the question:
+Autentizace odpovídá na otázku:
 
-> Who is the current user?
+> Kdo je aktuální uživatel?
 
-Kramerius does not manage user identities directly. Instead, it relies on an external Identity Provider (IdP), typically Keycloak.
+Kramerius přímo nespravuje uživatelské identity. Místo toho spoléhá na externí poskytovatele identity (Identity Provider, IdP), typicky Keycloak.
 
-After successful login, the Identity Provider issues a security token containing information about the authenticated user.
+Po úspěšném přihlášení poskytovatel identity vydá bezpečnostní token obsahující informace o autentizovaném uživateli.
 
-## Authentication Result
+## Výsledek autentizace
 
-The result of authentication is an authenticated identity represented by:
+Výsledkem autentizace je autentizovaná identita reprezentovaná:
 
-- User identifier
-- Username
-- Assigned roles
-- Additional identity attributes
+- identifikátorem uživatele
+- uživatelským jménem
+- přiřazenými rolemi
+- dalšími atributy identity
 
-The authenticated identity is attached to every request and becomes the input for authorization.
+Autentizovaná identita je připojena ke každému požadavku a stává se vstupem pro autorizaci.
 
-## Related Topics
+## Související témata
 
-- [Authorization](../authorization/)
-- [Security Architecture](../../../architecture/security/)
-- [Authentication Reference](../../../reference/security/authentication/)
+- [Autorizace](authorization/)
+- [Architektura zabezpečení](../../../architecture/security/)
+- [Referenční přehled autentizace](../../../reference/security/authentication/)

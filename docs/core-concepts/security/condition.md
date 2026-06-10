@@ -18,6 +18,17 @@ Významným typem podmínky je **licence** (viz [Licence](license/index)).
 
 I když role přidělí akci, přístup může být stále zamítnut, pokud nejsou splněny požadované podmínky.
 
+```text
+Role
+  ↓
+Action
+  ↓
+Criteria
+  ↓
+Permit / Deny
+```
+
+
 ## Proč podmínky existují
 
 Mnoho případů v knihovních systémech vyžaduje pravidla přístupu, která nelze vyjádřit pouze pomocí rolí uživatelů.

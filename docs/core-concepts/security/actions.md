@@ -1,25 +1,25 @@
-# Actions
+# Akce
 
-Actions represent permissions understood by Kramerius.
+Akce představují oprávnění, kterým rozumí systém Kramerius.
 
-An action describes an operation that may be performed within the system.
+Akce popisuje operaci, kterou lze v systému provést.
 
-Examples include:
+Mezi příklady patří:
 
-- Viewing content
-- Editing metadata
-- Managing users
-- Accessing administration functions
+- zobrazení obsahu
+- úprava metadat
+- správa uživatelů
+- přístup do administračních funkcí
 
-Actions are assigned to roles.
+Akce jsou přiřazovány rolím.
 
-## Why Actions Exist
+## Proč akce existují
 
-Actions provide a stable authorization model independent of the external Identity Provider.
+Akce poskytují stabilní autorizační model nezávislý na externím poskytovateli identity.
 
-Instead of embedding application-specific permissions into Keycloak, Kramerius evaluates actions internally.
+Namísto vkládání aplikačních oprávnění přímo do Keycloaku je Kramerius vyhodnocuje interně.
 
-## Relationship to Roles
+## Vztah k rolím
 
 ```text
 Role
@@ -27,12 +27,13 @@ Role
 Action
 ```
 
-A role grants one or more actions.
 
-The complete list of available actions is documented in the reference documentation.
+Role uděluje jednu nebo více akcí.
 
-## Related Topics
+Úplný seznam dostupných akcí je popsán v referenční dokumentaci.
+
+## Související témata
 
 - [Role](roles)
-- [Kriteria](condition)
-- [Actions Reference](../../../reference/security/actions/)
+- [Podmínky](condition)
+- [Referenční přehled akcí](../../../reference/security/actions/)

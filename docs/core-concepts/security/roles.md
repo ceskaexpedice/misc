@@ -1,21 +1,21 @@
-# Roles
+# Role
 
-Roles represent groups of users with similar responsibilities or permissions.
+Role představují skupiny uživatelů se stejnými odpovědnostmi nebo oprávněními.
 
-Roles are managed by the Identity Provider and become available to Kramerius after authentication.
+Role jsou spravovány poskytovatelem identity a jsou dostupné v Krameriu po úspěšné autentizaci.
 
-Examples:
+Příklady:
 
-- Administrator
-- Librarian
-- Registered User
-- Anonymous User
+- Administrátor
+- Knihovník
+- Registrovaný uživatel
+- Anonymní uživatel
 
-Roles do not directly grant permissions.
+Role přímo neudělují oprávnění.
 
-Instead, roles are mapped to actions within Kramerius.
+Místo toho jsou role mapovány na akce v systému Kramerius.
 
-## Role Mapping
+## Mapování rolí
 
 ```text
 Role
@@ -23,11 +23,11 @@ Role
 Action
 ```
 
-A single role may grant multiple actions.
+Jedna role může udělovat více akcí.
 
-Multiple roles may grant the same action.
+Více rolí může udělovat stejnou akci.
 
-## Related Topics
+## Související témata
 
-- [Actions](../actions/)
-- [Authorization](../authorization/)
+- [Akce](../actions/)
+- [Autorizace](../authorization/)
