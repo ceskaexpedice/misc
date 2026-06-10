@@ -18,6 +18,8 @@ Criteria
 Decision
 ```
 
+![Diagram](../assets/prava.png)
+
 ## Vyhodnocení požadavku
 
 Při každém chráněném požadavku probíhá následující proces:

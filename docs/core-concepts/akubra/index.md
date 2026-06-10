@@ -14,6 +14,7 @@ Digitální objekt může představovat například:
 
 Objekty jsou organizovány do hierarchických struktur a tvoří logický model dokumentu.
 
+![Diagram](../assets/fedora-obj-tree.png)
 ---
 
 ## PID
@@ -61,6 +62,16 @@ Typickými příklady jsou:
 - OCR text
 - obrazová data
 - zvukové soubory
+  
+![Diagram](../assets/fedora-obj-tree-streams.png)
+
+---
+
+## Sbirky
+
+Digitální objekty mohou byt seskupovany do sbirek.
+
+![Diagram](../assets/collections-path.png)
 
 ---
 
