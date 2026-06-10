@@ -34,5 +34,5 @@ The complete list of available actions is documented in the reference documentat
 ## Related Topics
 
 - [Role](roles)
-- [Kriteria](criteria)
+- [Kriteria](condition)
 - [Actions Reference](../../../reference/security/actions/)

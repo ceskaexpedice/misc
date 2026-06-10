@@ -1,15 +1,15 @@
-# 🔐 Security
+# 🔐 Zabezpečení
 
-Security in Kramerius is based on two independent concepts:
+Zabezpečení v systému Kramerius je založeno na dvou nezávislých konceptech:
 
-- **Authentication** – determining who the user is.
-- **Authorization** – determining what the user is allowed to do.
+- **Autentizace** – určení, kdo je uživatel.
+- **Autorizace** – určení, co je uživatel oprávněn dělat.
 
-Authentication is delegated to an external identity provider, typically Keycloak, using OAuth 2.0 and OpenID Connect.
+Autentizace je delegována na externího poskytovatele identity, typicky Keycloak, pomocí standardů OAuth 2.0 a OpenID Connect.
 
-Authorization is performed by Kramerius itself. Access decisions are based on a combination of roles, actions, and criteria.
+Autorizaci provádí samotný Kramerius. Rozhodování o přístupu je založeno na kombinaci rolí, akcí a podminek.
 
-## Security Model
+## Bezpečnostní model
 
 ```text
 User
@@ -18,26 +18,27 @@ Role
   ↓
 Action
   ↓
-Criteria
+Condition
   ↓
 Access Decision
 ```
 
-A user authenticates through an identity provider and receives one or more roles.
 
-Roles are mapped to actions within Kramerius. Actions represent permissions such as viewing content, modifying metadata, or administering the system.
+Uživatel se autentizuje prostřednictvím poskytovatele identity a získá jednu nebo více rolí.
 
-Additional criteria may be evaluated before access is granted. Criteria can restrict access based on factors such as IP address ranges or licensing conditions.
+K rolim jsou v systému Kramerius prirazovany akce. Akce představují oprávnění, například zobrazování obsahu, úpravu metadat nebo správu systému.
 
-## Concepts
+Před udělením přístupu mohou být vyhodnocena další podminky. Podminky mohou omezovat přístup na základě faktorů, jako jsou rozsahy IP adres nebo licenční omezení.
+
+## Pojmy
 
 - [Autentizace](authentication)
 - [Autorizace](authorization)
 - [Role](roles)
 - [Akce](actions)
-- [Kriteria](criteria)
+- [Podminky](condition)
 
-## Next Steps
+## Další kroky
 
-- 🏗️ [Security Architecture](../../architecture/security/)
-- 📚 [Security Reference](../../reference/security/)
+- 🏗️ [Architektura zabezpečení](../../architecture/security/)
+- 📚 [Referenční dokumentace zabezpečení](../../reference/security/)
