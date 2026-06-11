@@ -52,4 +52,4 @@ Kramerius Core je centrální aplikační vrstva systému Kramerius, která posk
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/core/)
+- ➡️ [Architektura](../../architecture/)
