@@ -87,7 +87,7 @@ Autorizační model je navržen tak, aby bylo možné přidávat nové typy krit
 ## Související kapitoly
 
 - [Vyhodnoceni podminek](rights-evaluation)
-- [mapovani roli](role-mapping)
+- [Mapovani roli](role-mapping)
 
 ## Navazujici dokumentace
 
