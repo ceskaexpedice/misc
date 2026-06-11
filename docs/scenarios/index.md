@@ -1,4 +1,4 @@
-# Scenarios
+# 🎯 Scenarios
 
 Tato stránka popisuje **ucelené průřezové scénáře pro reálné situace**, se kterými se při práci se systémem **Kramerius** typicky setkávají vývojáři, integrátoři a provozní týmy.
 

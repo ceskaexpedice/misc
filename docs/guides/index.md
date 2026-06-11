@@ -1,4 +1,4 @@
-# Guides
+# 🛠️ Guides
 
 Tato sekce obsahuje **praktické návody a postupy**, které vás provedou konkrétními úkoly při práci se systémem Kramerius.
 

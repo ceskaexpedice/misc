@@ -1,4 +1,4 @@
-# Zakladni pojmy
+# 📚 Zakladni pojmy
 
 Tato část dokumentace vysvětluje základní koncepty a pojmy používané napříč celým systémem.
 Zakladni pojmy představují společný slovník používaný ve všech ostatních částech dokumentace.

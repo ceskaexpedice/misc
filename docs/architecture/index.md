@@ -1,4 +1,4 @@
-# Architektura
+# 🏗️ Architektura
 
 ## Přehled
 

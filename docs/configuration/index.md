@@ -1,4 +1,4 @@
-# Konfigurace systému Kramerius
+# ⚙️ Konfigurace systému Kramerius
 
 Tato kapitola popisuje konfiguraci systému Kramerius a jeho integrovaných komponent.
 

@@ -1,4 +1,4 @@
-# Reference
+# 📖 Reference
 
 Tato kapitola obsahuje technickou referenci jednotlivých částí systému. Každá podkapitola popisuje konkrétní modul, jeho rozhraní, konfiguraci a způsob použití.
 # Reference

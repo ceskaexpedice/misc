@@ -1,4 +1,4 @@
-# Deployment
+# 🚢 Deployment
 
 Tato kapitola popisuje **způsoby nasazení (deploymentu) systému Kramerius 7**.  
 Slouží jako **rozcestník**, který pomůže zvolit vhodný způsob provozu a odkáže na odpovídající instalační a provozní návody.
