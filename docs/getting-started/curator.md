@@ -1,4 +1,4 @@
-# Getting Started – Kurátor / Knihovník
+# Zaciname – Kurátor / Knihovník
 
 Tato stránka slouží jako **vstupní rozcestník pro kurátory a odborné pracovníky knihoven**, kteří pracují se systémem Kramerius z pohledu **správy obsahu a procesů**.
 
@@ -48,7 +48,7 @@ Hlavní pracovní nástroj kurátora:
 - práce s procesy
 - správa přístupových práv
 
-➡️ Viz **[Admin klient](../reference/client-admin/index)**.
+➡️ Viz **[Admin klient](../reference/client-admin)**.
 
 ---
 
@@ -58,7 +58,7 @@ Hlavní pracovní nástroj kurátora:
 
 Kurátor s repozitářem běžně nepracuje přímo, ale měl by rozumět základním principům jeho fungování.
 
-➡️ Viz **[Akubra](../reference/akubra/index)**.
+➡️ Viz **[Akubra](../reference/akubra)**.
 
 ---
 
@@ -73,7 +73,7 @@ Kurátor:
 - sleduje jejich stav
 - vyhodnocuje výsledky
 
-➡️ Viz **[Procesy](../reference/process-platform/index)**.
+➡️ Viz **[Procesy](../reference/process-platform)**.
 
 ---
 
@@ -87,7 +87,7 @@ Kurátor:
 - musí rozumět základním principům ochrany digitálních dokumentů
 
 ➡️ Doporučeno prostudovat:  
-**[Bezpecnost](../reference/security/index)**
+**[Bezpecnost](../architecture/security)**
 
 ---
 

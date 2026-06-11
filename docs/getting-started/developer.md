@@ -1,4 +1,4 @@
-# Getting Started – Vývojář / Integrátor
+# Zaciname – Vývojář / Integrátor
 
 Tato stránka slouží jako **vstupní rozcestník pro vývojáře a integrátory**, kteří pracují s platformou Kramerius z pohledu **integrace, rozšiřování a vývoje vlastních řešení**.
 
@@ -46,7 +46,7 @@ Hlavní integrační rozhraní systému:
 - správa procesů
 - vyhledávání a přístup k obsahu
 
-➡️ Viz **[REST API](../reference/api/index)**.
+➡️ Viz **[REST API](../reference/api)**.
 
 ---
 
@@ -58,7 +58,7 @@ Vývojář:
 - typicky UI nerozvíjí přímo
 - ale musí rozumět jeho chování a vazbě na API
 
-➡️ Viz **[Admin klient](../reference/client-admin/index)**.
+➡️ Viz **[Admin klient](../reference/client-admin)**.
 
 ---
 
@@ -76,7 +76,7 @@ Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, 
 - indexace a vyhledávání obsahu
 - práce s dotazy, filtry a výsledky
 
-➡️ Viz **[Search](../reference/search/index)**.
+➡️ Viz **[Search](../reference/search)**.
 
 ---
 

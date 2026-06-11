@@ -1,4 +1,4 @@
-# Getting Started – Administrátor
+# Zaciname – Administrátor
 
 Tato stránka je určena jako **vstupní rozcestník pro systémové administrátory a IT pracovníky**, kteří zajišťují instalaci, konfiguraci a provoz platformy Kramerius.
 
@@ -19,7 +19,7 @@ Určeno pro **administrátory Krameria**, kteří:
 - odpovídají za bezpečnost a technické integrace
 
 Pokud pracujete primárně s obsahem (sbírky, metadata, procesy), použijte  
-👉 **[Getting Started – Kurátor](curator)**
+👉 **[Zaciname – Kurátor](curator)**
 
 ---
 

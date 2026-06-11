@@ -1,4 +1,4 @@
-# Getting Started
+# Zaciname
 
 Tato sekce slouží jako **vstupní rozcestník do dokumentace Kramerius** podle role, ve které systém používáte.
 
@@ -19,7 +19,7 @@ Pro uživatele, kteří:
 - spouštějí a kontrolují procesy (importy, hromadné operace)
 - pracují s Admin UI klientem
 
-👉 **[Getting Started – Kurátor](curator)**
+👉 **[Zaciname – Kurátor](curator)**
 
 ---
 
@@ -29,7 +29,7 @@ Pro IT a systémové správce, kteří:
 - konfigurují jednotlivé komponenty (Core, UI klienti, Akubra, Solr)
 - řeší bezpečnost, monitoring, aktualizace a zálohování
 
-👉 **[Getting Started – Administrátor](admin)**
+👉 **[Zaciname – Administrátor](admin)**
 
 ---
 
@@ -39,13 +39,13 @@ Pro vývojáře, kteří:
 - vyvíjejí moduly, pluginy nebo procesy
 - napojují Kramerius na externí systémy
 
-👉 **[Getting Started – Vývojář](developer)**
+👉 **[Zaciname – Vývojář](developer)**
 
 ---
 
 ## Jak pokračovat dál
 
-Po přečtení Getting Started pro vaši roli obvykle pokračujete do těchto částí dokumentace:
+Po přečtení "Zaciname" pro vaši roli obvykle pokračujete do těchto částí dokumentace:
 
 - **Základní pojmy**  
   Základní pojmy a principy systému (repository, procesy, bezpečnost).  
