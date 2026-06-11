@@ -66,6 +66,6 @@ Po úspěšné autentizaci jsou dostupné:
 
 Tyto informace jsou následně použity při autorizaci.
 
-## Související kapitoly
+## Navazujici dokumentace
 
-- [Reference / Authentication](../../../reference/security/authentication/)
+- ➡️ [Reference](../../reference/security/authentication)

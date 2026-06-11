@@ -1,6 +1,4 @@
-# CDK Architecture
-
-## Overview
+# CDK
 
 Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.
 
@@ -10,11 +8,11 @@ CDK není úložiště digitálních dat. Funguje jako:
 - vyhledávací platforma
 - federovaný přístupový bod k obsahu
 
-Zdrojové knihovny zůstávají plně autonomní a uchovávají digitální objekty. Detailní popis je [zde](../reference/cdk/index)
+Zdrojové knihovny zůstávají plně autonomní a uchovávají digitální objekty.
 
 ---
 
-## High level architecture
+## Zakladni diagram
 
 ```mermaid
 flowchart LR
@@ -52,7 +50,7 @@ flowchart LR
     CK -.-> API2
 ```
 
-## CDK aggregation model
+## CDK aggregacni model
 
 ```mermaid
 flowchart TB
@@ -88,12 +86,12 @@ flowchart TB
     C_K -. content request .-> J_K
 ```
 
-## System components
+## Komponenty
 
 CDK se skládá z následujících hlavních komponent:
 
 ### CDK Worker
-Orchestrační vrstva, která:
+Komponenta, která:
 
 - spouští asynchronní procesy
 - řídí Migration plugin
@@ -244,9 +242,6 @@ Indexace je oddělená od runtime přístupu a probíhá batchově.
 
 ---
 
-## Related documentation
+## Navazujici dokumentace
 
-- reference/cdk/index – high-level přehled CDK
-- reference/processes/migration – detail Migration procesu
-- reference/api – Kramerius API specifikace
-- reference/configuration – konfigurace protected channels
+- ➡️ [Reference](../../reference/cdk)

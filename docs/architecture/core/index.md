@@ -93,16 +93,8 @@ Typický request flow:
 
 ---
 
-## Vazba na ostatní vrstvy dokumentace
+## Navazujici dokumentace
 
-- **Core Concepts**
-    - popisuje, co Kramerius Core je z pohledu domény
-
-- **Reference**
-    - popisuje REST API a technické chování
-
-- **Configuration**
-    - popisuje konfigurační parametry (properties, ENV)
-
-- **Deployment**
-    - popisuje nasazení v Docker/Tomcat prostředí
+- ➡️ [Reference](../../reference)
+- ➡️ [Konfigurace](../../configuration)
+- ➡️ [Deployment](../../deployment)

@@ -43,7 +43,3 @@ Při autorizaci:
 3. vyhodnotí se kritéria,
 4. vrátí se výsledek.
 
-## Související kapitoly
-
-- [Core Concepts / Roles](../../../core-concepts/security/roles/)
-- [Reference / Actions](../../../reference/security/actions/)

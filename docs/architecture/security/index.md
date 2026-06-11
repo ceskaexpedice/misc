@@ -1,4 +1,4 @@
-# 🔐 Architektura zabezpečení
+# 🔐 Zabezpečení
 
 Bezpečnostní model Krameria je rozdělen na dvě samostatné části:
 
@@ -78,8 +78,7 @@ Každá chráněná operace deklaruje požadovanou akci, kterou musí uživatel 
 
 ---
 
-## Related Documentation
+## Navazujici dokumentace
 
-- 🧠 [Core Concepts → Security](../../core-concepts/security/)
-- 📚 [Reference → Security](../../reference/security/)---
+- ➡️ [Reference](../../reference/security)
 

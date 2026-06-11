@@ -73,6 +73,7 @@ Kramerius Core je **WAR soubor**, který běží typicky v aplikačním serveru 
 
 ![Architecture](assets/core-components.png)
 
+TODO
 ```mermaid
 flowchart TB
   subgraph Tomcat
@@ -227,14 +228,14 @@ Repository / Search / Storage
 
 ## Dokumentace architektury
 
-Další části architecture dokumentace popisují detailnější pohledy na systém.
+Další části dokumentace architektury popisují detailnější pohledy na casti systému.
 
 Typické architektonické pohledy:
 
-- [Core](core/index)
-- [Search](search/index)
-- [Process platform](process-platform/index)
-- [Security](security/index)
+- [Core](core/)
+- [Search](search/)
+- [Process platform](process-platform/)
+- [Security](security/)
 - [ČDK](cdk)
 
 ---
@@ -250,5 +251,11 @@ Kramerius je distribuovaný modulární systém složený z oddělených služeb
 - image serving
 - persistence
 
-Jednotlivé komponenty spolu komunikují pomocí REST API, messaging a sdílené persistence vrstvy.
+Jednotlivé komponenty spolu komunikují pomocí REST API a sdílené persistence vrstvy.
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../reference)
+- ➡️ [Konfigurace](../configuration)
+
 
