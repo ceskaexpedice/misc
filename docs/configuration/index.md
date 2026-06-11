@@ -127,3 +127,11 @@ Zde udržujte seznam pouze těch proměnných, které **musí** administrátor p
 
 ---
 
+## Navazujici dokumentace
+
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Deployment](../deployment)
+- ➡️ [Navody](../guides)
+
+
