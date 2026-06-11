@@ -32,8 +32,3 @@ Role uděluje jednu nebo více akcí.
 
 Úplný seznam dostupných akcí je popsán v referenční dokumentaci.
 
-## Související témata
-
-- [Role](roles)
-- [Podmínky](condition)
-- [Referenční přehled akcí](../../../reference/security/actions/)

@@ -19,8 +19,3 @@ Výsledkem autentizace je autentizovaná identita reprezentovaná:
 
 Autentizovaná identita je připojena ke každému požadavku a stává se vstupem pro autorizaci.
 
-## Související témata
-
-- [Autorizace](authorization/)
-- [Architektura zabezpečení](../../../architecture/security/)
-- [Referenční přehled autentizace](../../../reference/security/authentication/)

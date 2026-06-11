@@ -41,7 +41,3 @@ Například:
 
 Podmínky umožňují tato pravidla konfigurovat bez nutnosti zavádět další role.
 
-## Související témata
-
-- [Autorizace](../authorization/)
-- [Referenční přehled podmínek](../../../reference/security/criteria/)

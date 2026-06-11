@@ -87,9 +87,3 @@ Při vyhodnocování oprávnění Kramerius postupuje **hierarchicky** podle str
 - Oprávnění pro spuštění procesů jsou vyhodnocována pomocí role + licence + kritéria.
 - Kurátor nebo admin uvidí pouze procesy, ke kterým má právo přístupu.
 
----
-
-## Další zdroje
-
-- [Akce](actions) –seynam akci
-- [Licence](license) – detailní popis typů licencí

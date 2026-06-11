@@ -27,7 +27,3 @@ Jedna role může udělovat více akcí.
 
 Více rolí může udělovat stejnou akci.
 
-## Související témata
-
-- [Akce](../actions/)
-- [Autorizace](../authorization/)
