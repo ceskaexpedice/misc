@@ -1,4 +1,4 @@
-## REST API
+# REST API
 
 Hlavní způsob komunikace s Krameriem představuje REST API.
 
@@ -15,7 +15,6 @@ REST API je využíváno klientskými aplikacemi i integračními systémy.
 
 ---
 
-## Next Steps
+## Navazujici dokumentace
 
-- 🏗️ [API Architecture](../../architecture/api/)
-- 📚 [AOI Reference](../../reference/api/)
+- ➡️ [REST API Reference](../../reference/api/)

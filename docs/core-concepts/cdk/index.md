@@ -1,4 +1,6 @@
-## Next Steps
+# CDK 
+TODO
 
-- 🏗️ [CDK Architecture](../../architecture/cdk/)
-- 📚 [CDK Reference](../../reference/cdk/)
+## Navazujici dokumentace
+
+- ➡️ [CDK architekture](../../architecture/cdk/)

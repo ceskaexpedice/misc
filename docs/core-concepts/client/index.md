@@ -1,6 +1,4 @@
-## Klientské aplikace
-
-### Reader
+# Klientska aplikace
 
 Aplikace určená pro koncové uživatele.
 
@@ -12,6 +10,7 @@ Poskytuje:
 
 ---
 
-## Next Steps
+## Navazujici dokumentace
 
-- 📚 [Client Reference](../../reference/client/)
+- ➡️ [Reference](../../reference/client/)
+

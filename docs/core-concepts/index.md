@@ -1,4 +1,4 @@
-# Core Concepts
+# Zakladni pojmy
 
 ## Přehled
 
@@ -21,16 +21,16 @@ Tato část dokumentace vysvětluje základní koncepty a pojmy používané nap
 
 Dokumentace Krameria je rozdělena do několika částí:
 
-| Sekce | Zaměření |
-|---------|---------|
-| Core Concepts | základní pojmy a doménový model |
-| Architecture | vztahy mezi komponentami a datové toky |
-| Reference | technická reference jednotlivých subsystémů |
-| Configuration | konfigurace systému |
-| Deployment | nasazení a provoz |
-| Guides | návody a pracovní postupy |
+| Sekce          | Zaměření |
+|----------------|---------|
+| Zakladni pojmy | základní pojmy a doménový model |
+| Architektura   | vztahy mezi komponentami a datové toky |
+| Reference      | technická reference jednotlivých subsystémů |
+| Konfigurace    | konfigurace systému |
+| Deployment     | nasazení a provoz |
+| Navody         | návody a pracovní postupy |
 
-Core Concepts představují společný slovník používaný ve všech ostatních částech dokumentace.
+Zakladni pojmy představují společný slovník používaný ve všech ostatních částech dokumentace.
 
 ---
 
@@ -39,26 +39,31 @@ Core Concepts představují společný slovník používaný ve všech ostatníc
 ### [Kramerius Core](core/index)
 Kramerius Core je centrální aplikační vrstva systému Kramerius, která poskytuje REST API, implementuje business logiku a bezpečnost, a zároveň orchestruje spolupráci interních i externích komponent, na kterých je celý systém postaven.
 
-### [Akubra](akubra/index)
-Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
+### [Uloziste dokumentu Akubra](akubra/index)
+Digitalni dokumenty, metadata, sbirky
 
-### [Search](search/index)
-Vyhledávací modul. Indexace dat, dotazovací API a konfigurace fulltextového vyhledávání.
+### [Vyhledavani](search/index)
+Indexace dat, dotazovací API, fulltextového vyhledávání.
 
-### [Security](security/index)
+### [Zabezpeceni](security/index)
+Aplikacni zabezpeceni, autentizace, autorizace
 
-### [Process Platform](process-platform/index)
-Jádro systému pro správu a vykonávání procesů. Popis workflow, plánování a komunikace mezi komponentami.
+### [Asynchronni procesy](process-platform/index)
+Asynchronni procesy, framework na sousteni a provadeni procesu
 
-### [API](api/index)
-Dokumentace veřejného i interního API. Popisuje dostupné endpointy, formáty požadavků a odpovědí a autentizační mechanismy.
-
-### [Client](client/index)
-Referenční popis klientské aplikace pro koncové uživatele. Obsahuje architekturu, integrace a základní chování UI.
-
-### [Client Admin](client-admin/index)
-Administrátorské rozhraní klientské aplikace. Slouží ke správě uživatelů, oprávnění a systémových nastavení.
+### [REST API](api/index)
+Veřejné i interní REST API
 
 ### [CDK](cdk/index)
-CDK
+Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius. 
 
+---
+
+## Navazujici dokumentace
+
+- ➡️ [Zaciname](../getting-started)
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Konfigurace](../configuration)
+- ➡️ [Deployment](../deployment)
+- ➡️ [Navody](../guides)

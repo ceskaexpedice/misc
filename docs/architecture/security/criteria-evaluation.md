@@ -1,51 +1,176 @@
-# Vyhodnocení kritérií
+## Práva v systému K7
 
-Kritéria představují dodatečné podmínky nad rámec rolí a akcí.
+Koncept práv v systému K7 vychází z práv v [K5](https://github.com/ceskaexpedice/kramerius/wiki/Core_Concepts_Security_PravaK5), rozšířen je pouze o objekt licence.  Všechny informace o právech, licencích, dodatečných podmínkách jsou ukládány v servisní databázi Postgres SQL a situaci nejlépe vystihuje následující diagram:
 
-## Princip
 
-Role určuje, co uživatel smí dělat.
+```mermaid
+classDiagram
 
-Kritérium určuje, za jakých podmínek to smí dělat.
+    class RightCriterium {
+        +evaluate(): EvaluatingResultState
+    }
 
-## Příklad
+    class EvaluatingResultState {
+        <<enumeration>>
+        +TRUE
+        +FALSE
+        +NO_APPLICABLE
+        +NEED_LOCK
+    }
 
-```text
-ROLE_READER
-      ↓
-VIEW_DOCUMENT
-      ↓
-LICENSED_ACCESS
+    class Right {
+        +ID: int
+        +role: Role
+        +action: Action
+    }
+
+    class Role {
+        +name: string
+    }
+
+    class Action {
+        +name: string
+    }
+
+    class IPAddressFilter {
+        +parameters: string[]
+        +evaluate(): EvaluatingResultState
+    }
+
+    class CoverAndContentFilter {
+        +evaluate(): EvaluatingResultState
+    }
+
+    class License {
+        +license: string
+        +parameters: string[]
+        +evaluate(): EvaluatingResultState
+    }
+
+    class LicenseWithIPAddressFilter {
+        +license: string
+        +parameters: string[]
+        +evaluate(): EvaluatingResultState
+    }
+
+    %% Inheritance relationships
+    IPAddressFilter --|> RightCriterium
+    CoverAndContentFilter --|> RightCriterium
+    License --|> RightCriterium
+    LicenseWithIPAddressFilter --|> RightCriterium
+
+    %% Relationships
+    Right --> Role : has
+    Right --> Action : has
+    Right --> RightCriterium : may have (0..1)
+
 ```
 
-Uživatel může mít potřebnou roli, ale přístup bude zamítnut, pokud není splněna licence.
+Právo reprezentováno vazbou mezi rolí a akcí, kterou se uživatel snaží vykonat. V tomto jednoduchém případě vždy platí, že uživatel má právo vykonat danou akci.  Vazba může být rozšířena o dodatečnou podmínky, ta pak dál specifikuje podmínky za kterých uživatel může danou akci vykonat. 
 
-## Pořadí vyhodnocení
 
-```text
-Role Check
-     ↓
-Action Check
-     ↓
-Criteria Check
-     ↓
-Decision
-```
+## Chráněné akce
 
-## Typické příklady
+* **A_READ**  
+  Má právo číst konkrétní objekt. Jedná se o klíčovou akci v systému, která rozhoduje, zda má uživatel povolení číst daný dokument nebo jeho jednotlivé stránky.
 
-### IP omezení
+* **A_PDF_READ**  
+  Akce uděluje uživateli právo přistupovat k PDF zdrojům. Pokud není povolena, přístup k PDF endpointům je zcela zakázán. I když je akce povolena, nemusí to znamenat, že uživatel získá přístup ke skutečným skenům dokumentu. Pokud nemá právo číst daný dokument, místo skenů se v PDF zobrazí hláška o nedostupnosti. Tato akce je standardně povolena pro všechny uživatele.
 
-Přístup pouze z definovaných adres nebo sítí.
+* **A_DELETE**  
+  Akce reprezentuje možnost mazat konkrétní objekt/pid.
 
-### Licenční omezení
+* **A_PROCESS_EDIT**  
+  Akce reprezentuje možnost spravovovat všechny procesy. Mazat, prohlížet logy, atd..
 
-Přístup pouze pro dokumenty pokryté platnou licencí.
+* **A_PROCESS_READ**  
+  Akce reprezentuje možnost read operace nad procesy. Možnost prohlížet logy, prohlížet seznamy procesů, atd..
 
-### Objektová omezení
+* **A_OWNER_PROCESS_EDIT**  
+  Akce umožňuje spravovat pouze vlastní procesy, tedy ty, u kterých je uživatel uveden jako vlastník. Toto je obzvláště důležité v případech, kdy jsou v systému Kramerius rozlišeni administrátoři a subadministrátoři. Subadministrátoři mohou spravovat pouze vlastní procesy a díla, zatímco plná správa ostatních procesů zůstává na administrátorech.
 
-Přístup závislý na vlastnostech konkrétního objektu.
+* **A_INDEX**  
+  Akce umožňuje spustit indexační a reindexační procesy
 
-## Související kapitoly
+* **A_REBUILD_PROCESSING_INDEX**  
+  Akce umožňuje spouštet proces pro vybudování `processing indexu`
 
-- [Reference / Criteria](../../../reference/security/criteria/)
+* **A_IMPORT**  
+  Akce umožňuje spouštět FOXML a NDK Mets importy
+
+* **A_SET_ACCESSIBILITY**  
+  Právo nastavovat příznak viditelnosti a licence.
+
+* **A_EXPORT_CDK**  
+  Export pro CDK.
+
+* **A_STATISTICS**  
+  Zobrazení statistik.
+
+* **A_STATISTICS_EDIT**  
+  Možnost mazat statistiky.
+
+* **A_EXPORT_STATISTICS**  
+  Exportování statistik třetím stranám.
+
+* **A_EXPORT_REPLICATIONS**  
+  Replikace - export.
+
+* **A_IMPORT_REPLICATIONS**  
+  Replikace - import.
+
+* **A_RIGHTS_EDIT**  
+  Editace práv pro všechny objekty kromě sbírek.
+
+* **A_CRITERIA_READ**  
+  Právo číst kritéria.
+
+* **A_COLLECTIONS_READ**  
+  Právo číst informace o kolekcích z administrátorského pohledu.
+
+* **A_COLLECTIONS_EDIT**  
+  Editace kolekcí, přidávání do kolekcí.
+
+* **A_ABLE_TOBE_PART_OF_COLLECTION**  
+  Právo být zařazen do kolekce.
+
+* **A_GENERATE_NKPLOGS**  
+  Spuštění NKP logů.
+
+* **A_ROLES_EDIT**  
+  Editace rolí.
+
+* **A_ROLES_READ**  
+  Čtení rolí.
+
+* **A_ADMIN_READ**  
+  Právo na čtení administrátorského rozhraní.
+
+* **A_SDNNT_SYNC**  
+  Synchronizace SDNNT.
+
+* **A_OBJECT_EDIT**  
+  Editace objektů.
+
+* **A_ADMIN_API_SPECIFICATION_READ**  
+  Čtení specifikace OpenAPI pro administraci.
+
+
+## Role v systému
+
+Každý přihlášený uživatel má přiřazenou jednu nebo více rolí. Ve výchozím nastavení jsou v Krameriovi k dispozici tyto dvě role:
+
+
+- **kramerius_admin**  
+  Administrátorská role, která opravňuje k provádění všech administrátorských úkonů a správě uživatelských oprávnění.
+
+- **common_users**  
+  Role pro všechny běžné uživatele, která zajišťuje základní přístupová oprávnění.
+
+- **dnnt_users**  
+  Role určená pro uživatele, kteří mají přístup k dnnto dokumentům
+
+
+
+
+

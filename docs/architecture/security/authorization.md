@@ -20,6 +20,8 @@ Decision
 
 ![Diagram](../assets/prava.png)
 
+![Diagram1](../assets/prava1.png)
+
 ## Vyhodnocení požadavku
 
 Při každém chráněném požadavku probíhá následující proces:

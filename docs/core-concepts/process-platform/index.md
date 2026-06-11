@@ -1,4 +1,4 @@
-## Procesy
+# Procesy
 
 Některé operace v systému probíhají asynchronně.
 
@@ -14,7 +14,7 @@ Tyto operace jsou vykonávány prostřednictvím Process Frameworku.
 
 ---
 
-## Process Framework
+## Process Platform
 
 Process Framework je samostatná komponenta zajišťující plánování a vykonávání procesů.
 
@@ -28,7 +28,6 @@ Administrace procesů probíhá prostřednictvím Admin klienta.
 
 ---
 
-## Next Steps
+## Navazujici dokumentace
 
-- 🏗️ [process Platform Architecture](../../architecture/process-platform/)
-- 📚 [Process Platform Reference](../../reference/process-platform/)
+- ➡️ [Reference](../../reference/process-platform/)

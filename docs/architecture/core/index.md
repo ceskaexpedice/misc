@@ -1,11 +1,9 @@
-# Kramerius Core – Architektura
+# Kramerius Core
 
 ## Přehled
 
 Kramerius Core je centrální aplikační komponenta systému Kramerius.
-
 Jedná se o Java WAR aplikaci běžící v aplikačním serveru (typicky Tomcat), která tvoří hlavní řídicí a integrační vrstvu systému.
-
 Kramerius Core zajišťuje zpracování požadavků, orchestrace služeb a poskytuje REST API pro klientské aplikace.
 
 ---

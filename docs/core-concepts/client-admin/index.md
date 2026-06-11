@@ -1,6 +1,4 @@
-## Klientské aplikace
-
-### Admin
+## Klientska aplikace Admin
 
 Administrativní aplikace určená správcům systému.
 
@@ -13,6 +11,6 @@ Poskytuje:
 
 ---
 
-## Next Steps
+## Navazujici dokumentace
 
-- 📚 [Admin Reference](../../reference/client-admin/)
+- ➡️ [Reference](../../reference/client-admin/)

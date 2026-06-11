@@ -1,6 +1,6 @@
-# Kramerius jádro – Dokumentace
+# Kramerius – Dokumentace
 
-Vítejte v dokumentaci systému **Kramerius jádro** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
+Vítejte v dokumentaci systému **Kramerius** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
 
 ---
 

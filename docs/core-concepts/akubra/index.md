@@ -1,3 +1,5 @@
+## Akubra
+
 ## Digitální objekt
 
 Základní jednotkou systému je digitální objekt.
@@ -90,6 +92,6 @@ Implementace repository je založena na Fedora repository a modulu Akubra.
 
 ---
 
-## Next Steps
+## Navazujici dokumentace
 
-- 📚 [Akubra Reference](../../reference/akubra/)
+- ➡️ [Akubra Reference](../../reference/akubra/)

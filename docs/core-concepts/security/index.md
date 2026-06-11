@@ -1,4 +1,4 @@
-# 🔐 Zabezpečení
+# Zabezpečení
 
 Tato dokumentace popisuje **aplikační úroveň zabezpečení** v systému Kramerius.
 
@@ -41,7 +41,10 @@ Před udělením přístupu mohou být vyhodnocena další podminky. Podminky mo
 - [Akce](actions)
 - [Podminky](condition)
 
-## Další kroky
 
-- 🏗️ [Architektura zabezpečení](../../architecture/security/)
-- 📚 [Referenční dokumentace zabezpečení](../../reference/security/)
+---
+
+## Navazujici dokumentace
+
+- ➡️ [Architektura](../../architecture/security/)
+- ➡️ [Reference](../../reference/security/)
