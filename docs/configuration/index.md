@@ -92,7 +92,7 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 - schema
 - boostování a relevance
 
-### [Search (Keycloak)](security)
+### [Security (Keycloak)](security)
 - realm konfigurace
 - klienti
 - role a oprávnění
