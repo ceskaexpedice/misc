@@ -1,4 +1,4 @@
-# 🛠️ Guides
+# 🛠️ Navody
 
 Tato sekce obsahuje **praktické návody a postupy**, které vás provedou konkrétními úkoly při práci se systémem Kramerius.
 
@@ -9,7 +9,7 @@ Neřeší obecné pojmy ani kompletní referenční popisy – ty patří do jin
 
 ---
 
-## Co v Guides najdete
+## Co v Navody najdete
 
 Guides jsou zaměřené na:
 - praktické kroky
@@ -23,12 +23,12 @@ Typicky zde najdete:
 - vývojové a integrační návody
 
 Guides často:
-- odkazují na **Core Concepts** (co daná věc znamená)
+- odkazují na **Zakladni pojmy** (co daná věc znamená)
 - odkazují na **Reference** (detailní parametry, API, konfiguraci)
 
 ---
 
-## Co Guides záměrně neobsahují
+## Co Navody záměrně neobsahují
 
 Guides:
 - nejsou úplným popisem systému
@@ -36,17 +36,17 @@ Guides:
 - nepopisují interní implementaci
 
 Pokud hledáte:
-- **co je to za pojem** → jděte do *Core Concepts*
+- **co je to za pojem** → jděte do *Zakladni pojmy*
 - **přesnou syntaxi, API nebo konfiguraci** → jděte do *Reference*
-- **ucelený reálný příběh napříč systémem** → jděte do *Scenarios*
+- **ucelený reálný příběh napříč systémem** → jděte do *Scenare*
 
 ---
 
-## Struktura Guides
+## Struktura Navody
 
 Guides jsou členěny především **podle role**, ve které Kramerius používáte.
 
-### 🧑‍🏫 Guides – Kurátor
+### 🧑‍🏫 Navody – Kurátor
 Praktické návody pro práci s obsahem:
 - správa digitálních dokumentů
 - práce se sbírkami
@@ -54,7 +54,7 @@ Praktické návody pro práci s obsahem:
 - spouštění a kontrola procesů
 - řešení běžných problémů v Admin Clientu
 
-👉 viz **Guides – Kurátor**
+👉 viz **[Navody kurator](curator)**
 
 ---
 
@@ -66,11 +66,11 @@ Návody pro instalaci a provoz systému:
 - aktualizace, zálohování a monitoring
 - provozní scénáře
 
-👉 viz **Guides – Administrátor**
+👉 viz **[Navody administrator](admin)**
 
 ---
 
-### 👨‍💻 Guides – Vývojář
+### 👨‍💻 Navody – Vývojář
 Návody pro vývoj a integraci:
 - práce s REST API
 - autentizace a tokeny
@@ -78,11 +78,11 @@ Návody pro vývoj a integraci:
 - integrační scénáře
 - testování a ladění
 
-👉 viz **Guides – Vývojář**
+👉 viz **[Navody vyvojar](developer)**
 
 ---
 
-## Jak Guides používat
+## Jak Navody používat
 
 Doporučený postup:
 1. Vyberte si guide podle cíle nebo role
@@ -95,26 +95,10 @@ Guides předpokládají:
 
 ---
 
-## Vztah Guides k ostatním částem dokumentace
+## Navazujici dokumentace
 
-- **Getting Started**  
-  → pomůže vybrat správnou cestu
-
-- **Core Concepts**  
-  → vysvětluje pojmy a principy
-
-- **Guides**  
-  → ukazují praktické postupy
-
-- **Reference**  
-  → poskytuje úplnou technickou přesnost
-
-- **Scenarios**  
-  → spojují více guides do jednoho uceleného příběhu
-
----
-
-Guides jsou psány tak, aby byly:
-- praktické
-- srozumitelné
-- použitelné i bez hluboké znalosti interní architektury
+- ➡️ [Zakladni pojmy](../core-concepts)
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Konfigurace](../configuration)
+- ➡️ [Deployment](../deployment)
