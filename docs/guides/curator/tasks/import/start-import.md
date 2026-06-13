@@ -13,18 +13,12 @@ Import načítá digitální data z importního adresáře Krameria.
 
 1. Otevřete **Admin klienta**
 2. Přejděte do sekce **Import**
-
-   ![Import menu](../../images/import-menu.png)
-
 3. Zobrazí se seznam importních balíčků:
     - tab **FOXML**
     - tab **NDK METS**
-
-   ![Import tabs](../../images/import-tabs.png)
-
 4. Rozklikněte požadovaný balíček (root dokument podle PID)
 
-   ![Root document tree](../../images/import-tree.png)
+   ![Import menu](../assets/import-menu.png)
 
     - zobrazí se seznam XML souborů (stránky / části dokumentu)
     - každá položka je identifikována PIDem
@@ -36,9 +30,9 @@ Import načítá digitální data z importního adresáře Krameria.
 1. Klikněte na **Spustit import**
 2. Otevře se dialog nastavení importu
 
----
+   ![Import dialog](../assets/import-dialog.png)
 
-## Nastavení importu
+---
 
 ### Licence
 Vyberte licenci, která bude přiřazena importovaným dokumentům.
