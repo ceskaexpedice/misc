@@ -1,4 +1,4 @@
-# 🛠️ Navody
+# 🛠️ Návody
 
 Tato sekce obsahuje **praktické návody a postupy**, které vás provedou konkrétními úkoly při práci se systémem Kramerius.
 
@@ -9,9 +9,9 @@ Neřeší obecné pojmy ani kompletní referenční popisy – ty patří do jin
 
 ---
 
-## Co v Navody najdete
+## Co v Návody najdete
 
-Guides jsou zaměřené na:
+Návody jsou zaměřené na:
 - praktické kroky
 - konkrétní cíle
 - reálné situace při práci se systémem
@@ -28,9 +28,9 @@ Guides často:
 
 ---
 
-## Co Navody záměrně neobsahují
+## Co Návody záměrně neobsahují
 
-Guides:
+Návody:
 - nejsou úplným popisem systému
 - nenahrazují referenční dokumentaci
 - nepopisují interní implementaci
@@ -42,11 +42,11 @@ Pokud hledáte:
 
 ---
 
-## Struktura Navody
+## Struktura Návody
 
-Guides jsou členěny především **podle role**, ve které Kramerius používáte.
+Návody jsou členěny především **podle role**, ve které Kramerius používáte.
 
-### 🧑‍🏫 Navody – Kurátor
+### 🧑‍🏫 Návody – Kurátor
 Praktické návody pro práci s obsahem:
 - správa digitálních dokumentů
 - práce se sbírkami
@@ -54,11 +54,11 @@ Praktické návody pro práci s obsahem:
 - spouštění a kontrola procesů
 - řešení běžných problémů v Admin Clientu
 
-👉 viz **[Navody kurator](curator)**
+👉 viz **[Návody kurátor](curator)**
 
 ---
 
-### 🛠 Guides – Administrátor
+### 🛠 Návody – Administrátor
 Návody pro instalaci a provoz systému:
 - instalace a první spuštění
 - konfigurace jednotlivých komponent
@@ -66,11 +66,11 @@ Návody pro instalaci a provoz systému:
 - aktualizace, zálohování a monitoring
 - provozní scénáře
 
-👉 viz **[Navody administrator](admin)**
+👉 viz **[Návody administrátor](admin)**
 
 ---
 
-### 👨‍💻 Navody – Vývojář
+### 👨‍💻 Návody – Vývojář
 Návody pro vývoj a integraci:
 - práce s REST API
 - autentizace a tokeny
@@ -78,11 +78,11 @@ Návody pro vývoj a integraci:
 - integrační scénáře
 - testování a ladění
 
-👉 viz **[Navody vyvojar](developer)**
+👉 viz **[Návody vyvojár](developer)**
 
 ---
 
-## Jak Navody používat
+## Jak Návody používat
 
 Doporučený postup:
 1. Vyberte si guide podle cíle nebo role
@@ -97,7 +97,7 @@ Guides předpokládají:
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../core-concepts)
+- ➡️ [Základni pojmy](../core-concepts)
 - ➡️ [Architektura](../architecture)
 - ➡️ [Reference](../reference)
 - ➡️ [Konfigurace](../configuration)
