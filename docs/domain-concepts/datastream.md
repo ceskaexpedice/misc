@@ -12,4 +12,4 @@ Typickými příklady jsou:
 - obrazová data
 - zvukové soubory
 
-![Diagram](../../domain-concepts/assets/fedora-obj-tree-streams.png)
+![Diagram](assets/fedora-obj-tree-streams.png)

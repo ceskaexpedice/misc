@@ -14,4 +14,4 @@ Digitální objekt může představovat například:
 
 Objekty jsou organizovány do hierarchických struktur a tvoří logický model dokumentu.
 
-![Diagram](../assets/fedora-obj-tree.png)
+![Diagram](assets/fedora-obj-tree.png)

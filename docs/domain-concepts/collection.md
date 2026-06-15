@@ -2,5 +2,5 @@
 
 Digitální objekty mohou byt seskupovany do sbirek.
 
-![Diagram](../../domain-concepts/assets/collections-path.png)
+![Diagram](assets/collections-path.png)
 
