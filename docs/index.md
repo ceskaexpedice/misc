@@ -16,6 +16,13 @@ Popis interního fungování Krameria (např. Akubra, procesy, indexace, API, FO
 
 ---
 
+## 🛠️ Návody
+Jak udělat konkrétní úkol
+
+👉 **[Návody](guides/index)**
+
+---
+
 ## 🏗️ Architektura
 Jak jsou části systému organizované a jak spolupracují
 
@@ -41,13 +48,6 @@ Jak se systém nastavuje
 jak systém běží v infrastruktuře
 
 👉 **[Deployment](deployment/index)**
-
----
-
-## 🛠️ Návody
-Jak udělat konkrétní úkol
-
-👉 **[Návody](guides/index)**
 
 ---
 
