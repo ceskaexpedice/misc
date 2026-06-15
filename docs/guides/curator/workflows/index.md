@@ -6,6 +6,38 @@ Workflow vždy popisuje **celý proces od začátku do konce**, například impo
 
 ---
 
+## 📦 Zpracování nové dávky (Import + indexace)
+
+Kompletní proces zpracování nové digitální dávky.
+
+➡️ [Otevřít workflow](import-index-dataset.md)
+
+---
+
+## 📦 TODO
+
+TODO
+
+➡️ [TODO](import-index-dataset.md)
+
+---
+
+## 📦 TODO
+
+TODO
+
+➡️ [TODO](import-index-dataset.md)
+
+---
+
+## Jak používat tuto sekci
+
+- Pokud provádíte celý proces od začátku → začněte zde
+- Pokud řešíte konkrétní krok → přejděte do **Tasks**
+- Pokud něco nefunguje → přejděte do **Troubleshooting**
+
+---
+
 ## Co zde najdete
 
 Pracovní postupy typicky kombinují více úkolů (Tasks), například:
@@ -16,24 +48,6 @@ Pracovní postupy typicky kombinují více úkolů (Tasks), například:
 - publikace dokumentů
 
 Každý workflow odkazuje na jednotlivé kroky, které lze provádět samostatně.
-
----
-
-## Dostupné workflow
-
-### 📦 Zpracování nové dávky (Import + indexace)
-
-Kompletní proces zpracování nové digitální dávky.
-
-➡️ [Otevřít workflow](import-index-dataset.md)
-
----
-
-## Jak používat tuto sekci
-
-- Pokud provádíte celý proces od začátku → začněte zde
-- Pokud řešíte konkrétní krok → přejděte do **Tasks**
-- Pokud něco nefunguje → přejděte do **Troubleshooting**
 
 ---
 
