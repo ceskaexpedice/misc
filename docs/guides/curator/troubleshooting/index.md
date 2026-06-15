@@ -6,32 +6,19 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ---
 
-## Kdy použít tuto sekci
-
-Použijte Troubleshooting, pokud:
-
-- import selhal
-- indexace neběží nebo skončila chybou
-- dokument se nezobrazuje ve vyhledávání
-- proces zůstává viset nebo se nezpracovává
-
----
-
-## Nejčastější problémy
-
-### 📥 Import selhal
+## 📥 Import selhal
 
 ➡️ [Řešení problému](import-failed.md)
 
 ---
 
-### 🔎 Indexace neproběhla
+## 🔎 Indexace neproběhla
 
 ➡️ [Řešení problému](index-failed.md)
 
 ---
 
-### 📄 Dokument se nezobrazuje
+## 📄 Dokument se nezobrazuje
 
 ➡️ [Řešení problému](document-not-visible.md)
 
@@ -43,6 +30,17 @@ Použijte Troubleshooting, pokud:
 2. Otevřete detail procesu
 3. Projděte logy
 4. Postupujte podle konkrétního návodu
+
+---
+
+## Kdy použít tuto sekci
+
+Použijte Troubleshooting, pokud:
+
+- import selhal
+- indexace neběží nebo skončila chybou
+- dokument se nezobrazuje ve vyhledávání
+- proces zůstává viset nebo se nezpracovává
 
 ---
 

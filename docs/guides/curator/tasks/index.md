@@ -6,18 +6,6 @@ Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako s
 
 ---
 
-## Co zde najdete
-
-Typické úkoly zahrnují:
-
-- spuštění importu
-- spuštění indexace
-- sledování procesů
-- práce se sbírkami
-- kontrola logů
-
----
-
 ## Import a indexace
 
 ### 📥 Spuštění importu
