@@ -12,7 +12,7 @@ Mezi typické podmínky patří:
 - licenční omezení
 - omezení přístupu na úrovni konkrétních sbírek
 
-Významným typem podmínky je **licence** (viz [Licence](license/index)).
+Významným typem podmínky je **licence** (viz [Licence](../../domain-concepts/license/index)).
 
 ## Model vyhodnocení
 

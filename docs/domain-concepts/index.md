@@ -10,34 +10,36 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ### 📄 D
 
-- [Digitální dokument](digital-object.md)
-- [Dokument](document.md)
+- [Datastream](datastream)
+- [Digitální dokument](digital-object)
+- [Dokument](document)
 
 ### 📦 I
 
 - [Import](import.md)
-- [Identifikátor PID](identifier/pid.md)
+- [Identifikátor PID](identifier/pid)
 
 ### 🏛️ K
 
-- [Sbírka](collection.md)
+- [Sbírka](collection)
 
 ### 📚 M
 
-- [Metadata](metadata.md)
-- [Monografie](monograph.md)
+- [Metadata](metadata)
+- [Monografie](monograph)
 
 ### 🔐 L
 
-- [Licence](license.md)
+- [Licence](license/index)
 
 ### ⚙️ P
 
-- [Proces](process.md)
+- [PID](identifier/pid)
+- [Proces](process)
 
 ### 🔍 S
 
-- [Vyhledávání](search.md)
+- [Vyhledávání](search)
 
 ---
 
@@ -51,6 +53,6 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ## 🔗 Propojení s dokumentací
 
-- 🧭 Postupy: [Guides](../guides/index.md)
-- 🧠 Technický model: [Core concepts](../core-concepts/index.md)
-- 📚 Detailní reference: [Reference](../reference/index.md)
+- 🧭 Postupy: [Guides](../guides/index)
+- 🧠 Technický model: [Core concepts](../core-concepts/index)
+- 📚 Detailní reference: [Reference](../reference/index)

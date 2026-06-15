@@ -40,7 +40,7 @@ Před udělením přístupu mohou být vyhodnocena další podminky. Podminky mo
 - [Role](roles)
 - [Akce](actions)
 - [Podminky](condition)
-- [Licence](license/)
+- [Licence](../../domain-concepts/license/)
 
 
 ---
