@@ -2,13 +2,7 @@
 
 Tato sekce obsahuje praktické návody pro kurátory a správce digitálního obsahu. Zaměřuje se na běžné pracovní činnosti prováděné v systému Kramerius a popisuje jednotlivé postupy krok za krokem.
 
-Návody v této sekci nepředpokládají znalost architektury systému ani technických detailů jeho implementace. Pokud potřebujete podrobnější informace o konkrétní funkcionalitě, využijte odkazy na související části dokumentace.
-
-## Organizace návodů
-
-Návody jsou rozděleny do tří skupin podle účelu.
-
-### 🔄 Pracovní postupy (Workflows)
+## 🔄 Pracovní postupy (Workflows)
 
 Popisují kompletní pracovní procesy složené z více navazujících kroků.
 
@@ -21,7 +15,7 @@ Typické příklady:
 
 ---
 
-### ✅ Jednotlivé úkoly (Tasks)
+## ✅ Jednotlivé úkoly (Tasks)
 
 Popisují konkrétní činnosti, které lze provádět samostatně a které bývají součástí větších pracovních postupů.
 
@@ -38,7 +32,7 @@ Typické příklady:
 
 ---
 
-### 🚨 Řešení problémů (Troubleshooting)
+## 🚨 Řešení problémů (Troubleshooting)
 
 Pomáhá řešit nejčastější problémy, se kterými se může kurátor při práci setkat.
 
@@ -65,5 +59,5 @@ Pokud narazíte na problém nebo neočekávané chování systému, využijte č
 ## Související dokumentace
 
 - [Začínáme pro kurátory](../../getting-started/curator)
-- [Zakladni pojmy](../../core-concepts)
+- [Domenove pojmy](../../domain-concepts)
 - [Reference](../../reference)
