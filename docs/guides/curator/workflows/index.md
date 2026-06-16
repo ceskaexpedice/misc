@@ -1,3 +1,5 @@
+[Index](../../../index) / [Návody](../../guides/) / [Kurátor](../curator/)
+
 # 🔄 Pracovní postupy (Workflows)
 
 Tato sekce obsahuje kompletní pracovní postupy, které popisují více navazujících kroků při zpracování digitálních dat v systému Kramerius.
