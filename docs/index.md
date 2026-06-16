@@ -3,6 +3,10 @@
 Vítejte v dokumentaci systému **Kramerius** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
 
 ---
+## 🔎 Search
+
+<div id="search-box"></div>
+<div id="search-results"></div>
 
 ## 📚 Slovníky a pojmy
 
