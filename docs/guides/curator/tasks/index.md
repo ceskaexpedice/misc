@@ -10,13 +10,13 @@ Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako s
 
 ### 📥 Spuštění importu
 
-➡️ [Otevřít návod](import/start-import.md)
+➡️ [Otevřít návod](import/start-import)
 
 ---
 
 ### 🔎 Spuštění indexace
 
-➡️ [Otevřít návod](indexing/start-indexing.md)
+➡️ [Otevřít návod](indexing/start-indexing)
 
 ---
 
@@ -30,6 +30,6 @@ Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako s
 
 ## Související dokumentace
 
-- [Pracovní postupy (Workflows)](../workflows/index.md)
-- [Řešení problémů](../troubleshooting/index.md)
-- [Návody pro kurátory](../index.md)
+- [Pracovní postupy (Workflows)](../workflows/index)
+- [Řešení problémů](../troubleshooting/index)
+- [Návody pro kurátory](../index)

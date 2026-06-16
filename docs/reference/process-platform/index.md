@@ -7,11 +7,7 @@ Je postaven nad externí platformou Process Platform (PCP), která poskytuje inf
 Kramerius nad touto platformou definuje vlastní procesy a workery.
 
 Viz:
-→ dokumentace Process Platform (externí projekt)
-
----
-
-## Přehled
+[Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 
 Processing zajišťuje:
 
@@ -24,34 +20,6 @@ Processing je klíčová část systému a přímo ovlivňuje:
 - Vyhledávání (Search)
 - konzistenci dat
 - výkon systému
-
----
-
-## Architektura
-
-Processing v Krameriu se skládá z:
-
-- Process Platform (externí framework)
-- Kramerius workerů (běhové jednotky)
-- Kramerius procesů (doménové operace)
-
----
-
-## Process Platform (PCP)
-
-Vykonávání procesů zajišťuje Process Platform.
-
-Ta zahrnuje:
-
-- manager node (plánování a koordinace procesů)
-- worker nody (vykonávací jednotky)
-- stavový model procesů
-- REST API pro správu procesů
-
-Kramerius tuto funkcionalitu neimplementuje, ale používá ji jako běhovou závislost.
-
-Viz:
-→ dokumentace Process Platform
 
 ---
 
@@ -71,6 +39,8 @@ Worker je zodpovědný za vykonávání konkrétních typů procesů.
 
 V systému může běžet více worker instancí paralelně.
 
+➡️ **[Přejít na workery](workers/)**
+
 ---
 
 ## Kramerius procesy
@@ -88,52 +58,10 @@ Každý proces:
 
 - je vykonáván asynchronně
 - běží ve workeru
+- je zabalen jako plugin
 - ovlivňuje repozitář a/nebo odvozená data (např. index)
-
----
-
-## Vztah k vyhledávání
-
-Processing zajišťuje aktualizaci vyhledávacího indexu.
-
-- Search (Vyhledávání) data čte
-- Processing data zapisuje / aktualizuje
-
-Aktualizace indexu probíhá prostřednictvím asynchronních procesů.
-
-Viz:
-→ Reference / Search
-
----
-
-## Model vykonávání
-
-Procesy jsou:
-
-- plánovány přes Process Platform
-- vykonávány asynchronně
-- zpracovávány workery
-
-To znamená:
-
-- eventual consistency mezi repozitářem a indexem
-- zpožděné projevení změn v systému
-
----
-
-## Reindexace
-
-Reindexace je speciální typ procesu, který slouží k:
-
-- znovuvytvoření vyhledávacího indexu
-- obnovení konzistence dat
-- aplikaci změn ve schématu nebo datovém modelu
-
-Reindexace může probíhat nad:
-
-- jednotlivým objektem
-- podstromem objektů
-- celým repozitářem
+  
+➡️ **[Přejít na procesy](processes/)**
 
 ---
 
@@ -145,8 +73,7 @@ Kramerius definuje workery a procesní pluginy při buildu.
 - každý worker poskytuje určitou funkcionalitu
 
 Nasazení workerů je popsáno v:
-
-→ Reference / Deployment / Processing
+➡️ **[Plugin a Worker build](https://github.com/ceskaexpedice/process-platform/wiki/PluginBuild)**
 
 ---
 

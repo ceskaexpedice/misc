@@ -8,19 +8,19 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ## 📥 Import selhal
 
-➡️ [Řešení problému](import-failed.md)
+➡️ [Řešení problému](import-failed)
 
 ---
 
 ## 🔎 Indexace neproběhla
 
-➡️ [Řešení problému](index-failed.md)
+➡️ [Řešení problému](index-failed)
 
 ---
 
 ## 📄 Dokument se nezobrazuje
 
-➡️ [Řešení problému](document-not-visible.md)
+➡️ [Řešení problému](document-not-visible)
 
 ---
 
@@ -46,6 +46,6 @@ Použijte Troubleshooting, pokud:
 
 ## Související dokumentace
 
-- [Pracovní postupy (Workflows)](../workflows/index.md)
-- [Jednotlivé úkoly (Tasks)](../tasks/index.md)
-- [Návody pro kurátory](../index.md)
+- [Pracovní postupy (Workflows)](../workflows/index)
+- [Jednotlivé úkoly (Tasks)](../tasks/index)
+- [Návody pro kurátory](../index)
