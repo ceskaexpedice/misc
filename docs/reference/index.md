@@ -12,29 +12,6 @@ Slouží dvěma hlavním skupinám uživatelů:
 
 ---
 
-## Struktura Reference
-
-Reference je rozdělena do dvou oblastí:
-
-### System Reference
-Popisuje technické chování systému a jeho komponent.
-
-Například:
-- REST API Kramerius Core
-- chování vyhledávání (Search)
-- bezpečnostní model (Security)
-- integrace s Akubra a dalšími systémy
-
-### Operations Reference
-Popisuje provozní aspekty systému.
-
-Například:
-- logging
-- monitoring
-- backup a restore
-- troubleshooting
-- provozní DevOps nástroje
----
 
 ## System
 
@@ -84,5 +61,29 @@ Procesy a nástroje pro CI/CD, nasazování, monitoring buildů a správu provoz
 
 ### [Zalohovani](backup/index)
 TODO
+
+---
+
+### System Reference
+Popisuje technické chování systému a jeho komponent.
+
+Například:
+- REST API Kramerius Core
+- chování vyhledávání (Search)
+- bezpečnostní model (Security)
+- integrace s Akubra a dalšími systémy
+
+### Operations Reference
+Popisuje provozní aspekty systému.
+
+Například:
+- logging
+- monitoring
+- backup a restore
+- troubleshooting
+- provozní DevOps nástroje
+
+---
+
 
 
