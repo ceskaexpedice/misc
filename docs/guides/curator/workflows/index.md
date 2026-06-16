@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../guides/) / [Kurátor](../curator/)
+[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
 
 # 🔄 Pracovní postupy (Workflows)
 
