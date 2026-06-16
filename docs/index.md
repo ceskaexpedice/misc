@@ -2,21 +2,15 @@
 
 Vítejte v dokumentaci systému **Kramerius** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
 
----
-## 🔎 Search
-
-<div id="search-box"></div>
-<div id="search-results"></div>
-
-## 📚 Slovníky a pojmy
+## 📚 Základní pohled
 
 Co znamenají pojmy v Krameriu z pohledu uživatele i systému.
 
 👉 🧠 **[Doménové pojmy](domain-concepts/index)**  
 Vysvětlení pojmů tak, jak se používají při práci se systémem (např. dokument, sbírka, import, metadata).
 
-👉 ⚙️ **[Technické pojmy systému](core-concepts/index)**  
-Popis interního fungování Krameria (např. Akubra, procesy, indexace, API, FOXML).
+👉 ⚙️ **[Základní struktura systemu](core-concepts/index)**  
+Akubra, procesy, indexace, API, FOXML, ...
 
 ---
 
