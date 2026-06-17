@@ -31,6 +31,14 @@ Jak udělat konkrétní úkol
 
 ---
 
+## 🎯 Scénáře
+Use cases pro reálné situace
+
+
+👉 **[Scénáře](scenarios/index)**
+
+---
+
 ## 🏗️ Architektura
 Jak jsou části systému organizované a jak spolupracují
 
@@ -56,14 +64,6 @@ Jak se systém nastavuje
 jak systém běží v infrastruktuře
 
 👉 **[Deployment](deployment/index)**
-
----
-
-## 🎯 Scénáře
-Use cases pro reálné situace
-
-
-👉 **[Scénáře](scenarios/index)**
 
 ---
 
