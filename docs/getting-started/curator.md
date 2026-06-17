@@ -1,4 +1,6 @@
-# Zaciname – Kurátor / Knihovník
+[Index](../index) / [Začínáme](../../getting-started)
+
+# Začínáme – Kurátor / Knihovník
 
 Tato stránka slouží jako **vstupní rozcestník pro kurátory a odborné pracovníky knihoven**, kteří pracují se systémem Kramerius z pohledu **správy obsahu a procesů**.
 
@@ -6,25 +8,6 @@ Nejde o návody krok za krokem, ale o **orientační přehled**:
 - jakou má kurátor v systému roli
 - s jakými částmi Krameria pracuje
 - kde v dokumentaci pokračovat dál
-
----
-
-## Pro koho je tato stránka
-
-Určeno pro **kurátory / knihovníky**, kteří:
-- pracují s digitálním obsahem v Krameriovi
-- spravují sbírky, strukturu a metadata
-- nastavují přístupová práva k obsahu
-- spouštějí a sledují procesy
-
-Kurátor:
-- **není administrátor infrastruktury**
-- **není vývojář**
-- pracuje se systémem především prostřednictvím **Admin Clienta**
-
----
-
-## Role kurátora v Kramerius
 
 Kurátor v Krameriovi typicky zodpovídá za:
 
@@ -36,11 +19,15 @@ Kurátor v Krameriovi typicky zodpovídá za:
 
 > Tato stránka slouží jako rozcestník a checklist, nikoli jako detailní návod.
 
+
+## Návody
+Zde jsou návody, jak v systému provést dílčí úkol
+
+➡️ Viz **[Návody](../../guides/curator)**.
+
 ---
 
 ## S jakými částmi systému kurátor pracuje
-
-Z pohledu kurátora se Kramerius skládá především z následujících částí:
 
 ### Admin Client
 Hlavní pracovní nástroj kurátora:
@@ -48,46 +35,12 @@ Hlavní pracovní nástroj kurátora:
 - práce s procesy
 - správa přístupových práv
 
-➡️ Viz **[Admin klient](../reference/client-admin)**.
+➡️ Viz **[Admin klient](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)**.
 
----
+### Web Client
+TODO
 
-### Repository (Akubra / Fedora)
-- fyzické uložení digitálních objektů
-- struktura dokumentů a jejich vzájemné vztahy
-
-Kurátor s repozitářem běžně nepracuje přímo, ale měl by rozumět základním principům jeho fungování.
-
-➡️ Viz **[Akubra](../reference/akubra)**.
-
----
-
-### Procesní framework
-Zajišťuje:
-- importy dokumentů
-- hromadné operace
-- plánované a dlouhotrvající úlohy
-
-Kurátor:
-- procesy spouští
-- sleduje jejich stav
-- vyhodnocuje výsledky
-
-➡️ Viz **[Procesy](../reference/process-platform)**.
-
----
-
-## Bezpečnost a přístupová práva
-
-Kramerius používá **role-based bezpečnostní model**.
-
-Kurátor:
-- pracuje v rámci přidělených rolí
-- spravuje přístupová práva k obsahu
-- musí rozumět základním principům ochrany digitálních dokumentů
-
-➡️ Doporučeno prostudovat:  
-**[Bezpecnost](../architecture/security)**
+➡️ Viz **[Web klient](https://github.com/ceskaexpedice/kramerius-web-client/wiki)**.
 
 ---
 
@@ -100,13 +53,4 @@ Pro detailnější informace pokračujte do těchto částí dokumentace:
 3. **[Scénáře](../scenarios/index)** – reálné situace (např. nasazení nové instance, integrace knihovny)
 4. **[Reference](../reference/index)** – detailní technické informace a konfigurace
 
----
 
-## Co tato stránka nepokrývá
-
-Tato stránka:
-- neobsahuje návody krok za krokem
-- neřeší instalaci ani technický provoz systému
-- nenahrazuje detailní dokumentaci jednotlivých komponent
-
-Slouží jako **vstupní bod do dokumentace pro roli kurátora**.
