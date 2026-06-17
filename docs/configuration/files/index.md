@@ -1,4 +1,4 @@
-[Index](../index) / [Konfigurace](../index/configuration)  
+[Index](../index) / [Konfigurace](../../configuration)  
 
 # Configuration Files
 
