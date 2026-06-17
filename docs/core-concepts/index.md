@@ -1,6 +1,6 @@
-# 📚 Hlavní části Krameria
+# 📚 Hlavní pojmy Krameria
 
-Tato část dokumentace vysvětluje hlavní části Krameria. Jejich propojení se věnuje [Architektura](../architecture)
+Tato část dokumentace vysvětluje hlavní pojmy Krameria. Propojení částí se věnuje [Architektura](../architecture)
 
 ---
 

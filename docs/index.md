@@ -19,8 +19,8 @@ Co znamenají pojmy v Krameriu z pohledu uživatele i systému.
 👉 **[Doménové pojmy](domain-concepts/index)**  
 Vysvětlení pojmů tak, jak se používají při práci se systémem (např. dokument, sbírka, import, metadata).
 
-👉 **[Hlavní části Krameria](core-concepts/index)**  
-Akubra, procesy, indexace, API, FOXML, ...
+👉 **[Hlavní pojmy Krameria](core-concepts/index)**  
+Akubra, procesy, indexace, API, zabezpeceni, ...
 
 ---
 
