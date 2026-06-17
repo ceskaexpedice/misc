@@ -4,23 +4,16 @@
 
 Tato stránka slouží jako **vstupní rozcestník pro vývojáře a integrátory**, kteří pracují s platformou Kramerius z pohledu **integrace, rozšiřování a vývoje vlastních řešení**.
 
-Nejde o detailní technický manuál, ale o **orientační přehled**:
-- s jakými částmi systému vývojář pracuje
-- jaká rozhraní Kramerius poskytuje
-- kde v dokumentaci pokračovat dál
-
----
-
-## Pro koho je tato stránka
-
 Určeno pro **vývojáře a integrátory**, kteří:
 - integrují Kramerius s externími systémy
 - využívají nebo rozšiřují REST API
 - vyvíjejí vlastní moduly, nástroje nebo procesy
 - automatizují práci nad obsahem
 
-Pokud řešíte instalaci, provoz nebo konfiguraci infrastruktury, pokračujte na  
-**[Getting Started - Admin](admin)**.
+## Návody
+Zde jsou návody, jak v systému provést dílčí úkol
+
+➡️ **[Návody](../guides/developer)**.
 
 ---
 
@@ -48,7 +41,7 @@ Hlavní integrační rozhraní systému:
 - správa procesů
 - vyhledávání a přístup k obsahu
 
-➡️ Viz **[REST API](../reference/api)**.
+➡️ **[REST API](../reference/api)**.
 
 ---
 
@@ -100,22 +93,11 @@ Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, 
 
 ---
 
-## Jak pokračovat dál
+## Navazujici dokumentace
 
-Pro detailní informace pokračujte do těchto částí dokumentace:
-
-1. **[Základní pojmy](../core-concepts/index)** – vytvoření správného mentálního modelu systému
-2. **[Návody](../guides/developer/index)** – instalace, konfigurace a provoz
-3. **[Scénáře](../scenarios/index)** – reálné situace (např. nasazení nové instance, integrace knihovny)
-4. **[Reference](../reference/index)** – detailní technické informace a konfigurace
-
----
-
-## Co tato stránka nepokrývá
-
-Tato stránka:
-- neřeší instalaci ani provoz systému
-- nepopisuje interní implementaci jádra
-- nenahrazuje referenční dokumentaci API
-
-Slouží jako **vstupní bod do dokumentace pro roli vývojáře / integrátora**.
+- ➡️ [Základní struktura](../core-concepts)
+- ➡️ [Architektura](../architecture)
+- ➡️ [Konfigurace](../configuration)
+- ➡️ [Deployment](../deployment)
+- ➡️ [Reference](../reference)
+- ➡️ [Navody](../guides/developer)
