@@ -2,6 +2,16 @@
 
 Vítejte v dokumentaci systému **Kramerius** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
 
+## 🚀 Začínáme
+
+Nevíte, kde začít?  
+Zvolte si svou roli a projděte základní orientaci v systému:
+
+👉 **[Začínáme](getting-started/index.md)**  
+*(Kurátor / Administrátor / Vývojář)*
+
+---
+
 ## 📚 Základní pohled
 
 Co znamenají pojmy v Krameriu z pohledu uživatele i systému.
@@ -54,16 +64,6 @@ Use cases pro reálné situace
 
 
 👉 **[Scénáře](scenarios/index)**
-
----
-
-## 🚀 Začínáme
-
-Nevíte, kde začít?  
-Zvolte si svou roli a projděte základní orientaci v systému:
-
-👉 **[Začínáme](getting-started/index.md)**  
-*(Kurátor / Administrátor / Vývojář)*
 
 ---
 
