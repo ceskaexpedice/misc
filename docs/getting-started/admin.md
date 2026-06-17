@@ -27,6 +27,7 @@ Administrátor v Krameriovi typicky řeší:
 - provozní dohled, monitoring a logování
 - aktualizace, zálohování a obnovu dat
 - nastavení bezpečnosti a integrací s externími systémy
+
 ---
 
 ## Přehled systému z pohledu administrátora
