@@ -23,7 +23,7 @@ Kurátor v Krameriovi typicky zodpovídá za:
 ## Návody
 Zde jsou návody, jak v systému provést dílčí úkol
 
-➡️ Viz **[Návody](../../guides/curator)**.
+➡️ Viz **[Návody](../guides/curator)**.
 
 ---
 
