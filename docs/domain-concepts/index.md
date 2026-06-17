@@ -8,51 +8,41 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ## 🔤 Slovník pojmů (A–Z)
 
-### 📄 D
+### D
 
 - [Datastream](datastream)
 - [Digitální dokument](digital-object)
 - [Dokument](document)
 
-### 📦 I
+### I
 
 - [Import](import.md)
 - [Identifikátor PID](identifier/pid)
 
-### 🏛️ K
+###  K
 
 - [Sbírka](collection)
 
-### 📚 M
+### M
 
 - [Metadata](metadata)
 - [Monografie](monograph)
 
-### 🔐 L
+### L
 
 - [Licence](license/index)
 
-### ⚙️ P
+### P
 
 - [PID](identifier/pid)
 - [Proces](process)
 
-### 🔍 S
+### S
 
 - [Vyhledávání](search)
 
 ---
 
-## 🧭 Jak používat tento slovník
+## Navazujici dokumentace
 
-- pokud nevíte, co pojem znamená → začněte zde
-- pokud potřebujete detail → pokračujte do Guides
-- pokud chcete technické vysvětlení → Core concepts
-
----
-
-## 🔗 Propojení s dokumentací
-
-- 🧭 Postupy: [Guides](../guides/index)
-- 🧠 Technický model: [Core concepts](../core-concepts/index)
-- 📚 Detailní reference: [Reference](../reference/index)
+- ➡️ [Navody](../guides/curator)
