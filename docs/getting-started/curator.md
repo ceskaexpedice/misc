@@ -1,4 +1,4 @@
-[Index](../index) / [Začínáme](../../getting-started)
+[Index](../index) / [Začínáme](../getting-started)
 
 # Začínáme – Kurátor / Knihovník
 
