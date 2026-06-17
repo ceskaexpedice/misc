@@ -1,3 +1,5 @@
+[Index](../index) / [Konfigurace](../index/configuration)
+
 # Security Administration Model
 
 Tato část popisuje, jak se bezpečnostní model Krameria nastavuje a spravuje v běžícím systému.

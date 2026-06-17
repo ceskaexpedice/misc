@@ -1,10 +1,12 @@
+[Index](../index) / [Konfigurace](../index/configuration)
+
 # Configuration Properties
 
 The primary `configuration.properties` file contains the core runtime configuration of the Kramerius platform.
 
 This page documents the most important and commonly customized properties.
 
-For the list of configuration files, see [Configuration Files](configuration-files.md).
+For the list of configuration files, see [Configuration Files](index).
 
 ---
 

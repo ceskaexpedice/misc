@@ -1,3 +1,5 @@
+[Index](../index) / [Konfigurace](../index/configuration)
+
 # Solr Configuration
 
 Tato stránka shrnuje konfiguraci parametrů vyhledávacího enginu **Solr**, používaného v Kramerius 7. Všechny parametry se nacházejí v souboru `configuration.properties`. Parametry ovlivňují připojení klientských aplikací i interního indexu Krameria.

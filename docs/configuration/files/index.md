@@ -1,3 +1,5 @@
+[Index](../index) / [Konfigurace](../index/configuration)  
+
 # Configuration Files
 
 Po prvním spuštění aplikačního serveru s nainstalovanou aplikací Kramerius (pod systémovým uživatelem `kramerius4`) je v domovském adresáři uživatele `kramerius4` vytvořen adresář `.kramerius4` a v něm prázdné soubory:

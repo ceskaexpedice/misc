@@ -1,3 +1,5 @@
+[Index](../index)
+
 # ⚙️ Konfigurace systému Kramerius
 
 Tato kapitola popisuje konfiguraci systému Kramerius a jeho integrovaných komponent.
@@ -65,7 +67,7 @@ Typicky jde o parametry, které přímo ovlivňují chování systému:
 - nastavení procesní platformy
 - další runtime parametry
 
-[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/configuration-files).
+[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/index).
 
 ### Důležité konfigurační parametry:
 * 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému.*

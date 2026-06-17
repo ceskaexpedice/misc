@@ -1,3 +1,5 @@
+[Index](../index) / [Konfigurace](../index/configuration)
+
 # Akubra Storage Configuration
 
 Tato stránka poskytuje **referenční přehled konfiguračních parametrů Akubra storage** v Kramerius 7. Obsahuje defaultní hodnoty, účel a doporučené nastavení.
