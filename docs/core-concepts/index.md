@@ -1,6 +1,6 @@
-# 📚 Zakladni struktura systému
+# 📚 Hlavní části Krameria
 
-Tato část dokumentace vysvětluje základní koncepty používané napříč celým systémem.
+Tato část dokumentace vysvětluje hlavní části Krameria. Jejich propojení se věnuje [Architektura](../architecture)
 
 ---
 
