@@ -1,20 +1,19 @@
-# 📚 Zakladni pojmy
+# 📚 Zakladni struktura systému
 
-Tato část dokumentace vysvětluje základní koncepty a pojmy používané napříč celým systémem.
-Zakladni pojmy představují společný slovník používaný ve všech ostatních částech dokumentace.
+Tato část dokumentace vysvětluje základní koncepty používané napříč celým systémem.
 
 ---
 
 ## [Kramerius Core](core/index)
 Kramerius Core je centrální aplikační vrstva systému Kramerius, která poskytuje REST API, implementuje business logiku a bezpečnost, a zároveň orchestruje spolupráci interních i externích komponent, na kterých je celý systém postaven.
 
-## [Uloziste dokumentu Akubra](akubra/index)
+## [Úložiště dokumentů Akubra](akubra/index)
 Digitalni dokumenty, metadata, sbirky
 
-## [Vyhledavani](search/index)
+## [Vyhledávání](search/index)
 Indexace dat, dotazovací API, fulltextového vyhledávání.
 
-## [Zabezpeceni](security/index)
+## [Zabezpečení](security/index)
 Aplikacni zabezpeceni, autentizace, autorizace
 
 ## [Asynchronni procesy](process-platform/index)
@@ -23,7 +22,7 @@ Asynchronni procesy, framework na sousteni a provadeni procesu
 ## [REST API](api/index)
 Veřejné i interní REST API
 
-## [CDK](cdk/index)
+## [ČDK](cdk/index)
 Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius. 
 
 ---

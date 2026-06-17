@@ -1,18 +1,8 @@
 [Index](../index) / [Začínáme](../getting-started)
 
-# 🛠 Zaciname – Administrátor
+# 🛠 Začínáme – Administrátor
 
 Tato stránka je určena jako **vstupní rozcestník pro systémové administrátory a IT pracovníky**, kteří zajišťují instalaci, konfiguraci a provoz platformy Kramerius.
-
-Nejde o detailní návody krok za krokem.  
-Cílem je pomoci vám:
-- pochopit roli administrátora v ekosystému Kramerius
-- zorientovat se v hlavních komponentách systému
-- najít správné části dokumentace, kde pokračovat dál
-
----
-
-## Pro koho je tato stránka
 
 Určeno pro **administrátory Krameria**, kteří:
 - instalují a nasazují systém
@@ -20,10 +10,13 @@ Určeno pro **administrátory Krameria**, kteří:
 - zajišťují provoz, monitoring a aktualizace
 - odpovídají za bezpečnost a technické integrace
 
-Pokud pracujete primárně s obsahem (sbírky, metadata, procesy), použijte  
-👉 **[Zaciname – Kurátor](curator)**
+## Návody
+Zde jsou návody, jak v systému provést dílčí úkol
+
+➡️ **[Návody](../guides/admin)**.
 
 ---
+
 
 ## Role administrátora v Kramerius
 
@@ -34,9 +27,6 @@ Administrátor v Krameriovi typicky řeší:
 - provozní dohled, monitoring a logování
 - aktualizace, zálohování a obnovu dat
 - nastavení bezpečnosti a integrací s externími systémy
-
-> Tato stránka slouží jako **mentální checklist**, nikoli jako provozní manuál.
-
 ---
 
 ## Přehled systému z pohledu administrátora
@@ -62,7 +52,7 @@ Administrátor by měl mít základní přehled o těchto částech systému:
   Integrace s IdP (např. Keycloak) a řízení rolí a oprávnění.
 
 Detailní vysvětlení těchto pojmů najdete v části  
-👉 **[Základní pojmy](../core-concepts/index)**
+👉 **[Základní struktura systemu](../core-concepts/index)**
 
 ---
 
@@ -98,22 +88,20 @@ Detailní technické informace patří do
 
 ---
 
-## Jak pokračovat dál
+## Konfigurace
 
-Po přečtení této stránky doporučujeme následující cestu:
+Jak konfigurovat základní core a integrované služby.
 
-1. **[Základní pojmy](../core-concepts/index)** – vytvoření správného mentálního modelu systému
-2. **[Návody](../guides/admin/index)** – instalace, konfigurace a provoz
-3. **[Scénáře](../scenarios/index)** – reálné situace (např. nasazení nové instance, integrace knihovny)
-4. **[Reference](../reference/index)** – detailní technické informace a konfigurace
+Detailní technické informace patří do  
+👉 **[Konfigurace](../configuration)**
 
 ---
 
-## Co tato stránka nepokrývá
+## Navazujici dokumentace
 
-Tato stránka:
-- neobsahuje detailní instalační postupy
-- neřeší správu obsahu a sbírek
-- nenahrazuje detailní dokumentaci jednotlivých komponent
-
-Slouží jako **stabilní vstupní bod do dokumentace pro roli administrátora**.
+- ➡️ [Základní struktura](../core-concepts)
+- ➡️ [Architektura](../architecture)
+- ➡️ [Konfigurace](../configuration)
+- ➡️ [Deployment](../deployment)
+- ➡️ [Reference](../reference)
+- ➡️ [Navody](../guides/admin)
