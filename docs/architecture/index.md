@@ -2,8 +2,6 @@
 
 # 🏗️ Architektura
 
-## Přehled
-
 Tato část dokumentace popisuje systémovou architekturu Krameria:
 
 - hlavní komponenty
@@ -12,40 +10,12 @@ Tato část dokumentace popisuje systémovou architekturu Krameria:
 - integrační vrstvy
 - runtime vztahy mezi službami
 
-Architektura zahrnuje:
-
-- hlavní runtime komponenty
-- komunikační toky
-- integrační vrstvy
-- processing pipeline
-- storage model
-- bezpečnostní architekturu
-- search infrastrukturu
-
 Cílem této části není detailní konfigurace jednotlivých komponent, ale pochopení:
 
 - jak jsou části systému propojeny
 - jaké mají odpovědnosti
 - jak probíhá zpracování dat
 - jaké jsou hlavní architektonické principy
-
----
-
-## Architektonické vrstvy
-
-Kramerius je modulární distribuovaný systém složený z několika hlavních vrstev.
-
-| Vrstva      | Odpovědnost              |
-|-------------|--------------------------|
-| Core        | REST API, integrator     |
-| UI          | Reader a Admin aplikace  |
-| API         | hlavní aplikační backend |
-| Security    | autentizace a autorizace |
-| Search      | indexace a vyhledávání   |
-| Processing  | background processing    |
-| Storage     | digitální repository     |
-| Media       | image a audio služby     |
-| Persistence | PostgreSQL databáze      |
 
 ---
 
@@ -69,8 +39,6 @@ Systém typicky obsahuje následující komponenty:
 
 ---
 
-### Schema komponent
-
 Kramerius Core je **WAR soubor**, který běží typicky v aplikačním serveru **Tomcat**. Aplikace využívá několik externích a interních modulů pro správu dat, vyhledávání, autentizaci a orchestrace procesů.
 
 ![Architecture](assets/core-components.png)
@@ -93,6 +61,32 @@ flowchart TB
   UIClients --> KrameriusWAR["Kramerius WAR"]
   UIClients --> Keycloak["Keycloak\n(authentication)"]
 ```
+
+## Dílčí pohledy
+
+- [Kramerius Core](core/)
+- [Vyhledávání](search/)
+- [Asynchronní procesy](process-platform/)
+- [Zabezpečení](security/)
+- [ČDK](cdk)
+
+---
+
+## Architektonické vrstvy
+
+Kramerius je modulární distribuovaný systém složený z několika hlavních vrstev.
+
+| Vrstva      | Odpovědnost              |
+|-------------|--------------------------|
+| Core        | REST API, integrator     |
+| UI          | Reader a Admin aplikace  |
+| API         | hlavní aplikační backend |
+| Security    | autentizace a autorizace |
+| Search      | indexace a vyhledávání   |
+| Processing  | background processing    |
+| Storage     | digitální repository     |
+| Media       | image a audio služby     |
+| Persistence | PostgreSQL databáze      |
 
 ---
 
@@ -225,20 +219,6 @@ Process Manager
 Worker
 ↓
 Repository / Search / Storage
-
----
-
-## Dokumentace architektury
-
-Další části dokumentace architektury popisují detailnější pohledy na casti systému.
-
-Typické architektonické pohledy:
-
-- [Core](core/)
-- [Search](search/)
-- [Process platform](process-platform/)
-- [Security](security/)
-- [ČDK](cdk)
 
 ---
 
