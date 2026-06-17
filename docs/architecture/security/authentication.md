@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+
 # Autentizace
 
 Autentizace v Krameriovi je založena na standardech OAuth 2.0 a OpenID Connect.

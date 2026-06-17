@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)
+
 # Process Platform
 
 Processing v Krameriu se skládá z:

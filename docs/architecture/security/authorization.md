@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+
 # Autorizace
 
 Autorizace rozhoduje, zda může uživatel provést požadovanou operaci.

@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+
 ## Práva
 
 Koncept práv. Všechny informace o právech, licencích, dodatečných podmínkách jsou ukládány v servisní databázi Postgres SQL a situaci nejlépe vystihuje následující diagram:

@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)
+
 # 🔐 Zabezpečení
 
 Bezpečnostní model Krameria je rozdělen na dvě samostatné části:

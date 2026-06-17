@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)
+
 # Vyhledavani
 
 TODO

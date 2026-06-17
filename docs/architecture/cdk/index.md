@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture) 
+
 # CDK
 
 Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.

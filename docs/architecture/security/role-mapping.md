@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+
 # Mapování rolí
 
 Role jsou spravovány v externím Identity Provideru.

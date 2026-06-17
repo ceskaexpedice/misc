@@ -1,3 +1,5 @@
+[Index](../../index) / [Architektura](../../architecture)
+
 # Kramerius Core
 
 ## Přehled
