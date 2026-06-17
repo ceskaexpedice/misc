@@ -15,46 +15,6 @@ Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavu
 
 ---
 
-## Jak číst tuto kapitolu
-
-Pro správnou orientaci:
-
-- Pokud nastavujete **chování celeho Krameria** → sekce *Konfigurace Kramerius Core*
-- Pokud nastavujete **externí služby** → sekce *Konfigurace integrovaných služeb*
-- Pokud hledáte detailní technické chování systému → kapitola *[Reference](../reference)*
-- Pokud řešíte nasazení → kapitola *[Deployment](../deployment)*
-
----
-
-## Konfigurační strategie a hierarchie
-
-Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
-
-1. **Výchozí hodnoty (Defaults)**  
-   Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker image.
-
-2. **Globální / instalační konfigurace**  
-   Společná nastavení pro celé nasazení (např. URL adresy, databáze, připojení ke službám) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí.
-
-3. **Detailní konfigurace komponent**  
-   Specifické chování jednotlivých modulů nebo integrovaných služeb (např. Solr schema, Keycloak role) se konfiguruje v jejich vlastních konfiguračních souborech.
-
----
-
-## Přehled konfiguračních oblastí
-
-| Komponenta              | Kategorie                 | Popis |
-|:------------------------|:--------------------------|:------|
-| **Kramerius Core**      | Aplikace Kramerius        | Hlavní konfigurační parametry systému (`configuration.properties`, ENV proměnné) |
-| **Process Platform**    | Integrovaná služba        | Konfigurace asynchronního zpracování úloh |
-| **Web Client**          | Aplikace Kramerius        | Konfigurace frontend klienta |
-| **Docker Compose**      | Infrastruktura            | `.env` a `docker-compose.yml` |
-| **Search (SOLR)**       | Integrovaná služba (cizi) | Schémata, analyzéry, indexační konfigurace |
-| **Security (Keycloak)** | Integrovaná služba        | Realm, klienti, role a mapování oprávnění |
-| **Akubra**              | Integrovaná služba        | Repository a úložiště digitálních objektů |
-| **IIIF Image Server**   | Integrovaná služba (cizi) | Konfigurace generování a cachování obrazů |
-
----
 
 ## Konfigurace Kramerius Core
 
@@ -88,13 +48,13 @@ Tato část popisuje konfiguraci externích systémů, které Kramerius využív
 
 Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dokumentaci.
 
-### [Search (Solr)](search)
+### [Vyhledávání](search)
 - definice indexů
 - analyzéry
 - schema
 - boostování a relevance
 
-### [Security (Keycloak)](security)
+### [Zabezpečení](security)
 - realm konfigurace
 - klienti
 - role a oprávnění
@@ -108,7 +68,7 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 ### [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 - asynchronni ulohy
 
-### [Distribuovane zamky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
+### [Distribuované zámky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
 - synchronizace
 
 ### IIIF Image Server
@@ -126,6 +86,36 @@ Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose
 ### Soubor `.env` (Příklad a šablona)
 
 Zde udržujte seznam pouze těch proměnných, které **musí** administrátor před spuštěním změnit (tzv. "Základní setup").
+
+---
+
+## Konfigurační strategie a hierarchie
+
+Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu konfigurace je:
+
+1. **Výchozí hodnoty (Defaults)**  
+   Jsou zabaleny přímo v aplikaci (`.war` soubory) nebo definovány v Docker image.
+
+2. **Globální / instalační konfigurace**  
+   Společná nastavení pro celé nasazení (např. URL adresy, databáze, připojení ke službám) jsou řízena na úrovni **Docker Compose** pomocí proměnných prostředí.
+
+3. **Detailní konfigurace komponent**  
+   Specifické chování jednotlivých modulů nebo integrovaných služeb (např. Solr schema, Keycloak role) se konfiguruje v jejich vlastních konfiguračních souborech.
+
+---
+
+## Přehled konfiguračních oblastí
+
+| Komponenta              | Kategorie                 | Popis |
+|:------------------------|:--------------------------|:------|
+| **Kramerius Core**      | Aplikace Kramerius        | Hlavní konfigurační parametry systému (`configuration.properties`, ENV proměnné) |
+| **Process Platform**    | Integrovaná služba        | Konfigurace asynchronního zpracování úloh |
+| **Web Client**          | Aplikace Kramerius        | Konfigurace frontend klienta |
+| **Docker Compose**      | Infrastruktura            | `.env` a `docker-compose.yml` |
+| **Search (SOLR)**       | Integrovaná služba (cizi) | Schémata, analyzéry, indexační konfigurace |
+| **Security (Keycloak)** | Integrovaná služba        | Realm, klienti, role a mapování oprávnění |
+| **Akubra**              | Integrovaná služba        | Repository a úložiště digitálních objektů |
+| **IIIF Image Server**   | Integrovaná služba (cizi) | Konfigurace generování a cachování obrazů |
 
 ---
 
