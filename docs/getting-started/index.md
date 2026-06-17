@@ -15,8 +15,6 @@ Pro uživatele, kteří:
 
 👉 **[Začínáme – Kurátor](curator)**
 
----
-
 ### 🛠 Administrátor
 Pro IT a systémové správce, kteří:
 - instalují a provozují Kramerius
@@ -24,8 +22,6 @@ Pro IT a systémové správce, kteří:
 - řeší bezpečnost, monitoring, aktualizace a zálohování
 
 👉 **[Začínáme – Administrátor](admin)**
-
----
 
 ### 👨‍💻 Vývojář / Integrátor
 Pro vývojáře, kteří:
@@ -37,35 +33,9 @@ Pro vývojáře, kteří:
 
 ---
 
-## Jak pokračovat dál
+## Navazujici dokumentace
 
-Po přečtení "Začínáme" pro vaši roli obvykle pokračujete do těchto částí dokumentace:
+- ➡️ [Domenove pojmy](../domain-concepts)
+- ➡️ [Zakladni struktura systemu](../core-concepts)
+- ➡️ [Navody](../guides)
 
-- **Základní pojmy**  
-  Základní pojmy a principy systému (repository, procesy, bezpečnost).  
-  👉 [Základní pojmy](../core-concepts/index)
-
-- **Architektura**  
-  Jak jsou části systému organizované a jak spolu spolupracují.  
-  👉 [Architektura](../architecture/index)
-
-- **Návody**  
-  Praktické návody zaměřené na konkrétní úkoly a oblasti.  
-  👉 [Návody](../guides/index)
-
-- **Scénáře**  
-  Ucelené návody pro reálné situace napříč celým systémem.  
-  👉 [Scénáře](../scenarios/index)
-
-- **Reference**  
-  Detailní technická dokumentace a přesné specifikace.  
-  👉 [Reference](../reference/index)
-
----
-
-## Nejste si jistí rolí?
-
-Pokud si nejste jisti, jaká role je pro vás vhodná, doporučujeme začít zde:
-
-👉 **[Základní pojmy](../core-concepts/index)**  
-Získáte základní přehled o tom, jak Kramerius funguje a z jakých částí se skládá.

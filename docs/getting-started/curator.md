@@ -1,6 +1,6 @@
 [Index](../index) / [Začínáme](../getting-started)
 
-# Začínáme – Kurátor / Knihovník
+# 🧑‍🏫 Začínáme – Kurátor / Knihovník
 
 Tato stránka slouží jako **vstupní rozcestník pro kurátory a odborné pracovníky knihoven**, kteří pracují se systémem Kramerius z pohledu **správy obsahu a procesů**.
 
@@ -17,13 +17,11 @@ Kurátor v Krameriovi typicky zodpovídá za:
 - nastavování **přístupových práv** k obsahu
 - spouštění a dohled nad procesy (např. importy, hromadné operace)
 
-> Tato stránka slouží jako rozcestník a checklist, nikoli jako detailní návod.
-
 
 ## Návody
 Zde jsou návody, jak v systému provést dílčí úkol
 
-➡️ Viz **[Návody](../guides/curator)**.
+➡️ **[Návody](../guides/curator)**.
 
 ---
 
@@ -35,22 +33,17 @@ Hlavní pracovní nástroj kurátora:
 - práce s procesy
 - správa přístupových práv
 
-➡️ Viz **[Admin klient](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)**.
+➡️ **[Admin klient](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)**.
 
 ### Web Client
 TODO
 
-➡️ Viz **[Web klient](https://github.com/ceskaexpedice/kramerius-web-client/wiki)**.
+➡️ **[Web klient](https://github.com/ceskaexpedice/kramerius-web-client/wiki)**.
 
 ---
 
-## Jak pokračovat dál
+## Navazujici dokumentace
 
-Pro detailnější informace pokračujte do těchto částí dokumentace:
-
-1. **[Základní pojmy](../core-concepts/index)** – vytvoření správného mentálního modelu systému
-2. **[Návody](../guides/curator/index)** – instalace, konfigurace a provoz
-3. **[Scénáře](../scenarios/index)** – reálné situace (např. nasazení nové instance, integrace knihovny)
-4. **[Reference](../reference/index)** – detailní technické informace a konfigurace
-
+- ➡️ [Doménové pojmy](../domain-concepts)
+- ➡️ [Navody](../guides/curator)
 

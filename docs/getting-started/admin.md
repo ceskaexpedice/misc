@@ -1,6 +1,6 @@
 [Index](../index) / [Začínáme](../getting-started)
 
-# Zaciname – Administrátor
+# 🛠 Zaciname – Administrátor
 
 Tato stránka je určena jako **vstupní rozcestník pro systémové administrátory a IT pracovníky**, kteří zajišťují instalaci, konfiguraci a provoz platformy Kramerius.
 
