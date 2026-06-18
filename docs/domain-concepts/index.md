@@ -1,4 +1,6 @@
-# 📚 Domain concepts (kurátorský slovník)
+[Index](../index)
+
+# 📚 Doménové pojmy (kurátorský slovník)
 
 Tato sekce obsahuje vysvětlení pojmů, se kterými pracují kurátoři při správě digitálních dokumentů v systému Kramerius.
 
@@ -19,10 +21,6 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 - [Import](import.md)
 - [Identifikátor PID](identifier/pid)
 
-###  K
-
-- [Sbírka](collection)
-
 ### M
 
 - [Metadata](metadata)
@@ -37,7 +35,11 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 - [PID](identifier/pid)
 - [Proces](process)
 
-### S
+###  S
+
+- [Sbírka](collection)
+
+### V
 
 - [Vyhledávání](search)
 

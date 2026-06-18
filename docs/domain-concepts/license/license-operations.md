@@ -1,3 +1,5 @@
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+
 Objektům v repozitáři může být přiřazena jedna nebo více licencí. Příkladem licence je _DNNT_ nebo _public domain_.
 Licence, v kombinaci s dalším nastavením, umožňuje vykonávání akcí nad určenými objekty. Typickou akcí je zobrazení plných stránek.
 

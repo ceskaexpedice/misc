@@ -1,4 +1,6 @@
-## Licence 
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)
+
+# Licence 
 
 Od verze [7.0.26](https://github.com/ceskaexpedice/kramerius/releases/tag/v7.0.26) přináší Kramerius rozdílné typy licencí, a to `Globální licence` a `Lokální licence`. Globální licence jsou dostupné ve všech instancích Krameria a mají platnost na globální úrovni. (V České republice nebo případně na Slovensku).  Lokální licence jsou platné pouze pro konkrétní instituci, ve které jsou používány.
 

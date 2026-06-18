@@ -1,3 +1,5 @@
+[Index](../index) / [Doménové pojmy](../domain-concepts)
+
 # Metadata
 
 Každý objekt obsahuje metadata popisující jeho obsah.

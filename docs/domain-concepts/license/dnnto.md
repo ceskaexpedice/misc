@@ -1,4 +1,6 @@
-### Text k licenci DNNT-O pro použití v Krameriovi:
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+
+# Text k licenci DNNT-O pro použití v Krameriovi:
 
 V textu je potřeba změnit odkaz na příslušnou přihlašovací stránku dané instituce.
 

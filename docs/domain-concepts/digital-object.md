@@ -1,3 +1,5 @@
+[Index](../index) / [Doménové pojmy](../domain-concepts)
+
 # Digitální objekt
 
 Základní jednotkou systému je digitální objekt.

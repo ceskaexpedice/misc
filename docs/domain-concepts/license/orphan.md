@@ -1,4 +1,6 @@
-### Text k licenci pro osiřelá díla pro použití v Krameriovi:
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+
+# Text k licenci pro osiřelá díla pro použití v Krameriovi:
 
 V textu je potřeba změnit kontaktní email.
 

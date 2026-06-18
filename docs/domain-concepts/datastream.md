@@ -1,3 +1,5 @@
+[Index](../index) / [Doménové pojmy](../domain-concepts)
+
 # Datastreamy
 
 Kromě metadat obsahují objekty také datastreamy.

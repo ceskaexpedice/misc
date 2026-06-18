@@ -1,3 +1,5 @@
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)
+
 # PID
 
 Každý digitální objekt má jednoznačný identifikátor označovaný jako PID (Persistent Identifier).

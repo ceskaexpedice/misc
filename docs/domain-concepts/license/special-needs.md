@@ -1,4 +1,6 @@
-### Text pro licenci pro osoby se speciálními potřebami:
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+
+# Text pro licenci pro osoby se speciálními potřebami:
 
 
 ***

@@ -1,4 +1,6 @@
-### Text pro neveřejné dokumenty pro použití v Krameriovi:
+[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+
+# Text pro neveřejné dokumenty pro použití v Krameriovi:
 `takto` označené pasáže je třeba upravit podle potřeb konkrétní knihovny
 ***
 # Dokument není veřejně přístupný
