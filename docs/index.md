@@ -2,52 +2,98 @@
 
 Vítejte v dokumentaci systému **Kramerius**.
 
-Kramerius je modulární platforma pro správu, dlouhodobé ukládání a zpřístupnění digitálních knihovních dokumentů.
+Kramerius je modulární platforma pro správu, ukládání a zpřístupnění digitálních knihovních dokumentů.
 
 ---
 
-## 🚀 Začínáme
+## 🎯 Co chcete dělat?
 
-Nevíte, kde začít?
+Vyberte si oblast podle své role a cíle.
 
-Vyberte si oblast podle své role a úkolu:
+---
 
-👉 👤 **[Začínáme](getting-started/index)**  
-Rychlá orientace v systému pro kurátory, administrátory i vývojáře.
+## 👤 Kurátor / práce s dokumenty
+
+Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
+
+👉 🛠️ **[Návody pro kurátory](guides/curator/index)**
+- import dokumentů
+- indexace
+- práce se sbírkami
+- sledování procesů
+
+👉 🧠 **[Doménové pojmy](domain-concepts/index)**
+- dokument
+- metadata
+- sbírka
+- licence
+- import
+
+👉 🎯 **[Scénáře](scenarios/index)**
+- zapojeni do SDNNT
+
+---
+
+## ⚙️ Administrátor / provoz systému
+
+Správa systému, procesů a konfigurace.
+
+👉 🛠️ **[Návody pro administrátora](guides/admin/index)**
+- monitoring procesů
+- správa běžících úloh
+- konfigurace systému
+
+👉 ⚙️ **[Konfigurace](configuration/index)**
+- nastavení Krameria
+- indexace
+- storage a úložiště
+
+👉 🚢 **[Deployment](deployment/index)**
+- nasazení systému
+- runtime prostředí
+- Tomcat / služby
+
+---
+
+## 👨‍💻 Vývojář / integrace
+
+Integrace, API a interní fungování systému.
+
+👉 📖 **[Reference](reference/index)**
+- REST API
+- datové modely
+- formáty (FOXML, METS)
+
+👉 ⚙️ **[Technické koncepty](core-concepts/index)**
+- Akubra
+- procesní platforma
+- indexace
+- security model
+
+👉 🧩 **[Architektura](architecture/index)**
+- komponenty systému
+- vazby mezi moduly
 
 ---
 
 ## 🧭 Jak se v dokumentaci orientovat
 
-Dokumentace je rozdělena do několika pohledů na systém:
+Pokud si nejste jistí:
 
-👉 🧠 **[Doménové pojmy](domain-concepts/index)**  
-Co znamenají věci v praxi (dokument, sbírka, import, metadata).
-
-👉 ⚙️ **[Technické koncepty](core-concepts/index)**  
-Jak systém funguje uvnitř (procesy, Akubra, indexace, API).
-
-👉 🛠️ **[Návody](guides/index)**  
-Postupy krok za krokem pro běžné úkoly.
-
-👉 🎯 **[Scénáře](scenarios/index)**  
-Řešení reálných situací v provozu.
+- 👤 práce s dokumenty → Kurátor
+- ⚙️ provoz systému → Administrátor
+- 👨‍💻 integrace / vývoj → Vývojář
 
 ---
 
-## 🏗️ Technická dokumentace
+## 🔎 Alternativní vstupy
 
-👉 🧩 **[Architektura](architecture/index)**  
-Jak jsou části systému propojené.
+Pokud víte, co hledáte:
 
-👉 📖 **[Reference](reference/index)**  
-Detailní specifikace API, formátů a komponent.
-
-👉 ⚙️ **[Konfigurace](configuration/index)**  
-Nastavení systému a jeho částí.
-
-👉 🚢 **[Deployment](deployment/index)**  
-Nasazení a provoz systému.
+- 📚 [Doménové pojmy](domain-concepts/index)
+- ⚙️ [Technické koncepty](core-concepts/index)
+- 🛠️ [Návody](guides/index)
+- 📖 [Reference](reference/index)
 
 ---
 
@@ -61,27 +107,16 @@ Používá se pro:
 - mapy, hudebniny a archivní materiály
 - born-digital dokumenty
 
-### Klíčové vlastnosti systému
+Klíčové vlastnosti:
 
 - dlouhodobé úložiště digitálních objektů (Akubra)
 - indexace a vyhledávání (Solr)
 - řízení importních a dávkových procesů
 - správa přístupových práv
-- REST API pro integrace
-- klientské aplikace (admin + čtenář)
+- REST API
+- klientské aplikace (administrace + čtení)
 
 Jádro systému běží jako Java aplikace v Tomcatu a tvoří integrační vrstvu nad jednotlivými komponentami.
-
----
-
-## 📌 Jak dokumentaci používat
-
-- 👤 **Jsem nový uživatel** → Začínám v *Začínáme*
-- 📚 **Chci chápat pojmy** → Doménové + technické koncepty
-- 🛠️ **Chci něco udělat** → Návody
-- 🎯 **Řeším situaci v praxi** → Scénáře
-- ⚙️ **Řeším systém** → Konfigurace / Deployment
-- 📖 **Hledám detail** → Reference
 
 ---
 
@@ -89,4 +124,8 @@ Jádro systému běží jako Java aplikace v Tomcatu a tvoří integrační vrst
 
 Dokumentace se vyvíjí spolu se systémem Kramerius.
 
-Struktura je navržena tak, aby zůstala stabilní, i když se jednotlivé části systému rozšiřují nebo mění.
+Struktura je navržena tak, aby:
+
+- byla stabilní v čase
+- podporovala různé role uživatelů
+- umožňovala rozšiřování systému bez redesignu dokumentace  
