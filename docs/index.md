@@ -1,106 +1,92 @@
-# Kramerius – Dokumentace
+# 📚 Kramerius – Dokumentace
 
-Vítejte v dokumentaci systému **Kramerius** – modulární platformy pro správu a zpřístupnění digitálních knihovních sbírek.
+Vítejte v dokumentaci systému **Kramerius**.
+
+Kramerius je modulární platforma pro správu, dlouhodobé ukládání a zpřístupnění digitálních knihovních dokumentů.
+
+---
 
 ## 🚀 Začínáme
 
-Nevíte, kde začít?  
-Zvolte si svou roli a projděte základní orientaci v systému
+Nevíte, kde začít?
 
-👉 **[Začínáme](getting-started/index.md)**  
-*(Kurátor / Administrátor / Vývojář)*
+Vyberte si oblast podle své role a úkolu:
 
----
-
-## 📚 Základní pohled
-
-Co znamenají pojmy v Krameriu z pohledu uživatele i systému.
-
-👉 **[Doménové pojmy](domain-concepts/index)**  
-Vysvětlení pojmů tak, jak se používají při práci se systémem (např. dokument, sbírka, import, metadata).
-
-👉 **[Základní koncepty](core-concepts/index)**  
-Akubra, procesy, indexace, API, zabezpeceni, ...
+👉 👤 **[Začínáme](getting-started/index)**  
+Rychlá orientace v systému pro kurátory, administrátory i vývojáře.
 
 ---
 
-## 🛠️ Návody
-Jak udělat konkrétní úkol
+## 🧭 Jak se v dokumentaci orientovat
 
-👉 **[Návody](guides/index)**
+Dokumentace je rozdělena do několika pohledů na systém:
 
----
+👉 🧠 **[Doménové pojmy](domain-concepts/index)**  
+Co znamenají věci v praxi (dokument, sbírka, import, metadata).
 
-## 🎯 Scénáře
-Use cases pro reálné situace
+👉 ⚙️ **[Technické koncepty](core-concepts/index)**  
+Jak systém funguje uvnitř (procesy, Akubra, indexace, API).
 
+👉 🛠️ **[Návody](guides/index)**  
+Postupy krok za krokem pro běžné úkoly.
 
-👉 **[Scénáře](scenarios/index)**
-
----
-
-## 🏗️ Architektura
-Jak jsou části systému organizované a jak spolupracují
-
-👉 **[Architektura](architecture/index)**
+👉 🎯 **[Scénáře](scenarios/index)**  
+Řešení reálných situací v provozu.
 
 ---
 
-## 📖 Reference
-Jak přesně fungují komponenty
+## 🏗️ Technická dokumentace
 
-👉 **[Reference](reference/index)**
+👉 🧩 **[Architektura](architecture/index)**  
+Jak jsou části systému propojené.
 
----
+👉 📖 **[Reference](reference/index)**  
+Detailní specifikace API, formátů a komponent.
 
-## ⚙️ Konfigurace
-Jak se systém nastavuje
+👉 ⚙️ **[Konfigurace](configuration/index)**  
+Nastavení systému a jeho částí.
 
-👉 **[Konfigurace](configuration/index)**
-
----
-
-## 🚢 Deployment
-jak systém běží v infrastruktuře
-
-👉 **[Deployment](deployment/index)**
+👉 🚢 **[Deployment](deployment/index)**  
+Nasazení a provoz systému.
 
 ---
 
+## 🧩 Co je Kramerius
 
-## Jak dokumentaci používat
+Kramerius je open-source systém pro správu a zpřístupnění digitálních knihovních sbírek.
 
-- **Noví uživatelé** → Začínáme
-- **Porozumění systému** → Základní pojmy, Architektura
-- **Konkrétní úkol** → Návody
-- **Reálný problém** → Scénáře
-- **Technické detaily** → Reference 
-- **Nasazení, konfigurace** → Deployment, Konfigurace
+Používá se pro:
 
----
+- digitalizované knihy a periodika
+- mapy, hudebniny a archivní materiály
+- born-digital dokumenty
 
-## Co je Kramerius
+### Klíčové vlastnosti systému
 
-Kramerius je systém pro:
-- správu digitálních dokumentů a metadat
-- dlouhodobé ukládání digitálních objektů (Akubra / Fedora)
-- indexaci a vyhledávání (Solr)
-- řízení importních a hromadných procesů
-- správu přístupových práv a bezpečnosti
+- dlouhodobé úložiště digitálních objektů (Akubra)
+- indexace a vyhledávání (Solr)
+- řízení importních a dávkových procesů
+- správa přístupových práv
+- REST API pro integrace
+- klientské aplikace (admin + čtenář)
 
-Jádro systému běží jako **Java aplikace v Tomcatu** a poskytuje **REST API**.  
-Nad jádrem existují samostatné klientské aplikace (Čtenářský a Admin klient) a navazující moduly.
-
-Kramerius je open source sw řešení pro zpřístupnění digitálních dokumentů. Primárně je určen pro digitalizované knihovní sbírky, monografie a periodika.
-Využit může být ke zpřístupnění dalších typů dokumentů např. map, hudebnin a starých tisků, kronik, případně částí dokumentů jako jsou články a kapitoly.
-Systém je vhodný také pro digital born dokumenty, tedy dokumenty, které vznikly v elektronické podobě. Kramerius je průběžně upravován tak, aby struktura metadat odpovídala standardům vyhlašovaným Národní knihovnou České republiky.
-Systém poskytuje rozhraní pro přístup koncových uživatelů, zajišťující vyhledávání v metadatech a v plných textech, generování vícestránkových PDF dokumentů z vybraných stran,
-vytváření virtuálních sbírek a další operace nad uloženou sbírkou digitálních dokumentů.
-Využívá úložiště Akubra a nové schéma indexu vyhledávacího systému SOLR. Klientské prostředí zahrnuje uživatelského klienta a administrátorského určeného na správu systému.
+Jádro systému běží jako Java aplikace v Tomcatu a tvoří integrační vrstvu nad jednotlivými komponentami.
 
 ---
 
-## Přispívání a vývoj dokumentace
+## 📌 Jak dokumentaci používat
 
-Dokumentace se vyvíjí spolu se systémem Kramerius.  
-Jednotlivé části se mohou zpřesňovat, ale základní struktura zůstává stabilní.
+- 👤 **Jsem nový uživatel** → Začínám v *Začínáme*
+- 📚 **Chci chápat pojmy** → Doménové + technické koncepty
+- 🛠️ **Chci něco udělat** → Návody
+- 🎯 **Řeším situaci v praxi** → Scénáře
+- ⚙️ **Řeším systém** → Konfigurace / Deployment
+- 📖 **Hledám detail** → Reference
+
+---
+
+## 🔧 Přispívání
+
+Dokumentace se vyvíjí spolu se systémem Kramerius.
+
+Struktura je navržena tak, aby zůstala stabilní, i když se jednotlivé části systému rozšiřují nebo mění.
