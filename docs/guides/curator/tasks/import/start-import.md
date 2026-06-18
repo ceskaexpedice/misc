@@ -1,3 +1,5 @@
+[Index](../../../../index) / [Návody](../../../../guides/) / [Kurátor](../../../curator/) / [Úlohy](../../../curator/tasks)
+
 # 📥 Spuštění importu
 
 Import načítá digitální data z importního adresáře Krameria.

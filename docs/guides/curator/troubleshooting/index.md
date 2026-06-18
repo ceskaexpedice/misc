@@ -1,3 +1,5 @@
+[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
+
 # 🚨 Řešení problémů (Troubleshooting)
 
 Tato sekce pomáhá řešit problémy, které mohou nastat při práci se systémem Kramerius.

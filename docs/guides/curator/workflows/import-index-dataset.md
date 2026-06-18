@@ -1,3 +1,5 @@
+[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Pracovní postupy](../../curator/workflows) 
+
 # 📦 Zpracování nové dávky (Import + indexace)
 
 Tento workflow popisuje kompletní zpracování nové digitální dávky od jejího importu až po indexaci v systému Kramerius.

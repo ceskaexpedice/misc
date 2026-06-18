@@ -1,3 +1,5 @@
+[Index](../../index) / [Návody](../../guides)
+
 # 🧑‍🏫 Návody pro kurátory
 
 Tato sekce obsahuje praktické návody pro kurátory a správce digitálního obsahu. Zaměřuje se na běžné pracovní činnosti prováděné v systému Kramerius a popisuje jednotlivé postupy krok za krokem.

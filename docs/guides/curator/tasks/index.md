@@ -1,3 +1,5 @@
+[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
+
 # ✅ Jednotlivé úkoly (Tasks)
 
 Tato sekce obsahuje jednotlivé kroky, které provádí kurátor při práci se systémem Kramerius.
