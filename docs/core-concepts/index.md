@@ -1,6 +1,6 @@
 [Index](../index)
 
-# 📚 Hlavní pojmy Krameria
+# 📚 Základní koncepty
 
 Tato část dokumentace vysvětluje hlavní pojmy Krameria. Propojení částí se věnuje [Architektura](../architecture)
 
