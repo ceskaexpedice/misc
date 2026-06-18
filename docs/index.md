@@ -6,9 +6,21 @@ Kramerius je modulární platforma pro správu, ukládání a zpřístupnění d
 
 ---
 
+## 🔍 Hledání v dokumentaci
+
+Najděte odpověď okamžitě pomocí vyhledávání nebo AI asistenta.
+
+```text
+🔎 Hledat v dokumentaci...
+```
+
+> Tip: Můžete hledat „jak importovat dokument“, „co je metadata“, „problém s indexací“ apod.
+
+---
+
 ## 🎯 Co chcete dělat?
 
-Vyberte si oblast podle své role a cíle.
+Vyberte si oblast podle svého cíle.
 
 ---
 
@@ -30,7 +42,7 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 - import
 
 👉 🎯 **[Scénáře](scenarios/index)**
-- zapojeni do SDNNT
+- zapojeni do DNNT
 
 ---
 
@@ -76,17 +88,7 @@ Integrace, API a interní fungování systému.
 
 ---
 
-## 🧭 Jak se v dokumentaci orientovat
-
-Pokud si nejste jistí:
-
-- 👤 práce s dokumenty → Kurátor
-- ⚙️ provoz systému → Administrátor
-- 👨‍💻 integrace / vývoj → Vývojář
-
----
-
-## 🔎 Alternativní vstupy
+## 🧭 Rychlé vstupy
 
 Pokud víte, co hledáte:
 
