@@ -1,4 +1,4 @@
-[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+[Index](../../index) / [Základní koncepty](../../core-concepts)
 
 # Vyhledávání
 
