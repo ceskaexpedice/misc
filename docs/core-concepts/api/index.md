@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
 # REST API
 
 Hlavní způsob komunikace s Krameriem představuje REST API.

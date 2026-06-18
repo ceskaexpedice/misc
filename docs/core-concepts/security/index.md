@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
 # Zabezpečení
 
 Tato dokumentace popisuje **aplikační úroveň zabezpečení** v systému Kramerius.

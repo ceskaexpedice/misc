@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
 # Klientska aplikace
 
 Aplikace určená pro koncové uživatele.

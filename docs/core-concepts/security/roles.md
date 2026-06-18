@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+
 # Role
 
 Role představují skupiny uživatelů se stejnými odpovědnostmi nebo oprávněními.

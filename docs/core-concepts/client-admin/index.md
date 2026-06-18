@@ -1,4 +1,6 @@
-## Klientska aplikace Admin
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
+# Klientska aplikace Admin
 
 Administrativní aplikace určená správcům systému.
 

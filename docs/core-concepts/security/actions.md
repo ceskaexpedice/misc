@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+
 # Akce
 
 Akce představují oprávnění, kterým rozumí systém Kramerius.

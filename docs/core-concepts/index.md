@@ -1,3 +1,5 @@
+[Index](../index)
+
 # 📚 Hlavní pojmy Krameria
 
 Tato část dokumentace vysvětluje hlavní pojmy Krameria. Propojení částí se věnuje [Architektura](../architecture)
@@ -14,7 +16,7 @@ Kramerius Core je centrální aplikační vrstva systému Kramerius, která posk
 Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.
 
 ## [Asynchronni procesy](process-platform/index)
-Asynchronni procesy, framework na sousteni a provadeni procesu
+Asynchronni procesy, framework na spousteni a provadeni procesu
 
 ## [REST API](api/index)
 Veřejné i interní REST API

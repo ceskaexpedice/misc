@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+
 # Autorizace
 
 Autorizace odpovídá na otázku:

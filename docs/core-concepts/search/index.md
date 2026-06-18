@@ -1,4 +1,6 @@
-## Vyhledávání
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
+# Vyhledávání
 
 Pro vyhledávání dokumentů používá Kramerius indexační vrstvu založenou na Apache Solr.
 

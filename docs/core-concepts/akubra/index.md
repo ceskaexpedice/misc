@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts) 
+
 # Akubra
 
 igitální objekty jsou ukládány v repository vrstvě.

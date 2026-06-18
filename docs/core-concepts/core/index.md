@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
 # Kramerius Core
 
 **Kramerius Core je aplikační jádro systému Kramerius implementované jako Java WAR aplikace běžící v aplikačním serveru (typicky Tomcat).**

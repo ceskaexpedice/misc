@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+
 # Podmínky
 
 Podmínky jsou dodatečné požadavky, které musí být splněny před tím, než je akce povolena.

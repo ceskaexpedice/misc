@@ -1,6 +1,8 @@
-# CDK 
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
+# ČDK 
 TODO
 
 ## Navazujici dokumentace
 
-- ➡️ [CDK architekture](../../architecture/cdk/)
+- ➡️ [ČDK reference](../../reference/cdk/)

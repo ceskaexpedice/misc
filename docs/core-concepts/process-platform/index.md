@@ -1,3 +1,5 @@
+[Index](../../index) / [Hlavní pojmy Krameria](../../core-concepts)
+
 # Procesy
 
 Některé operace v systému probíhají asynchronně.
