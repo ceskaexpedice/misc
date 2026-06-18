@@ -31,7 +31,6 @@ Aplikacni zabezpeceni, autentizace, autorizace
 
 ## Navazujici dokumentace
 
-- ➡️ [Zaciname](../getting-started)
 - ➡️ [Architektura](../architecture)
 - ➡️ [Reference](../reference)
 - ➡️ [Konfigurace](../configuration)

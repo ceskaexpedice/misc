@@ -32,4 +32,5 @@ Administrace procesů probíhá prostřednictvím Admin klienta.
 
 ## Navazujici dokumentace
 
+- ➡️ [Architektura](../../architecture/process-platform/)
 - ➡️ [Reference](../../reference/process-platform/)

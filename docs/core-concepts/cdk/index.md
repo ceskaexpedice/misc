@@ -5,4 +5,5 @@ TODO
 
 ## Navazujici dokumentace
 
+- ➡️ [ČDK architektura](../../architecture/cdk/)
 - ➡️ [ČDK reference](../../reference/cdk/)
