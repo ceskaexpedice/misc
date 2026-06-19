@@ -6,21 +6,11 @@ Tato sekce obsahuje jednotlivé kroky, které provádí kurátor při práci se 
 
 Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako součást workflow.
 
----
-
 ## Import a indexace
 
 ### [Spuštění importu](import/start-import)
 
 ### [Spuštění indexace](indexing/start-indexing)
-
----
-
-## Jak používat tuto sekci
-
-- Pokud víte přesně, co chcete udělat → použijte Tasks
-- Pokud provádíte celý proces → použijte Workflows
-- Pokud něco nefunguje → použijte Troubleshooting
 
 ---
 
