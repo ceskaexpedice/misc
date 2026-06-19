@@ -10,15 +10,9 @@ Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako s
 
 ## Import a indexace
 
-### 📥 Spuštění importu
+### [Spuštění importu](import/start-import)
 
-➡️ [Otevřít návod](import/start-import)
-
----
-
-### 🔎 Spuštění indexace
-
-➡️ [Otevřít návod](indexing/start-indexing)
+### [Spuštění indexace](indexing/start-indexing)
 
 ---
 

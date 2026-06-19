@@ -8,29 +8,15 @@ Workflow vždy popisuje **celý proces od začátku do konce**, například impo
 
 ---
 
-## 📦 Zpracování nové dávky (Import + indexace)
-
+### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
 Kompletní proces zpracování nové digitální dávky.
 
-➡️ [Otevřít workflow](import-index-dataset.md)
+### [TODO Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
+Kompletní proces zpracování nové digitální dávky.
 
----
+### [TODO Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
+Kompletní proces zpracování nové digitální dávky.
 
-## 📦 TODO
-
-TODO
-
-➡️ [TODO](import-index-dataset.md)
-
----
-
-## 📦 TODO
-
-TODO
-
-➡️ [TODO](import-index-dataset.md)
-
----
 
 ## Jak používat tuto sekci
 
