@@ -27,18 +27,7 @@ Typicky jde o parametry, které přímo ovlivňují chování systému:
 - nastavení procesní platformy
 - další runtime parametry
 
-[Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/index).
-
-### Důležité konfigurační parametry:
-* 📄 [Obecné](files/configuration-properties) – *Hlavní konfigurační soubor pro chování systému.*
-* 📄 [Akubra](files/configuration-akubra) – *Nastavení repository.*
-* 📄 [Search](files/configuration-solr) – *Nastavení vyhledávání.*
-
-### Způsob přepisování (Override):
-V produkčním prostředí (Docker) nepřepisujeme přímo `.properties` soubory uvnitř kontejneru. Místo toho využíváme mechanismus **předávání proměnných prostředí**, které Tomcat aplikace mapuje na Java vlastnosti, případně montujeme (volume mount) externí soubor:
-
-* **Možnost A (Doporučeno):** Přepis pomocí ENV v `docker-compose.yml` (např. `JDBC_URL=...`).
-* **Možnost B:** Namontování vlastního souboru do cesty `/usr/local/tomcat/conf/configuration.properties`.
+➡️ [Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/index)
 
 ---
 
