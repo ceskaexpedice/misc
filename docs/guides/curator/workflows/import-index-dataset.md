@@ -25,19 +25,13 @@ D --> E[Dokument dostupný ve vyhledávání]
 
 ---
 
-## 1. Import
+## 1. [Import](../tasks/import/start-import)
 
 Import je vstupní krok, který načte data z importního adresáře definovaného v konfiguraci systému.
 
-➡️ [Spustit import](../tasks/import/start-import)
-
----
-
-## 2. Indexace
+## 2. [Indexace](../tasks/indexing/start-indexing)
 
 Po úspěšném importu následuje indexace dat do vyhledávacího systému.
-
-➡️ [Spustit indexaci](../tasks/indexing/start-indexing)
 
 ---
 
