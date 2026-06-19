@@ -1,6 +1,8 @@
-[Index](../index) / [Konfigurace](../../configuration)
+[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/files)
 
 # Configuration Properties
+
+TODO
 
 The primary `configuration.properties` file contains the core runtime configuration of the Kramerius platform.
 
