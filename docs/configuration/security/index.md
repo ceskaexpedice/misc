@@ -1,6 +1,6 @@
 [Index](../index) / [Konfigurace](../../configuration)
 
-# Security Administration Model
+# Zabezpečení konfigurace
 
 Tato část popisuje, jak se bezpečnostní model Krameria nastavuje a spravuje v běžícím systému.
 
@@ -8,7 +8,7 @@ Na rozdíl od technické konfigurace (properties, deployment) jde o **datový mo
 
 ---
 
-## Co je spravováno externě - [Keycloak](keycloak)
+## Co je spravováno externě
 
 - uživatelé
 - role
@@ -16,9 +16,11 @@ Na rozdíl od technické konfigurace (properties, deployment) jde o **datový mo
 
 Kramerius tato data pouze využívá.
 
+➡️ [Keycloak](keycloak)
+
 ---
 
-## Co je spravováno v Krameriu - [Admin aplikace](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)
+## Co je spravováno v Krameriu 
 
 Kramerius obsahuje administrační model pro:
 
@@ -28,46 +30,13 @@ Kramerius obsahuje administrační model pro:
 
 Tato data jsou uložena v databázi.
 
----
-
-## Základní entity
-
-### Role (externí)
-Role pochází z Keycloaku a nejsou v Krameriu definovány.
-
-### Actions (interní)
-Akce jsou pevně definované v kódu Krameria.
-
-### Criteria (interní + konfigurovatelné)
-Kritéria mohou být:
-- pevně implementovaná
-- nebo konfigurovatelná (např. rozsahy IP, licence)
-
-### Rights (DB model)
-Rights definují vztah:
-
-```text
-Role + Action + Criteria
-```
+➡️ [Admin aplikace](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)
 
 ---
 
-## Admin model
+## Navazujici dokumentace
 
-V administrátorském klientovi se nastavuje:
-
-- které role mají přístup k jakým akcím
-- jaká kritéria se k akci vztahují
-
-Výsledkem je záznam v databázi.
-
----
-
-## Životní cyklus konfigurace
-
-1. Role vznikne v Keycloaku
-2. Role se objeví v Krameriu
-3. Administrátor ji namapuje na akce
-4. Přidají se kritéria
-5. Uloží se do DB
-6. Runtime engine je používá při rozhodování
+- ➡️ [Základní pojmy](../core-concepts/security)
+- ➡️ [Architektura](../architecture/security)
+- ➡️ [Reference](../reference/security)
+- ➡️ [Navody](../guides/admin)
