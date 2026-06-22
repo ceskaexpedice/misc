@@ -81,6 +81,11 @@ Hlavní konfigurace se děje skrze Kramerius Core:
 - limity generování
 - zdroje obrazů
 
+### [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
+- hlavní konfigurace
+- úvodní stránka
+- licence
+
 ---
 
 ## Konfigurace v Docker nasazení (Deployment)
