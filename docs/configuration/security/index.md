@@ -1,6 +1,6 @@
 [Index](../index) / [Konfigurace](../../configuration)
 
-# Zabezpečení konfigurace
+# Konfigurace zabezpečení
 
 Tato část popisuje, jak se bezpečnostní model Krameria nastavuje a spravuje v běžícím systému.
 

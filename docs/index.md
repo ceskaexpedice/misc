@@ -37,6 +37,8 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 
 👉 🎯 **[Scénáře](scenarios/index)**
 - zapojeni do DNNT
+- zapojení ČDK
+- Zapojení do statistického modulu
 
 ---
 

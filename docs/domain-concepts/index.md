@@ -10,11 +10,19 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ## 🔤 Slovník pojmů (A–Z)
 
+### C
+
+- [ČDK](cdk)
+
 ### D
 
 - [Datastream](datastream)
 - [Digitální dokument](digital-object)
 - [Dokument](document)
+
+### F
+
+- [Federace](federace)
 
 ### I
 
