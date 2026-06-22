@@ -28,19 +28,14 @@ Kramerius obsahuje administrační model pro:
 - přiřazení kritérií k akcím
 - definici oprávnění (rights)
 
-Tato data jsou uložena v databázi.
+Tato data jsou uložena v databázi. Potřebné informace viz navazující dokumentace na konci stránky.
 
-➡️ [Admin aplikace](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)
+Konfigurace přístupu ke keycloak se děje skrze Kramerius Core:
+➡️ [Keycloak](files/configuration-keycloak)
 
-### Config Keycloak
-Token endpoint
-Klíč	Popis	Výchozí hodnota
-keycloak.tokenurl	URL token endpointu identity providera	odpovídá defaultnímu realmu
-OAuth klient
-Klíč	Popis	Poznámka
-keycloak.clientId	Identifikátor OAuth klienta	musí odpovídat konfiguraci realmu
-keycloak.secret	Client secret	používá se pouze při zapnuté client authentication
-Konfigurační soubor keycloak.json
+### Konfigurační soubor `keycloak.json`
+
+Konfigurace OAuth klienta může být alternativně načítána ze souboru `keycloak.json`.
 
 Soubor keycloak.json definuje propojení Krameria s identity providerem a je uložen v pracovním adresáři Krameria.
 
@@ -75,4 +70,4 @@ V produkčním prostředí je nutné upravit zejména:
 - ➡️ [Základní pojmy](../core-concepts/security)
 - ➡️ [Architektura](../architecture/security)
 - ➡️ [Reference](../reference/security)
-- ➡️ [Navody](../guides/admin)
+- ➡️ [Navody](../guides/admin/security)

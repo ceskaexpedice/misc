@@ -5,6 +5,7 @@
 TODO
 - ➡️ [Akubra](configuration-akubra)
 - ➡️ [Vyhledávání](configuration-solr)
+- ➡️ [keycloak](configuration-keycloak)
 - ➡️ [Ostatní](configuration-properties)
 
 
