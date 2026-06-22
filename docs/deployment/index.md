@@ -36,7 +36,7 @@ Typicky zahrnuje:
 
 Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
 
-➡️ [Instalace On Premise](../guides/admin/installation)
+➡️ [Instalace On Premise](on-premise/installation)
 
 ---
 
