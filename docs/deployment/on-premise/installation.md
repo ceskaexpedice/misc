@@ -1,3 +1,5 @@
+[Index](../../index) / [Deployment](..) / [On Premise](../on-premise)  
+
 # Popis instalace a nastavení K7
 
 Popis instalace a konfigurace systému Kramerius 7 s integrovaným úložištěm Akubra. Instalace předchozí verze Kramerius 5 je popsána [[zde|Instalace verze K5]]

@@ -1,3 +1,5 @@
+[Index](../index)
+
 # 🚢 Deployment
 
 Tato kapitola popisuje **způsoby nasazení (deploymentu) systému Kramerius 7**.  
@@ -34,8 +36,7 @@ Typicky zahrnuje:
 
 Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
 
-➡️ **Návod:**  
-**Guides → On-premise installation**
+➡️ [Instalace On Premise](../guides/admin/installation)
 
 ---
 
@@ -54,8 +55,7 @@ Typicky postačuje:
 - nainstalovaný Docker Compose
 - spuštění celé instance jedním příkazem
 
-➡️ **Návod:**  
-**Guides → Deployment using Docker Compose**
+➡️ [Deployment Docker Compose](../guides/admin/installation)
 
 ---
 
@@ -74,8 +74,7 @@ Je určen především pro:
 - instance s velmi velkým objemem dat
 - provozní týmy se zkušeností s Kubernetes
 
-➡️ **Návod:**  
-**Guides → Kubernetes deployment**
+➡️ [Deployment Kubernetes](../guides/admin/installation)
 
 ---
 

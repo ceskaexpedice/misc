@@ -1,3 +1,5 @@
+[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)  / [Instalace](../installation)
+
 # Instalace
 
 Kramerius lze nasadit několika způsoby:
