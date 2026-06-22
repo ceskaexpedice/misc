@@ -135,7 +135,7 @@ Autentizace je řešena pomocí autentizačního serveru keycloak. Je nutno prov
    * Backchannel logout session required: **ON**
 
 Konfiguraci klienta je nutno exportovat ve formátu Keycloak OIDC JSON (kontextové menu Action -> Download adaptor configs) a uložit do konfiguračního adresáře: 
-```~/.kramerius4/keycloak.json````
+~/.kramerius4/keycloak.json
  
 
 ## Konfigurace datasource
