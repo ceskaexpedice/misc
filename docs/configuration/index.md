@@ -16,7 +16,7 @@ Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavu
 ---
 
 
-## Konfigurace Kramerius Core
+## Kramerius Core
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 Typicky jde o parametry, které přímo ovlivňují chování systému:
@@ -28,6 +28,12 @@ Typicky jde o parametry, které přímo ovlivňují chování systému:
 - další runtime parametry
 
 ➡️ [Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/index)
+
+### Logování
+TODO
+
+### Monitoring
+TODO
 
 ---
 
