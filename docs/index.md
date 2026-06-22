@@ -18,12 +18,6 @@ Najděte odpověď okamžitě pomocí vyhledávání nebo AI asistenta.
 
 ---
 
-## 🎯 Co chcete dělat?
-
-Vyberte si oblast podle svého cíle.
-
----
-
 ## 👤 Kurátor / práce s dokumenty
 
 Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
