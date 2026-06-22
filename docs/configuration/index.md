@@ -43,6 +43,9 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 - schema
 - boostování a relevance
 
+Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
+➡️ [Vyhledávání](files/configuration-solr)
+
 ### [Zabezpečení](security)
 - realm konfigurace
 - klienti
@@ -54,11 +57,18 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 - ukládání digitálních objektů
 - konfigurace persistence
 
+Hlavní konfigurace se děje skrze Kramerius Core:
+➡️ [Akubra konfigurace](files/configuration-akubra)
+
+
 ### [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 - asynchronni ulohy
 
 ### [Distribuované zámky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
 - synchronizace
+
+Hlavní konfigurace se děje skrze Kramerius Core:
+➡️ [Hazelcast konfigurace](files/configuration-akubra)
 
 ### IIIF Image Server
 - cachování obrazů

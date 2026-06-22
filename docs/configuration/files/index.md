@@ -20,10 +20,7 @@ Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `se
 - [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
 ## Důležité konfigurační parametry:
-- ➡️ [Akubra](configuration-akubra)
-- ➡️ [Vyhledávání](configuration-solr)
 - ➡️ [Ostatní](configuration-properties)
-
 
 ## Lokalizace textů
 

@@ -3,6 +3,11 @@
 # Configuration Properties
 
 TODO
+- ➡️ [Akubra](configuration-akubra)
+- ➡️ [Vyhledávání](configuration-solr)
+- ➡️ [Ostatní](configuration-properties)
+
+
 
 The primary `configuration.properties` file contains the core runtime configuration of the Kramerius platform.
 
