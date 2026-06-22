@@ -20,7 +20,7 @@ Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `se
 - [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
 ## Důležité konfigurační parametry:
-- ➡️ [Ostatní](configuration-properties)
+- ➡️ [configuration.properties](configuration-properties)
 
 ## Lokalizace textů
 
