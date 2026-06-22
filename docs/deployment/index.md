@@ -55,7 +55,7 @@ Typicky postačuje:
 - nainstalovaný Docker Compose
 - spuštění celé instance jedním příkazem
 
-➡️ [Deployment Docker Compose](../guides/admin/installation)
+➡️ [Deployment Docker Compose](docker/installation)
 
 ---
 
@@ -74,7 +74,7 @@ Je určen především pro:
 - instance s velmi velkým objemem dat
 - provozní týmy se zkušeností s Kubernetes
 
-➡️ [Deployment Kubernetes](../guides/admin/installation)
+➡️ [Deployment Kubernetes](kubernetes/installation)
 
 ---
 
