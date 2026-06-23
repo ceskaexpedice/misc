@@ -61,7 +61,7 @@ Každý proces:
 - je zabalen jako plugin
 - ovlivňuje repozitář a/nebo odvozená data (např. index)
   
-➡️ **[Přejít na procesy](processes/)**
+➡️ **[Přejít na procesy](plugins/)**
 
 ---
 

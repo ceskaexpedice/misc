@@ -1,6 +1,6 @@
-# Processes
+# Plugins
 
-Procesy představují jednotlivé úlohy vykonávané v rámci Process Platform.
+Pluginy predstavuji obalky nad procesy. Procesy představují jednotlivé úlohy vykonávané v rámci Process Platform.
 
 Každý proces má definovaný vstupní payload, který určuje parametry potřebné pro jeho spuštění. Procesy jsou zpřístupňovány prostřednictvím pluginů jednotlivých workerů.
 

@@ -32,4 +32,4 @@ Viz [Public Worker](public).
 
 ## Související dokumentace
 
-* [Processes](../processes) – kompletní přehled dostupných procesů a jejich payloadů
+* [Processes](../plugins) – kompletní přehled dostupných procesů a jejich payloadů

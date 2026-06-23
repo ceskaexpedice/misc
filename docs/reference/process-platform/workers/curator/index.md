@@ -4,7 +4,7 @@ The Curator Worker provides processes used by curators and administrators.
 
 ## Plugins
 
-### Import
+### [Import](../../plugins/import-foxml)
 
 Processes related to importing digital objects into Kramerius.
 
