@@ -37,9 +37,9 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 
 👉 🎯 **[Scénáře](scenarios/index)**
 - zapojeni do DNNT
-- zapojení ČDK
+- zapojení do ČDK
 - Zapojení do statistického modulu
-- Zapojení knihovny do federace
+- Zapojení do federace
 
 ---
 
