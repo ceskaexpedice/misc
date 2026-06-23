@@ -11,8 +11,8 @@ Návody jsou rozděleny do několika tematických oblastí:
 * [**Installation** – instalace a nasazení jednotlivých komponent](installation)
 * [**Configuration** – konfigurace systému a jeho služeb](configuration)
 * [**Operations** – běžná správa, monitoring a provozní údržba](operations)
-* [**Security** – nastavení autentizace, autorizace a zabezpečení systému](operations)
-* [**Troubleshooting** – diagnostika a řešení nejčastějších problémů](operations)
+* [**Security** – nastavení autentizace, autorizace a zabezpečení systému](security)
+* [**Troubleshooting** – diagnostika a řešení nejčastějších problémů](troubleshooting)
 
 Pokud se systémem začínáte, doporučujeme nejprve projít dokumentaci *Začínáme pro administrátory* a seznámit se se základními pojmy používanými v Krameriu.
 
