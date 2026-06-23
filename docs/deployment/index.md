@@ -36,7 +36,7 @@ Typicky zahrnuje:
 
 Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
 
-➡️ [Instalace On Premise](on-premise/installation)
+➡️ [On Premise](on-premise)
 
 ---
 
@@ -55,7 +55,7 @@ Typicky postačuje:
 - nainstalovaný Docker Compose
 - spuštění celé instance jedním příkazem
 
-➡️ [Deployment Docker Compose](docker/installation)
+➡️ [Docker Compose](docker)
 
 ---
 
@@ -74,7 +74,7 @@ Je určen především pro:
 - instance s velmi velkým objemem dat
 - provozní týmy se zkušeností s Kubernetes
 
-➡️ [Deployment Kubernetes](kubernetes/installation)
+➡️ [Kubernetes](kubernetes)
 
 ---
 

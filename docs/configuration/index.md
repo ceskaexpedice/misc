@@ -76,7 +76,7 @@ Hlavní konfigurace se děje skrze Kramerius Core:
 Hlavní konfigurace se děje skrze Kramerius Core:
 ➡️ [Hazelcast konfigurace](files/configuration-akubra)
 
-### IIIF Image Server
+### [IIIF Image Server](iiif)
 - cachování obrazů
 - limity generování
 - zdroje obrazů

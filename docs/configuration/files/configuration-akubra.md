@@ -23,7 +23,8 @@ Uživatel může ve svém souboru předefinovat libovolnou hodnotu z defaultníh
 | `datastreamStore.pattern` | `##/##` | Struktura podadresářů pro datastreamy. Stejná logika jako u `objectStore.pattern`. |
 | `hazelcast.instance`      | `akubrasync` | Jméno instance Hazelcast pro distribuované zámky, zajišťující synchronizaci paralelních zápisů. |
 | `hazelcast.user`          | `dev` | Uživatelské jméno pro Hazelcast zámky, slouží pro identifikaci instance. |
-| `hazelcast.clientconfig`  |  | |
+| `hazelcast.clientconfig`  |  | Pokud nestačí defaultní konfigurace clusteru Hazelcast, je možné jak server, tak klienty Hazelcast konfigurovat pomocí XML souborů. K tomu slouží property `hazelcast.config` a `hazelcast.clientconfig`, kterými je možné definovat cestu ke konfiguračnímu souboru pro hazelcast server, resp. klient. Soubory mohou být určeny buď absolutní cestou nebo relativně ke konfiguračnímu adresáři `.kramerius4`. Popis obsahu konfiguračních XML souborů najdete v dokumentaci [Hazelcast](https://docs.hazelcast.org/docs/latest/manual/html-single/#understanding-configuration) |
+|
 | `hazelcast.waitTime`      |  | |
 | `hazelcast.leaseTime`     |  | |
 

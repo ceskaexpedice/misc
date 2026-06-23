@@ -1,10 +1,6 @@
+[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)  / [Security](../security)
+
 # Bezpečnost – Návody pro administrátora
-
-## Pro koho je tato stránka
-Tato stránka je určena pro **administrátory**, kteří chtějí správně nastavit bezpečnost Krameria.  
-Pokud nejste administrátor, vraťte se na [Getting Started – Administrátor](../getting-started/admin).
-
----
 
 ## 1. Přihlášení a správa uživatelů
 - Konfigurace připojení k centrálnímu IdP (např. Keycloak)
@@ -12,77 +8,52 @@ Pokud nejste administrátor, vraťte se na [Getting Started – Administrátor](
 - Přiřazování rolí uživatelům
 - Testování přihlášení do UI klientů
 
-> Další detaily v [Reference – Security](../reference/Security)
-
 ---
 
-## 1. Keycloak TODO set up, service account
+## 1. Keycloak set up, service account
+- ➡️ [TODO Keycloak](Keycloak)
+- ➡️ [TODO Keycloak eduid](Keycloak-a-eduID)
+- ➡️ [TODO Keycloak Service Account](KeycloakServiceAccount)
+
+
 Tento návod popisuje základní vývojové nastavení Keycloaku pro použití s Krameriem.
 
 Předpoklady
-
-běžící instance Krameria
-
-Java runtime
-
-lokální vývojové prostředí
+běžící instance Krameria, Java runtime, lokální vývojové prostředí
 
 1. Stažení a spuštění Keycloaku
-
 Stáhněte distribuční balíček Keycloaku a rozbalte jej.
-
 Spusťte server s port offsetem, aby nedošlo ke kolizi s Krameriem:
-
 Keycloak poběží na portu 8083
-
 je povolena možnost nahrání skriptů do realmu
 
 2. Inicializace administrátorského účtu
-
 Po prvním spuštění:
-
 otevřete administrační rozhraní Keycloaku
-
 vytvořte administrátorský účet
-
 přihlaste se do admin konzole
 
 3. Konfigurace realmu a klienta
-
 V administrační konzoli:
-
 vytvořte realm kramerius
-
 vytvořte klient krameriusClient
-
 doporučený typ: public (client authentication disabled)
 
 4. Uživatelé a role
-
 Vytvořte následující role:
-
 common_users
-
 public_users
-
 kramerius_admin
-
 k4_admins
-
 Vytvořte uživatele (např. krameriusAdmin) a přiřaďte jim odpovídající role.
-
 Volitelně lze nakonfigurovat externí identity providery (Shibboleth, Facebook, …).
 
 5. Použití token proxy endpointu
-
 Kramerius poskytuje endpoint pro získání access tokenu:
-
 URL: search/api/auth/token
-
 metoda: POST
 
 V těle požadavku jsou předány přihlašovací údaje uživatele.
-> Další detaily v [Reference – Security](../reference/Security)
 
 ---
 

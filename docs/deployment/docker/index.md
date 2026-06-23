@@ -2,6 +2,9 @@
 
 ## Přehled
 
+- ➡️ [TODO Installation](installation)
+
+
 Kramerius může být nasazen pomocí Docker Compose.
 
 Compose deployment obsahuje kompletní runtime infrastrukturu systému:
