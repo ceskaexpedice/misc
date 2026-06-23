@@ -39,6 +39,7 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 - zapojeni do DNNT
 - zapojení ČDK
 - Zapojení do statistického modulu
+- Zapojení knihovny do federace
 
 ---
 

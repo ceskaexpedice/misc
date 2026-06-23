@@ -8,8 +8,8 @@ Administrátor zajišťuje instalaci, konfiguraci, zabezpečení a každodenní 
 
 Návody jsou rozděleny do několika tematických oblastí:
 
-* [**Installation** – instalace a nasazení jednotlivých komponent](installation)
-* [**Configuration** – konfigurace systému a jeho služeb](configuration)
+* [**Installation** – instalace a nasazení jednotlivých komponent](../../deployment)
+* [**Configuration** – konfigurace systému a jeho služeb](../../configuration)
 * [**Operations** – běžná správa, monitoring a provozní údržba](operations)
 * [**Security** – nastavení autentizace, autorizace a zabezpečení systému](security)
 * [**Troubleshooting** – diagnostika a řešení nejčastějších problémů](troubleshooting)
