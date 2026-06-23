@@ -1,18 +1,18 @@
 # Plugins
 
-Pluginy predstavuji obalky nad procesy. Procesy představují jednotlivé úlohy vykonávané v rámci Process Platform.
+Pluginy predstavuji obalky nad procesy. Procesy představují jednotlivé Kramerius Gradle podprojekty urcene k vykonávani v rámci Process Platform.
 
-Každý proces má definovaný vstupní payload, který určuje parametry potřebné pro jeho spuštění. Procesy jsou zpřístupňovány prostřednictvím pluginů jednotlivých workerů.
+Každý plugin má definovaný vstupní payload, který určuje parametry potřebné pro jeho spuštění. Plugin preda payload po startu svemu procesu
 
-Tato sekce obsahuje referenční dokumentaci všech procesů dodávaných s Krameriem včetně jejich vstupních parametrů.
+Tato sekce obsahuje referenční dokumentaci všech pluginu dodávaných s Krameriem
 
 ## Import
 
-Procesy určené pro import dat do Krameria.
+Pluginy určené pro import dat do Krameria.
 
 * [Import FOXML](import-foxml)
 * [Import NDK METS](import-ndk-mets)
 
-## Další procesy
+## Další pluginy
 
-Další kategorie procesů budou doplněny postupně.
+Další kategorie pluginu budou doplněny postupně.

@@ -70,7 +70,7 @@ Hlavní konfigurace se děje skrze Kramerius Core:
 ### [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 - asynchronni ulohy
 
-- ➡️ [Konfigurace Plugins](../reference/process-platform/plugins)
+➡️ [Konfigurace Plugins](../reference/process-platform/plugins)
 
 
 ### [Distribuované zámky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
