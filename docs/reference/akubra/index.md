@@ -1,14 +1,14 @@
+[Index](../index) / [Reference](..)
+
 # Akubra
 
 Tato sekce obsahuje referenci k modulu **Akubra**, který slouží pro práci s digitálním obsahem a správu repozitářů v rámci systému.
 
 ---
 
-## Hlavní dokumentace
-
 Veškerá detailní technická dokumentace k modulu Akubra je dostupná v jeho oficiální GitHub Wiki:
 
-[Akubra](https://github.com/ceskaexpedice/akubra/wiki)
+## [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
 
 Wiki je primárním zdrojem informací a obsahuje zejména:
 

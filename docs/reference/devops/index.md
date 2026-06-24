@@ -1,3 +1,5 @@
+[Index](../index) / [Reference](..)
+
 # DevOps – build, CI/CD a vývojové nástroje
 
 Tato stránka popisuje technické nástroje a automatizace používané při vývoji, buildu a dodávce systému Kramerius a souvisejících komponent (process platform, workery, backend služby).

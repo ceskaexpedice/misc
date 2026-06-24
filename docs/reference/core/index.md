@@ -1,4 +1,6 @@
-# Kramerius Core – Reference
+[Index](../index) / [Reference](..) 
+
+# Kramerius Core
 
 ## Přehled
 
@@ -96,4 +98,4 @@ API vrací standardizované HTTP status kódy:
 
 Detailní konfigurace Kramerius Core je popsána v kapitole:
 
-👉 [Configuration → Kramerius Core](../../configuration/kramerius-core/)
+👉 [Configuration → Kramerius Core](../../configuration/files/)

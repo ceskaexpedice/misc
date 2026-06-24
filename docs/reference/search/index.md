@@ -1,3 +1,5 @@
+[Index](../index) / [Reference](..)
+
 # Indexing subsystémy
 
 Kramerius používá několik nezávislých indexačních subsystémů, které pokrývají různé části systému:

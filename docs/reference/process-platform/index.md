@@ -1,3 +1,5 @@
+[Index](../index) / [Reference](..)
+
 # Zpracování (Processing)
 
 Subsystém Processing je zodpovědný za asynchronní vykonávání systémových operací, jako je indexace, import a údržbové úlohy.
@@ -6,8 +8,7 @@ Je postaven nad externí platformou Process Platform (PCP), která poskytuje inf
 
 Kramerius nad touto platformou definuje vlastní procesy a workery.
 
-Viz:
-[Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
+Viz:[Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 
 Processing zajišťuje:
 
