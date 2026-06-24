@@ -73,6 +73,9 @@ Vlastní aplikační logika Krameria.
 
 Každá chráněná operace deklaruje požadovanou akci, kterou musí uživatel splňovat.
 
+### ČDK
+TODO
+
 ## Související kapitoly
 
 - [Autentizace](authentication)

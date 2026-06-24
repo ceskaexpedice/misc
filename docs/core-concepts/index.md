@@ -14,20 +14,20 @@ Kramerius Core je centrální aplikační vrstva systému Kramerius, která posk
 ### [Úložiště dokumentů Akubra](akubra/index)
 Digitalni dokumenty, metadata, sbirky
 
-### [ČDK](cdk/index)
-Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.
-
-### [Asynchronni procesy](process-platform/index)
-Asynchronni procesy, framework na spousteni a provadeni procesu
-
-### [REST API](api/index)
-Veřejné i interní REST API
-
 ### [Vyhledávání](search/index)
 Indexace dat, dotazovací API, fulltextového vyhledávání.
 
 ### [Zabezpečení](security/index)
 Aplikacni zabezpeceni, autentizace, autorizace
+
+### [Asynchronni procesy](process-platform/index)
+Asynchronni procesy, framework na spousteni a provadeni procesu
+
+### [ČDK](cdk/index)
+Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.
+
+### [REST API](api/index)
+Veřejné i interní REST API
 
 ## Komu Kramerius Core slouží
 

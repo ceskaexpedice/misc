@@ -1,57 +1,54 @@
+[Index](../index)
+
 # 📖 Reference
 
 Tato kapitola obsahuje technickou referenci jednotlivých částí systému. Každá podkapitola popisuje konkrétní modul, jeho rozhraní, konfiguraci a způsob použití.
-# Reference
-
-Reference obsahuje technický popis systému Kramerius z hlediska jeho chování a provozu.
-
-Slouží dvěma hlavním skupinám uživatelů:
-
-- **vývojáři**, kteří potřebují znát technické chování API a interních komponent
-- **administrátoři a provozovatelé**, kteří potřebují informace pro provoz systému
 
 ---
 
-
-## System
-
-### [Core](core/index)
-TODO.
-
-### [Akubra](akubra/index)
-Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
-
-### [API](api/index)
+## [REST API](api/index)
 Dokumentace veřejného i interního API. Popisuje dostupné endpointy, formáty požadavků a odpovědí a autentizační mechanismy.
 
-### [CDK](cdk/index)
-Infrastructure-as-code vrstva pro definici a správu cloudových zdrojů. Zahrnuje deploymenty a konfigurace prostředí.
+## Systém
+Popisuje technické chování systému a jeho komponent.
 
-### [Client](client/index)
-Referenční popis klientské aplikace pro koncové uživatele. Obsahuje architekturu, integrace a základní chování UI.
+### [Kramerius Core](core/index)
+Jádro aplikace.
 
-### [Client Admin](client-admin/index)
-Administrátorské rozhraní klientské aplikace. Slouží ke správě uživatelů, oprávnění a systémových nastavení.
+### [Akubra - úložiště dokumentů](akubra/index)
+Modul pro práci s digitálním obsahem a správu repozitářů. Obsahuje pravidla pro ukládání, verzování a manipulaci s daty.
 
-### [Distributed Locks](distributed-locks/index)
+### [Vyhledávání](search/index)
+Vyhledávací modul. Indexace dat, dotazovací API a konfigurace fulltextového vyhledávání.
+
+### [Zabezpečení](security/index)
+Bezpečnostní model systému. Autentizace, autorizace, správa tokenů a bezpečnostní politiky.
+
+### [Process Platform](process-platform/index)
+Jádro systému pro správu a vykonávání procesů. Popis workflow, plánování a komunikace mezi komponentami.
+
+### [Distribuované zámky](distributed-locks/index)
 Mechanismy pro distribuované zamykání v rámci clusteru. Popis implementace a použití pro synchronizaci procesů.
 
 ### [Image Server](image-server/index)
 Služba pro ukládání, zpracování a poskytování obrázků. Obsahuje API pro transformace a optimalizaci.
 
-### [Process Platform](process-platform/index)
-Jádro systému pro správu a vykonávání procesů. Popis workflow, plánování a komunikace mezi komponentami.
-
-### [Search](search/index)
-Vyhledávací modul. Indexace dat, dotazovací API a konfigurace fulltextového vyhledávání.
-
-### [Security](security/index)
-Bezpečnostní model systému. Autentizace, autorizace, správa tokenů a bezpečnostní politiky.
-
-### [Statistics](statistics/index)
+### [Statistiky](statistics/index)
 Modul pro sběr a vyhodnocování statistik. Reporty, agregace dat a analytické výstupy.
 
+### [ČDK](cdk/index)
+Infrastructure-as-code vrstva pro definici a správu cloudových zdrojů. Zahrnuje deploymenty a konfigurace prostředí.
+
+### [Web klient](client/index)
+Referenční popis klientské aplikace pro koncové uživatele. Obsahuje architekturu, integrace a základní chování UI.
+
+### [Admin klient](client-admin/index)
+Administrátorské rozhraní klientské aplikace. Slouží ke správě uživatelů, oprávnění a systémových nastavení.
+
+---
+
 ## Operations
+Popisuje provozní aspekty systému.
 
 ### [Monitoring](monitoring/index)
 Systém pro sledování stavu aplikací a infrastruktury. Metriky, logy, alerty a dashboardy.
@@ -64,26 +61,12 @@ TODO
 
 ---
 
-### System Reference
-Popisuje technické chování systému a jeho komponent.
+## Navazujici dokumentace
 
-Například:
-- REST API Kramerius Core
-- chování vyhledávání (Search)
-- bezpečnostní model (Security)
-- integrace s Akubra a dalšími systémy
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Navody](../guides)
 
-### Operations Reference
-Popisuje provozní aspekty systému.
-
-Například:
-- logging
-- monitoring
-- backup a restore
-- troubleshooting
-- provozní DevOps nástroje
-
----
 
 
 

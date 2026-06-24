@@ -43,6 +43,14 @@ Tato část popisuje konfiguraci externích systémů, které Kramerius využív
 
 Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dokumentaci.
 
+### [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
+- storage backend
+- ukládání digitálních objektů
+- konfigurace persistence
+
+Hlavní konfigurace se děje skrze Kramerius Core:
+➡️ [Akubra konfigurace](files/configuration-akubra)
+
 ### [Vyhledávání](search)
 - definice indexů
 - analyzéry
@@ -57,14 +65,6 @@ Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
 - klienti
 - role a oprávnění
 - mapování uživatelů
-
-### [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
-- storage backend
-- ukládání digitálních objektů
-- konfigurace persistence
-
-Hlavní konfigurace se děje skrze Kramerius Core:
-➡️ [Akubra konfigurace](files/configuration-akubra)
 
 
 ### [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)

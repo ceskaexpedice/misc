@@ -2,41 +2,8 @@
 
 # 🚢 Deployment
 
-Tato kapitola popisuje **způsoby nasazení (deploymentu) systému Kramerius 7**.  
-Slouží jako **rozcestník**, který pomůže zvolit vhodný způsob provozu a odkáže na odpovídající instalační a provozní návody.
-
+Tato kapitola popisuje **způsoby nasazení (deploymentu) systému Kramerius**.  
 Kramerius je modulární systém a lze jej provozovat v různých prostředích podle velikosti instance, provozních požadavků a zkušeností provozovatele.
-
----
-
-## Přehled podporovaných způsobů nasazení
-
-Kramerius lze provozovat těmito základními způsoby:
-
-| Způsob nasazení | Typické použití | Doporučeno pro |
-|-----------------|------------------|---------------|
-| **On-premise** | Ruční instalace jednotlivých komponent | Menší instance, integrace do existující infrastruktury |
-| **Docker Compose** | Kontejnerizované komponenty řízené pomocí Docker Compose | Vývoj, testování, jednodušší produkční provoz |
-| **Kubernetes** | Kontejnerizovaný provoz v orchestraci | Velké instance, vysoká dostupnost, škálování |
-
-Každý způsob nasazení má své výhody a omezení. Podrobné návody jsou uvedeny v příslušných **Guides**.
-
----
-
-## On-premise (klasická instalace)
-
-On-premise deployment znamená provoz Krameria jako sady samostatných služeb instalovaných přímo na server (nebo servery).
-
-Typicky zahrnuje:
-- Java (JDK)
-- Apache Tomcat
-- Kramerius jádro (search.war)
-- SOLR
-- Další podpůrné služby (Keycloak, databáze apod.)
-
-Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
-
-➡️ [On Premise](on-premise)
 
 ---
 
@@ -78,6 +45,23 @@ Je určen především pro:
 
 ---
 
+## On-premise (klasická instalace)
+
+On-premise deployment znamená provoz Krameria jako sady samostatných služeb instalovaných přímo na server (nebo servery).
+
+Typicky zahrnuje:
+- Java (JDK)
+- Apache Tomcat
+- Kramerius jádro (search.war)
+- SOLR
+- Další podpůrné služby (Keycloak, databáze apod.)
+
+Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
+
+➡️ [On Premise](on-premise)
+
+---
+
 ## Jak zvolit správný způsob nasazení
 
 Obecné doporučení:
@@ -90,25 +74,8 @@ Detailní požadavky (velikost indexu, dostupnost, bezpečnost, zálohování) j
 
 ---
 
-## Vztah k ostatním částem dokumentace
+## Navazujici dokumentace
 
-- **Getting Started**  
-  Stručný úvod do systému a odkazy na tuto kapitolu.
-
-- **Guides**  
-  Konkrétní instalační a provozní návody pro jednotlivé typy nasazení.
-
-- **Core Concepts**  
-  Popis architektury a principů Krameria, nezávislý na způsobu deploymentu.
-
-- **References**  
-  Technické reference (konfigurační parametry, API, schémata), použitelné napříč všemi způsoby nasazení.
-
----
-
-## Shrnutí
-
-Tato kapitola slouží jako **rozcestník deploymentu**:
-- neobsahuje detailní návody
-- pomáhá s výběrem vhodného řešení
-- odkazuje na odpovídající **Guides**
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Navody](../guides)

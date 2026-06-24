@@ -114,3 +114,10 @@ Sekce Scenarios je živá dokumentace a bude se rozšiřovat podle:
 * nových způsobů nasazení Krameria.
 
 Doporučeno číst po seznámení se základní architekturou systému.
+
+## Navazujici dokumentace
+
+- ➡️ [Architektura](../architecture)
+- ➡️ [Reference](../reference)
+- ➡️ [Navody](../guides)
+

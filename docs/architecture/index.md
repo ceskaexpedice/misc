@@ -64,11 +64,11 @@ flowchart TB
 
 ## Dílčí pohledy
 
-- [Kramerius Core](core/)
-- [Vyhledávání](search/)
-- [Asynchronní procesy](process-platform/)
-- [Zabezpečení](security/)
-- [ČDK](cdk)
+### [Kramerius Core](core/)
+### [Vyhledávání](search/)
+### [Zabezpečení](security/)
+### [Asynchronní procesy](process-platform/)
+### [ČDK](cdk)
 
 ---
 
