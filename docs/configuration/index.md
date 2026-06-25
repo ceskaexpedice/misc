@@ -57,8 +57,6 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 ### [Process Platform](process-platform)
 - asynchronni ulohy
 
-
-
 ### [Distribuované zámky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
 - synchronizace
 
@@ -70,9 +68,8 @@ Hlavní konfigurace se děje skrze Kramerius Core:
 - limity generování
 - zdroje obrazů
 
-### ČDK
+### [CDK](core/configuration-cdk)
 Konfigurace se děje skrze Kramerius Core:
-➡️ [CDK](core/configuration-cdk)
 
 ### [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
 - hlavní konfigurace
