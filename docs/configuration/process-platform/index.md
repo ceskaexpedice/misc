@@ -2,6 +2,7 @@
 
 # Process platform konfigurace
 
+- ➡️ [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
 - ➡️ [Konfigurace Plugins](../reference/process-platform/plugins)
 - ➡️ [Konfigurace Public Worker](../core/configuration-process-platform.md)
 
