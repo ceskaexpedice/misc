@@ -12,7 +12,7 @@ Konfigurační soubory využívají rozšířenou syntaxi properties podporovano
 
 Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění K7, resp. příslušného externího procesu.
 
-- ➡️ [configuration.properties](configuration.properties)
+- ➡️ [configuration.properties](configuration-properties)
 - ➡️ [search.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
 - ➡️ [migration.properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
 - ➡️ [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
