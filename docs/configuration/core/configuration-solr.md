@@ -1,4 +1,4 @@
-[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/files)
+[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/core)
 
 # Solr konfigurace
 

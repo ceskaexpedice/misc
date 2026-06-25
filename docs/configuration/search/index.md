@@ -2,6 +2,10 @@
 
 # Vyhledavani
 
+Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
+➡️ [Vyhledávání](../core/configuration-solr)
+
+
 ## jádro Search
 Jádro je určeno pro vyhledávání klientskými aplikacemi (veřejné, admininstrační rozhraní digitální knihovny). Popis instalace:
 

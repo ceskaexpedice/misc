@@ -1,4 +1,4 @@
-[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/files)
+[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/core)
 
 # Akubra konfigurace
 
@@ -10,6 +10,8 @@ Konfigurace se načítá z:
 - **Uživatelské přetížení**: soubor `$USER_HOME/.kramerius4/configuration.properties`
 
 Uživatel může ve svém souboru předefinovat libovolnou hodnotu z defaultního souboru.
+
+Kramerius využívá modul [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
 
 ---
 

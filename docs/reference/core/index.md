@@ -98,4 +98,4 @@ API vrací standardizované HTTP status kódy:
 
 Detailní konfigurace Kramerius Core je popsána v kapitole:
 
-👉 [Configuration → Kramerius Core](../../configuration/files/)
+👉 [Configuration → Kramerius Core](../../configuration/core/)

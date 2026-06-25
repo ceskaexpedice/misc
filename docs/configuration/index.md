@@ -4,10 +4,11 @@
 
 Tato kapitola popisuje konfiguraci systému Kramerius a jeho integrovaných komponent.
 
-Konfigurace je rozdělena do dvou hlavních úrovní:
+Konfigurace je rozdělena do techto hlavních úrovní:
 
 - **Konfigurace Kramerius Core**
 - **Konfigurace integrovaných služeb**
+- **Konfigurace Operations**
 
 Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavuje:
 - část konfigurace přímo ovlivňuje chování aplikace Kramerius
@@ -16,7 +17,7 @@ Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavu
 ---
 
 
-## Kramerius Core
+## [Kramerius Core](core/index)
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 Typicky jde o parametry, které přímo ovlivňují chování systému:
@@ -27,14 +28,6 @@ Typicky jde o parametry, které přímo ovlivňují chování systému:
 - nastavení procesní platformy
 - další runtime parametry
 
-➡️ [Konfigurační soubory, výchozí hodnoty parametrů a jak je přepsat](files/index)
-
-### Logování
-TODO
-
-### Monitoring
-TODO
-
 ---
 
 ## Konfigurace integrovaných služeb
@@ -43,22 +36,16 @@ Tato část popisuje konfiguraci externích systémů, které Kramerius využív
 
 Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dokumentaci.
 
-### [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
+### [Akubra](core/configuration-akubra)
 - storage backend
 - ukládání digitálních objektů
 - konfigurace persistence
-
-Hlavní konfigurace se děje skrze Kramerius Core:
-➡️ [Akubra konfigurace](files/configuration-akubra)
 
 ### [Vyhledávání](search)
 - definice indexů
 - analyzéry
 - schema
 - boostování a relevance
-
-Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
-➡️ [Vyhledávání](files/configuration-solr)
 
 ### [Zabezpečení](security)
 - realm konfigurace
@@ -67,18 +54,16 @@ Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
 - mapování uživatelů
 
 
-### [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
+### [Process Platform](process-platform)
 - asynchronni ulohy
 
-- ➡️ [Konfigurace Plugins](../reference/process-platform/plugins)
-- ➡️ [Konfigurace Public Worker](files/public-worker)
 
 
 ### [Distribuované zámky](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
 - synchronizace
 
 Hlavní konfigurace se děje skrze Kramerius Core:
-➡️ [Hazelcast konfigurace](files/configuration-akubra)
+➡️ [Hazelcast konfigurace](core/configuration-akubra)
 
 ### [IIIF Image Server](iiif)
 - cachování obrazů
@@ -86,7 +71,8 @@ Hlavní konfigurace se děje skrze Kramerius Core:
 - zdroje obrazů
 
 ### ČDK
-TODO
+Konfigurace se děje skrze Kramerius Core:
+➡️ [CDK](core/configuration-cdk)
 
 ### [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
 - hlavní konfigurace
@@ -135,6 +121,15 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 | **IIIF Image Server**   | Integrovaná služba (cizi) | Konfigurace generování a cachování obrazů |
 
 ---
+
+## Operations
+
+### Logování
+TODO
+
+### Monitoring
+TODO
+
 
 ## Navazujici dokumentace
 
