@@ -40,24 +40,6 @@ který se definuje v konfiguraci pomoci následujících parametrů:
 | `dochub.permanent.expiration.hours` | Odstraní všechny dokumenty v permanentním úložišti starší než zadaný počet hodin. | `3000` |
 | `dochub.user.expiration.hours` | Odstraní všechny dokumenty v uživatelském úložišti starší než zadaný počet hodin. | `100` |
 
-Úvodní stránka PDF
-Generování první stránky je možno ovlivnit vlastní šablonou. Stránka se může lišit dle licence a jazykové mutace. Šablony jsou uložené na následující cestě:
-
-<home>/
-└─ .kramerius4/
-└─ process-pdfs-settings/
-└─ public/                                   
-└─ firstpage.xml                     
-└─ cs                                               
-└─ firstpage.xml
-└─ special-needs/                                
-└─ firstpage.xml                               
-└─ cs                                               
-└─ firstpage.xml
-
-Kde adresář process-pdfs-settings odpovídá hlavnímu konfiguračnímu adresáři, pod ním jsou podadresáře odpovídající licencím, nyní buď public nebo special-needs a každý adresář může obsahovat defaultní šablonu firstpage.xml nebo podadresáře se šablonami odpovídající jazkovým mutacím cs, en, atd..
-
-Příklad šablon naleznete zde.
 
 | Parametr | Popis | Výchozí hodnota |
 |-----------|--------|----------------|
