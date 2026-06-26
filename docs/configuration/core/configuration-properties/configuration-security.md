@@ -1,4 +1,16 @@
-[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/core)
+[Index](../../../index) / [Konfigurace](../../)  / [Core](../)
+
+# Token endpoint
+
+Tato stránka poskytuje **referenční přehled konfiguračních parametrů Akubra storage**. Obsahuje defaultní hodnoty, účel a doporučené nastavení.
+
+Konfigurace se načítá z:
+
+- **Default**: uvnitř JAR souboru knihovny `configuration.properties`
+- **Uživatelské přetížení**: soubor `$USER_HOME/.kramerius4/configuration.properties`
+
+Uživatel může ve svém souboru předefinovat libovolnou hodnotu z defaultního souboru.
+
 
 # Token endpoint
 

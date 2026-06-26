@@ -1,3 +1,7 @@
+[Index](../../index) / [Konfigurace](../../configuration)
+
+# Image server
+
 Podpora protokolu IIIF, který je používán klientem Krameria pro funkci výřezů, vyžaduje instalaci imageserveru (balíček od MZK) verze `1.1`. 
 
 U instancí, kde není použit Docker a místo NGINXe Apache, je potřeba nakonfigurovat následující (příklad v příslušném virtuálu):
@@ -65,7 +69,7 @@ Ten je dále přepsán pomocí výše uvedených pravidel na:
 ```
 a výřez to úspěšně vrátí.
 
-Při ladění jsem také zjistil, že verze imageserveru, kterou máme nasazenou, nerozumí nastavení parametru kvality `default.jpg`, ale vyžaduje to přepsat na `native.jpg`. Jinak imageserver vrací status `400`:
+Při ladění se zjistilo, že verze imageserveru, kterou máme nasazenou, nerozumí nastavení parametru kvality `default.jpg`, ale vyžaduje to přepsat na `native.jpg`. Jinak imageserver vrací status `400`:
 
 ![img-400-01](https://user-images.githubusercontent.com/8750622/67214337-df5ba700-f41f-11e9-9eaf-0c5fc06a2667.png)
 

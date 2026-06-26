@@ -1,6 +1,8 @@
-[Index](../index) / [Konfigurace](../../configuration)
+[Index](../../index) / [Konfigurace](../../configuration)
 
 # Keycloak configuration
+
+TODO
 
 ## Realm
 

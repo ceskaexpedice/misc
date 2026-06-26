@@ -1,25 +1,32 @@
-[Index](../index) / [Konfigurace](../../configuration)  
+[Index](../../index) / [Konfigurace](../../configuration)  
 
-# Konfigurační soubory
+# Kramerius Core
 
-Po prvním spuštění aplikačního serveru s nainstalovanou aplikací Kramerius (pod systémovým uživatelem `kramerius4`) je v domovském adresáři uživatele `kramerius4` vytvořen adresář `.kramerius4` a v něm prázdné soubory:
+Po prvním spuštění aplikačního serveru s nainstalovanou aplikací Kramerius (pod systémovým uživatelem `kramerius4`) je v domovském adresáři uživatele `kramerius4` 
+vytvořen adresář `.kramerius4` a v něm prázdné soubory:
 
 - `configuration.properties`
 - `search.properties`
 - `migration.properties`
 
-Konfigurační soubory využívají rozšířenou syntaxi properties podporovanou knihovnou Apache Commons-Configuration. Soubory jsou uspořádány ve dvoustupňové hierarchii: základní sdílené properties jsou v souboru `configuration.properties`, jednotlivé plugin moduly externích procesů je pak rozšiřují ve svých konfiguračních souborech (např. `migration.properties`). Konfigurační properties specifické pro GUI jsou v souboru `search.properties`.
+Konfigurační soubory využívají rozšířenou syntaxi properties podporovanou knihovnou Apache Commons-Configuration. Soubory jsou uspořádány ve dvoustupňové hierarchii: 
+základní sdílené properties jsou v souboru `configuration.properties`, jednotlivé plugin moduly externích procesů je pak rozšiřují ve svých konfiguračních souborech 
+(např. `migration.properties`). Konfigurační properties specifické pro GUI jsou v souboru `search.properties`.
 
-Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění K7, resp. příslušného externího procesu.
+Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru 
+umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění Krameria, resp. příslušného externího procesu.
 
 - ➡️ [configuration.properties](configuration-properties)
+
+TODO
 - ➡️ [search.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
 - ➡️ [migration.properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
 - ➡️ [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
 ## Lokalizace textů
 
-Texty jednotlivých součástí GUI Krameria jsou lokalizovány pomocí standardního mechanismu **ResourceBundle** jazyka Java, např. [Java ResourceBundle](http://docs.oracle.com/javase/6/docs/api/java/util/ResourceBundle.html). Výchozí obsah lokalizačního souboru `labels.properties` je k dispozici zde:
+Texty jednotlivých součástí GUI Krameria jsou lokalizovány pomocí standardního mechanismu **ResourceBundle** jazyka Java, např. [Java ResourceBundle](http://docs.oracle.com/javase/6/docs/api/java/util/ResourceBundle.html). 
+Výchozí obsah lokalizačního souboru `labels.properties` je k dispozici zde:
 
 - [labels_cs.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/labels_cs.properties)
 

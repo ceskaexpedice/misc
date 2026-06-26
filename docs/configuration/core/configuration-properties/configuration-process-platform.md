@@ -1,8 +1,8 @@
-[Index](../index) / [Konfigurace](../../configuration)  / [Soubory](../../configuration/core)
+[Index](../../../index) / [Konfigurace](../../)  / [Core](../)
 
 # Process platform konfigurace
 
-Tato stránka poskytuje **referenční přehled konfiguračních parametrů Akubra storage** v Kramerius 7. Obsahuje defaultní hodnoty, účel a doporučené nastavení.
+Tato stránka poskytuje **referenční přehled konfiguračních parametrů Process Platform**. Obsahuje defaultní hodnoty, účel a doporučené nastavení.
 
 Konfigurace se načítá z:
 
@@ -12,8 +12,6 @@ Konfigurace se načítá z:
 Uživatel může ve svém souboru předefinovat libovolnou hodnotu z defaultního souboru.
 
 ---
-
-## Parametry Process Platform
 
 | Parametr | Popis | Výchozí hodnota |
 |-----------|--------|----------------|
