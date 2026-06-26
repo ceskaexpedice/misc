@@ -4,7 +4,7 @@
 
 - ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform.md)
 - ➡️ [Process Platform modul](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
-- ➡️ [Konfigurace Plugins](../reference/process-platform/plugins)
+- ➡️ [Konfigurace Plugins](../../reference/process-platform/plugins)
 
 
 ## Public worker sablony 
