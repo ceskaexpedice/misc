@@ -1,9 +1,8 @@
+[Index](../../index) / [Deployment](../../deployment)
+
 # Docker Compose deployment
 
-## Přehled
-
-- ➡️ [TODO Installation](installation)
-
+- ➡️ [Instalace](installation)
 
 Kramerius může být nasazen pomocí Docker Compose.
 
@@ -181,16 +180,6 @@ V rozsáhlejších instalacích může být nahrazen:
 - Kubernetes deploymentem
 - externími managed službami
 - oddělenou infrastrukturou
-
----
-
-## Vztah k ostatním částem dokumentace
-
-- `reference/security/`
-- `reference/search/`
-- `reference/image-server/`
-- `reference/process-platform/`
-- `configuration/`
 
 ---
 

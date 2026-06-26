@@ -1,4 +1,4 @@
-[Index](../../index) / [Deployment](..) / [On Premise](../on-premise)  
+[Index](../../index) / [Deployment](../../deployment)
 
 # Popis instalace a nastavení On premise
 
@@ -55,7 +55,7 @@ V následujících odstavcích jsou uvedeny požadavky aplikace Kramerius na spe
 
 Umístění datových souborů je určeno následujícími parametry v souboru `configuration.properties`:
 
-➡️ [Konfigurace Akubra](../../configuration/core/configuration-properties/configuration-akubra.md)
+➡️ [Konfigurace Akubra](../../configuration/core/configuration-properties/configuration-akubra)
 
 ## Instalace indexu (SOLR)
 1. Stáhněte si poslední verzi vyhledávacího enginu [SOLR](https://lucene.apache.org/solr/downloads.html) 
@@ -124,7 +124,7 @@ Pro import dat lze využít standardních importních procesů.
 
 Synchronizace paralelních zápisů do jednoho úložiště z více souběžných procesů a případně více instancí Krameria je zajištěna sdílenou tabulkou zámků v distribuované paměťové databázi Hazelcast. Synchronizace probíhá automaticky a defaultní nastavení není obvykle třeba měnit. K nastavení jména instance a uživatele lze případně použít následující property:  
 
-➡️ [Konfigurace Hazelcast](../../configuration/core/configuration-properties/configuration-akubra.md)
+➡️ [Konfigurace Hazelcast](../../configuration/core/configuration-properties/configuration-akubra)
 
 
 # [Konfigurace IIIF](../../configuration/iiif)
