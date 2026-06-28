@@ -2,10 +2,7 @@
 
 # Popis instalace a nastavení On premise
 
-Popis instalace a konfigurace systému Kramerius 7 s integrovaným úložištěm Akubra. Instalace předchozí verze Kramerius 5 je popsána [[zde|Instalace verze K5]]
-
 Před instalací aplikace Kramerius je třeba nainstalovat následující systémové komponenty:
----
 * **Java: JDK 21**, je možno využít javu z balíčku OpenJDK případně Oracle JDK. 
     * Instalační balíčky naleznete zde [OpenJDK](https://openjdk.org/), [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) 
 * **Aplikační server: Tomcat 9.x nebo novejsi**

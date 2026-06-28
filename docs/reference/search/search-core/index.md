@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../../../reference) / [Search](../../search) 
+
 # Vyhledávání (Search)
 
 Vyhledávání je subsystém systému Kramerius, který poskytuje fulltextové a strukturované vyhledávání nad indexovanými digitálními objekty (Fedora repository model).
@@ -7,6 +9,8 @@ Vyhledávání pracuje nad indexem v Apache Solr, který je generován a udržov
 ---
 
 ## Přehled
+
+Popis aktuální podoby schématu: [Google spreadsheet](https://docs.google.com/spreadsheets/d/1DoDnSIGPqPnYbb0U2RSNLKm9eAY2FQNimJyTPeQsC2A/edit#gid=0)
 
 Search subsystém je zodpovědný za:
 
