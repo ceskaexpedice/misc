@@ -2,6 +2,7 @@
 
 # Indexing subsystémy
 
+```text
 Repository
 │
 Indexer
@@ -11,6 +12,7 @@ Solr Index
 Search API
 │
 Web Client
+```
 
 
 Kramerius používá několik nezávislých indexačních subsystémů, které pokrývají různé části systému:
