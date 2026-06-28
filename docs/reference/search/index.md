@@ -54,3 +54,11 @@ Kramerius využívá vyhledávací engin **Solr** a definuje tři hlavní jádra
 
 > ⚠️ Poznámka: Pro každý upgrade Kramerius nebo Solr může být nutné aktualizovat schéma jádra **search** (soubor `managed-schema`). Pro postup viz [Guides: Aktualizace schématu Search Core](../Guides/Instalace-Solr.md#aktualizace-sch%C3%A9matu-j%C3%A1dro-search).
 
+## Navazujici dokumentace
+
+- ➡️ [Zakladni pojmy](../../core-concepts/search/)
+- ➡️ [Architektura](../../architecture/search/)
+- ➡️ [Konfigurace](../../configuration/search/)
+- ➡️ [Verzovani](../../versioning/search/)
+ 
+

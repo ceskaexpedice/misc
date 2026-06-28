@@ -104,3 +104,4 @@ Audit a systémové události.
 ## Navazujici dokumentace
 
 - ➡️ [Reference](../../reference/search)
+- ➡️ [Konfigurace](../../configuration/search)

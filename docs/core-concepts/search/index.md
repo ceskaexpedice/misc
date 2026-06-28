@@ -19,4 +19,5 @@ Reader klient využívá search index jako hlavní zdroj pro vyhledávání doku
 
 - ➡️ [Architektura](../../architecture/search/)
 - ➡️ [Reference](../../reference/search/)
+- ➡️ [Konfigurace](../../configuration/search/)
 
