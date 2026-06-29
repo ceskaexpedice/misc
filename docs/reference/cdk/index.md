@@ -90,9 +90,8 @@ Tento přístup umožňuje:
 
 ---
 
-## Related documentation
+## Navazujici dokumentace
 
-- reference/api – API vrstva Krameria
-- reference/configuration – konfigurace zdrojových knihoven a CDK
-- reference/processes/migration – indexační proces
-- reference/cdk/architecture – detailní komponenty
+- ➡️ [Zakladni pojmy](../../core-concepts/cdk/)
+- ➡️ [Architektura](../../architecture/cdk)
+- ➡️ [Konfigurace](../../configuration/)

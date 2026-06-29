@@ -94,8 +94,9 @@ API vrací standardizované HTTP status kódy:
 
 ---
 
-## Konfigurace (odkaz)
+## Navazujici dokumentace
 
-Detailní konfigurace Kramerius Core je popsána v kapitole:
-
-👉 [Configuration → Kramerius Core](../../configuration/core/)
+- ➡️ [Zakladni pojmy](../../core-concepts/core/)
+- ➡️ [Architektura](../../architecture/core)
+- ➡️ [Konfigurace](../../configuration/core/)
+- ➡️ [Verzovani](../../versioning/)

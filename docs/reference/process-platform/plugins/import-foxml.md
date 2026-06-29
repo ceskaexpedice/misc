@@ -23,6 +23,6 @@ Curator Worker
 
 Po úspěšném dokončení procesu jsou data importována do Krameria. Pokud je parametr `startIndexer` nastaven na `true`, je následně spuštěna indexace importovaných objektů.
 
-## Související procesy
+## Související pluginy
 
 * [Import NDK METS](import-ndk-mets)

@@ -88,3 +88,10 @@ Subsystém Processing:
 - zajišťuje aktualizaci odvozených dat (např. vyhledávací index)
 
 Představuje „write“ část systému vůči subsystémům jako je Search.
+
+## Navazujici dokumentace
+
+- ➡️ [Zakladni pojmy](../../core-concepts/process-platform/)
+- ➡️ [Architektura](../../architecture/process-platform)
+- ➡️ [Konfigurace](../../configuration/process-platform/)
+- ➡️ [Verzovani](../../versioning/)

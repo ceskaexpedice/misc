@@ -29,3 +29,8 @@ Generování první stránky je možno ovlivnit vlastní šablonou. Stránka se 
 Kde adresář process-pdfs-settings odpovídá hlavnímu konfiguračnímu adresáři, pod ním jsou podadresáře odpovídající licencím, nyní buď public nebo special-needs a každý adresář může obsahovat defaultní šablonu firstpage.xml nebo podadresáře se šablonami odpovídající jazkovým mutacím cs, en, atd..
 
 Příklad šablon naleznete zde.
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/process-platform/)
+

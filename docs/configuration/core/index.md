@@ -46,3 +46,9 @@ Pro rozsáhlejší texty má Kramerius mechanismus zápisu do samostatného soub
 | `texts/rightMsg` | Text o nedostupnosti dokumentu. Pokud není definovaný, použije se klíč `rightMsg` z labels.properties | - |
 | `texts/intro` | Popisný text o digitální knihovně | [intro](https://github.com/ceskaexpedice/kramerius/blob/master/shared/common/src/main/java/cz/incad/kramerius/service/impl/res/default_intro) |
 | `texts/k5info` | Popisný text zobrazený v klientské aplikaci | [k5info](https://github.com/ceskaexpedice/kramerius/blob/master/shared/common/src/main/java/cz/incad/kramerius/pdf/impl/res/k5info) |
+
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/core/)
+

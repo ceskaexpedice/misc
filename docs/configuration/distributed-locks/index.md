@@ -10,5 +10,10 @@ Vlastni hazelcast modul je popsan zde:
 
 ➡️ [Hazelcast modul](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
 
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/distributed-locks/)
+
+
 
 

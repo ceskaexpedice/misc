@@ -131,6 +131,12 @@ V admin prostředí jsou tyto dotazy vidět na cestě `home/sledování API`. Vi
 
 ![image](https://github.com/user-attachments/assets/0ede6808-8cfc-488b-8b5e-f54caa2f2704)
 
+## Navazujici dokumentace
+
+- ➡️ [Zakladni pojmy](../../core-concepts/api/)
+- ➡️ [Verzovani](../../versioning/)
+
+
 
 
 

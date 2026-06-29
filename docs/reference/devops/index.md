@@ -117,3 +117,10 @@ DevOps část popisuje:
 > jak se systém Kramerius sestavuje, testuje a dostává do releasů
 
 Neřeší runtime chování ani detailní konfiguraci prostředí.
+
+## Navazujici dokumentace
+
+- ➡️ [Zakladni pojmy](../../core-concepts/)
+- ➡️ [Architektura](../../architecture/)
+- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Verzovani](../../versioning/)

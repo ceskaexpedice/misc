@@ -312,3 +312,10 @@ Backend funguje jako:
 - access-control vrstva
 
 a umožňuje efektivní práci s velkými obrazovými daty.
+
+## Navazujici dokumentace
+
+- ➡️ [Zakladni pojmy](../../core-concepts/)
+- ➡️ [Architektura](../../architecture/)
+- ➡️ [Konfigurace](../../configuration/iiif/)
+- ➡️ [Verzovani](../../versioning/)

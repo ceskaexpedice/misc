@@ -190,5 +190,10 @@ Aktuální compose konfigurace:
 `docker-compose.yml`
 ### Kramerius docker compose 
 
-Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose](https://github.com/ceskaexpedice/kramerius-docker-compose), který obsahuje všechny komponenty kontejnerizované.  
+Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose](https://github.com/ceskaexpedice/kramerius-docker-compose), který obsahuje všechny komponenty kontejnerizované.
+
+## Navazujici dokumentace
+
+- ➡️ [Konfigurace](../../configuration/)
+
 

@@ -36,8 +36,9 @@ REST API související s bezpečností.
 
 ---
 
-## Related Documentation
+## Navazujici dokumentace
 
-- 🧠 [Core Concepts → Security](../../core-concepts/security/)
-- 🏗️ [Architecture → Security](../../architecture/security/)
-- ⚙️ [Configuration → Security](../../configuration/security/)
+- ➡️ [Zakladni pojmy](../../core-concepts/security/)
+- ➡️ [Architektura](../../architecture/security)
+- ➡️ [Konfigurace](../../configuration/security/)
+- ➡️ [Verzovani](../../versioning/)

@@ -22,3 +22,7 @@ Příklady definic v RELS-EXT:
 <kramerius4:tiles-url>http://iipserv.nkp.cz/fcgi-bin/iipsrv.fcgi?Zoomify=/home/k4/iip-data/2619265924.jp2</kramerius4:tiles-url>
 
 ```
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/image-server/)

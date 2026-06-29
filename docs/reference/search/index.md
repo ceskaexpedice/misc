@@ -60,5 +60,6 @@ Kramerius využívá vyhledávací engin **Solr** a definuje tři hlavní jádra
 - ➡️ [Architektura](../../architecture/search/)
 - ➡️ [Konfigurace](../../configuration/search/)
 - ➡️ [Verzovani](../../versioning/search/)
+
  
 

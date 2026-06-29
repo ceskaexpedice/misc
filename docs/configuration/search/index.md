@@ -46,3 +46,8 @@ Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktua
 - Stáhnuté soubory umístěte do adresáře `<solr_home>/server/solr/search`.
 - Otevřte administrační prostředí solru `http://localhost:8983/`.
 - V záložce core-admin vyberte jádro `search` a zmáčkněte tlačítko `reload`.
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/search/)
+

@@ -10,5 +10,10 @@ Vlastni Akubra modul je popsan zde:
 
 ➡️ [Akubra modul](https://github.com/ceskaexpedice/akubra/wiki)
 
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/akubra/)
+
+
 
 

@@ -4,3 +4,8 @@
 
 TODO
 - ➡️ [Instalace](installation)
+
+## Navazujici dokumentace
+
+- ➡️ [Konfigurace](../../configuration/)
+
