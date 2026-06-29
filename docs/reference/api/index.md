@@ -105,12 +105,17 @@ Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inova
 
 
 ### 3.3 Externí část
-Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/exts/v7.0/index.html). 
+Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/exts/v7.0/index.html).
+
+### 3.4 OAI PMH
+popis je k dispozici [zde](oai-pmh-protocol).
 
 ---
 # 4. Monitoring pomalých dotazů
 
 Od verze **7.0.40** je možno monitorovat dotazy, u kterých je delší doba odpovědi než je definovaná hodnota threshold. Jednotlivé události jsou ukládány v solr jádře [monitor](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-9.x/monitor).  Konfigurační parametry jsou:
+
+TODO presunout do kapitoly Konfigurace
 
 ```properties
 # Threshold in milliseconds for monitoring events.

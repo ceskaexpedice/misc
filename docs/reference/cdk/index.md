@@ -15,6 +15,8 @@ Každá knihovna (např. regionální nebo institucionální) provozuje vlastní
 
 CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systému.
 
+TODO zapojene knihovny
+
 ---
 
 ## Architecture

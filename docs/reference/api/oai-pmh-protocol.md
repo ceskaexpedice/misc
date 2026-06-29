@@ -1,6 +1,7 @@
 ## Podpora OAI PMH protokolu 
 
-Systém Kramerius nyní poskytuje data pomocí protokolu OAI-PMH, což umožňuje automatizovaný sběr a sdílení metadat. Náš OAI provider je postaven na vyhledávacím indexu, takže poskytuje pouze zaindexovaná data. Adresa providera je: `<kramerius_url>/search/api/harvest/v7.0/oai`  
+Systém Kramerius nyní poskytuje data pomocí protokolu OAI-PMH, což umožňuje automatizovaný sběr a sdílení metadat. Náš OAI provider je postaven na vyhledávacím indexu,
+takže poskytuje pouze zaindexovaná data. Adresa providera je: `<kramerius_url>/search/api/harvest/v7.0/oai`  
 
 ---
 ### Dostupné metadatové formáty 
@@ -29,6 +30,8 @@ Pro snadnější práci s providerem uvádíme několik příkladů dotazů:
 ### Konfigurační parametry
 
 Provider je možné konfigurovat pomocí následujících konfiguračních proměnných 
+
+TODO presunout do kapitoly konfigurace
 
 ```
 oai.adminEmail - email na administratora
