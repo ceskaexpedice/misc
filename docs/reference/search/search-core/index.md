@@ -23,20 +23,6 @@ Search pracuje nad předem připraveným indexem, který vzniká z repozitářov
 
 ---
 
-## Co Search NENÍ
-
-Pro vyjasnění odpovědnosti:
-
-Search **nezahrnuje**:
-
-- ❌ proces indexace a transformace dat z repozitáře
-- ❌ RELS-EXT logiku a Akubra processing
-- ❌ auditní logování
-- ❌ Solr deployment a škálování
-- ❌ build-time generování Solr schémat
-
----
-
 ## Search model
 
 Search index reprezentuje digitální objekty z repozitáře:
@@ -79,32 +65,28 @@ Search je postaven nad Solr schématem, které definuje indexovaná pole.
 
 ### Příklady polí
 
-| Pole | Typ | Význam |
-|------|-----|--------|
-| `id` | string | unikátní identifikátor objektu |
-| `title` | text | název objektu |
-| `author` | string | autor nebo tvůrce |
-| `fulltext` | text | plný text obsahu |
-| `type` | string | typ objektu |
-| `parent_id` | string | nadřazený objekt |
-| `path` | string | hierarchická cesta |
-| `created_at` | date | čas vytvoření |
-| `license` | string | licence objektu |
-
-### Poznámky
-
-- Solr schema je součástí systémového kontraktu
-- změny schema vyžadují reindexaci
-- schema je generováno build procesem (viz Build System)
-
----
+| Pole                    | Význam                                                                             |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| `pid`                   | Jedinečný identifikátor objektu v repozitáři.                                      |
+| `model`                 | Model objektu (např. `monograph`, `periodical`, `periodicalvolume`, `page`).       |
+| `root.pid`              | Identifikátor kořenového objektu, ke kterému dokument patří.                       |
+| `root.title`            | Název kořenového objektu (např. název periodika nebo monografie).                  |
+| `own_parent.pid`        | Identifikátor bezprostředního rodiče objektu.                                      |
+| `pid_paths`             | Úplná cesta objektu v hierarchii repozitáře. Používá se při navigaci a filtrování. |
+| `date.str`              | Datum určené pro zobrazení uživateli.                                              |
+| `date.min` / `date.max` | Normalizovaný rozsah dat používaný pro řazení a filtrování.                        |
+| `languages.facet`       | Jazyk dokumentu určený pro facety.                                                 |
+| `licenses`              | Licence určující přístupnost dokumentu (např. `public`).                           |
+| `accessibility`         | Výsledek vyhodnocení přístupových práv (např. `public`, `private`).                |
+| `indexer_version`       | Verze indexeru, pomocí které byl objekt naposledy zaindexován.                     |
+| `count_issue`           | Počet potomků daného typu (v tomto případě čísel periodika).                       |
 
 ## Model dotazování
 
 Search podporuje:
 
 ### Fulltext
-- vyhledávání v `title` a `fulltext`
+- vyhledávání v `title` atd
 
 ### Strukturované filtry
 - typ objektu
@@ -123,8 +105,7 @@ Search podporuje:
 
 Search je zpřístupněn přes REST API.
 
-Viz:
-→ Reference / API / Search
+➡️ [REST API](../../api/)
 
 Tato sekce popisuje pouze vyhledávací model, nikoliv konkrétní endpointy.
 
@@ -134,15 +115,7 @@ Tato sekce popisuje pouze vyhledávací model, nikoliv konkrétní endpointy.
 
 Search je řízen systémovou konfigurací.
 
-Typické parametry:
-
-- `solr.url` – adresa Solr instance nebo clusteru
-- `solr.core` – název indexu
-- `search.timeout` – timeout dotazů
-- `search.facet.limit` – limit faset
-
-Viz:
-→ Reference / Configuration / Search
+➡️ [Konfigurace](../../../configuration/search/)
 
 ---
 
@@ -165,6 +138,9 @@ Indexace dat **není součástí Search**, ale je zajištěna samostatným subsy
 - indexační pipeline
 - synchronizace změn z repozitáře
 
+➡️ [Curator Worker](../../process-platform/workers/curator)
+
+
 Search pouze pracuje s výsledným indexem.
 
 ---
@@ -184,16 +160,6 @@ Viz:
 
 ---
 
-## Konzistence
-
-Search není silně konzistentní s repozitářem.
-
-- index je aktualizován asynchronně
-- mohou nastat dočasné nekonzistence
-- plná reindexace obnovuje konzistentní stav
-
----
-
 ## Shrnutí
 
 Search je subsystém Krameria zodpovědný za:
@@ -201,11 +167,4 @@ Search je subsystém Krameria zodpovědný za:
 - vyhledávání nad indexovanými daty
 - práci nad Solr indexem
 - poskytování query a filtrů
-
-Search **neřeší**:
-- indexaci dat
-- RELS-EXT / Processing logiku
-- audit / logy
-- deployment Solr
-- build indexu
 

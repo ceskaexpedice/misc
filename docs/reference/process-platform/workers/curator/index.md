@@ -4,20 +4,13 @@ The Curator Worker provides processes used by curators and administrators.
 
 ## Plugins
 
-### [Import](../../plugins/import-foxml)
+### [Import FOXML](../../plugins/import-foxml)
 
-Processes related to importing digital objects into Kramerius.
+### [Import NDK METS](../../plugins/import-ndkmets)
 
-### Index
+### [Search Index Model](../../plugins/search-index-model)
 
-Processes related to Solr indexing and reindexing.
+### [Search Index Object](../../plugins/search-index-object)
 
-### Export
-
-Processes related to exporting data from Kramerius.
-
-### Validation
-
-Processes used for validation and quality checks.
 
 ...
