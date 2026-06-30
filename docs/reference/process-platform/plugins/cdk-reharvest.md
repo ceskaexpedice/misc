@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+
 # Reharvest Document
 
 Znovu načte jeden dokument do indexu Centrální digitální knihovny (CDK).

@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+
 # Migrate to CDK Index
 
 Migruje data ze zdrojové knihovny do indexu Centrální digitální knihovny (CDK).

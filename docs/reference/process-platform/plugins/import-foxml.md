@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+
 # Import FOXML
 
 Importuje data ve formátu FOXML do repozitáře Kramerius.

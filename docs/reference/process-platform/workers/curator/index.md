@@ -1,3 +1,5 @@
+[Index](../../../../index) / [Reference](../../..)  / [Process Platform](../../../process-platform)  / [Workers](../../workers)
+
 # Curator Worker
 
 The Curator Worker provides processes used by curators and administrators.

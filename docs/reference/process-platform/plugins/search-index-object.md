@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+
 # Search Index Objects
 
 Spustí indexaci jednoho nebo více konkrétních objektů v repozitáři Kramerius.

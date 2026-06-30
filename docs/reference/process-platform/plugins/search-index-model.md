@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+
 # Search Index Model
 
 Spustí indexaci objektů v repozitáři Kramerius.
