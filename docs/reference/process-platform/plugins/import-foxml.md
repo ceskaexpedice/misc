@@ -8,6 +8,10 @@ Proces načte obsah z určeného adresáře a vytvoří nebo aktualizuje odpoví
 
 Curator Worker
 
+## Definition ID
+
+import
+
 ## Payload
 
 | Parametr       | Typ     | Povinný | Popis                                                          |

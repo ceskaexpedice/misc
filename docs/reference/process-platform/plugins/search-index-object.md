@@ -8,6 +8,10 @@ Objekty určené k indexaci lze zadat přímo pomocí PID, seznamem PID nebo pro
 
 Curator Worker
 
+## Definition ID
+
+new_indexer_index_object
+
 ## Payload
 
 | Parametr                  | Typ     | Povinný | Popis |

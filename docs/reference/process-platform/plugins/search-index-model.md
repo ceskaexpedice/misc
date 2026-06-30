@@ -8,6 +8,10 @@ Proces umožňuje indexovat všechny objekty nebo pouze objekty odpovídající 
 
 Curator Worker
 
+## Definition ID
+
+new_indexer_index_model
+
 ## Payload
 
 | Parametr                  | Typ     | Povinný | Popis |

@@ -15,15 +15,6 @@ Každá knihovna (např. regionální nebo institucionální) provozuje vlastní
 
 CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systému.
 
-TODO zapojene knihovny
-
----
-
-## Architecture
-
-Architektura je popsána [zde](../../architecture/cdk)
-
-
 ---
 
 ## Source libraries
@@ -31,6 +22,8 @@ Architektura je popsána [zde](../../architecture/cdk)
 Každá zdrojová knihovna je nezávislá instance Krameria.
 
 Tyto knihovny jsou do CDK připojeny jako **chráněné kanály (protected channels)**.
+
+TODO zapojene knihovny ???
 
 ---
 
@@ -60,6 +53,8 @@ Indexace obsahu probíhá pomocí Migration procesu:
 Proces je opakovaný (incremental sync), aby zachytil změny ve zdrojových knihovnách.
 
 Výsledkem je centrální Solr index obsahující metadata všech knihoven.
+
+➡️ [CDK worker](../../reference/process-platform/workers/cdk)
 
 ---
 

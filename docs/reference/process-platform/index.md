@@ -8,7 +8,7 @@ Je postaven nad externí platformou Process Platform (PCP), která poskytuje inf
 
 Kramerius nad touto platformou definuje vlastní procesy a workery.
 
-Viz:[Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
+➡️ [Process Platform](https://github.com/ceskaexpedice/process-platform/wiki)
 
 Processing zajišťuje:
 
@@ -24,7 +24,7 @@ Processing je klíčová část systému a přímo ovlivňuje:
 
 ---
 
-## Kramerius workery
+## [Kramerius workery](workers/)
 
 Kramerius definuje vlastní worker aplikace nad PCP.
 
@@ -40,11 +40,9 @@ Worker je zodpovědný za vykonávání konkrétních typů procesů.
 
 V systému může běžet více worker instancí paralelně.
 
-➡️ **[Přejít na workery](workers/)**
-
 ---
 
-## Kramerius procesy
+##  [Kramerius procesy (pluginy)](plugins/)
 
 Procesy reprezentují konkrétní doménové operace.
 
@@ -62,8 +60,6 @@ Každý proces:
 - je zabalen jako plugin
 - ovlivňuje repozitář a/nebo odvozená data (např. index)
   
-➡️ **[Přejít na procesy](plugins/)**
-
 ---
 
 ## Build a deployment

@@ -7,6 +7,21 @@
 - ➡️ [Konfigurace Plugins](../../reference/process-platform/plugins)
 
 
+## lp.st
+Soubor  poskytuje **referenční přehled pluginu dodavanych s Krameriem**.
+
+Konfigurace se načítá z:
+
+- **Default**: uvnitř JAR souboru knihovny `lp.st`
+- **Uživatelské přetížení**: soubor `$USER_HOME/.kramerius4/lp.xml`
+
+Uzivatel muze upravit parametr - javaProcessParameters
+
+### [lp.st - DEFAULT](https://github.com/ceskaexpedice/kramerius/blob/master/shared/common/src/main/java/cz/incad/kramerius/processes/res/lp.st)
+
+---
+
+
 ## Public worker sablony 
 
 Úvodní stránka PDF
