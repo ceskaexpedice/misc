@@ -93,8 +93,7 @@ Pokud víte, co hledáte:
 - ⚙️ [Technické koncepty](core-concepts/index)
 - 🛠️ [Návody](guides/index)
 - 📖 [Reference](reference/index)
-
----
+- 📦 Verzování
 
 ## 🧩 Co je Kramerius
 
@@ -116,6 +115,19 @@ Klíčové vlastnosti:
 - klientské aplikace (administrace + čtení)
 
 Jádro systému běží jako Java aplikace v Tomcatu a tvoří integrační vrstvu nad jednotlivými komponentami.
+
+---
+
+## 📦 Verze a vydávání
+
+Informace o verzování produktů, kompatibilitě jednotlivých komponent a pravidlech vydávání.
+
+👉 📦 **[Verzování](versioning/index)**
+
+- schéma verzování Kramerius Core
+- verzování Process Platform a Akubra
+- kompatibilita komponent
+- pravidla pro hotfixy
 
 ---
 
