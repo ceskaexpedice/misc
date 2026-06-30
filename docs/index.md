@@ -49,7 +49,7 @@ Najděte odpověď okamžitě pomocí vyhledávání nebo AI asistenta.
   <button type="button" class="doc-chat-launch__button" onclick="window.openKrameriusDocChat()">🤖 Zeptat se AI asistenta</button>
 </div>
 
-<kramerius-doc-chat api-url="https://vasearch.inovatika.dev/kramerius-doc-api" use-mock-response=false></kramerius-doc-chat>
+<kramerius-doc-chat api-url="https://ai-api.inovatika.dev/kramerius-doc-api/" use-mock-response=false></kramerius-doc-chat>
 <script>
   window.openKrameriusDocChat = function () {
     if (!window.krameriusDocChat) {
