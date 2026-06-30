@@ -14,6 +14,7 @@ from pathlib import Path
 
 DEFAULT_OUTPUT_NAME = "kramerius-doc.md"
 DEFAULT_OUTPUT_DIR = "out"
+INDEX_SEARCH_SECTION_HEADING = "## 🔍 Hledání v dokumentaci"
 
 DOCS_SECTION_ORDER = {
     "getting-started": 10,
@@ -137,8 +138,26 @@ def collect_markdown_files(docs_root: Path, output_path: Path) -> list[Path]:
     return files
 
 
-def read_non_empty_text(path: Path) -> str | None:
+def remove_index_search_section(text: str) -> str:
+    section_start = text.find(INDEX_SEARCH_SECTION_HEADING)
+    if section_start == -1:
+        return text
+
+    section_end_match = re.search(r"^---\s*$", text[section_start:], flags=re.MULTILINE)
+    if section_end_match is None:
+        raise ValueError(
+            f"Sekce '{INDEX_SEARCH_SECTION_HEADING}' nema ukoncovaci oddelovac '---'."
+        )
+
+    section_end = section_start + section_end_match.end()
+    return text[:section_start].rstrip() + "\n\n" + text[section_end:].lstrip()
+
+
+def read_non_empty_text(path: Path, docs_root: Path) -> str | None:
     text = path.read_text(encoding="utf-8-sig")
+    if path.relative_to(docs_root).as_posix() == "index.md":
+        text = remove_index_search_section(text)
+
     if not text.strip():
         return None
 
@@ -177,7 +196,7 @@ def build_document(root: Path, output_path: Path, generated_at: str | None) -> t
     chunks: list[str] = [f"Build date: {format_generated_at(generated_at)}", ""]
 
     for path in markdown_files:
-        text = read_non_empty_text(path)
+        text = read_non_empty_text(path, docs_root)
         if text is None:
             skipped_empty_count += 1
             continue
