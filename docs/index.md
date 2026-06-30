@@ -1,8 +1,13 @@
 # 📚 Kramerius – Dokumentace
 
-Vítejte v dokumentaci systému **Kramerius**.
+Vítejte v produktové dokumentaci systému **Kramerius**. Kramerius je modulární platforma pro správu, ukládání a zpřístupnění digitálních knihovních dokumentů.
 
-Kramerius je modulární platforma pro správu, ukládání a zpřístupnění digitálních knihovních dokumentů.
+Tato dokumentace je určena organizacím, které systém Kramerius provozují, spravují nebo rozvíjejí. Najdou zde informace pro kurátory digitálních knihoven, 
+administrátory systému i vývojáře rozšiřujících nebo integračních řešení.
+
+Dokumentace není určena koncovým uživatelům (čtenářům digitálních knihoven), ale zaměřuje se na správu, konfiguraci, provoz a vývoj systému.
+Tato dokumentace pokrývá celý životní cyklus systému Kramerius – od práce s digitálními dokumenty přes správu a konfiguraci 
+až po vývoj a integraci jednotlivých komponent.
 
 ---
 
