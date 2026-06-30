@@ -15,9 +15,51 @@ až po vývoj a integraci jednotlivých komponent.
 
 Najděte odpověď okamžitě pomocí vyhledávání nebo AI asistenta.
 
-```text
-🔎 Hledat v dokumentaci...
-```
+<style>
+  .doc-chat-launch {
+    margin: 8px 0 12px;
+  }
+
+  .doc-chat-launch__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    border: 0;
+    border-radius: 4px;
+    padding: 0 16px;
+    background: #1f6feb;
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .doc-chat-launch__button:hover {
+    background: #1a5fc8;
+  }
+
+  .doc-chat-launch__button:focus-visible {
+    outline: 3px solid rgba(31, 111, 235, 0.32);
+    outline-offset: 3px;
+  }
+</style>
+
+<div class="doc-chat-launch">
+  <button type="button" class="doc-chat-launch__button" onclick="window.openKrameriusDocChat()">🤖 Zeptat se AI asistenta</button>
+</div>
+
+<kramerius-doc-chat api-url="https://vasearch.inovatika.dev/kramerius-doc-api" use-mock-response=false></kramerius-doc-chat>
+<script>
+  window.openKrameriusDocChat = function () {
+    if (!window.krameriusDocChat) {
+      throw new Error('Kramerius doc chat neni nacteny.');
+    }
+
+    window.krameriusDocChat.open();
+  };
+</script>
+<script type="module" src="assets/kramerius-doc-chat-ui/doc-chat-ui.js"></script>
 
 > Tip: Můžete hledat „jak importovat dokument“, „co je metadata“, „problém s indexací“ apod.
 
