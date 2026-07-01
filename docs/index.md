@@ -82,7 +82,7 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 - licence
 - import
 
-👉 🎯 **[Scénáře](scenarios/index)**
+👉 🎯 **[Scénáře](scenarios/curator/index)**
 - zapojeni do DNNT
 - zapojení do ČDK
 - Zapojení do statistického modulu
