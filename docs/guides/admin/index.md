@@ -8,16 +8,17 @@ Administrátor zajišťuje instalaci, konfiguraci, zabezpečení a každodenní 
 
 Návody jsou rozděleny do několika tematických oblastí:
 
-* [**Installation** – instalace a nasazení jednotlivých komponent](../../deployment)
-* [**Configuration** – konfigurace systému a jeho služeb](../../configuration)
-* [**Operations** – běžná správa, monitoring a provozní údržba](operations)
-* [**Security** – nastavení autentizace, autorizace a zabezpečení systému](security)
-* [**Troubleshooting** – diagnostika a řešení nejčastějších problémů](troubleshooting)
+###  [Instalace a nasazení jednotlivých komponent](../../deployment)
+###  [Konfigurace systému a jeho služeb](../../configuration)
+###  [Běžná správa, monitoring a provozní údržba](operations)
+###  [Nastavení autentizace, autorizace a zabezpečení systému](security)
+### [ČDK](cdk)
+### [Diagnostika a řešení nejčastějších problémů](troubleshooting)
 
 Pokud se systémem začínáte, doporučujeme nejprve projít dokumentaci *Začínáme pro administrátory* a seznámit se se základními pojmy používanými v Krameriu.
 
 ## Související dokumentace
 
-* [Začínáme pro administrátory](../../getting-started/admin)
-* [Základní pojmy](../../core-concepts)
-* [Reference](../../reference)
+- ➡️  [Začínáme pro administrátory](../../getting-started/admin)
+- ➡️  [Základní pojmy](../../core-concepts)
+- ➡️  [Reference](../../reference)

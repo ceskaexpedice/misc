@@ -140,7 +140,7 @@ Pokud víte, co hledáte:
 - ⚙️ [Technické koncepty](core-concepts/index)
 - 🛠️ [Návody](guides/index)
 - 📖 [Reference](reference/index)
-- 📦 Verzování
+- 📦 [Verzovani](versioning/index)
 
 ## 🧩 Co je Kramerius
 

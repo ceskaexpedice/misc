@@ -1,4 +1,4 @@
-[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)  / [Security](../security)
+[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)
 
 # Bezpečnost – Návody pro administrátora
 
