@@ -1,6 +1,6 @@
 [Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
 
-# 🔄 Pracovní postupy (Workflows)
+# Pracovní postupy (Workflows)
 
 Tato sekce obsahuje kompletní pracovní postupy, které popisují více navazujících kroků při zpracování digitálních dat v systému Kramerius.
 
@@ -9,17 +9,13 @@ Workflow vždy popisuje **celý proces od začátku do konce**, například impo
 ### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
 Kompletní proces zpracování nové digitální dávky.
 
-### [TODO Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
+### [TODO)](import-index-dataset.md)
 Kompletní proces zpracování nové digitální dávky.
-
-### [TODO Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
-Kompletní proces zpracování nové digitální dávky.
-
 
 ---
 
 ## Související dokumentace
 
-- [Jednotlivé úkoly (Tasks)](../tasks/)
-- [Řešení problémů](../troubleshooting/)
-- [Návody pro kurátory](../index)
+- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/)
+- ➡️ [Řešení problémů](../troubleshooting/)
+- ➡️ [Návody pro kurátory](../index)

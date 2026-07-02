@@ -1,6 +1,6 @@
-[Index](../../../../index) / [Návody](../../../../guides/) / [Kurátor](../../../curator/) / [Úlohy](../../../curator/tasks)
+[Index](../../../../index) / [Návody](../../../../guides/) / [Kurátor](../../../curator/) / [Úlohy]()
 
-# 📥 Spuštění importu
+# Spuštění importu
 
 Import načítá digitální data z importního adresáře Krameria.
 
@@ -20,7 +20,7 @@ Import načítá digitální data z importního adresáře Krameria.
     - tab **NDK METS**
 4. Rozklikněte požadovaný balíček (root dokument podle PID)
 
-   ![Import menu](../assets/import-menu.png)
+   ![Import menu](assets/import-menu.png)
 
     - zobrazí se seznam XML souborů (stránky / části dokumentu)
     - každá položka je identifikována PIDem
@@ -32,7 +32,7 @@ Import načítá digitální data z importního adresáře Krameria.
 1. Klikněte na **Spustit import**
 2. Otevře se dialog nastavení importu
 
-   ![Import dialog](../assets/import-dialog.png)
+   ![Import dialog](assets/import-dialog.png)
 
 ---
 
@@ -82,5 +82,5 @@ Vyberte licenci, která bude přiřazena importovaným dokumentům.
 
 ## Související
 
-- [Troubleshooting importu](../../troubleshooting/import-failed.md)
-- [Procesy v systému](../../reference/processes.md)
+- ➡️ [Troubleshooting importu](../../troubleshooting/import-failed.md)
+- ➡️ [Procesy v systému](../../reference/processes.md)

@@ -1,6 +1,6 @@
-[Index](../../../../index) / [Návody](../../../../guides/) / [Kurátor](../../../curator/) / [Úlohy](../../../curator/tasks)
+[Index](../../../../index) / [Návody](../../../../guides/) / [Kurátor](../../../curator/) / [Úlohy]()
 
-# 🔎 Spuštění indexace
+# Spuštění indexace
 
 Indexace převádí importovaná data do vyhledávací vrstvy systému Kramerius.
 

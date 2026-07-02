@@ -1,6 +1,6 @@
 [Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Pracovní postupy](../../curator/workflows) 
 
-# 📦 Zpracování nové dávky (Import + indexace)
+# Zpracování nové dávky (Import + indexace)
 
 Tento workflow popisuje kompletní zpracování nové digitální dávky od jejího importu až po indexaci v systému Kramerius.
 
@@ -25,11 +25,11 @@ D --> E[Dokument dostupný ve vyhledávání]
 
 ---
 
-## 1. [Import](../tasks/import/start-import)
+## 1. [Import](../tasks/start-import.md)
 
 Import je vstupní krok, který načte data z importního adresáře definovaného v konfiguraci systému.
 
-## 2. [Indexace](../tasks/indexing/start-indexing)
+## 2. [Indexace](../tasks/start-indexing.md)
 
 Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 
@@ -55,6 +55,5 @@ Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 
 ## Související dokumentace
 
-- [Import proces (reference)](../../reference/process/import)
-- [Indexace proces (reference)](../../reference/process/indexing)
-- [Konfigurace importního adresáře](../../configuration/import)
+- ➡️ TODO
+- ➡️ 

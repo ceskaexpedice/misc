@@ -8,21 +8,11 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ---
 
-## 📥 Import selhal
+## [Import selhal](import-failed)
 
-➡️ [Řešení problému](import-failed)
+## [Indexace neproběhla](index-failed)
 
----
-
-## 🔎 Indexace neproběhla
-
-➡️ [Řešení problému](index-failed)
-
----
-
-## 📄 Dokument se nezobrazuje
-
-➡️ [Řešení problému](document-not-visible)
+## [Dokument se nezobrazuje](document-not-visible)
 
 ---
 
@@ -35,19 +25,8 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ---
 
-## Kdy použít tuto sekci
-
-Použijte Troubleshooting, pokud:
-
-- import selhal
-- indexace neběží nebo skončila chybou
-- dokument se nezobrazuje ve vyhledávání
-- proces zůstává viset nebo se nezpracovává
-
----
-
 ## Související dokumentace
 
-- [Pracovní postupy (Workflows)](../workflows/index)
-- [Jednotlivé úkoly (Tasks)](../tasks/index)
-- [Návody pro kurátory](../index)
+- ➡️ [Pracovní postupy (Workflows)](../workflows/index)
+- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/index)
+- ➡️ [Návody pro kurátory](../index)
