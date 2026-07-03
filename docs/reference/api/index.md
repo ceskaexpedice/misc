@@ -113,24 +113,8 @@ popis je k dispozici [zde](oai-pmh-protocol).
 ---
 # 4. Monitoring pomalých dotazů
 
-Od verze **7.0.40** je možno monitorovat dotazy, u kterých je delší doba odpovědi než je definovaná hodnota threshold. Jednotlivé události jsou ukládány v solr jádře [monitor](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-9.x/monitor).  Konfigurační parametry jsou:
-
-TODO presunout do kapitoly Konfigurace
-
-```properties
-# Threshold in milliseconds for monitoring events.
-# Events with duration above this value will be recorded.
-api.monitor.threshold = 1000
-
-# Endpoint for recording monitoring events.
-# 'monitor' is the Solr core where events are stored.
-api.monitor.point=http://localhost:8983/solr/monitor
-
-# Label to be included with each monitoring event.
-# This allows distinguishing between different instances of Kramerius 
-# (e.g., in a cloud or clustered environment where each node has a unique name).
-labels=Instance_name
-```
+Od verze **7.0.40** je možno monitorovat dotazy, u kterých je delší doba odpovědi než je definovaná hodnota threshold. 
+Jednotlivé události jsou ukládány v solr jádře [monitor](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-9.x/monitor).  Konfigurační parametry jsou - ➡️ [Monitoring](../../configuration/core/configuration-properties/configuration-monitoring.md)
 
 V admin prostředí jsou tyto dotazy vidět na cestě `home/sledování API`. Viz screenshot: 
 

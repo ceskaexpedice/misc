@@ -26,4 +26,5 @@ This page documents the most important and commonly customized properties.
 - ➡️ [Process Platform](configuration-process-platform.md)
 - ➡️ [Databaze](configuration-database.md)
 - ➡️ [CDK](configuration-cdk.md)
+- ➡️ [Monitoring](configuration-monitoring.md)
 
