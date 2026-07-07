@@ -8,10 +8,10 @@ Administrátor zajišťuje instalaci, konfiguraci, zabezpečení a každodenní 
 
 Návody jsou rozděleny do několika tematických oblastí:
 
-###  [Instalace a nasazení jednotlivých komponent](../../deployment)
-###  [Konfigurace systému a jeho služeb](../../configuration)
-###  [Běžná správa, monitoring a provozní údržba](operations)
-###  [Nastavení autentizace, autorizace a zabezpečení systému](security)
+### [Instalace a nasazení jednotlivých komponent](../../deployment)
+### [Konfigurace systému a jeho služeb](../../configuration)
+### [Běžná správa, monitoring a provozní údržba](operations)
+### [Nastavení autentizace, autorizace a zabezpečení systému](security)
 ### [ČDK](cdk)
 ### [Diagnostika a řešení nejčastějších problémů](troubleshooting)
 

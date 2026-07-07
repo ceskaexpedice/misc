@@ -30,8 +30,6 @@ Kramerius obsahuje administrační model pro:
 
 Tato data jsou uložena v databázi. Potřebné informace viz navazující dokumentace na konci stránky.
 
-Konfigurace přístupu ke keycloak se děje skrze Kramerius Core:
-➡️ [Keycloak](../core/configuration-properties/configuration-security.md)
 
 ### Konfigurační soubor `keycloak.json`
 

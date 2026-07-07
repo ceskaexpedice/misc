@@ -22,7 +22,6 @@ This page documents the most important and commonly customized properties.
 
 - ➡️ [Akubra](configuration-akubra.md)
 - ➡️ [Vyhledávání](configuration-solr.md)
-- ➡️ [Security](configuration-security.md)
 - ➡️ [Process Platform](configuration-process-platform.md)
 - ➡️ [Databaze](configuration-database.md)
 - ➡️ [CDK](configuration-cdk.md)
