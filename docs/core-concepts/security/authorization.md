@@ -51,15 +51,11 @@ Ke každé akci lze přiřadit:
 ## Vyhodnocení oprávnění – příklad
 
 Akce: READ
-Pravidla:
+Role: krameriusAdmin
 
-Role = krameriusAdmin
-
-Licence = dnnto
-
+Kriterium = Licence = dnnto
 Kritérium = IPAddress = 192.168.0.0/24
-Výsledek: povolení, pokud uživatel má roli krameriusAdmin
-nebo dokument má licenci dnnto
+Výsledek: povolení, pokud uživatel má roli krameriusAdmin a dokument má licenci dnnto
 a je přihlášen z IP v povoleném rozsahu
 
 
