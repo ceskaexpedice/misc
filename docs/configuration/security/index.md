@@ -67,7 +67,7 @@ V produkčním prostředí je nutné upravit zejména:
 
 ## Navazujici dokumentace
 
-- ➡️ [Základní pojmy](../core-concepts/security)
-- ➡️ [Architektura](../architecture/security)
-- ➡️ [Reference](../reference/security)
-- ➡️ [Navody](../guides/admin/security)
+- ➡️ [Základní pojmy](../../core-concepts/security)
+- ➡️ [Architektura](../../architecture/security)
+- ➡️ [Reference](../../reference/security)
+- ➡️ [Navody](../../guides/admin/security)
