@@ -89,6 +89,8 @@ Tento přístup umožňuje:
 
 ## Navazujici dokumentace
 
+TODO navazat na security cdk
+
 - ➡️ [Zakladni pojmy](../../core-concepts/cdk/)
 - ➡️ [Architektura](../../architecture/cdk)
-- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Konfigurace](../../configuration/cdk)
