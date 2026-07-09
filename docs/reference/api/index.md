@@ -56,44 +56,8 @@ V těchto případech je třeba zpracovat XML či textové odpovědi podle struk
 
 V případě chyby API vrací chybové odpovědi ve formátu JSON.
 
- 
- ### 2.3 Bezpečnost  - OAUTH2
-
-Každý požadavek na Kramerius API může obsahovat **JWT token** (JSON Web Token). Pokud požadavek token obsahuje, jádro Krameria předpokládá, že uživatel je přihlášen, a provádí autorizaci na základě uživatelské role, která je definována v tokenu. Jádro dokáže token dekódovat, zjistit role a atributy uživatele a na základě toho přiřadit práva k požadovaným akcím.
-
-Celý proces autentizace a autorizace je založen na protokolu **OAuth2**. Získání tokenu probíhá následujícím způsobem:
-
-1. **Přihlášení uživatele**: Klient nebo webový prohlížeč, který se chce autentizovat, odešle požadavek na endpoint jádra Krameria `~/search/api/client/v7.0/user/login`.
-2. **Přesměrování na Keycloak**: Uživatel je přesměrován na server **Keycloak**, který zajišťuje autentizaci. Zde se uživatel přihlásí jedním z podporovaných způsobů (formulář, Shibboleth federace, Facebook, Google, atd.).
-3. **Získání přístupového kódu (code)**: Po úspěšné autentizaci je uživatel přesměrován zpět na konfigurovanou URL s parametrem `code`.
-4. **Získání access tokenu**: Klient nebo prohlížeč pomocí obdrženého kódu získá **access token**.
-5. **Použití access tokenu**: Tento **access token** je pak použit ve všech dalších voláních na API jádra Krameria.
-
-Jádro Krameria je připojeno na server Keycloak, který zajišťuje ověřování tokenů. Jádro token dekóduje, získává informace o rolích a atributech uživatele a na základě nich rozhoduje o přístupových právech k jednotlivým operacím.
-
-#### Diagram získání JWT tokenu:
-
-
-```mermaid
-sequenceDiagram
-    participant Uživatel
-    participant Klient
-    participant Jádro
-    participant Keycloak
-
-    Uživatel->>Klient: Požadavek na přihlášení
-    Klient->>Jádro: Požadavek na autentizaci
-    Jádro-->>Klient: Přesměrování na Keycloak
-    Klient->>Keycloak: Dotaz na Keycloak
-    Keycloak-->>Klient: Odpověď z Keycloaku - formulář s možnostmi přihlášení
-    Uživatel->>Keycloak: Zadání přihlašovacích údajů
-    Keycloak-->>Klient: Přesměrování zpět na Klient s code parametrem
-    Klient->>Jádro: Požadavek na token s code parametrem
-    Jádro->>Keycloak: Požadavek na token s code parametrem
-    Keycloak-->>Jádro: Odpověď s tokenem
-    Jádro-->>Klient: Odpověď s tokenem
-```
 ---
+  
 # 3. Kramerius REST API
 
 ### 3.1 Klientská část
@@ -111,14 +75,6 @@ Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inova
 popis je k dispozici [zde](oai-pmh-protocol).
 
 ---
-# 4. Monitoring pomalých dotazů
-
-Od verze **7.0.40** je možno monitorovat dotazy, u kterých je delší doba odpovědi než je definovaná hodnota threshold. 
-Jednotlivé události jsou ukládány v solr jádře [monitor](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-9.x/monitor).  Konfigurační parametry jsou - ➡️ [Monitoring](../../configuration/core/configuration-properties/configuration-monitoring.md)
-
-V admin prostředí jsou tyto dotazy vidět na cestě `home/sledování API`. Viz screenshot: 
-
-![image](https://github.com/user-attachments/assets/0ede6808-8cfc-488b-8b5e-f54caa2f2704)
 
 ## Navazujici dokumentace
 

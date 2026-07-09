@@ -27,6 +27,4 @@ Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuál
 ## Navazujici dokumentace
 
 - ➡️ [Zakladni pojmy](../../core-concepts/akubra/)
-- ➡️ [Architektura](../../architecture/)
 - ➡️ [Konfigurace](../../configuration/akubra/)
-- ➡️ [Verzovani](../../versioning/)

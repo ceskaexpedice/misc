@@ -2,7 +2,7 @@
 
 # Akubra
 
-igitální objekty jsou ukládány v repository vrstvě.
+Digitální objekty jsou ukládány v repository vrstvě.
 
 Repository zajišťuje:
 
@@ -12,6 +12,8 @@ Repository zajišťuje:
 - přístup k digitálnímu obsahu
 
 Implementace repository je založena na Fedora repository a modulu Akubra.
+
+- ➡️ [Datovy model](https://github.com/ceskaexpedice/akubra/wiki/Data-Model)
 
 ---
 
