@@ -2,13 +2,12 @@
 
 # DevOps – build, CI/CD a vývojové nástroje
 
-Tato stránka popisuje technické nástroje a automatizace používané při vývoji, buildu a dodávce systému Kramerius a souvisejících komponent (process platform, workery, backend služby).
-
-Nejde o návod ani konfiguraci – tyto informace jsou popsány v sekcích **Guides**, **Configuration** a **Deployment**.
+Tato stránka popisuje technické nástroje a automatizace používané při vývoji, buildu a dodávce systému Kramerius a souvisejících komponent
+(process platform, workery, backend služby).
 
 ---
 
-## 🧱 Build systém
+## Build systém
 
 Pro build systému používáme **Gradle**.
 
@@ -24,7 +23,7 @@ Build je rozdělen do více modulů podle komponent systému (core, API, workers
 
 ---
 
-## 🔁 CI/CD
+## CI/CD
 
 CI/CD je realizováno pomocí GitHub Actions.
 
@@ -40,7 +39,7 @@ Pipeline jsou definovány v repozitáři v adresáři `.github/workflows`.
 
 ---
 
-## ⚙️ Build process platform workerů
+## Build process platform workerů
 
 Součástí systému Kramerius je **process platform**, která využívá samostatné worker aplikace.
 
@@ -55,7 +54,7 @@ Tato část popisuje pouze build pohled, nikoliv runtime architekturu.
 
 ---
 
-## 📡 REST API
+## REST API
 
 Backend služby poskytují REST API dokumentované pomocí OpenAPI (Swagger).
 
@@ -73,7 +72,7 @@ Dostupné výstupy:
 
 ---
 
-## 🔎 Vyhledávání (Solr)
+## Vyhledávání (Solr)
 
 Vyhledávací vrstva systému je postavena na Apache Solr.
 
@@ -86,7 +85,7 @@ DevOps část zahrnuje:
 
 ---
 
-## 📦 Artefakty
+## Artefakty
 
 Výstupem build procesu jsou různé typy artefaktů:
 
@@ -99,18 +98,8 @@ Artefakty jsou publikovány prostřednictvím CI pipeline (GitHub Actions).
 
 ---
 
-## 🔗 Vztah k ostatním částem dokumentace
 
-Tato sekce doplňuje ostatní části dokumentace:
-
-- **Guides** – postupy a návody
-- **Configuration** – konfigurace systému
-- **Deployment** – nasazení systému
-- **Architecture** – návrh a runtime chování systému
-
----
-
-## 🧭 Shrnutí
+## Shrnutí
 
 DevOps část popisuje:
 

@@ -10,13 +10,13 @@ Kramerius Core je Java WAR aplikace poskytující REST API a zajišťující bus
 
 ---
 
-## REST API
+## [REST API](../api)
 
 Kramerius Core poskytuje REST API, které je hlavním vstupním bodem pro všechny klientské aplikace.
 
 API je stateless a komunikace probíhá přes HTTP protokol.
 
-### Hlavní oblasti API:
+Hlavní oblasti API:
 
 - digitální objekty (Akubra)
 - vyhledávání (Search / SOLR)
@@ -25,24 +25,16 @@ API je stateless a komunikace probíhá přes HTTP protokol.
 
 Detailní specifikace jednotlivých endpointů je popsána v příslušných podkapitolách Reference.
 
----
 
-## Bezpečnost (Security)
+## [Zabezpeceni](../security)
 
 Kramerius Core implementuje bezpečnostní vrstvu založenou na integraci s Keycloak.
-
-### Chování systému:
 
 - autentizace probíhá pomocí JWT tokenů vydaných Keycloakem
 - autorizace je řízena pomocí rolí a oprávnění
 - přístup k REST endpointům je řízen security vrstvou Kramerius Core
-
-### Integrace:
-
 - validace tokenů vůči Keycloak serveru
 - mapování rolí z Keycloak do interního modelu oprávnění
-
----
 
 ## Integrace s komponentami
 
@@ -66,7 +58,6 @@ Kramerius Core komunikuje s následujícími systémy:
     - autentizace uživatelů
     - správa rolí a klientů
 
----
 
 ## Chování systému
 
@@ -80,19 +71,10 @@ Kramerius Core funguje jako orchestrátor požadavků:
     - Process Platform pro asynchronní úlohy
 4. Sestaví a vrátí odpověď klientovi
 
----
 
 ## Chybové stavy
 
-API vrací standardizované HTTP status kódy:
-
-- `200 OK` – úspěšné zpracování
-- `400 Bad Request` – neplatný požadavek
-- `401 Unauthorized` – chybí autentizace
-- `403 Forbidden` – nedostatečná oprávnění
-- `500 Internal Server Error` – chyba na straně serveru
-
----
+API vrací standardizované HTTP status kódy
 
 ## Navazujici dokumentace
 

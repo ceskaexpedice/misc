@@ -1,6 +1,6 @@
 [Index](../index) / [Reference](..)
 
-# Image Server v Kramerius
+# Image Server
 
 ## Přehled
 
