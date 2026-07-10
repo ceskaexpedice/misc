@@ -19,7 +19,6 @@ Zdrojové knihovny zůstávají plně autonomní a uchovávají digitální obje
 ![Zakladni diagram](../assets/cdk-basic.png)
 
 
-
 ## CDK aggregacni model
 
 ![Agregacni model](../assets/cdk-aggreg.png)

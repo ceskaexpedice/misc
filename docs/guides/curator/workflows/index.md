@@ -6,10 +6,10 @@ Tato sekce obsahuje kompletní pracovní postupy, které popisují více navazuj
 
 Workflow vždy popisuje **celý proces od začátku do konce**, například import a následnou indexaci.
 
-### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
+### [Zpracování nové dávky (Import + indexace)](import-index-dataset)
 Kompletní proces zpracování nové digitální dávky.
 
-### [TODO)](import-index-dataset.md)
+### [Zapojení knihovny do ČDK)](library-cdk-onboarding-guide.md)
 Kompletní proces zpracování nové digitální dávky.
 
 ---

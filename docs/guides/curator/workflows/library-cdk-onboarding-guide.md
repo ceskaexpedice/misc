@@ -1,3 +1,5 @@
+[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Pracovní postupy](../../curator/workflows)
+
 # Zapojení knihovny do České digitální knihovny
 
 Tento scénář popisuje postup kurátora při připojení nové knihovny do České digitální knihovny (ČDK).

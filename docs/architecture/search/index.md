@@ -1,6 +1,6 @@
 [Index](../../index) / [Architektura](../../architecture)
 
-# Indexing subsystémy
+# Vyhledavani
 
 ```text
 Repository
@@ -57,9 +57,6 @@ Indexy jsou částečně definovány build procesem:
 - příprava indexových struktur
 - kopírování Solr core konfigurací
 
-Viz:
-→ Reference / Build System / Solr Schema
-
 ---
 
 ## Solr jako společná infrastruktura
@@ -70,9 +67,6 @@ Více indexů může sdílet:
 - nebo SolrCloud cluster
 - různé cores / collections
 
-Konkrétní konfigurace je popsána v:
-→ Reference / Deployment / Solr
-
 ---
 
 ## Přehled indexů
@@ -80,26 +74,16 @@ Konkrétní konfigurace je popsána v:
 ### Search index
 Fulltextové vyhledávání nad Fedora objekty.
 
-→ Reference / Search / Search
-
 ---
 
 ### Processing model
 Interní model RELS-EXT a Akubra vztahů.
-
-→ Reference / Search / Processing
 
 ---
 
 ### Logs index
 Audit a systémové události.
 
-→ Reference / Search / Logs
-
-# Vyhledavani
-
-
----
 
 ## Navazujici dokumentace
 

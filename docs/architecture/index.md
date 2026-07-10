@@ -29,7 +29,7 @@ Systém typicky obsahuje následující komponenty:
 | Reader UI                | uživatelské rozhraní pro čtenáře |
 | Admin UI                 | administrace systému             |
 | Keycloak                 | autentizace                      |
-| Solr                     | search index                     |
+| Solr                     | vyhledavani                      |
 | Fedora / Akubra          | repository a storage             |
 | Image Server             | poskytování obrazových dat       |
 | Process Platform Manager | orchestrace background procesů   |

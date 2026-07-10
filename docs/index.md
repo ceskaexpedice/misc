@@ -74,6 +74,7 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 - indexace
 - práce se sbírkami
 - sledování procesů
+- zapojení knihovny do ČDK
 
 👉 🧠 **[Doménové pojmy](domain-concepts/index)**
 - dokument
@@ -81,12 +82,6 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 - sbírka
 - licence
 - import
-
-👉 🎯 **[Scénáře](scenarios/curator/index)**
-- zapojeni do DNNT
-- zapojení do ČDK
-- Zapojení do statistického modulu
-- Zapojení do federace
 
 ---
 
