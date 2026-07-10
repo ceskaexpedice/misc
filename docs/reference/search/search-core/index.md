@@ -106,6 +106,7 @@ Search podporuje:
 Search je zpřístupněn přes REST API.
 
 ➡️ [REST API](../../api/)
+➡️ [Search Core](searchAPI)
 
 Tato sekce popisuje pouze vyhledávací model, nikoliv konkrétní endpointy.
 

@@ -2,20 +2,7 @@
 
 Vyhledávání je umožněno endpointem, který slouží jako proxy do vyhledávacího enginu SOLR. Přebírá všechny parametry, validuje je a následně posílá na vyhledávací server solr. Z odpovědi jsou filtrována data typu TEXT_OCR a je posílán zpět na klienta. 
 
-
-```mermaid
-sequenceDiagram
-    participant Uživatel
-    participant Search Endpoint
-    participant Solr Engine
-    
-    Uživatel->>Search Endpoint: 1. Poslání požadavku
-    Search Endpoint->>Search Endpoint: 2. Validace parametrů
-    Search Endpoint->>Solr Engine: 3. Poslání požadavku
-    Solr Engine-->>Search Endpoint: 4. Odpověď
-    Search Endpoint->>Search Endpoint: 5. Ořezání chráněných dat
-    Search Endpoint-->>Uživatel: 6. Odeslání odpovědi
-```
+![Search](../assets/search.png)
 
 
 Příklad dotazu: 

@@ -2,69 +2,8 @@
 
 Koncept práv v systému K7 vychází z práv v [K5](https://github.com/ceskaexpedice/kramerius/wiki/Core_Concepts_Security_PravaK5), rozšířen je pouze o objekt licence.  Všechny informace o právech, licencích, dodatečných podmínkách jsou ukládány v servisní databázi Postgres SQL a situaci nejlépe vystihuje následující diagram:
 
+![Architecture](../assets/criteria-evaluation.png)
 
-```mermaid
-classDiagram
-
-    class RightCriterium {
-        +evaluate(): EvaluatingResultState
-    }
-
-    class EvaluatingResultState {
-        <<enumeration>>
-        +TRUE
-        +FALSE
-        +NO_APPLICABLE
-        +NEED_LOCK
-    }
-
-    class Right {
-        +ID: int
-        +role: Role
-        +action: Action
-    }
-
-    class Role {
-        +name: string
-    }
-
-    class Action {
-        +name: string
-    }
-
-    class IPAddressFilter {
-        +parameters: string[]
-        +evaluate(): EvaluatingResultState
-    }
-
-    class CoverAndContentFilter {
-        +evaluate(): EvaluatingResultState
-    }
-
-    class License {
-        +license: string
-        +parameters: string[]
-        +evaluate(): EvaluatingResultState
-    }
-
-    class LicenseWithIPAddressFilter {
-        +license: string
-        +parameters: string[]
-        +evaluate(): EvaluatingResultState
-    }
-
-    %% Inheritance relationships
-    IPAddressFilter --|> RightCriterium
-    CoverAndContentFilter --|> RightCriterium
-    License --|> RightCriterium
-    LicenseWithIPAddressFilter --|> RightCriterium
-
-    %% Relationships
-    Right --> Role : has
-    Right --> Action : has
-    Right --> RightCriterium : may have (0..1)
-
-```
 
 Právo reprezentováno vazbou mezi rolí a akcí, kterou se uživatel snaží vykonat. V tomto jednoduchém případě vždy platí, že uživatel má právo vykonat danou akci.  Vazba může být rozšířena o dodatečnou podmínky, ta pak dál specifikuje podmínky za kterých uživatel může danou akci vykonat. 
 
