@@ -6,9 +6,7 @@ Tato sekce obsahuje referenci k modulu **Zamkovy server**, který slouží pro s
 
 ---
 
-Veškerá detailní technická dokumentace k modulu Akubra je dostupná v jeho oficiální GitHub Wiki:
-
-# [Zamkovy server](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
+Veškerá detailní technická dokumentace k modulu Akubra je dostupná v jeho oficiální [GitHub Wiki](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki):
 
 Wiki je primárním zdrojem informací a obsahuje zejména:
 
@@ -24,6 +22,8 @@ Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuál
 
 ## Navazujici dokumentace
 
+- ➡️ [Wiki](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
+- ➡️ [Architektura](../../architecture)
 - ➡️ [Konfigurace](../../configuration/distributed-locks/)
 - ➡️ [Verzovani](../../versioning/)
 

@@ -2,7 +2,7 @@
 
 # Česká digitální knihovna (CDK)
 
-## Overview
+## Uvod
 
 Česká digitální knihovna (CDK) je centrální agregační vrstva nad více nezávislými instancemi systému Kramerius.
 
@@ -15,9 +15,12 @@ Každá knihovna (např. regionální nebo institucionální) provozuje vlastní
 
 CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systému.
 
+➡️ [ČDK architektura](../../architecture/cdk)
+➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk)
+
 ---
 
-## Source libraries
+## Zdrojové knihovny
 
 Každá zdrojová knihovna je nezávislá instance Krameria.
 
@@ -27,7 +30,7 @@ TODO zapojene knihovny ???
 
 ---
 
-## Protected channel model
+## Chráněný kanál a zabezpečení
 
 Přístup mezi CDK a zdrojovou knihovnou je řízen pomocí API autentizace:
 
@@ -39,9 +42,16 @@ Přístup mezi CDK a zdrojovou knihovnou je řízen pomocí API autentizace:
 
 API komunikace probíhá přes standardizované Kramerius API vrstvu.
 
+➡️ [Konfigurace chráněného kanálu](../../configuration/core/configuration-properties/configuration-cdk)
+
+ČDK autentizace je vysvětlena zde:
+
+➡️ [ČDK zabezpečení](../../core-concepts/security/cdk)
+
+
 ---
 
-## Aggregation model (Migration)
+## Agregační model (Migrace)
 
 Indexace obsahu probíhá pomocí Migration procesu:
 
@@ -58,7 +68,7 @@ Výsledkem je centrální Solr index obsahující metadata všech knihoven.
 
 ---
 
-## Content access
+## Přístup k obsahu dokumentů
 
 CDK neuchovává digitální obsah (stránky, obrazy, PDF).
 
@@ -77,19 +87,7 @@ Tento přístup umožňuje:
 
 ---
 
-## Benefits
-
-- jednotné vyhledávání napříč knihovnami
-- bezpečný federovaný přístup (API keys + protected channels)
-- žádná duplikace digitálních dat
-- nezávislost jednotlivých institucí
-- oddělení indexace a storage vrstvy
-
----
-
 ## Navazujici dokumentace
-
-TODO navazat na security cdk
 
 - ➡️ [Zakladni pojmy](../../core-concepts/cdk/)
 - ➡️ [Architektura](../../architecture/cdk)

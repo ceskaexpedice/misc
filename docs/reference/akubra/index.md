@@ -6,9 +6,8 @@ Tato sekce obsahuje referenci k modulu **Akubra**, který slouží pro práci s 
 
 ---
 
-Veškerá detailní technická dokumentace k modulu Akubra je dostupná v jeho oficiální GitHub Wiki:
+Veškerá detailní technická dokumentace k modulu Akubra je dostupná v jeho oficiální **[GitHub Wiki](https://github.com/ceskaexpedice/akubra/wiki)**:
 
-# [Akubra](https://github.com/ceskaexpedice/akubra/wiki)
 
 Wiki je primárním zdrojem informací a obsahuje zejména:
 
@@ -26,5 +25,7 @@ Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuál
 
 ## Navazujici dokumentace
 
+- ➡️ [Wiki](https://github.com/ceskaexpedice/akubra/wiki)
+- ➡️ [Architektura](../../architecture)
 - ➡️ [Zakladni pojmy](../../core-concepts/akubra/)
 - ➡️ [Konfigurace](../../configuration/akubra/)

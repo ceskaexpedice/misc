@@ -15,7 +15,6 @@ CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systé
 
 ## Navazujici dokumentace
 
-TODO navazat taky na konfiguraci a security CDK
-
 - ➡️ [ČDK architektura](../../architecture/cdk/)
 - ➡️ [ČDK reference](../../reference/cdk/)
+- ➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk.md)

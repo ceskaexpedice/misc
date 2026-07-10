@@ -37,7 +37,7 @@ Služba pro ukládání, zpracování a poskytování obrázků. Obsahuje API pr
 Modul pro sběr a vyhodnocování statistik. Reporty, agregace dat a analytické výstupy.
 
 ### [ČDK](cdk/index)
-Infrastructure-as-code vrstva pro definici a správu cloudových zdrojů. Zahrnuje deploymenty a konfigurace prostředí.
+Ceska digitalni knihovna
 
 ### [Web klient](client/index)
 Referenční popis klientské aplikace pro koncové uživatele. Obsahuje architekturu, integrace a základní chování UI.
