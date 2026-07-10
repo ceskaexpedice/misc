@@ -20,11 +20,11 @@ Oba kroky jsou spouštěny v Admin klientu a běží asynchronně.
 
 ---
 
-## 1. [Import](../tasks/start-import.md)
+## 1. [Import](../tasks/import)
 
 Import je vstupní krok, který načte data z importního adresáře definovaného v konfiguraci systému.
 
-## 2. [Indexace](../tasks/start-indexing.md)
+## 2. [Indexace](../tasks/indexing)
 
 Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 
