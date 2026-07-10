@@ -32,7 +32,7 @@ Administrátor provede:
 - ověření spojení,
 - spuštění úvodní migrace dokumentů.
 
-Podrobný administrátorský postup je popsán v návodu **[Zapojení knihovny do ČDK](../../guides/admin/cdk/library-cdk-onboarding.md)** .
+Podrobný administrátorský postup je popsán v návodu **[Zapojení knihovny do ČDK](../../admin/cdk/library-cdk-onboarding)** .
 
 ## 4. Ověření výsledku
 
