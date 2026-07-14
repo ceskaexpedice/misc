@@ -2,13 +2,8 @@
 
 # Security Reference
 
-> ℹ️ New to Kramerius security?
->
-> Read [Zakladni pojmy → Security](../../core-concepts/security/) first for an introduction to roles, permissions and access policies.
-
 Tato část obsahuje úplný technický popis bezpečnostního modelu Krameria.
 
-## Obsah
 
 ### [Autentizace](authentication/index)
 
