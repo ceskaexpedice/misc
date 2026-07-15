@@ -1,4 +1,15 @@
-TODO je nutno popsat autentizaci ve vztahu k protected channel, kde se posilaji ty cdk_ hlavicky; dale je nutno popsat, ze CDK ma vlastni
-Keycloak a prave v tech hlavickach posila zdrojovym knihovnam udaje z tokenu a taky, ze zdrojove knihovny maji cdk filter a 
-zajistuji si role ze zdrojovych knihoven keycloaku
+[Index](../../index) / [Základní koncepty](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+
+# ČDK
+
+V rámci ČDK mají všechny knihovny svůj Keycloak, ale k autentizaci se vyuzívá Keycloak ČDK jako takového. Potom při volání REST APi
+jednotlivých knihoven instancí ČDK se autentizační údaje posílají jednotlivým knihovnám v HTTP hlavičkách. jednotlivé knihovny mohou
+získávat své role ze svých Keycloak.
+Autorizace se potom provádí na úrovni jednotlivých knihoven.
+
+Dalším prvkem ochrany je tyv, chráněný kanál, kterým se pomocí API klíče chrání všechny REST požadavky. 
+
+## Navazujici dokumentace
+
+- ➡️ [Architektura](../../architecture/cdk)
 

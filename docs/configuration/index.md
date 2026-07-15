@@ -64,7 +64,7 @@ Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dok
 - limity generování
 - zdroje obrazů
 
-### [CDK](core/configuration-properties/configuration-cdk.md)
+### [CDK](core/configuration-properties/configuration-cdk)
 Konfigurace se děje skrze Kramerius Core
 
 ### [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)

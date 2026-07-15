@@ -2,8 +2,8 @@
 
 # 📦 Verzování
 
-Kramerius je ekosystém vzájemně spolupracujících aplikací, nikoliv jeden samostatný software. Kromě **Kramerius Core** zahrnuje také další samostatně vyvíjené komponenty, například **Process Platform** nebo **Akubra**. Každá z těchto komponent má vlastní životní cyklus a vlastní schéma verzování.
-TODO [Indexer](search/index)
+Kramerius je ekosystém vzájemně spolupracujících aplikací, nikoliv jeden samostatný software. Kromě **Kramerius Core** zahrnuje také další samostatně vyvíjené komponenty, například **Process Platform** nebo **Akubra**. 
+Každá z těchto komponent má vlastní životní cyklus a vlastní schéma verzování.
 
 
 ## Kramerius Core
@@ -105,6 +105,11 @@ Jednotlivé části čísla verze mají následující význam:
 - **Hotfix** – opravná verze obsahující opravy chyb.
 
 ---
+
+## [Indexer](search/index)
+
+## Databaze
+TODO
 
 ## Nezávislé vydávání komponent
 

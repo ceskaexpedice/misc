@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+
 # Autentizace
 
 Kramerius používá OAuth 2.0 Access Token ve formátu JWT.
@@ -16,27 +18,19 @@ Kramerius očekává token v hlavičce:
 Authorization: Bearer <token>
 ```
 
-### [Token lifecycle](token-lifecycle)
+### CDK hlavicka
+TODO
 
 ### [Token model](token-model)
+
+### [Token lifecycle](token-lifecycle)
+
 
 ## User Principal
 
 Po úspěšné validaci tokenu vzniká interní reprezentace uživatele.
 
-### Role v systému
-
-Každý přihlášený uživatel má přiřazenou jednu nebo více rolí. Ve výchozím nastavení jsou v Krameriovi k dispozici tyto dvě role:
-
-
-- **kramerius_admin**  
-  Administrátorská role, která opravňuje k provádění všech administrátorských úkonů a správě uživatelských oprávnění.
-
-- **common_users**  
-  Role pro všechny běžné uživatele, která zajišťuje základní přístupová oprávnění.
-
-- **dnnt_users**  
-  Role určená pro uživatele, kteří mají přístup k dnnto dokumentům
+### [Role](../roles)
 
 ## Authentication Errors
 

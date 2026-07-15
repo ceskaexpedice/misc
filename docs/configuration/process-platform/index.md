@@ -2,7 +2,7 @@
 
 # Process platform konfigurace
 
-- ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform.md)
+- ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform)
 - ➡️ [Process Platform modul](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
 - ➡️ [Konfigurace Plugins](../../reference/process-platform/plugins)
 

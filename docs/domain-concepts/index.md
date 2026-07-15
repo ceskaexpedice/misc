@@ -26,7 +26,7 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ### I
 
-- [Import](import.md)
+- [Import](import)
 - [Identifikátor PID](identifier/pid)
 
 ### M

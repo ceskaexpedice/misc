@@ -3,7 +3,7 @@
 # Vyhledavani
 
 Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
-➡️ [Vyhledávání](../core/configuration-properties/configuration-solr.md)
+➡️ [Vyhledávání](../core/configuration-properties/configuration-solr)
 
 Zvazime take pouziti:
 ➡️ [Solr Cloud](solr-cloud)

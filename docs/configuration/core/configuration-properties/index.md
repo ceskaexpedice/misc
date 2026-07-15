@@ -20,10 +20,10 @@ This page documents the most important and commonly customized properties.
 
 ## Configuration Properties - vybrane casti
 
-- ➡️ [Akubra](configuration-akubra.md)
-- ➡️ [Vyhledávání](configuration-solr.md)
-- ➡️ [Process Platform](configuration-process-platform.md)
-- ➡️ [Databaze](configuration-database.md)
-- ➡️ [CDK](configuration-cdk.md)
-- ➡️ [Monitoring](configuration-monitoring.md)
+- ➡️ [Akubra](configuration-akubra)
+- ➡️ [Vyhledávání](configuration-solr)
+- ➡️ [Process Platform](configuration-process-platform)
+- ➡️ [Databaze](configuration-database)
+- ➡️ [CDK](configuration-cdk)
+- ➡️ [Monitoring](configuration-monitoring)
 

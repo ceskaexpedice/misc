@@ -34,7 +34,7 @@ Před zahájením musí být splněny následující podmínky:
 - administrátor ČDK má přístup ke konfiguraci centrálního serveru,
 - oba servery jsou vzájemně síťově dostupné.
 
-Konfigurace parametrů potřebných pro komunikaci mezi knihovnami je popsána v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk.md).
+Konfigurace parametrů potřebných pro komunikaci mezi knihovnami je popsána v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk).
 
 ## 1. Vygenerování API klíče
 
@@ -64,7 +64,7 @@ Popis endpointu je uveden v referenční dokumentaci ➡️ [REST API](../../../
 
 ## 3. Spuštění migrace
 
-První zaindexování knihovny se provádí pomocí procesu ➡️ [Migrace CDK](../../../reference/process-platform/plugins/cdk-migration.md).
+První zaindexování knihovny se provádí pomocí procesu ➡️ [Migrace CDK](../../../reference/process-platform/plugins/cdk-migration).
 
 Proces:
 
@@ -92,7 +92,7 @@ Obsah dokumentů zůstává uložen ve zdrojové knihovně. ČDK obsahuje pouze 
 
 ## Aktualizace jednotlivých dokumentů
 
-Pokud je potřeba znovu zaindexovat pouze jeden dokument, použijte proces ➡️ [Reharvest CDK](../../../reference/process-platform/plugins/cdk-reharvest.md).
+Pokud je potřeba znovu zaindexovat pouze jeden dokument, použijte proces ➡️ [Reharvest CDK](../../../reference/process-platform/plugins/cdk-reharvest).
 
 Proces:
 

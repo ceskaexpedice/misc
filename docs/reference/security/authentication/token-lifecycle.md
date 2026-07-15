@@ -1,7 +1,5 @@
 # Token lifecycle v Kramerius UI
 
-## Přehled
-
 Frontend aplikace Krameria používají:
 
 - access token

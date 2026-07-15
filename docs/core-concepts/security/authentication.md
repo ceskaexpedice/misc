@@ -10,6 +10,13 @@ Kramerius přímo nespravuje uživatelské identity. Místo toho spoléhá na ex
 
 Po úspěšném přihlášení poskytovatel identity vydá bezpečnostní token obsahující informace o autentizovaném uživateli.
 
+```text
+User
+  ↓
+Role
+```
+
+
 ## Výsledek autentizace
 
 Výsledkem autentizace je autentizovaná identita reprezentovaná:
@@ -20,4 +27,10 @@ Výsledkem autentizace je autentizovaná identita reprezentovaná:
 - dalšími atributy identity
 
 Autentizovaná identita je připojena ke každému požadavku a stává se vstupem pro autorizaci.
+
+## Navazujici dokumentace
+
+- ➡️ [Architektura](../../architecture/security/authentication)
+- ➡️ [Reference](../../reference/security/authentication)
+
 

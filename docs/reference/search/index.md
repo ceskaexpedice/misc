@@ -4,7 +4,7 @@
 
 Tato stránka poskytuje přehled hlavních Solr jader používaných v systému **Kramerius 7** a jejich účel.
 
-Informace zde jsou určeny pro referenci při konfiguraci a práci se systémem. Pro postup instalace a správy Solr jader viz [Guides: Instalace a správa Solr](../Guides/Instalace-Solr.md).
+Informace zde jsou určeny pro referenci při konfiguraci a práci se systémem. Pro postup instalace a správy Solr jader viz [Guides: Instalace a správa Solr](../Guides/Instalace-Solr).
 
 ---
 
@@ -48,11 +48,11 @@ Kramerius využívá vyhledávací engin **Solr** a definuje tři hlavní jádra
 - **Konfigurační parametr:** nemá přímý parametr v `configuration.properties`; přístup přes Solr admin UI.
 - **Popis:**  
   Jádro slouží pro sledování aktivit a generování reportů o využívání systému.
-- **Instalace:** viz [Guides: Instalace a správa Solr](../Guides/Instalace-Solr.md)
+- **Instalace:** viz [Guides: Instalace a správa Solr](../Guides/Instalace-Solr)
 
 ---
 
-> ⚠️ Poznámka: Pro každý upgrade Kramerius nebo Solr může být nutné aktualizovat schéma jádra **search** (soubor `managed-schema`). Pro postup viz [Guides: Aktualizace schématu Search Core](../Guides/Instalace-Solr.md#aktualizace-sch%C3%A9matu-j%C3%A1dro-search).
+> ⚠️ Poznámka: Pro každý upgrade Kramerius nebo Solr může být nutné aktualizovat schéma jádra **search** (soubor `managed-schema`). Pro postup viz [Guides: Aktualizace schématu Search Core](../Guides/Instalace-Solr#aktualizace-sch%C3%A9matu-j%C3%A1dro-search).
 
 ## Navazujici dokumentace
 

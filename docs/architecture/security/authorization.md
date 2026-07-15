@@ -15,7 +15,7 @@ Roles
   ↓
 Actions
   ↓
-Criteria
+Conditions
   ↓
 Decision
 ```
@@ -35,7 +35,7 @@ Roles
    ↓
 Actions
    ↓
-Criteria
+Conditions
    ↓
 Permit / Deny
 ```

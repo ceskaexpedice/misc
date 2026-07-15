@@ -29,8 +29,12 @@ Role
 Action
 ```
 
-
 Role uděluje jednu nebo více akcí.
 
 Úplný seznam dostupných akcí je popsán v referenční dokumentaci.
+
+## Navazujici dokumentace
+
+- ➡️ [Reference](../../reference/security/actions)
+
 

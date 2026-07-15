@@ -76,11 +76,11 @@ Vyberte licenci, která bude přiřazena importovaným dokumentům.
 - běží asynchronně
 - lze sledovat v sekci procesů
 
-➡️ [Sledování procesů](../../tasks/processes/view-process.md)
+➡️ [Sledování procesů](../../tasks/processes/view-process)
 
 ---
 
 ## Související
 
-- ➡️ [Troubleshooting importu](../../troubleshooting/import-failed.md)
-- ➡️ [Procesy v systému](../../reference/processes.md)
+- ➡️ [Troubleshooting importu](../../troubleshooting/import-failed)
+- ➡️ [Procesy v systému](../../reference/processes)

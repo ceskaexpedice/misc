@@ -20,12 +20,13 @@ Právo reprezentováno vazbou mezi rolí a akcí, kterou se uživatel snaží vy
 
 * **A_DELETE**  
   Akce reprezentuje možnost mazat konkrétní objekt/pid.
-atd.
+
+* atd.
 
 
 ## Role v systému
 
-Každý přihlášený uživatel má přiřazenou jednu nebo více rolí. Ve výchozím nastavení jsou v Krameriovi k dispozici tyto dvě role:
+Každý přihlášený uživatel má přiřazenou jednu nebo více rolí. Ve výchozím nastavení jsou v Krameriovi k dispozici tyto role:
 
 
 - **kramerius_admin**  

@@ -1,3 +1,5 @@
+[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+
 # Actions
 
 Akce představují oprávnění používaná autorizačním systémem.
@@ -6,86 +8,31 @@ Seznam je k dispozici [zde](https://github.com/ceskaexpedice/kramerius/blob/mast
 
 ## Chráněné akce
 
-* **A_READ**  
-  Má právo číst konkrétní objekt. Jedná se o klíčovou akci v systému, která rozhoduje, zda má uživatel povolení číst daný dokument nebo jeho jednotlivé stránky.
-
-* **A_PDF_READ**  
-  Akce uděluje uživateli právo přistupovat k PDF zdrojům. Pokud není povolena, přístup k PDF endpointům je zcela zakázán. I když je akce povolena, nemusí to znamenat, že uživatel získá přístup ke skutečným skenům dokumentu. Pokud nemá právo číst daný dokument, místo skenů se v PDF zobrazí hláška o nedostupnosti. Tato akce je standardně povolena pro všechny uživatele.
-
-* **A_DELETE**  
-  Akce reprezentuje možnost mazat konkrétní objekt/pid.
-
-* **A_PROCESS_EDIT**  
-  Akce reprezentuje možnost spravovovat všechny procesy. Mazat, prohlížet logy, atd..
-
-* **A_PROCESS_READ**  
-  Akce reprezentuje možnost read operace nad procesy. Možnost prohlížet logy, prohlížet seznamy procesů, atd..
-
-* **A_OWNER_PROCESS_EDIT**  
-  Akce umožňuje spravovat pouze vlastní procesy, tedy ty, u kterých je uživatel uveden jako vlastník. Toto je obzvláště důležité v případech, kdy jsou v systému Kramerius rozlišeni administrátoři a subadministrátoři. Subadministrátoři mohou spravovat pouze vlastní procesy a díla, zatímco plná správa ostatních procesů zůstává na administrátorech.
-
-* **A_INDEX**  
-  Akce umožňuje spustit indexační a reindexační procesy
-
-* **A_REBUILD_PROCESSING_INDEX**  
-  Akce umožňuje spouštet proces pro vybudování `processing indexu`
-
-* **A_IMPORT**  
-  Akce umožňuje spouštět FOXML a NDK Mets importy
-
-* **A_SET_ACCESSIBILITY**  
-  Právo nastavovat příznak viditelnosti a licence.
-
-* **A_EXPORT_CDK**  
-  Export pro CDK.
-
-* **A_STATISTICS**  
-  Zobrazení statistik.
-
-* **A_STATISTICS_EDIT**  
-  Možnost mazat statistiky.
-
-* **A_EXPORT_STATISTICS**  
-  Exportování statistik třetím stranám.
-
-* **A_EXPORT_REPLICATIONS**  
-  Replikace - export.
-
-* **A_IMPORT_REPLICATIONS**  
-  Replikace - import.
-
-* **A_RIGHTS_EDIT**  
-  Editace práv pro všechny objekty kromě sbírek.
-
-* **A_CRITERIA_READ**  
-  Právo číst kritéria.
-
-* **A_COLLECTIONS_READ**  
-  Právo číst informace o kolekcích z administrátorského pohledu.
-
-* **A_COLLECTIONS_EDIT**  
-  Editace kolekcí, přidávání do kolekcí.
-
-* **A_ABLE_TOBE_PART_OF_COLLECTION**  
-  Právo být zařazen do kolekce.
-
-* **A_GENERATE_NKPLOGS**  
-  Spuštění NKP logů.
-
-* **A_ROLES_EDIT**  
-  Editace rolí.
-
-* **A_ROLES_READ**  
-  Čtení rolí.
-
-* **A_ADMIN_READ**  
-  Právo na čtení administrátorského rozhraní.
-
-* **A_SDNNT_SYNC**  
-  Synchronizace SDNNT.
-
-* **A_OBJECT_EDIT**  
-  Editace objektů.
-
-* **A_ADMIN_API_SPECIFICATION_READ**  
-  Čtení specifikace OpenAPI pro administraci.
+- *a_read/Číst* - Akce čti definuje operaci číst data (obrázky). _Pokud má uživatel práva tuto akci provádět, objeví se mu  velký náhled, vygeneruje PDF nebo zobrazí deepZoom prohlížečka._
+- *a_pdf_read/Pdf a tisk* - Definuje použití endpointu pro generování pdf dokumentů případně tisku
+- *a_delete/Mazání* - Smazání objektu, resp. spuštění procesu mazání nad objektem.
+- *a_process_read/Ćtení procesů* - Možnost si číst procesy (v admin rozhraní zobrazit tabulku spuštěných procesů)
+- *a_process_edit/Správa procesů* - Možnost číst a spravovat procesy (v admin rozhraní zobrazit tabulku spuštěných procesů s
+  možností spravovat proces = zastavit proces, smazat proces, vstoupit do detailu a prohlížet logy). Pokud má uživatel nadefinovanou tuto akci, nemusí mít již definovanou akci _a_process_read_
+- *a_owner_process_edit/Správa vlastních procesů*  - Možnost číst a spravovat _svoje_ procesy, tedy procesy spuštěné konkrétním uživatelem.
+- *a_index/Indexace*  - Možnost spustit indexaci na konkrétním objektu.
+- *a_rebuild_processing_index/Rebuild procssing indexu*  - Možnost spuštění procesu pro rebuild processing indexu.
+- *a_import/Import* - Možnost spuštění importního procesu. Pokrývá operace import FOXML a NDK-METS balíčku.
+- *a_set_accessibility/Přístupnost* - Možnost spuštění procesu nastavení nastavení přístupnosti objetů,
+  pokrývá operace nastavení příznaku i nastavování a rušení licencí
+- *a_set_accessibility/Přístupnost* - Možnost spustit nastavení přístupnosti případně licence
+- *a_export_cdk/Export do ČDK* - Přístup pro ČDK
+- *a_statistics/Statistiky* - Možnost číst statistky
+- *a_statistics_edit/Editace statistik* - Možnost mazání statistik
+- *a_export_replications/Export replikace* - Umožnění replikace titulu
+- *a_import_replications/Import replikace* - Umožnění spuštění procesu replikace
+- *a_rights_edit/Editace práv* - Umožnění editace práv
+- *a_criteria_read/Kritéria* - Umožnění čtení kritérií.
+- *a_collections_read/Čtení sbírek* - Umožní číst/zobrazit seznam sbírek
+- *a_collections_edit/Editace sbírek* - Umožní upravovat sbírky případně vybranou sbírku
+- *a_able_tobe_part_of_collections* - Právo umožní uživatelům přidávat vybrané díla do sbírek.
+  V případě, že je právo nastaveno na úrovni repositáře, pak má uživatel právo přidávat všechny objekty.
+- *a_generate_nkplogs/Generování NKP logů* - Akce pro spuštění generování NKP logů
+- *a_roles_edit/Editace rolí* - Akce přidávání/mazaní/editace rolí
+- *a_roles_read/Čtení rolí* - Akce čtení rolí
+- *a_admin_read/Admin čtení* - Přístup do administračního rozhraní

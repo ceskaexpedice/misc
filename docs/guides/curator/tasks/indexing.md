@@ -59,6 +59,6 @@ Indexace je buď:
 
 ## Související
 
-- [Procesy](../../tasks/processes/view-process.md)
-- [Troubleshooting indexace](../../troubleshooting/index-failed.md)
-- [Reference indexeru](../../reference/indexer.md)
+- [Procesy](../../tasks/processes/view-process)
+- [Troubleshooting indexace](../../troubleshooting/index-failed)
+- [Reference indexeru](../../reference/indexer)

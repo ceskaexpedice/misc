@@ -41,7 +41,7 @@ Před udělením přístupu mohou být vyhodnocena další podminky. Podminky mo
 - [Autorizace](authorization)
 - [Role](roles)
 - [Akce](actions)
-- [Podminky](condition)
+- [Podminky](conditions)
 - [Licence](../../domain-concepts/license/)
 - [ČDK](cdk)
 
