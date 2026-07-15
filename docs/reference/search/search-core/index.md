@@ -1,14 +1,6 @@
 [Index](../../../index) / [Reference](../../../reference) / [Search](../../search) 
 
-# Vyhledávání (Search)
-
-Vyhledávání je subsystém systému Kramerius, který poskytuje fulltextové a strukturované vyhledávání nad indexovanými digitálními objekty (Fedora repository model).
-
-Vyhledávání pracuje nad indexem v Apache Solr, který je generován a udržován jako samostatná část systému.
-
----
-
-## Přehled
+# Search core
 
 Popis aktuální podoby schématu: [Google spreadsheet](https://docs.google.com/spreadsheets/d/1DoDnSIGPqPnYbb0U2RSNLKm9eAY2FQNimJyTPeQsC2A/edit#gid=0)
 
@@ -106,11 +98,7 @@ Search podporuje:
 Search je zpřístupněn přes REST API.
 
 ➡️ [REST API](../../api/)
-➡️ [Search Core](searchAPI)
 
-Tato sekce popisuje pouze vyhledávací model, nikoliv konkrétní endpointy.
-
----
 
 ## Konfigurace
 
@@ -118,7 +106,6 @@ Search je řízen systémovou konfigurací.
 
 ➡️ [Konfigurace](../../../configuration/search/)
 
----
 
 ## Solr a deployment
 
@@ -126,10 +113,7 @@ Search využívá Apache Solr jako indexační backend.
 
 Detaily provozu Solr (cluster, škálování, replikace) nejsou součástí Search modelu.
 
-Viz:
-→ Reference / Deployment / Solr
-
----
+Viz: TODO
 
 ## Indexační pipeline (externí subsystém)
 
@@ -156,16 +140,5 @@ Tato oblast zahrnuje:
 - transformaci schema pro různé Solr environmenty
 - kopírování Solr core konfigurací
 
-Viz:
-→ Reference / Build System / Solr Schema
-
----
-
-## Shrnutí
-
-Search je subsystém Krameria zodpovědný za:
-
-- vyhledávání nad indexovanými daty
-- práci nad Solr indexem
-- poskytování query a filtrů
+Viz: TODO
 
