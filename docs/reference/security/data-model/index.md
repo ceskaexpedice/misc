@@ -16,5 +16,5 @@ Všechny informace o právech, licencích, dodatečných podmínkách jsou uklá
 
 ![Architecture](../assets/criteria-evaluation.png)
 
-- ➡️ [Konfigurace pripojeni k databazi](../../../configuration/core/configuration-properties/configuration-database/)
+- ➡️ [Konfigurace pripojeni k databazi](../../../configuration/core/configuration-properties/configuration-database)
 
