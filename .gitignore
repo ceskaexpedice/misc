@@ -53,3 +53,8 @@ deploy
 
 /time
 process-worker/plugins/
+venv/
+
+# MkDocs
+.venv/
+site/

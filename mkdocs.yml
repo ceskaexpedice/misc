@@ -1,0 +1,80 @@
+site_name: Kramerius – dokumentace
+site_description: Produktová a technická dokumentace systému Kramerius
+site_url: https://ceskaexpedice.github.io/misc/
+repo_url: https://github.com/ceskaexpedice/misc
+repo_name: ceskaexpedice/misc
+
+theme:
+  name: material
+  language: cs
+  icon:
+    logo: material/library-shelves
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout na tmavý režim
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: Přepnout na světlý režim
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Úvod: index.md
+  - Začínáme:
+      - Přehled: getting-started/index.md
+      - Administrátor: getting-started/admin.md
+      - Kurátor: getting-started/curator.md
+      - Vývojář: getting-started/developer.md
+  - Základní koncepty: core-concepts/index.md
+  - Doménové pojmy: domain-concepts/index.md
+  - Architektura: architecture/index.md
+  - Konfigurace: configuration/index.md
+  - Návody:
+      - Přehled: guides/index.md
+      - Administrátor: guides/admin/index.md
+      - Kurátor: guides/curator/index.md
+      - Vývojář: guides/developer/index.md
+  - Nasazení: deployment/index.md
+  - Reference: reference/index.md
+  - Verzování: versioning/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ceskaexpedice/misc
+      name: Projekt na GitHubu
+
+copyright: Copyright &copy; 2026 Česká digitální knihovna
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
