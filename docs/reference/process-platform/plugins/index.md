@@ -17,7 +17,7 @@ REST API procesu uvadi priklady jak naplanovat prislusny proces ➡️ [REST API
 Pluginy určené pro import dat do Krameria.
 
 * [Import FOXML](import-foxml.md)
-* [Import NDK METS](import-ndk-mets.md)
+* Import NDK METS](import-ndk-mets.md
 
 ## Index - search
 

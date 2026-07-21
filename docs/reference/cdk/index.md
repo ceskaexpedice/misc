@@ -42,11 +42,11 @@ Přístup mezi CDK a zdrojovou knihovnou je řízen pomocí API autentizace:
 
 API komunikace probíhá přes standardizované Kramerius API vrstvu.
 
-➡️ [Konfigurace chráněného kanálu](../../configuration/core/configuration-properties/configuration-cdk)
+➡️ [Konfigurace chráněného kanálu](../../configuration/core/configuration-properties/configuration-cdk.md)
 
 ČDK autentizace je vysvětlena zde:
 
-➡️ [ČDK zabezpečení](../../core-concepts/security/cdk)
+➡️ [ČDK zabezpečení](../../core-concepts/security/cdk.md)
 
 
 ---
@@ -64,7 +64,7 @@ Proces je opakovaný (incremental sync), aby zachytil změny ve zdrojových knih
 
 Výsledkem je centrální Solr index obsahující metadata všech knihoven.
 
-➡️ [CDK worker](../../reference/process-platform/workers/cdk)
+➡️ [CDK worker](../../reference/process-platform/workers/cdk/index.md)
 
 ---
 
@@ -89,6 +89,5 @@ Tento přístup umožňuje:
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/cdk/)
-- ➡️ [Architektura](../../architecture/cdk)
-- ➡️ [Konfigurace](../../configuration/cdk)
+- ➡️ [Zakladni pojmy](../../core-concepts/cdk/index.md)
+- ➡️ [Architektura](../../architecture/cdk/index.md)

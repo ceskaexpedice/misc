@@ -6,6 +6,6 @@ TODO
 
 ## Související dokumentace
 
-- [Začínáme pro vývojáře](../../getting-started/developer/index.md)
+- [Začínáme pro vývojáře](../../getting-started/developer.md)
 - [Základní pojmy](../../core-concepts/index.md)
 - [Reference](../../reference/index.md)

@@ -2,7 +2,7 @@
 
 # 📚 Základní koncepty
 
-Tato část dokumentace vysvětluje hlavní koncepty Krameria. Propojení částí se věnuje [Architektura](../architecture)
+Tato část dokumentace vysvětluje hlavní koncepty Krameria. Propojení částí se věnuje [Architektura](../architecture/index.md)
 
 ---
 

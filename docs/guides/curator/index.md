@@ -40,6 +40,6 @@ Typické příklady:
 
 ## Související dokumentace
 
-- ➡️ [Začínáme pro kurátory](../../getting-started/curator/index.md)
+- ➡️ [Začínáme pro kurátory](../../getting-started/curator.md)
 - ➡️ [Domenove pojmy](../../domain-concepts/index.md)
 - ➡️ [Reference](../../reference/index.md)

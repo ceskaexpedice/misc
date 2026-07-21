@@ -20,7 +20,7 @@ Kramerius využívá vyhledávací engine **Solr** a definuje tato hlavní jádr
 | `sdnnt`      | Slouží pro synchronizaci se systemem sdnnt.                                                                                     | - |
 
 
-### [Search Core](search-core)
+### [Search Core](search-core/index.md)
 
 Hlavní vyhledávací jádro pro klientské aplikace (veřejné i administrační rozhraní).
 

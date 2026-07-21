@@ -6,7 +6,7 @@ Tato sekce obsahuje kompletní pracovní postupy, které popisují více navazuj
 
 Workflow vždy popisuje **celý proces od začátku do konce**, například import a následnou indexaci.
 
-### [Sbírky](collections)
+### [Sbírky](collections.md)
 Vytváření a úprava sbírek
 
 ### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)

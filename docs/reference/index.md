@@ -42,7 +42,7 @@ Ceska digitalni knihovna
 ### [Web klient](client/index.md)
 Referenční popis klientské aplikace pro koncové uživatele. Obsahuje architekturu, integrace a základní chování UI.
 
-### [Admin klient](client-admin/indexmd)
+### [Admin klient](client-admin/index.md)
 Administrátorské rozhraní klientské aplikace. Slouží ke správě uživatelů, oprávnění a systémových nastavení.
 
 ---
@@ -56,7 +56,7 @@ Systém pro sledování stavu aplikací a infrastruktury. Metriky, logy, alerty 
 ### [DevOps](devops/index.md)
 Procesy a nástroje pro CI/CD, nasazování, monitoring buildů a správu provozního prostředí.
 
-### [Zalohovani](backup/index.md)
+### Zalohovani](backup/index.md
 TODO
 
 ---

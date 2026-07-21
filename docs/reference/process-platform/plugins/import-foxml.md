@@ -31,4 +31,4 @@ Po úspěšném dokončení procesu jsou data importována do Krameria. Pokud je
 
 ## Související pluginy
 
-* [Import NDK METS](import-ndk-mets.md)
+* Import NDK METS](import-ndk-mets.md

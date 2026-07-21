@@ -35,7 +35,7 @@ Pro vývojáře, kteří:
 
 ## Navazujici dokumentace
 
-- ➡️ [Domenove pojmy](../domain-concepts)
-- ➡️ [Zakladni struktura systemu](../core-concepts)
-- ➡️ [Navody](../guides)
+- ➡️ [Domenove pojmy](../domain-concepts/index.md)
+- ➡️ [Zakladni struktura systemu](../core-concepts/index.md)
+- ➡️ [Navody](../guides/index.md)
 
