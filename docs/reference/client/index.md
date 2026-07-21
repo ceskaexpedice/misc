@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..) 
+[Index](../index.md) / [Reference](../index.md) 
 
 # Web klient
 
@@ -18,6 +18,6 @@ Wiki je primárním zdrojem informací a obsahuje zejména:
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/client/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/client/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)
 

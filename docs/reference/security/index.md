@@ -1,31 +1,31 @@
-[Index](../../index) / [Reference](../../reference)
+[Index](../../index.md) / [Reference](../../reference/index.md)
 
 # Zabezpečení
 
 Tato část obsahuje úplný technický popis bezpečnostního modelu Krameria.
 
 
-## [Autentizace](authentication/index)
+## [Autentizace](authentication/index.md)
 
 Popis autentizačního mechanismu, tokenů a identity uživatele.
 
-## [Autorizace](authorization/index)
+## [Autorizace](authorization/index.md)
 
 Popis autorizačního modelu a vyhodnocování oprávnění.
 
-## [Akce](actions/index)
+## [Akce](actions/index.md)
 
 Seznam všech podporovaných akcí.
 
-## [Podmínky](conditions/index)
+## [Podmínky](conditions/index.md)
 
 Popis všech podporovaných kritérií.
 
-## [API](api)
+## [API](api.md)
 
 REST API související s bezpečností.
 
-## [Datový model](data-model/index)
+## [Datový model](data-model/index.md)
 
 Databazove tabulky související s bezpečností.
 
@@ -33,6 +33,6 @@ Databazove tabulky související s bezpečností.
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/security/)
-- ➡️ [Architektura](../../architecture/security)
-- ➡️ [Konfigurace](../../configuration/security/)
+- ➡️ [Zakladni pojmy](../../core-concepts/security/index.md)
+- ➡️ [Architektura](../../architecture/security/index.md)
+- ➡️ [Konfigurace](../../configuration/security/index.md)

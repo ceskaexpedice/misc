@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture) 
+[Index](../../index.md) / [Architektura](../../architecture/index.md) 
 
 # CDK
 
@@ -182,4 +182,4 @@ Indexace je oddělená od runtime přístupu a probíhá batchově.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/cdk)
+- ➡️ [Reference](../../reference/cdk/index.md)

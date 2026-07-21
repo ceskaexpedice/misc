@@ -1,10 +1,10 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Distributed locks
 
 Konfigurace se děje skrze Kramerius Core v ramci konfigurace Akubra:
 
-➡️ [Akubra core](../core/configuration-properties/configuration-akubra)
+➡️ [Akubra core](../core/configuration-properties/configuration-akubra.md)
 
 Vlastni hazelcast modul je popsan zde:
 
@@ -12,7 +12,7 @@ Vlastni hazelcast modul je popsan zde:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/distributed-locks/)
+- ➡️ [Reference](../../reference/distributed-locks/index.md)
 
 
 

@@ -1,4 +1,4 @@
-[Index](../../../index) / [Konfigurace](../../)  / [Core](../)
+[Index](../../../index.md) / [Konfigurace](../../index.md)  / [Core](../index.md)
 
 # Monitoring dotazu
 

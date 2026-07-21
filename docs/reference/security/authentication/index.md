@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Zabezpečení](../index.md)
 
 # Autentizace
 
@@ -21,16 +21,16 @@ Authorization: Bearer <token>
 ### CDK hlavicka
 TODO
 
-### [Token model](token-model)
+### [Token model](token-model.md)
 
-### [Token lifecycle](token-lifecycle)
+### [Token lifecycle](token-lifecycle.md)
 
 
 ## User Principal
 
 Po úspěšné validaci tokenu vzniká interní reprezentace uživatele.
 
-### [Role](../roles)
+### [Role](../roles/index.md)
 
 ## Authentication Errors
 

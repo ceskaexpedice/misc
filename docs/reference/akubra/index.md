@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Akubra
 
@@ -26,6 +26,6 @@ Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuál
 ## Navazujici dokumentace
 
 - ➡️ [Wiki](https://github.com/ceskaexpedice/akubra/wiki)
-- ➡️ [Architektura](../../architecture)
-- ➡️ [Zakladni pojmy](../../core-concepts/akubra/)
-- ➡️ [Konfigurace](../../configuration/akubra/)
+- ➡️ [Architektura](../../architecture/index.md)
+- ➡️ [Zakladni pojmy](../../core-concepts/akubra/index.md)
+- ➡️ [Konfigurace](../../configuration/akubra/index.md)

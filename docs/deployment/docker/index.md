@@ -1,8 +1,8 @@
-[Index](../../index) / [Deployment](../../deployment)
+[Index](../../index.md) / [Deployment](../../deployment/index.md)
 
 # Docker Compose deployment
 
-- ➡️ [Instalace](installation)
+- ➡️ [Instalace](installation.md)
 
 Kramerius může být nasazen pomocí Docker Compose.
 
@@ -194,6 +194,6 @@ Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose
 
 ## Navazujici dokumentace
 
-- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Konfigurace](../../configuration/index.md)
 
 

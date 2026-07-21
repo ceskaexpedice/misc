@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) / [Zabezpečení](../../core-concepts/security/index.md)
 
 # Akce
 
@@ -35,6 +35,6 @@ Role uděluje jednu nebo více akcí.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/security/actions)
+- ➡️ [Reference](../../reference/security/actions/index.md)
 
 

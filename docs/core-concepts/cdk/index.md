@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # ČDK 
 
@@ -15,6 +15,6 @@ CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systé
 
 ## Navazujici dokumentace
 
-- ➡️ [ČDK architektura](../../architecture/cdk/)
-- ➡️ [ČDK reference](../../reference/cdk/)
-- ➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk)
+- ➡️ [ČDK architektura](../../architecture/cdk/index.md)
+- ➡️ [ČDK reference](../../reference/cdk/index.md)
+- ➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk.md)

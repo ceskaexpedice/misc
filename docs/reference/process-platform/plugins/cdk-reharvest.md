@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Process Platform](../../process-platform/index.md)  / [Pluginy](../plugins/index.md)
 
 # Reharvest Document
 

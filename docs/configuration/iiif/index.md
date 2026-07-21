@@ -1,4 +1,4 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # IIIF
 
@@ -8,7 +8,7 @@ pokud jeho FOXML definice obsahuje v datastreamu RELS-EXT RDF literál `<krameri
 
 Využít produkt IIP server (https://web.archive.org/web/20190226234031/https://help.oldmapsonline.org/jpeg2000)
 
-➡️ [Konfigurace image serveru](image-server)
+➡️ [Konfigurace image serveru](image-server.md)
 
 Zde slouží Kramerius jako prostředník. Klientské dotazy na jednotlivé dlaždice přeposílá IIP serveru a sám se stará pouze o autorizaci požadavku. Hodnotou literálu `<kramerius4:tiles-url>` je přímo URL na zoomovaný obrázek v IIP serveru.
 
@@ -25,4 +25,4 @@ Příklady definic v RELS-EXT:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/image-server/)
+- ➡️ [Reference](../../reference/image-server/index.md)

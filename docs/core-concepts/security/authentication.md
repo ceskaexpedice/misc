@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) / [Zabezpečení](../../core-concepts/security/index.md)
 
 # Autentizace
 
@@ -30,7 +30,7 @@ Autentizovaná identita je připojena ke každému požadavku a stává se vstup
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/security/authentication)
-- ➡️ [Reference](../../reference/security/authentication)
+- ➡️ [Architektura](../../architecture/security/authentication.md)
+- ➡️ [Reference](../../reference/security/authentication/index.md)
 
 

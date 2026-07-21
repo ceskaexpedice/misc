@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
 
 # Pracovní postupy (Workflows)
 
@@ -9,19 +9,19 @@ Workflow vždy popisuje **celý proces od začátku do konce**, například impo
 ### [Sbírky](collections)
 Vytváření a úprava sbírek
 
-### [Zpracování nové dávky (Import + indexace)](import-index-dataset)
+### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
 Kompletní proces zpracování nové digitální dávky.
 
-### [Zapojení knihovny do ČDK)](library-cdk-onboarding-guide)
+### [Zapojení knihovny do ČDK)](library-cdk-onboarding-guide.md)
 Kompletní proces zpracování nové digitální dávky.
 
-### [Zapojení knihovny do SDNNT)](dnnt-onboarding)
+### [Zapojení knihovny do SDNNT)](dnnt-onboarding.md)
 Kompletní proces zpracování nové digitální dávky.
 
 ---
 
 ## Související dokumentace
 
-- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/)
-- ➡️ [Řešení problémů](../troubleshooting/)
-- ➡️ [Návody pro kurátory](../index)
+- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/index.md)
+- ➡️ [Řešení problémů](../troubleshooting/index.md)
+- ➡️ [Návody pro kurátory](../index.md)

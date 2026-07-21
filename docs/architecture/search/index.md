@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)
 
 # Vyhledavani
 
@@ -14,7 +14,7 @@ Search API
 Web Client
 ```
 
-➡️ [Jak probiha vyhledavani](SearchAPI)
+➡️ [Jak probiha vyhledavani](search-api.md)
 
 Kramerius používá několik nezávislých indexačních subsystémů, které pokrývají různé části systému:
 
@@ -88,5 +88,5 @@ Audit a systémové události.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/search)
-- ➡️ [Konfigurace](../../configuration/search)
+- ➡️ [Reference](../../reference/search/index.md)
+- ➡️ [Konfigurace](../../configuration/search/index.md)

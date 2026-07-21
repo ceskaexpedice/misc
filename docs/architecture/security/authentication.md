@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)  / [Zabezpečení](../../architecture/security/index.md)
 
 # Autentizace
 
@@ -66,4 +66,4 @@ Tyto informace jsou následně použity při autorizaci.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/security/authentication)
+- ➡️ [Reference](../../reference/security/authentication/index.md)

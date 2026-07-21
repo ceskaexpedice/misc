@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..) 
+[Index](../index.md) / [Reference](../index.md) 
 
 # Admin klient
 
@@ -18,6 +18,6 @@ Wiki je primárním zdrojem informací a obsahuje zejména:
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/client-admin/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/client-admin/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)
 

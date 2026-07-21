@@ -1,4 +1,4 @@
-[Index](../index) / [Začínáme](../getting-started)
+[Index](../index.md) / [Začínáme](../getting-started/index.md)
 
 # 🧑‍🏫 Začínáme – Kurátor / Knihovník
 
@@ -21,7 +21,7 @@ Kurátor v Krameriovi typicky zodpovídá za:
 ## Návody
 Zde jsou návody, jak v systému provést dílčí úkol
 
-➡️ **[Návody](../guides/curator)**.
+➡️ **[Návody](../guides/curator/index.md)**.
 
 ---
 
@@ -44,6 +44,6 @@ TODO
 
 ## Navazujici dokumentace
 
-- ➡️ [Doménové pojmy](../domain-concepts)
-- ➡️ [Navody](../guides/curator)
+- ➡️ [Doménové pojmy](../domain-concepts/index.md)
+- ➡️ [Navody](../guides/curator/index.md)
 

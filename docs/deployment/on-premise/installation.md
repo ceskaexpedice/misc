@@ -1,4 +1,4 @@
-[Index](../../index) / [Deployment](../../deployment)
+[Index](../../index.md / [Deployment](../../deployment/index.md)
 
 # Popis instalace a nastavení On premise
 
@@ -52,12 +52,12 @@ V následujících odstavcích jsou uvedeny požadavky aplikace Kramerius na spe
 
 Umístění datových souborů je určeno následujícími parametry v souboru `configuration.properties`:
 
-➡️ [Konfigurace Akubra](../../configuration/core/configuration-properties/configuration-akubra)
+➡️ [Konfigurace Akubra](../../configuration/core/configuration-properties/configuration-akubra.md)
 
 ## Instalace indexu (SOLR)
 1. Stáhněte si poslední verzi vyhledávacího enginu [SOLR](https://lucene.apache.org/solr/downloads.html) 
 2. Spustěte příkazem  `<solr_home>/bin/solr start`
-3. Nainstalujte potřebná jádra (Solr core), viz ➡️ [Konfigurace Vyhledavani](../../configuration/search)
+3. Nainstalujte potřebná jádra (Solr core), viz ➡️ [Konfigurace Vyhledavani](../../configuration/search/index.md)
 
 
 # Instalace Tomcatu a jádra aplikace 
@@ -89,7 +89,7 @@ Autentizace je řešena pomocí autentizačního serveru keycloak. Je nutno prov
 Konfiguraci klienta je nutno exportovat ve formátu Keycloak OIDC JSON (kontextové menu Action -> Download adaptor configs) a uložit do konfiguračního adresáře: 
 ~/.kramerius4/keycloak.json
 
-➡️ [Konfigurace Keycloak](../../configuration/security)
+➡️ [Konfigurace Keycloak](../../configuration/security/index.md)
  
 
 ## Konfigurace datasource
@@ -121,10 +121,10 @@ Pro import dat lze využít standardních importních procesů.
 
 Synchronizace paralelních zápisů do jednoho úložiště z více souběžných procesů a případně více instancí Krameria je zajištěna sdílenou tabulkou zámků v distribuované paměťové databázi Hazelcast. Synchronizace probíhá automaticky a defaultní nastavení není obvykle třeba měnit. K nastavení jména instance a uživatele lze případně použít následující property:  
 
-➡️ [Konfigurace Hazelcast](../../configuration/core/configuration-properties/configuration-akubra)
+➡️ [Konfigurace Hazelcast](../../configuration/core/configuration-properties/configuration-akubra.md)
 
 
-# [Konfigurace IIIF](../../configuration/iiif)
+# [Konfigurace IIIF](../../configuration/iiif/index.md)
 
 volitelné nastavení
 

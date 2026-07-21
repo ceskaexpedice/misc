@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 📦 Verzování
 
@@ -106,7 +106,7 @@ Jednotlivé části čísla verze mají následující význam:
 
 ---
 
-## [Indexer](search/index)
+## [Indexer](search/index.md)
 
 ## Databaze
 TODO

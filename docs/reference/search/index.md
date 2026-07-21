@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Solr Cores Reference
 
@@ -35,10 +35,10 @@ Ukládání informací o přístupu uživatelů a zdroj pro statistiky a reporty
 
 ### Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/search/)
-- ➡️ [Architektura](../../architecture/search/)
-- ➡️ [Konfigurace](../../configuration/search/)
-- ➡️ [Verzovani](../../versioning/search/)
+- ➡️ [Zakladni pojmy](../../core-concepts/search/index.md)
+- ➡️ [Architektura](../../architecture/search/index.md)
+- ➡️ [Konfigurace](../../configuration/search/index.md)
+- ➡️ [Verzovani](../../versioning/search/index.md)
 
  
 

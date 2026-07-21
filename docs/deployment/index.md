@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 🚢 Deployment
 
@@ -22,7 +22,7 @@ Typicky postačuje:
 - nainstalovaný Docker Compose
 - spuštění celé instance jedním příkazem
 
-➡️ [Docker Compose](docker)
+➡️ [Docker Compose](docker/index.md)
 
 ---
 
@@ -41,7 +41,7 @@ Je určen především pro:
 - instance s velmi velkým objemem dat
 - provozní týmy se zkušeností s Kubernetes
 
-➡️ [Kubernetes](kubernetes)
+➡️ [Kubernetes](kubernetes/index.md)
 
 ---
 
@@ -58,7 +58,7 @@ Typicky zahrnuje:
 
 Tento způsob poskytuje **maximální kontrolu nad prostředím**, ale vyžaduje více manuální konfigurace a správy.
 
-➡️ [On Premise](on-premise)
+➡️ [On Premise](on-premise/index.md)
 
 ---
 
@@ -76,6 +76,6 @@ Detailní požadavky (velikost indexu, dostupnost, bezpečnost, zálohování) j
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../architecture)
-- ➡️ [Reference](../reference)
-- ➡️ [Navody](../guides)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Navody](../guides/index.md)

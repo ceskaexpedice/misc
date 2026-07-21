@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Zabezpečení](../index.md)
 
 # Security Data Model
 
@@ -16,5 +16,5 @@ Všechny informace o právech, licencích, dodatečných podmínkách jsou uklá
 
 ![Architecture](../assets/criteria-evaluation.png)
 
-- ➡️ [Konfigurace pripojeni k databazi](../../../configuration/core/configuration-properties/configuration-database)
+- ➡️ [Konfigurace pripojeni k databazi](../../../configuration/core/configuration-properties/configuration-database.md)
 

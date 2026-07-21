@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Vyhledávání
 
@@ -17,7 +17,7 @@ Reader klient využívá search index jako hlavní zdroj pro vyhledávání doku
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/search/)
-- ➡️ [Reference](../../reference/search/)
-- ➡️ [Konfigurace](../../configuration/search/)
+- ➡️ [Architektura](../../architecture/search/index.md)
+- ➡️ [Reference](../../reference/search/index.md)
+- ➡️ [Konfigurace](../../configuration/search/index.md)
 

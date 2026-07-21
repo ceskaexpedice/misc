@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../../../reference) / [Search](../../search) 
+[Index](../../../index.md) / [Reference](../../../reference/index.md) / [Search](../../search/index.md) 
 
 # Search core
 
@@ -97,14 +97,14 @@ Search podporuje:
 
 Search je zpřístupněn přes REST API.
 
-➡️ [REST API](../../api/)
+➡️ [REST API](../../api/index.md)
 
 
 ## Konfigurace
 
 Search je řízen systémovou konfigurací.
 
-➡️ [Konfigurace](../../../configuration/search/)
+➡️ [Konfigurace](../../../configuration/search/index.md)
 
 
 ## Solr a deployment
@@ -123,7 +123,7 @@ Indexace dat **není součástí Search**, ale je zajištěna samostatným subsy
 - indexační pipeline
 - synchronizace změn z repozitáře
 
-➡️ [Curator Worker](../../process-platform/workers/curator)
+➡️ [Curator Worker](../../process-platform/workers/curator/index.md)
 
 
 Search pouze pracuje s výsledným indexem.

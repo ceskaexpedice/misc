@@ -1,11 +1,11 @@
-[Index](../../index) / [Deployment](../../deployment)
+[Index](../../index.md) / [Deployment](../../deployment/index.md)
 
 # On Premise 
 
 TODO
-- ➡️ [Instalace](installation)
+- ➡️ [Instalace](installation.md)
 
 ## Navazujici dokumentace
 
-- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Konfigurace](../../configuration/index.md)
 

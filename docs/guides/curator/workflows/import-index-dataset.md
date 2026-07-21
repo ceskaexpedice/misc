@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Pracovní postupy](../../curator/workflows) 
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Pracovní postupy](../../curator/workflows/index.md) 
 
 # Zpracování nové dávky (Import + indexace)
 
@@ -20,11 +20,11 @@ Oba kroky jsou spouštěny v Admin klientu a běží asynchronně.
 
 ---
 
-## 1. [Import](../tasks/import)
+## 1. [Import](../tasks/import.md)
 
 Import je vstupní krok, který načte data z importního adresáře definovaného v konfiguraci systému.
 
-## 2. [Indexace](../tasks/indexing)
+## 2. [Indexace](../tasks/indexing.md)
 
 Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 
@@ -44,7 +44,7 @@ Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 - indexace neběží → viz Troubleshooting
 - dokument se nezobrazuje → viz Troubleshooting
 
-➡️ [Řešení problémů](../troubleshooting/index)
+➡️ [Řešení problémů](../troubleshooting/index.md)
 
 ---
 

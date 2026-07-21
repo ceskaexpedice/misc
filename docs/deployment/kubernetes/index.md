@@ -1,4 +1,4 @@
-[Index](../../index) / [Deployment](../../deployment)
+[Index](../../index.md) / [Deployment](../../deployment/index.md)
 
 # Kubernetes Deployment
 
@@ -7,5 +7,5 @@ TODO
 
 ## Navazujici dokumentace
 
-- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Konfigurace](../../configuration/index.md)
 

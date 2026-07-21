@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Zabezpečení](../index.md)
 
 # Autorizace
 
@@ -18,8 +18,8 @@ Condition
 Permit / Deny
 ```
 
-- ➡️ [Role](../roles)
-- ➡️ [Akce](../actions)
-- ➡️ [Podmínky](../conditions)
+- ➡️ [Role](../roles/index.md)
+- ➡️ [Akce](../actions/index.md)
+- ➡️ [Podmínky](../conditions/index.md)
 
 

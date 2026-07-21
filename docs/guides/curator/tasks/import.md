@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Úlohy]()
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Úlohy](index.md)
 
 # Spuštění importu
 
@@ -76,11 +76,10 @@ Vyberte licenci, která bude přiřazena importovaným dokumentům.
 - běží asynchronně
 - lze sledovat v sekci procesů
 
-➡️ [Sledování procesů](../../tasks/processes/view-process)
+➡️ [Sledování procesů](../../tasks/processes/view-process.md)
 
 ---
 
 ## Související
 
-- ➡️ [Troubleshooting importu](../../troubleshooting/import-failed)
-- ➡️ [Procesy v systému](../../reference/processes)
+- ➡️ [Troubleshooting importu](../../troubleshooting/import-failed.md)

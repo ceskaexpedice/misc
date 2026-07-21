@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # DevOps – build, CI/CD a vývojové nástroje
 
@@ -109,7 +109,7 @@ Neřeší runtime chování ani detailní konfiguraci prostředí.
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/)
-- ➡️ [Architektura](../../architecture/)
-- ➡️ [Konfigurace](../../configuration/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/index.md)
+- ➡️ [Architektura](../../architecture/index.md)
+- ➡️ [Konfigurace](../../configuration/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)

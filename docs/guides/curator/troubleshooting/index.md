@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
 
 # 🚨 Řešení problémů (Troubleshooting)
 
@@ -8,11 +8,11 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ---
 
-## [Import selhal](import-failed)
+## [Import selhal](import-failed.md)
 
-## [Indexace neproběhla](index-failed)
+## [Indexace neproběhla](index-failed.md)
 
-## [Dokument se nezobrazuje](document-not-visible)
+## [Dokument se nezobrazuje](document-not-visible.md)
 
 ---
 
@@ -27,6 +27,6 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ## Související dokumentace
 
-- ➡️ [Pracovní postupy (Workflows)](../workflows/index)
-- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/index)
-- ➡️ [Návody pro kurátory](../index)
+- ➡️ [Pracovní postupy (Workflows)](../workflows/index.md)
+- ➡️ [Jednotlivé úkoly (Tasks)](../tasks/index.md)
+- ➡️ [Návody pro kurátory](../index.md)

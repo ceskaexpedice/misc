@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Dokumentace Kramerius REST API
 
@@ -72,14 +72,14 @@ Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inova
 Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/exts/v7.0/index.html).
 
 ### 3.4 OAI PMH
-popis je k dispozici [zde](oai-pmh-protocol).
+popis je k dispozici [zde](oai-pmh-protocol.md).
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/api/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/api/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)
 
 
 

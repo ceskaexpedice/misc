@@ -1,4 +1,4 @@
-[Index](../../index) / [Konfigurace](../../configuration)  
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)  
 
 # Kramerius Core
 
@@ -16,7 +16,7 @@ základní sdílené properties jsou v souboru `configuration.properties`, jedno
 Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru 
 umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění Krameria, resp. příslušného externího procesu.
 
-- ➡️ [configuration.properties](configuration-properties)
+- ➡️ [configuration.properties](configuration-properties/index.md)
 
 TODO
 - ➡️ [search.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
@@ -50,5 +50,5 @@ Pro rozsáhlejší texty má Kramerius mechanismus zápisu do samostatného soub
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/core/)
+- ➡️ [Reference](../../reference/core/index.md)
 

@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Klientska aplikace
 
@@ -14,5 +14,5 @@ Poskytuje:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/client/)
+- ➡️ [Reference](../../reference/client/index.md)
 

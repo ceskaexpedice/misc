@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)
 
 # Zabezpečení
 
@@ -80,12 +80,12 @@ Dalším prvkem ochrany je tyv, chráněný kanál, kterým se pomocí API klí�
 
 ## Související kapitoly
 
-- [Autentizace](authentication)
-- [Autorizace](authorization)
+- [Autentizace](authentication.md)
+- [Autorizace](authorization.md)
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/security)
+- ➡️ [Reference](../../reference/security/index.md)
 

@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) / [Zabezpečení](../../core-concepts/security/index.md)
 
 # Role
 
@@ -24,6 +24,6 @@ Více rolí může udělovat stejnou akci.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/security/roles)
+- ➡️ [Reference](../../reference/security/roles/index.md)
 
 

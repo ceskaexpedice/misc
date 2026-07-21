@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 🛠️ Návody
 
@@ -14,7 +14,7 @@ Praktické návody pro práci s obsahem:
 - spouštění a kontrola procesů
 - řešení běžných problémů v Admin Clientu
 
-👉 viz **[Návody kurátor](curator)**
+👉 viz **[Návody kurátor](curator/index.md)**
 
 ---
 
@@ -26,7 +26,7 @@ Návody pro instalaci a provoz systému:
 - aktualizace, zálohování a monitoring
 - provozní scénáře
 
-👉 viz **[Návody administrátor](admin)**
+👉 viz **[Návody administrátor](admin/index.md)**
 
 ---
 
@@ -38,7 +38,7 @@ Návody pro vývoj a integraci:
 - integrační scénáře
 - testování a ladění
 
-👉 viz **[Návody vyvojár](developer)**
+👉 viz **[Návody vyvojár](developer/index.md)**
 
 ---
 
@@ -90,8 +90,8 @@ Pokud hledáte:
 
 ## Navazujici dokumentace
 
-- ➡️ [Základni pojmy](../core-concepts)
-- ➡️ [Architektura](../architecture)
-- ➡️ [Reference](../reference)
-- ➡️ [Konfigurace](../configuration)
-- ➡️ [Deployment](../deployment)
+- ➡️ [Základni pojmy](../core-concepts/index.md)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Konfigurace](../configuration/index.md)
+- ➡️ [Deployment](../deployment/index.md)

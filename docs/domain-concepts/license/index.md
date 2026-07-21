@@ -1,4 +1,4 @@
-[Index](../../index) / [Doménové pojmy](../../domain-concepts)
+[Index](../../index.md) / [Doménové pojmy](../../domain-concepts/index.md)
 
 # Licence 
 
@@ -8,15 +8,15 @@ Od verze [7.0.26](https://github.com/ceskaexpedice/kramerius/releases/tag/v7.0.2
 
 Globální licence jsou následující:
 
-* [**dnnto** - Díla nedostupná na trhu – online](dnnto)    
-* [**dnntt** -  Díla nedostupná na trhu – studovna](dnntt)    
-* [**public** -  Díla volně dostupná dle autorského zákona](public)
-* [**onsite** -  Díla dostupná v prostorách knihovny](onsite)
-* [**onsite-sheetmusic** -  Hudebniny dostupné v prostorách knihovny  ](SEC_K7_Licence-pro-díla-dosutpná-pouze-v-prostorách-knihovny-hudebniny)
-* [**officialworks** -  Úřední díla volně dostupná dle autorského zákona](official-works)
-* [**orphan** -  Osiřelá díla](orphan)
-* [**special-needs** -  Licence pro osoby se speciálními potřebami](special-needs)
-* [**cover-and-content** -  Licence pro zpřístupnění obálek a obsahů pro monografie](Licence-pro-zpřístupnění-obsahů-a-obálek)
+* [**dnnto** - Díla nedostupná na trhu – online](dnnto.md)    
+* [**dnntt** -  Díla nedostupná na trhu – studovna](dnntt.md)    
+* [**public** -  Díla volně dostupná dle autorského zákona](public.md)
+* [**onsite** -  Díla dostupná v prostorách knihovny](onsite.md)
+* [**onsite-sheetmusic** -  Hudebniny dostupné v prostorách knihovny  ](???)
+* [**officialworks** -  Úřední díla volně dostupná dle autorského zákona](official-works.md)
+* [**orphan** -  Osiřelá díla](orphan.md)
+* [**special-needs** -  Licence pro osoby se speciálními potřebami](special-needs.md)
+* [**cover-and-content** -  Licence pro zpřístupnění obálek a obsahů pro monografie](???)
 
 ### Lokální licence 
 

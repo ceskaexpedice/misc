@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Kramerius Core
 
@@ -54,4 +54,4 @@ Kramerius Core je centrální aplikační vrstva systému Kramerius, která posk
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/)
+- ➡️ [Architektura](../../architecture/index.md)

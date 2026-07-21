@@ -1,4 +1,4 @@
-[Index](../../index) / [Doménové pojmy](../../domain-concepts)  / [Licence](../license)
+[Index](../../index.md) / [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
 
 Jedná se o licenci, kdy je dílo zpřístupněno volně v souladu s [autorským zákonem](https://www.zakonyprolidi.cz/cs/2000-121). Podle § 3 se ochrana podle práva autorského nevztahuje na: 
 

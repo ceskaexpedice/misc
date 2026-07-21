@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Zpracování (Processing)
 
@@ -24,7 +24,7 @@ Processing je klíčová část systému a přímo ovlivňuje:
 
 ---
 
-## [Kramerius workery](workers/)
+## [Kramerius workery](workers/index.md)
 
 Kramerius definuje vlastní worker aplikace nad PCP.
 
@@ -42,7 +42,7 @@ V systému může běžet více worker instancí paralelně.
 
 ---
 
-##  [Kramerius procesy (pluginy)](plugins/)
+##  [Kramerius procesy (pluginy)](plugins/index.md)
 
 Procesy reprezentují konkrétní doménové operace.
 
@@ -87,7 +87,7 @@ Představuje „write“ část systému vůči subsystémům jako je Search.
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/process-platform/)
-- ➡️ [Architektura](../../architecture/process-platform)
-- ➡️ [Konfigurace](../../configuration/process-platform/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/process-platform/index.md)
+- ➡️ [Architektura](../../architecture/process-platform/index.md)
+- ➡️ [Konfigurace](../../configuration/process-platform/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)

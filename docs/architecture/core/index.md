@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)
 
 # Kramerius Core
 
@@ -97,6 +97,6 @@ Typický request flow:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference)
-- ➡️ [Konfigurace](../../configuration)
-- ➡️ [Deployment](../../deployment)
+- ➡️ [Reference](../../reference/index.md)
+- ➡️ [Konfigurace](../../configuration/index.md)
+- ➡️ [Deployment](../../deployment/index.md)

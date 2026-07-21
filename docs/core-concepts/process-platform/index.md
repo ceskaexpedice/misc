@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Procesy
 
@@ -32,5 +32,5 @@ Administrace procesů probíhá prostřednictvím Admin klienta.
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/process-platform/)
-- ➡️ [Reference](../../reference/process-platform/)
+- ➡️ [Architektura](../../architecture/process-platform/index.md)
+- ➡️ [Reference](../../reference/process-platform/index.md)

@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..) 
+[Index](../index.md) / [Reference](../index.md) 
 
 # Kramerius Core
 
@@ -10,7 +10,7 @@ Kramerius Core je Java WAR aplikace poskytující REST API a zajišťující bus
 
 ---
 
-## [REST API](../api)
+## [REST API](../api/index.md)
 
 Kramerius Core poskytuje REST API, které je hlavním vstupním bodem pro všechny klientské aplikace.
 
@@ -26,7 +26,7 @@ Hlavní oblasti API:
 Detailní specifikace jednotlivých endpointů je popsána v příslušných podkapitolách Reference.
 
 
-## [Zabezpeceni](../security)
+## [Zabezpeceni](../security/index.md)
 
 Kramerius Core implementuje bezpečnostní vrstvu založenou na integraci s Keycloak.
 
@@ -78,7 +78,7 @@ API vrací standardizované HTTP status kódy
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/core/)
-- ➡️ [Architektura](../../architecture/core)
-- ➡️ [Konfigurace](../../configuration/core/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/core/index.md)
+- ➡️ [Architektura](../../architecture/core/index.md)
+- ➡️ [Konfigurace](../../configuration/core/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)

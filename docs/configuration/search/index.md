@@ -1,12 +1,12 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Vyhledavani
 
 Konfigurace přístupu k SOLR se děje skrze Kramerius Core:
-➡️ [Vyhledávání](../core/configuration-properties/configuration-solr)
+➡️ [Vyhledávání](../core/configuration-properties/configuration-solr.md)
 
 Zvazime take pouziti:
-➡️ [Solr Cloud](solr-cloud)
+➡️ [Solr Cloud](solr-cloud.md)
 
 
 ## jádro Search
@@ -49,5 +49,5 @@ Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktua
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/search/)
+- ➡️ [Reference](../../reference/search/index.md)
 

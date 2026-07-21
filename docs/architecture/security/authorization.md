@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)  / [Zabezpečení](../../architecture/security/index.md)
 
 # Autorizace
 
@@ -88,9 +88,9 @@ Autorizační model je navržen tak, aby bylo možné přidávat nové typy krit
 
 ## Související kapitoly
 
-- [Vyhodnoceni podminek](rights-evaluation)
-- [Mapovani roli](role-mapping)
+- [Vyhodnoceni podminek](rights-evaluation.md)
+- [Mapovani roli](role-mapping.md)
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/security/authorization)
+- ➡️ [Reference](../../reference/security/authorization/index.md)

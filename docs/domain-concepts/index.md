@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 📚 Doménové pojmy (kurátorský slovník)
 
@@ -12,47 +12,47 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 
 ### C
 
-- [ČDK](cdk)
+- [ČDK](cdk.md)
 
 ### D
 
-- [Datastream](datastream)
-- [Digitální dokument](digital-object)
-- [Dokument](document)
+- [Datastream](datastream.md)
+- [Digitální dokument](digital-object.md)
+- [Dokument](document.md)
 
 ### F
 
-- [Federace](federace)
+- [Federace](federace.md)
 
 ### I
 
-- [Import](import)
-- [Identifikátor PID](identifier/pid)
+- [Import](import.md)
+- [Identifikátor PID](identifier/pid.md)
 
 ### M
 
-- [Metadata](metadata)
-- [Monografie](monograph)
+- [Metadata](metadata.md)
+- [Monografie](monograph.md)
 
 ### L
 
-- [Licence](license/index)
+- [Licence](license/index.md)
 
 ### P
 
-- [PID](identifier/pid)
-- [Proces](process)
+- [PID](identifier/pid.md)
+- [Proces](process.md)
 
 ###  S
 
-- [Sbírka](collection)
+- [Sbírka](collection.md)
 
 ### V
 
-- [Vyhledávání](search)
+- [Vyhledávání](search.md)
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Navody](../guides/curator)
+- ➡️ [Navody](../guides/curator/index.md)

@@ -1,4 +1,4 @@
-[Index](../index) / [Začínáme](../getting-started)
+[Index](../index.md) / [Začínáme](../getting-started/index.md)
 
 # 👨‍💻 Zaciname – Vývojář / Integrátor
 
@@ -13,7 +13,7 @@ Určeno pro **vývojáře a integrátory**, kteří:
 ## Návody
 Zde jsou návody, jak v systému provést dílčí úkol
 
-➡️ **[Návody](../guides/developer)**.
+➡️ **[Návody](../guides/developer/index.md)**.
 
 ---
 
@@ -41,7 +41,7 @@ Hlavní integrační rozhraní systému:
 - správa procesů
 - vyhledávání a přístup k obsahu
 
-➡️ **[REST API](../reference/api)**.
+➡️ **[REST API](../reference/api/index.md)**.
 
 ---
 
@@ -53,7 +53,7 @@ Vývojář:
 - typicky UI nerozvíjí přímo
 - ale musí rozumět jeho chování a vazbě na API
 
-➡️ Viz **[Admin klient](../reference/client-admin)**.
+➡️ Viz **[Admin klient](../reference/client-admin/index.md)**.
 
 ---
 
@@ -63,7 +63,7 @@ Vývojář:
 
 Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, ale měl by znát základní principy.
 
-➡️ Viz **[Akubra](../reference/akubra/index)**.
+➡️ Viz **[Akubra](../reference/akubra/index.md)**.
 
 ---
 
@@ -71,7 +71,7 @@ Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, 
 - indexace a vyhledávání obsahu
 - práce s dotazy, filtry a výsledky
 
-➡️ Viz **[Search](../reference/search)**.
+➡️ Viz **[Search](../reference/search/index.md)**.
 
 ---
 
@@ -80,7 +80,7 @@ Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, 
 - automatizace a dávkové operace
 - možnost vývoje vlastních procesů
 
-➡️ Viz **[Procesy](../reference/process-platform/index)**.
+➡️ Viz **[Procesy](../reference/process-platform/index.md)**.
 
 ---
 
@@ -89,15 +89,15 @@ Vývojář s repozitářem obvykle pracuje **nepřímo prostřednictvím API**, 
 - respektování autorizačního modelu systému
 - zabezpečení API volání
 
-➡️ Viz **[Bezpecnost](../reference/security/index)**.
+➡️ Viz **[Bezpecnost](../reference/security/index.md)**.
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Základní struktura](../core-concepts)
-- ➡️ [Architektura](../architecture)
-- ➡️ [Konfigurace](../configuration)
-- ➡️ [Deployment](../deployment)
-- ➡️ [Reference](../reference)
-- ➡️ [Navody](../guides/developer)
+- ➡️ [Základní struktura](../core-concepts/index.md)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Konfigurace](../configuration/index.md)
+- ➡️ [Deployment](../deployment/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Navody](../guides/developer/index.md)

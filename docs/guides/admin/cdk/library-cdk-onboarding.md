@@ -1,4 +1,4 @@
-[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)  / [ČDK](../cdk)
+[Index](../../../index.md) / [Navody](../../../guides/index.md) / [Administrator](../index.md)  / [ČDK](../cdk/index.md)
 
 # Zapojení knihovny do České digitální knihovny (ČDK)
 
@@ -34,7 +34,7 @@ Před zahájením musí být splněny následující podmínky:
 - administrátor ČDK má přístup ke konfiguraci centrálního serveru,
 - oba servery jsou vzájemně síťově dostupné.
 
-Konfigurace parametrů potřebných pro komunikaci mezi knihovnami je popsána v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk).
+Konfigurace parametrů potřebných pro komunikaci mezi knihovnami je popsána v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk.md).
 
 ## 1. Vygenerování API klíče
 
@@ -46,7 +46,7 @@ Klíč následně:
 - předejte administrátorovi ČDK,
 - zapište také do konfigurace centrálního ČDK serveru.
 
-Podrobný popis konfiguračních parametrů naleznete v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk).
+Podrobný popis konfiguračních parametrů naleznete v kapitole ➡️ [Konfigurace](../../../configuration/core/configuration-properties/configuration-cdk.md).
 
 ## 2. Ověření komunikace
 
@@ -60,11 +60,11 @@ Proveďte test pomocí příslušného REST API .
 - komunikace mezi servery funguje,
 - zdrojová knihovna je připravena pro migraci.
 
-Popis endpointu je uveden v referenční dokumentaci ➡️ [REST API](../../../reference/api).
+Popis endpointu je uveden v referenční dokumentaci ➡️ [REST API](../../../reference/api/index.md).
 
 ## 3. Spuštění migrace
 
-První zaindexování knihovny se provádí pomocí procesu ➡️ [Migrace CDK](../../../reference/process-platform/plugins/cdk-migration).
+První zaindexování knihovny se provádí pomocí procesu ➡️ [Migrace CDK](../../../reference/process-platform/plugins/cdk-migration.md).
 
 Proces:
 
@@ -72,7 +72,7 @@ Proces:
 - načte jejich metadata,
 - vytvoří odpovídající záznamy v indexu ČDK.
 
-Proces se spouští výhradně prostřednictvím ➡️ [REST API](../../../reference/api).
+Proces se spouští výhradně prostřednictvím ➡️ [REST API](../../../reference/api/index.md).
 
 > Proces není dostupný z administrátorského uživatelského rozhraní.
 
@@ -92,7 +92,7 @@ Obsah dokumentů zůstává uložen ve zdrojové knihovně. ČDK obsahuje pouze 
 
 ## Aktualizace jednotlivých dokumentů
 
-Pokud je potřeba znovu zaindexovat pouze jeden dokument, použijte proces ➡️ [Reharvest CDK](../../../reference/process-platform/plugins/cdk-reharvest).
+Pokud je potřeba znovu zaindexovat pouze jeden dokument, použijte proces ➡️ [Reharvest CDK](../../../reference/process-platform/plugins/cdk-reharvest.md).
 
 Proces:
 
@@ -102,7 +102,7 @@ Proces:
 
 Použití je vhodné například po opravě metadat nebo po změně indexovaných polí.
 
-Proces je dostupný prostřednictvím ➡️ [REST API](../../../reference/api).
+Proces je dostupný prostřednictvím ➡️ [REST API](../../../reference/api/index.md).
 
 ## Odstranění knihovny z ČDK
 

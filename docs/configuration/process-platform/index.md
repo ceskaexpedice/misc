@@ -1,10 +1,10 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Process platform konfigurace
 
-- ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform)
+- ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform.md)
 - ➡️ [Process Platform modul](https://github.com/ceskaexpedice/process-platform/wiki/RunningPlatform)
-- ➡️ [Konfigurace Plugins](../../reference/process-platform/plugins)
+- ➡️ [Konfigurace Plugins](../../reference/process-platform/plugins/index.md)
 
 
 ## lp.st
@@ -47,5 +47,5 @@ Příklad šablon naleznete zde.
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/process-platform/)
+- ➡️ [Reference](../../reference/process-platform/index.md)
 

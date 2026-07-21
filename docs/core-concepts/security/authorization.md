@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts) / [Zabezpečení](../../core-concepts/security)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) / [Zabezpečení](../../core-concepts/security/index.md)
 
 # Autorizace
 
@@ -38,15 +38,15 @@ Ke každé akci lze přiřadit:
 
 ---
  
-## [Role](roles)
-## [Akce](actions)
-## [Podminky](conditions)
-## [Licence](../../domain-concepts/license/)
+## [Role](roles.md)
+## [Akce](actions.md)
+## [Podminky](conditions.md)
+## [Licence](../../domain-concepts/license/index.md)
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/security/authorization)
-- ➡️ [Reference](../../reference/security/authorization)
+- ➡️ [Architektura](../../architecture/security/authorization.md)
+- ➡️ [Reference](../../reference/security/authorization/index.md)
 

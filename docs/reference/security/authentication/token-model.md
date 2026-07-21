@@ -27,7 +27,7 @@ Typické vlastnosti tokenu:
 
 Konfigurace Keycloak není součástí tohoto dokumentu.
 
-Viz: ➡️ [Konfigurace](../../../configuration/security/keycloak)
+Viz: ➡️ [Konfigurace](../../../configuration/security/keycloak.md)
 
 ---
 

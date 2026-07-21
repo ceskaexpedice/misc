@@ -1,4 +1,4 @@
-[Index](../../index) / [Návody](../../guides)
+[Index](../../index.md) / [Návody](../../guides/index.md)
 
 # Návody pro administrátora
 
@@ -8,17 +8,17 @@ Administrátor zajišťuje instalaci, konfiguraci, zabezpečení a každodenní 
 
 Návody jsou rozděleny do několika tematických oblastí:
 
-### [Instalace a nasazení jednotlivých komponent](../../deployment)
-### [Konfigurace systému a jeho služeb](../../configuration)
-### [Běžná správa, monitoring a provozní údržba](operations)
-### [Nastavení autentizace, autorizace a zabezpečení systému](security)
-### [ČDK](cdk)
-### [Diagnostika a řešení nejčastějších problémů](troubleshooting)
+### [Instalace a nasazení jednotlivých komponent](../../deployment/index.md)
+### [Konfigurace systému a jeho služeb](../../configuration/index.md)
+### [Běžná správa, monitoring a provozní údržba](operations/index.md)
+### [Nastavení autentizace, autorizace a zabezpečení systému](security/index.md)
+### [ČDK](cdk/index.md)
+### [Diagnostika a řešení nejčastějších problémů](troubleshooting/index.md)
 
 Pokud se systémem začínáte, doporučujeme nejprve projít dokumentaci *Začínáme pro administrátory* a seznámit se se základními pojmy používanými v Krameriu.
 
 ## Související dokumentace
 
-- ➡️  [Začínáme pro administrátory](../../getting-started/admin)
-- ➡️  [Základní pojmy](../../core-concepts)
-- ➡️  [Reference](../../reference)
+- ➡️  [Začínáme pro administrátory](../../getting-started/admin/index.md)
+- ➡️  [Základní pojmy](../../core-concepts/index.md)
+- ➡️  [Reference](../../reference/index.md)

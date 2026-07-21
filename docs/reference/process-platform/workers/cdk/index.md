@@ -1,4 +1,4 @@
-[Index](../../../../index) / [Reference](../../..)  / [Process Platform](../../../process-platform)  / [Workers](../../workers)
+[Index](../../../../index.md) / [Reference](../../../index.md)  / [Process Platform](../../../process-platform/index.md)  / [Workers](../../workers/index.md)
 
 # CDK Worker
 
@@ -6,9 +6,9 @@ The CDK Worker provides plugins related to CDK.
 
 ## Plugins
 
-### [CDK migrace](../../plugins/cdk-migration)
+### [CDK migrace](../../plugins/cdk-migration.md)
 
-### [CDK reharvest](../../plugins/cdk-reharvest)
+### [CDK reharvest](../../plugins/cdk-reharvest.md)
 
 
 ...

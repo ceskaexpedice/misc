@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Úlohy]()
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Úlohy](index.md)
 
 # Spuštění indexace
 
@@ -59,6 +59,3 @@ Indexace je buď:
 
 ## Související
 
-- [Procesy](../../tasks/processes/view-process)
-- [Troubleshooting indexace](../../troubleshooting/index-failed)
-- [Reference indexeru](../../reference/indexer)

@@ -1,4 +1,4 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Keycloak configuration
 

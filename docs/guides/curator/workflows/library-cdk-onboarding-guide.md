@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/) / [Pracovní postupy](../../curator/workflows)
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Pracovní postupy](../../curator/workflows/index.md)
 
 # Zapojení knihovny do České digitální knihovny
 
@@ -32,7 +32,7 @@ Administrátor provede:
 - ověření spojení,
 - spuštění úvodní migrace dokumentů.
 
-Podrobný administrátorský postup je popsán v návodu **[Zapojení knihovny do ČDK](../../admin/cdk/library-cdk-onboarding)** .
+Podrobný administrátorský postup je popsán v návodu **[Zapojení knihovny do ČDK](../../admin/cdk/library-cdk-onboarding.md)** .
 
 ## 4. Ověření výsledku
 

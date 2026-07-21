@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..) 
+[Index](../index.md) / [Reference](../index.md) 
 
 # Zamkovy server
 
@@ -23,7 +23,7 @@ Tato stránka slouží pouze jako vstupní bod do dokumentace. Veškeré aktuál
 ## Navazujici dokumentace
 
 - ➡️ [Wiki](https://github.com/ceskaexpedice/hazelcast-locks-server/wiki)
-- ➡️ [Architektura](../../architecture)
-- ➡️ [Konfigurace](../../configuration/distributed-locks/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Architektura](../../architecture/index.md)
+- ➡️ [Konfigurace](../../configuration/distributed-locks/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)
 

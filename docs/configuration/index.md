@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # ⚙️ Konfigurace systému Kramerius
 
@@ -17,7 +17,7 @@ Toto rozdělení je důležité pro správné pochopení toho, co se kde nastavu
 ---
 
 
-## [Kramerius Core](core/index)
+## [Kramerius Core](core/index.md)
 
 Jádro aplikace (Java/Tomcat) obsahuje množství konfiguračních parametrů. Tyto parametry mají definované výchozí hodnoty přímo v distribučním balíčku (`.war`).
 Typicky jde o parametry, které přímo ovlivňují chování systému:
@@ -36,35 +36,35 @@ Tato část popisuje konfiguraci externích systémů, které Kramerius využív
 
 Tyto komponenty mají vlastní konfigurační mechanismy a často i vlastní dokumentaci.
 
-### [Akubra](akubra)
+### [Akubra](akubra/index.md)
 - storage backend
 - ukládání digitálních objektů
 - konfigurace persistence
 
-### [Vyhledávání](search)
+### [Vyhledávání](search/index.md)
 - definice indexů
 - analyzéry
 - schema
 - boostování a relevance
 
-### [Zabezpečení](security)
+### [Zabezpečení](security/index.md)
 - realm konfigurace
 - klienti
 - role a oprávnění
 - mapování uživatelů
 
-### [Process Platform](process-platform)
+### [Process Platform](process-platform/index.md)
 - asynchronni ulohy
 
-### [Distribuované zámky](distributed-locks)
+### [Distribuované zámky](distributed-locks/index.md)
 - synchronizace
 
-### [IIIF Image Server](iiif)
+### [IIIF Image Server](iiif/index.md)
 - cachování obrazů
 - limity generování
 - zdroje obrazů
 
-### [CDK](core/configuration-properties/configuration-cdk)
+### [CDK](core/configuration-properties/configuration-cdk.md)
 Konfigurace se děje skrze Kramerius Core
 
 ### [Web klient](https://github.com/ceskaexpedice/kramerius-web-client-v3/wiki)
@@ -74,7 +74,7 @@ Konfigurace se děje skrze Kramerius Core
 
 ---
 
-## Konfigurace v Docker nasazení ([Deployment](../deployment/docker))
+## Konfigurace v Docker nasazení ([Deployment](../deployment/docker/index.md))
 
 Při nasazení pomocí Docker Compose je veškerá konfigurace centralizovaná do jednoho místa – souboru `.env`, ze kterého čerpá `docker-compose.yml`.
 Pro snadnější instalaci a manipulaci vznikl projekt [Kramerius docker compose](https://github.com/ceskaexpedice/kramerius-docker-compose), který obsahuje všechny komponenty kontejnerizované.
@@ -107,9 +107,9 @@ TODO
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../architecture)
-- ➡️ [Reference](../reference)
-- ➡️ [Deployment](../deployment)
-- ➡️ [Navody](../guides)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Deployment](../deployment/index.md)
+- ➡️ [Navody](../guides/index.md)
 
 

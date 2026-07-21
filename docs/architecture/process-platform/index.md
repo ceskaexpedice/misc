@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)
 
 # Process Platform
 
@@ -14,4 +14,4 @@ Processing v Krameriu se skládá z:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/process-platform)
+- ➡️ [Reference](../../reference/process-platform/index.md)

@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Klientska aplikace Admin
 
@@ -15,4 +15,4 @@ Poskytuje:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/client-admin/)
+- ➡️ [Reference](../../reference/client-admin/index.md)

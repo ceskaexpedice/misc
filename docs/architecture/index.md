@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 🏗️ Architektura
 
@@ -45,11 +45,11 @@ Kramerius Core je **WAR soubor**, který běží typicky v aplikačním serveru 
 
 ## Dílčí pohledy
 
-### [Kramerius Core](core/)
-### [Vyhledávání](search/)
-### [Zabezpečení](security/)
-### [Asynchronní procesy](process-platform/)
-### [ČDK](cdk)
+### [Kramerius Core](core/index.md)
+### [Vyhledávání](search/index.md)
+### [Zabezpečení](security/index.md)
+### [Asynchronní procesy](process-platform/index.md)
+### [ČDK](cdk/index.md)
 
 ---
 
@@ -218,7 +218,7 @@ Jednotlivé komponenty spolu komunikují pomocí REST API a sdílené persistenc
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../reference)
-- ➡️ [Konfigurace](../configuration)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Konfigurace](../configuration/index.md)
 
 

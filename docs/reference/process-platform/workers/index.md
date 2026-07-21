@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Process Platform](../../process-platform/index.md)
 
 # Workers
 
@@ -8,19 +8,19 @@ Worker je samostatná webová aplikace běžící v Tomcatu. Obsahuje sadu plugi
 
 Tato sekce popisuje workery dodávané s Krameriem a pluginy, které obsahují.
 
-## [Curator Worker](curator)
+## [Curator Worker](curator/index.md)
 
 Worker určený pro kurátory a správce digitální knihovny.
 
 Obsahuje pluginy související zejména s importem dat, indexací, správou metadat a dalšími kurátorskými činnostmi.
 
-## [CDK Worker](cdk)
+## [CDK Worker](cdk/index.md)
 
 Worker určený pro provoz prostředí České digitální knihovny (CDK).
 
 Obsahuje pluginy používané pro migraci dat, synchronizaci a zpracování obsahu sdíleného mezi jednotlivými institucemi.
 
-## [Public Worker](public)
+## [Public Worker](public/index.md)
 
 Worker určený pro služby dostupné koncovým uživatelům.
 
@@ -28,4 +28,4 @@ Obsahuje pluginy umožňující provádět asynchronní operace, například gen
 
 ## Související dokumentace
 
-* [Pluginy](../plugins) – kompletní přehled dostupných pluginu a jejich payloadů
+* [Pluginy](../plugins/index.md) – kompletní přehled dostupných pluginu a jejich payloadů

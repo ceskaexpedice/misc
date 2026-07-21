@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # REST API
 
@@ -19,4 +19,4 @@ REST API je využíváno klientskými aplikacemi i integračními systémy.
 
 ## Navazujici dokumentace
 
-- ➡️ [REST API Reference](../../reference/api/)
+- ➡️ [REST API Reference](../../reference/api/index.md)

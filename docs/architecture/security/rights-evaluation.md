@@ -1,4 +1,4 @@
-[Index](../../index) / [Architektura](../../architecture)  / [Zabezpečení](../../architecture/security)
+[Index](../../index.md) / [Architektura](../../architecture/index.md)  / [Zabezpečení](../../architecture/security/index.md)
 
 ## Práva
 

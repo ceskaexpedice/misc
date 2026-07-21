@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Česká digitální knihovna (CDK)
 
@@ -15,8 +15,8 @@ Každá knihovna (např. regionální nebo institucionální) provozuje vlastní
 
 CDK tyto knihovny sjednocuje do jednoho vyhledávacího a přístupového systému.
 
-➡️ [ČDK architektura](../../architecture/cdk)
-➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk)
+➡️ [ČDK architektura](../../architecture/cdk/index.md)
+➡️ [ČDK konfigurace](../../configuration/core/configuration-properties/configuration-cdk.md)
 
 ---
 

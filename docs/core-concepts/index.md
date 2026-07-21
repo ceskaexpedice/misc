@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 📚 Základní koncepty
 
@@ -6,27 +6,27 @@ Tato část dokumentace vysvětluje hlavní koncepty Krameria. Propojení část
 
 ---
 
-## [Kramerius Core](core/index)
+## [Kramerius Core](core/index.md)
 Kramerius Core je centrální aplikační vrstva systému Kramerius, která poskytuje REST API, implementuje business logiku a bezpečnost, a zároveň orchestruje spolupráci interních i externích komponent, na kterých je celý systém postaven.
 
 ## Co Kramerius Core zpřístupňuje
 
-### [Úložiště dokumentů Akubra](akubra/index)
+### [Úložiště dokumentů Akubra](akubra/index.md)
 Digitalni dokumenty, metadata, sbirky
 
-### [Vyhledávání](search/index)
+### [Vyhledávání](search/index.md)
 Indexace dat, dotazovací API, fulltextového vyhledávání.
 
-### [Zabezpečení](security/index)
+### [Zabezpečení](security/index.md)
 Aplikacni zabezpeceni, autentizace, autorizace
 
-### [Asynchronni procesy](process-platform/index)
+### [Asynchronni procesy](process-platform/index.md)
 Asynchronni procesy, framework na spousteni a provadeni procesu
 
-### [ČDK](cdk/index)
+### [ČDK](cdk/index.md)
 Česká digitální knihovna (CDK) je centrální agregační a přístupová vrstva nad více nezávislými instancemi systému Kramerius.
 
-### [REST API](api/index)
+### [REST API](api/index.md)
 Veřejné i interní REST API
 
 ## Komu Kramerius Core slouží
@@ -39,8 +39,8 @@ Veřejné i interní REST API
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../architecture)
-- ➡️ [Reference](../reference)
-- ➡️ [Konfigurace](../configuration)
-- ➡️ [Deployment](../deployment)
-- ➡️ [Navody](../guides)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Konfigurace](../configuration/index.md)
+- ➡️ [Deployment](../deployment/index.md)
+- ➡️ [Navody](../guides/index.md)

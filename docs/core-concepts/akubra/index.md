@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts) 
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) 
 
 # Akubra
 
@@ -19,4 +19,4 @@ Implementace repository je založena na Fedora repository a modulu Akubra.
 
 ## Navazujici dokumentace
 
-- ➡️ [Akubra Reference](../../reference/akubra/)
+- ➡️ [Akubra Reference](../../reference/akubra/index.md)

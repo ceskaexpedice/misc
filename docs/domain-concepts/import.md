@@ -1,3 +1,3 @@
-[Index](../index) / [Doménové pojmy](../domain-concepts)
+[Index](../index.md) / [Doménové pojmy](../domain-concepts/index.md)
 
 # Import

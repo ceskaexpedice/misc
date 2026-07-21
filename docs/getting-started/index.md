@@ -1,4 +1,4 @@
-[Index](../index)
+[Index](../index.md)
 
 # 🚀 Začínáme
 
@@ -13,7 +13,7 @@ Pro uživatele, kteří:
 - spouštějí a kontrolují procesy (importy, hromadné operace)
 - pracují s Admin UI klientem
 
-👉 **[Začínáme – Kurátor](curator)**
+👉 **[Začínáme – Kurátor](curator.md)**
 
 ### 🛠 Administrátor
 Pro IT a systémové správce, kteří:
@@ -21,7 +21,7 @@ Pro IT a systémové správce, kteří:
 - konfigurují jednotlivé komponenty (Core, UI klienti, Akubra, Solr)
 - řeší bezpečnost, monitoring, aktualizace a zálohování
 
-👉 **[Začínáme – Administrátor](admin)**
+👉 **[Začínáme – Administrátor](admin.md)**
 
 ### 👨‍💻 Vývojář / Integrátor
 Pro vývojáře, kteří:
@@ -29,7 +29,7 @@ Pro vývojáře, kteří:
 - vyvíjejí moduly, pluginy nebo procesy
 - napojují Kramerius na externí systémy
 
-👉 **[Začínáme – Vývojář](developer)**
+👉 **[Začínáme – Vývojář](developer.md)**
 
 ---
 

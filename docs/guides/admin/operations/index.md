@@ -1,1 +1,1 @@
-[Index](../../../index) / [Navody](../../../guides) / [Administrator](..)
+[Index](../../../index.md) / [Navody](../../../guides/index.md) / [Administrator](../index.md)

@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Process Platform](../../process-platform)  / [Pluginy](../plugins)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Process Platform](../../process-platform/index.md)  / [Pluginy](../plugins/index.md)
 
 # Import FOXML
 
@@ -31,4 +31,4 @@ Po úspěšném dokončení procesu jsou data importována do Krameria. Pokud je
 
 ## Související pluginy
 
-* [Import NDK METS](import-ndk-mets)
+* [Import NDK METS](import-ndk-mets.md)

@@ -1,8 +1,8 @@
-[Index](../index) / [Reference](..) 
+[Index](../index.md) / [Reference](../index.md) 
 
 TODO
 
 ## Navazujici dokumentace
 
-- ➡️ [Konfigurace](../../configuration/)
+- ➡️ [Konfigurace](../../configuration/index.md)
 

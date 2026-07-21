@@ -1,4 +1,4 @@
-[Index](../index) / [Začínáme](../getting-started)
+[Index](../index.md) / [Začínáme](../getting-started/index.md)
 
 # 🛠 Začínáme – Administrátor
 
@@ -13,7 +13,7 @@ Určeno pro **administrátory Krameria**, kteří:
 ## Návody
 Zde jsou návody, jak v systému provést dílčí úkol
 
-➡️ **[Návody](../guides/admin)**.
+➡️ **[Návody](../guides/admin/index.md)**.
 
 ---
 
@@ -53,7 +53,7 @@ Administrátor by měl mít základní přehled o těchto částech systému:
   Integrace s IdP (např. Keycloak) a řízení rolí a oprávnění.
 
 Detailní vysvětlení těchto pojmů najdete v části  
-👉 **[Základní struktura systemu](../core-concepts/index)**
+👉 **[Základní struktura systemu](../core-concepts/index.md)**
 
 ---
 
@@ -71,7 +71,7 @@ Kramerius lze provozovat v různých typech prostředí:
   Tradiční instalace bez kontejnerizace (legacy scénáře).
 
 Popis najdete v části  
-👉 **[Deployment](../deployment/index)**
+👉 **[Deployment](../deployment/index.md)**
 
 ---
 
@@ -85,7 +85,7 @@ Administrátor by měl rozumět:
 - integraci s externím poskytovatelem identity
 
 Detailní technické informace patří do  
-👉 **[Bezpečnost](../reference/security/index)**
+👉 **[Bezpečnost](../reference/security/index.md)**
 
 ---
 
@@ -94,15 +94,15 @@ Detailní technické informace patří do
 Jak konfigurovat základní core a integrované služby.
 
 Detailní technické informace patří do  
-👉 **[Konfigurace](../configuration)**
+👉 **[Konfigurace](../configuration/index.md)**
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Základní struktura](../core-concepts)
-- ➡️ [Architektura](../architecture)
-- ➡️ [Konfigurace](../configuration)
-- ➡️ [Deployment](../deployment)
-- ➡️ [Reference](../reference)
-- ➡️ [Navody](../guides/admin)
+- ➡️ [Základní struktura](../core-concepts/index.md)
+- ➡️ [Architektura](../architecture/index.md)
+- ➡️ [Konfigurace](../configuration/index.md)
+- ➡️ [Deployment](../deployment/index.md)
+- ➡️ [Reference](../reference/index.md)
+- ➡️ [Navody](../guides/admin/index.md)

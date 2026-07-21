@@ -1,4 +1,4 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Konfigurace zabezpečení
 
@@ -16,7 +16,7 @@ Na rozdíl od technické konfigurace (properties, deployment) jde o **datový mo
 
 Kramerius tato data pouze využívá.
 
-➡️ [Keycloak](keycloak)
+➡️ [Keycloak](keycloak.md)
 
 ---
 
@@ -65,7 +65,7 @@ V produkčním prostředí je nutné upravit zejména:
 
 ## Navazujici dokumentace
 
-- ➡️ [Základní pojmy](../../core-concepts/security)
-- ➡️ [Architektura](../../architecture/security)
-- ➡️ [Reference](../../reference/security)
-- ➡️ [Navody](../../guides/admin/security)
+- ➡️ [Základní pojmy](../../core-concepts/security/index.md)
+- ➡️ [Architektura](../../architecture/security/index.md)
+- ➡️ [Reference](../../reference/security/index.md)
+- ➡️ [Navody](../../guides/admin/security/index.md)

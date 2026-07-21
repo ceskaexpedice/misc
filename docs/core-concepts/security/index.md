@@ -1,4 +1,4 @@
-[Index](../../index) / [Základní koncepty](../../core-concepts)
+[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
 
 # Zabezpečení
 
@@ -37,18 +37,18 @@ Před udělením přístupu mohou být vyhodnocena další podminky. Podminky mo
 
 ## Pojmy
 
-- [Autentizace](authentication)
-- [Autorizace](authorization)
-- [Role](roles)
-- [Akce](actions)
-- [Podminky](conditions)
-- [Licence](../../domain-concepts/license/)
-- [ČDK](cdk)
+- [Autentizace](authentication.md)
+- [Autorizace](authorization.md)
+- [Role](roles.md)
+- [Akce](actions.md)
+- [Podminky](conditions.md)
+- [Licence](../../domain-concepts/license/index.md)
+- [ČDK](cdk.md)
 
 
 ---
 
 ## Navazujici dokumentace
 
-- ➡️ [Architektura](../../architecture/security/)
-- ➡️ [Reference](../../reference/security/)
+- ➡️ [Architektura](../../architecture/security/index.md)
+- ➡️ [Reference](../../reference/security/index.md)

@@ -1,10 +1,10 @@
-[Index](../../index) / [Konfigurace](../../configuration)
+[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
 
 # Akubra
 
 Konfigurace se děje skrze Kramerius Core:
 
-➡️ [Akubra core](../core/configuration-properties/configuration-akubra)
+➡️ [Akubra core](../core/configuration-properties/configuration-akubra.md)
 
 Vlastni Akubra modul je popsan zde:
 
@@ -12,7 +12,7 @@ Vlastni Akubra modul je popsan zde:
 
 ## Navazujici dokumentace
 
-- ➡️ [Reference](../../reference/akubra/)
+- ➡️ [Reference](../../reference/akubra/index.md)
 
 
 

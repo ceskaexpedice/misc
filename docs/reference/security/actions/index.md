@@ -1,4 +1,4 @@
-[Index](../../../index) / [Reference](../..)  / [Zabezpečení](..)
+[Index](../../../index.md) / [Reference](../../index.md)  / [Zabezpečení](../index.md)
 
 # Actions
 

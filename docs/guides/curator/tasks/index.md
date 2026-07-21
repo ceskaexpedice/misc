@@ -1,4 +1,4 @@
-[Index](../../../index) / [Návody](../../../guides/) / [Kurátor](../../curator/)
+[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
 
 # Jednotlivé úkoly (Tasks)
 
@@ -6,16 +6,16 @@ Tato sekce obsahuje jednotlivé kroky, které provádí kurátor při práci se 
 
 Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako součást workflow.
 
-## [Spuštění importu](import)
+## [Spuštění importu](import.md)
 
-## [Spuštění indexace](indexing)
+## [Spuštění indexace](indexing.md)
 
-## [Změna příznaku licence](change-policy-flag)
+## [Změna příznaku licence](change-policy-flag.md)
 
 ---
 
 ## Související dokumentace
 
-- ➡️ [Pracovní postupy (Workflows)](../workflows/index)
-- ➡️ [Řešení problémů](../troubleshooting/index)
-- ➡️ [Návody pro kurátory](../index)
+- ➡️ [Pracovní postupy (Workflows)](../workflows/index.md)
+- ➡️ [Řešení problémů](../troubleshooting/index.md)
+- ➡️ [Návody pro kurátory](../index.md)

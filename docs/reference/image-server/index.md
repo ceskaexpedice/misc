@@ -1,4 +1,4 @@
-[Index](../index) / [Reference](..)
+[Index](../index.md) / [Reference](../index.md)
 
 # Image Server
 
@@ -315,7 +315,7 @@ a umožňuje efektivní práci s velkými obrazovými daty.
 
 ## Navazujici dokumentace
 
-- ➡️ [Zakladni pojmy](../../core-concepts/)
-- ➡️ [Architektura](../../architecture/)
-- ➡️ [Konfigurace](../../configuration/iiif/)
-- ➡️ [Verzovani](../../versioning/)
+- ➡️ [Zakladni pojmy](../../core-concepts/index.md)
+- ➡️ [Architektura](../../architecture/index.md)
+- ➡️ [Konfigurace](../../configuration/iiif/index.md)
+- ➡️ [Verzovani](../../versioning/index.md)
