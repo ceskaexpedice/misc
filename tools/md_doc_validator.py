@@ -7,6 +7,7 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
+from urllib.parse import unquote
 
 
 DEFAULT_DOCS_DIR = "docs"
@@ -76,8 +77,8 @@ def find_closing_paren(value: str, open_paren_index: int) -> int:
     return -1
 
 
-def iter_markdown_links(line: str) -> list[tuple[str, int]]:
-    links: list[tuple[str, int]] = []
+def iter_markdown_links(line: str) -> list[tuple[str, int, bool]]:
+    links: list[tuple[str, int, bool]] = []
     cursor = 0
 
     while cursor < len(line):
@@ -102,7 +103,7 @@ def iter_markdown_links(line: str) -> list[tuple[str, int]]:
         if close_paren == -1:
             break
 
-        links.append((line[open_paren + 1 : close_paren], start + 1))
+        links.append((line[open_paren + 1 : close_paren], start + 1, is_image))
         cursor = close_paren + 1
 
     return links
@@ -139,53 +140,84 @@ def has_link_extension(target_path: str) -> bool:
 
 
 def has_markdown_extension(target_path: str) -> bool:
-    return PurePosixPath(target_path.replace("\\", "/")).suffix.casefold() == ".md"
+    return PurePosixPath(target_path.replace("\\", "/")).suffix == ".md"
 
 
 def has_unsupported_dot_segment(target_path: str) -> bool:
     return any(re.fullmatch(r"\.\.\.+", segment) is not None for segment in target_path.replace("\\", "/").split("/"))
 
 
-def link_candidate_paths(path: Path, docs_root: Path, target_path: str) -> list[Path]:
-    normalized_target = target_path.replace("\\", "/")
-    is_absolute = normalized_target.startswith("/")
-    relative_target = normalized_target.lstrip("/") if is_absolute else normalized_target
-    target_parts = PurePosixPath(relative_target).parts
-    base_path = docs_root.joinpath(*target_parts) if is_absolute else path.parent.joinpath(*target_parts)
-
-    if has_link_extension(normalized_target):
-        return [base_path]
-
-    candidates = [base_path]
-    if not normalized_target.endswith("/"):
-        candidates.append(base_path.with_suffix(".md"))
-    candidates.append(base_path / "index.md")
-    return candidates
-
-
-def resolve_documentation_link(path: Path, docs_root: Path, target_path: str) -> Path | None:
+def normalized_documentation_target(path: Path, docs_root: Path, target_path: str) -> str | None:
     if has_unsupported_dot_segment(target_path):
         return None
 
-    resolved_docs_root = docs_root.resolve()
+    normalized_target = unquote(target_path).replace("\\", "/")
+    target_parts = [] if normalized_target.startswith("/") else list(path.parent.relative_to(docs_root).parts)
 
-    for candidate in link_candidate_paths(path, docs_root, target_path):
-        resolved_candidate = candidate.resolve()
-        try:
-            resolved_candidate.relative_to(resolved_docs_root)
-        except ValueError:
+    for part in normalized_target.lstrip("/").split("/"):
+        if part in {"", "."}:
             continue
+        if part == "..":
+            if not target_parts:
+                return None
+            target_parts.pop()
+            continue
+        target_parts.append(part)
 
-        if resolved_candidate.is_file():
-            return resolved_candidate
+    return PurePosixPath(*target_parts).as_posix() if target_parts else ""
+
+
+def resolve_documentation_link(
+    path: Path,
+    docs_root: Path,
+    target_path: str,
+    markdown_paths: set[str],
+) -> str | None:
+    normalized_target = normalized_documentation_target(path, docs_root, target_path)
+    if normalized_target is None or normalized_target not in markdown_paths:
+        return None
+    return normalized_target
+
+
+def resolve_implicit_markdown_link(
+    path: Path,
+    docs_root: Path,
+    target_path: str,
+    markdown_paths: set[str],
+) -> str | None:
+    normalized_target = normalized_documentation_target(path, docs_root, target_path)
+    if normalized_target is None:
+        return None
+
+    if not has_link_extension(normalized_target):
+        file_candidate = f"{normalized_target}.md"
+        if file_candidate in markdown_paths:
+            return file_candidate
+
+    index_candidate = (
+        f"{normalized_target.rstrip('/')}/index.md"
+        if normalized_target
+        else "index.md"
+    )
+    if index_candidate in markdown_paths:
+        return index_candidate
 
     return None
 
 
-def validate_links(line: str, line_number: int, path: Path, docs_root: Path) -> list[ValidationError]:
+def validate_links(
+    line: str,
+    line_number: int,
+    path: Path,
+    docs_root: Path,
+    markdown_paths: set[str],
+) -> list[ValidationError]:
     errors: list[ValidationError] = []
 
-    for raw_target, column in iter_markdown_links(line):
+    for raw_target, column, is_image in iter_markdown_links(line):
+        if is_image:
+            continue
+
         target = link_destination(raw_target)
         if not target:
             errors.append(
@@ -199,24 +231,41 @@ def validate_links(line: str, line_number: int, path: Path, docs_root: Path) -> 
         if is_external_or_anchor_link(target):
             continue
 
-        target_path = link_path_without_fragment(target)
+        target_path = unquote(link_path_without_fragment(target))
         if not target_path:
             continue
 
-        if has_markdown_extension(target_path):
+        if not has_markdown_extension(target_path):
+            implicit_target = resolve_implicit_markdown_link(path, docs_root, target_path, markdown_paths)
+            if implicit_target is not None and PurePosixPath(implicit_target).name == "index.md":
+                message = (
+                    f"Odkaz na adresar musi explicitne odkazovat na index.md "
+                    f"na radku {line_number}, sloupec {column}"
+                )
+            elif implicit_target is None:
+                message = (
+                    f"Rozbity lokalni odkaz na radku {line_number}, sloupec {column}: "
+                    f"chybi .md a odpovidajici markdown soubor neexistuje"
+                )
+            else:
+                message = (
+                    f"Lokalni odkaz musi koncit na .md "
+                    f"na radku {line_number}, sloupec {column}"
+                )
             errors.append(
                 ValidationError(
                     path,
-                    f"Podezrely odkaz s priponou .md na radku {line_number}, sloupec {column}",
+                    message,
                 )
             )
+            continue
 
-        resolved_target = resolve_documentation_link(path, docs_root, target_path)
+        resolved_target = resolve_documentation_link(path, docs_root, target_path, markdown_paths)
         if resolved_target is None:
             errors.append(
                 ValidationError(
                     path,
-                    f"Rozbity odkaz na radku {line_number}, sloupec {column}",
+                    f"Rozbity odkaz na radku {line_number}, sloupec {column}: markdown soubor neexistuje",
                 )
             )
 
@@ -292,7 +341,13 @@ def validate_heading(line: str, line_number: int, path: Path) -> list[Validation
     return errors
 
 
-def validate_markdown_file(path: Path, docs_root: Path, min_chars: int, include_todos: bool) -> list[ValidationError]:
+def validate_markdown_file(
+    path: Path,
+    docs_root: Path,
+    markdown_paths: set[str],
+    min_chars: int,
+    include_todos: bool,
+) -> list[ValidationError]:
     text = path.read_text(encoding="utf-8-sig")
     stripped_text = text.strip()
     errors: list[ValidationError] = []
@@ -322,7 +377,7 @@ def validate_markdown_file(path: Path, docs_root: Path, min_chars: int, include_
             errors.append(ValidationError(path, f"TODO na radku {line_number}"))
 
         errors.extend(validate_heading(line, line_number, path))
-        errors.extend(validate_links(line, line_number, path, docs_root))
+        errors.extend(validate_links(line, line_number, path, docs_root, markdown_paths))
 
     if in_fence:
         errors.append(ValidationError(path, "Neukonceny blok kodu"))
@@ -334,10 +389,12 @@ def validate_docs(root: Path, docs_root: Path, min_chars: int, include_todos: bo
     if min_chars <= 0:
         raise ValueError("--min-chars musi byt kladne cislo.")
 
+    markdown_files = collect_markdown_files(docs_root)
+    markdown_paths = {path.relative_to(docs_root).as_posix() for path in markdown_files}
     errors: list[ValidationError] = []
-    for path in collect_markdown_files(docs_root):
+    for path in markdown_files:
         errors.extend(validate_file_name(path))
-        errors.extend(validate_markdown_file(path, docs_root, min_chars, include_todos))
+        errors.extend(validate_markdown_file(path, docs_root, markdown_paths, min_chars, include_todos))
 
     errors.sort(key=lambda item: (relative_posix_path(item.path, root).casefold(), item.message))
     return errors
