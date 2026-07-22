@@ -46,17 +46,56 @@ nav:
       - Administrátor: getting-started/admin.md
       - Kurátor: getting-started/curator.md
       - Vývojář: getting-started/developer.md
-  - Základní koncepty: core-concepts/index.md
+  - Základní koncepty:
+      - Přehled: core-concepts/index.md
+      - Kramerius Core: core-concepts/core/index.md
+      - Akubra: core-concepts/akubra/index.md
+      - Vyhledávání: core-concepts/search/index.md
+      - Zabezpečení: core-concepts/security/index.md
+      - Procesy: core-concepts/process-platform/index.md
+      - ČDK: core-concepts/cdk/index.md
+      - API: core-concepts/api/index.md
   - Doménové pojmy: domain-concepts/index.md
-  - Architektura: architecture/index.md
-  - Konfigurace: configuration/index.md
+  - Architektura:
+      - Přehled: architecture/index.md
+      - Kramerius Core: architecture/core/index.md
+      - Vyhledávání: architecture/search/index.md
+      - Zabezpečení: architecture/security/index.md
+      - Procesy: architecture/process-platform/index.md
+      - ČDK: architecture/cdk/index.md
+  - Konfigurace:
+      - Přehled: configuration/index.md
+      - Kramerius Core: configuration/core/index.md
+      - Akubra: configuration/akubra/index.md
+      - Vyhledávání: configuration/search/index.md
+      - Zabezpečení: configuration/security/index.md
+      - Procesy: configuration/process-platform/index.md
+      - Zámky: configuration/distributed-locks/index.md
+      - Image server: configuration/iiif/index.md
   - Návody:
       - Přehled: guides/index.md
       - Administrátor: guides/admin/index.md
       - Kurátor: guides/curator/index.md
       - Vývojář: guides/developer/index.md
-  - Nasazení: deployment/index.md
-  - Reference: reference/index.md
+  - Nasazení:
+      - Přehled: deployment/index.md
+      - Docker: deployment/docker/index.md
+      - Kubernetes: deployment/kubernetes/index.md
+      - On Premise: deployment/on-premise/index.md
+  - Reference:
+      - Přehled: reference/index.md
+      - API: reference/api/index.md
+      - Core: reference/core/index.md
+      - Akubra: reference/akubra/index.md
+      - Vyhledávání: reference/search/index.md
+      - Zabezpečení: reference/security/index.md
+      - Procesy: reference/process-platform/index.md
+      - Zámky: reference/distributed-locks/index.md
+      - Image server: reference/image-server/index.md
+      - Statistiky: reference/statistics/index.md
+      - ČDK: reference/cdk/index.md
+      - Web klient: reference/client/index.md
+      - Admin klient: reference/client-admin/index.md
   - Verzování: versioning/index.md
 
 extra:

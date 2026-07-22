@@ -12,10 +12,10 @@ Vytváření a úprava sbírek
 ### [Zpracování nové dávky (Import + indexace)](import-index-dataset.md)
 Kompletní proces zpracování nové digitální dávky.
 
-### [Zapojení knihovny do ČDK)](library-cdk-onboarding-guide.md)
+### [Zapojení knihovny do ČDK](library-cdk-onboarding-guide.md)
 Kompletní proces zpracování nové digitální dávky.
 
-### [Zapojení knihovny do SDNNT)](dnnt-onboarding.md)
+### [Zapojení knihovny do SDNNT](dnnt-onboarding.md)
 Kompletní proces zpracování nové digitální dávky.
 
 ---
