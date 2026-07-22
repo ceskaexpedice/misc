@@ -8,9 +8,9 @@ Obsahuje nejčastější chybové stavy a doporučené postupy jejich řešení.
 
 ---
 
-## Import selhal](import-failed.md
+### Import selhal](import-failed.md
 
-## Indexace neproběhla](index-failed.md
+### Indexace neproběhla](index-failed.md
 
 
 ---

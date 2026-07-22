@@ -6,11 +6,11 @@ Tato sekce obsahuje jednotlivé kroky, které provádí kurátor při práci se 
 
 Každý task je samostatná činnost, kterou lze provést nezávisle nebo jako součást workflow.
 
-## [Spuštění importu](import.md)
+### [Spuštění importu](import.md)
 
-## [Spuštění indexace](indexing.md)
+### [Spuštění indexace](indexing.md)
 
-## [Změna příznaku licence](change-policy-flag.md)
+### [Změna příznaku licence](change-policy-flag.md)
 
 ---
 
