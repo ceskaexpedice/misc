@@ -43,8 +43,8 @@ nav:
   - Úvod: index.md
   - Začínáme:
       - Přehled: getting-started/index.md
-      - Administrátor: getting-started/admin.md
       - Kurátor: getting-started/curator.md
+      - Administrátor: getting-started/admin.md
       - Vývojář: getting-started/developer.md
   - Základní koncepty:
       - Přehled: core-concepts/index.md
@@ -74,8 +74,8 @@ nav:
       - Image server: configuration/iiif/index.md
   - Návody:
       - Přehled: guides/index.md
-      - Administrátor: guides/admin/index.md
       - Kurátor: guides/curator/index.md
+      - Administrátor: guides/admin/index.md
       - Vývojář: guides/developer/index.md
   - Nasazení:
       - Přehled: deployment/index.md
