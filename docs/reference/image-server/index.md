@@ -24,7 +24,7 @@ Komunikace je založena na standardu IIIF Image API.
 Kramerius používá principy standardu IIIF Image API.
 
 Viz:
-- https://iiif.io/get-started/image-servers/
+- [https://iiif.io/get-started/image-servers/](https://iiif.io/get-started/image-servers/)
 
 IIIF server umožňuje dynamické generování:
 
