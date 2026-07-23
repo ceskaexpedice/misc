@@ -24,7 +24,7 @@ Každá zdrojová knihovna je nezávislá instance Krameria.
 
 Tyto knihovny jsou do CDK připojeny jako **chráněné kanály (protected channels)**.
 
-TODO zapojene knihovny ???
+... zapojene knihovny ???
 
 ---
 

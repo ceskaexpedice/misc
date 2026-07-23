@@ -34,7 +34,7 @@ Hlavní pracovní nástroj kurátora:
 ➡️ **[Admin klient](https://github.com/ceskaexpedice/kramerius-admin-client/wiki)**.
 
 ### Web Client
-TODO
+...
 
 ➡️ **[Web klient](https://github.com/ceskaexpedice/kramerius-web-client/wiki)**.
 

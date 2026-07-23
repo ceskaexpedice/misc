@@ -10,7 +10,7 @@ Veškerá detailní technická dokumentace k modulu Admin klient je dostupná v 
 
 Wiki je primárním zdrojem informací a obsahuje zejména:
 
-- TODO
+- ...
 
 ---
 

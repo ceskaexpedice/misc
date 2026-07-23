@@ -10,7 +10,7 @@ Veškerá detailní technická dokumentace k modulu Web klient je dostupná v je
 
 Wiki je primárním zdrojem informací a obsahuje zejména:
 
-- TODO
+- ...
 
 ---
 

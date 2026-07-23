@@ -113,7 +113,7 @@ Search využívá Apache Solr jako indexační backend.
 
 Detaily provozu Solr (cluster, škálování, replikace) nejsou součástí Search modelu.
 
-Viz: TODO
+Viz: ...
 
 ## Indexační pipeline (externí subsystém)
 
@@ -140,5 +140,5 @@ Tato oblast zahrnuje:
 - transformaci schema pro různé Solr environmenty
 - kopírování Solr core konfigurací
 
-Viz: TODO
+Viz: ...
 

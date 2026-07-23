@@ -50,5 +50,5 @@ Po úspěšném importu následuje indexace dat do vyhledávacího systému.
 
 ## Související dokumentace
 
-- ➡️ TODO
+- ➡️ ...
 - ➡️ 

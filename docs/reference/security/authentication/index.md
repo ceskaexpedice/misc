@@ -19,7 +19,7 @@ Authorization: Bearer <token>
 ```
 
 ### CDK hlavicka
-TODO
+...
 
 ### [Token model](token-model.md)
 

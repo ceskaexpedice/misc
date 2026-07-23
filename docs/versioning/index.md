@@ -107,7 +107,7 @@ Jednotlivé části čísla verze mají následující význam:
 ## [Indexer](search/index.md)
 
 ## Databaze
-TODO
+...
 
 ## Nezávislé vydávání komponent
 

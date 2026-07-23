@@ -32,10 +32,10 @@ Popis instalace:
     - Nejdříve je nutno zkopírovat vše z instalačního adresáře [kramerius-7.x.y.zip/installation-7.x.y/solr-7.x/logs](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-7.x/logs) do adresáře <solr_home>/server/solr/logs a poté v administračním rozhraní přidat jádro se jménem logs a instalačním adresářem logs.
 
 ## jádro Monitor
-TODO
+...
 
 ## jádro sdnnt-sync
-TODO
+...
 
 ## Aktualizace schématu (jádro search)
 Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktualizovat schéma (zejména soubor managed-schema) Postup je následující:

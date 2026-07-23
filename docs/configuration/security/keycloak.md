@@ -2,7 +2,7 @@
 
 # Keycloak configuration
 
-TODO
+...
 
 ## Realm
 

@@ -1,4 +1,4 @@
-TODO
+...
 
 ## Navazujici dokumentace
 

@@ -19,8 +19,8 @@ Kramerius používá několik nezávislých indexačních subsystémů, které p
 - Search index (fulltext nad Fedora objekty)
 - Processing model (RELS-EXT / Akubra interní stav)
 - Logs index (audit a systémové události)
-- Monitor index TODO
-- sdnnt-sync index TODO
+- Monitor index ...
+- sdnnt-sync index ...
 
 Všechny tyto subsystémy sdílejí společné principy:
 

@@ -97,10 +97,10 @@ Systém Kramerius využívá vrstvenou konfiguraci. Obecné pravidlo pro správu
 ## Operations
 
 ### Logování
-TODO
+...
 
 ### Monitoring
-TODO
+...
 
 
 ## Navazujici dokumentace

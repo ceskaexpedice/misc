@@ -31,7 +31,7 @@ Pro snadnější práci s providerem uvádíme několik příkladů dotazů:
 
 Provider je možné konfigurovat pomocí následujících konfiguračních proměnných 
 
-TODO presunout do kapitoly konfigurace
+... presunout do kapitoly konfigurace
 
 ```
 oai.adminEmail - email na administratora

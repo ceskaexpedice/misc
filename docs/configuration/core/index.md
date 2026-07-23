@@ -16,7 +16,7 @@ umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory 
 
 - ➡️ [configuration.properties](configuration-properties/index.md)
 
-TODO
+
 - ➡️ [search.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
 - ➡️ [migration.properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
 - ➡️ [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)

@@ -55,7 +55,7 @@ Systém pro sledování stavu aplikací a infrastruktury. Metriky, logy, alerty 
 Procesy a nástroje pro CI/CD, nasazování, monitoring buildů a správu provozního prostředí.
 
 ### Zalohovani](backup/index.md
-TODO
+...
 
 ---
 

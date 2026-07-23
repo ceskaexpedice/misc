@@ -13,17 +13,17 @@ Uživatel může ve svém souboru předefinovat libovolnou hodnotu z defaultníh
 
 ---
 
-| Parametr                  | Default                                             | Popis |
-|---------------------------|-----------------------------------------------------|-------|
-| `objectStore.path`        | `${sys:user.home}/.kramerius4/data/objectStore`     | Kořenový adresář pro ukládání objektů (metadata + binární data). |
-| `objectStore.pattern`     | `##/##`                                             | Struktura podadresářů pro objekty. Každé `#` odpovídá jednomu hexadecimálnímu znaku MD5 hashe názvu souboru. Defaultní hodnota znamená dvě úrovně adresářů s maximálně 256 adresáři na úroveň. |
+| Parametr                  | Default                                          | Popis |
+|---------------------------|--------------------------------------------------|-------|
+| `objectStore.path`        | `${sys:user.home}/.kramerius4/data/objectStore`  | Kořenový adresář pro ukládání objektů (metadata + binární data). |
+| `objectStore.pattern`     | `##/##`                                          | Struktura podadresářů pro objekty. Každé `#` odpovídá jednomu hexadecimálnímu znaku MD5 hashe názvu souboru. Defaultní hodnota znamená dvě úrovně adresářů s maximálně 256 adresáři na úroveň. |
 | `datastreamStore.path`    | `${sys:user.home}/.kramerius4/data/datastreamStore` | Kořenový adresář pro ukládání datastreamů (obsah jednotlivých souborů). |
-| `datastreamStore.pattern` | `##/##`                                             | Struktura podadresářů pro datastreamy. Stejná logika jako u `objectStore.pattern`. |
-| `hazelcast.instance`      | `akubrasync`                                        | Jméno instance Hazelcast pro distribuované zámky, zajišťující synchronizaci paralelních zápisů. |
-| `hazelcast.user`          | `dev`                                               | Uživatelské jméno pro Hazelcast zámky, slouží pro identifikaci instance. |
-| `hazelcast.clientconfig`  | TODO                                                | Pokud nestačí defaultní konfigurace clusteru Hazelcast, je možné jak server, tak klienty Hazelcast konfigurovat pomocí XML souborů. K tomu slouží property `hazelcast.config` a `hazelcast.clientconfig`, kterými je možné definovat cestu ke konfiguračnímu souboru pro hazelcast server, resp. klient. Soubory mohou být určeny buď absolutní cestou nebo relativně ke konfiguračnímu adresáři `.kramerius4`. Popis obsahu konfiguračních XML souborů najdete v dokumentaci [Hazelcast](https://docs.hazelcast.org/docs/latest/manual/html-single/#understanding-configuration) |
-| `hazelcast.waitTime`      | TODO                                                | |
-| `hazelcast.leaseTime`     | TODO                                                | |
+| `datastreamStore.pattern` | `##/##`                                          | Struktura podadresářů pro datastreamy. Stejná logika jako u `objectStore.pattern`. |
+| `hazelcast.instance`      | `akubrasync`                                     | Jméno instance Hazelcast pro distribuované zámky, zajišťující synchronizaci paralelních zápisů. |
+| `hazelcast.user`          | `dev`                                            | Uživatelské jméno pro Hazelcast zámky, slouží pro identifikaci instance. |
+| `hazelcast.clientconfig`  |                                                  | Pokud nestačí defaultní konfigurace clusteru Hazelcast, je možné jak server, tak klienty Hazelcast konfigurovat pomocí XML souborů. K tomu slouží property `hazelcast.config` a `hazelcast.clientconfig`, kterými je možné definovat cestu ke konfiguračnímu souboru pro hazelcast server, resp. klient. Soubory mohou být určeny buď absolutní cestou nebo relativně ke konfiguračnímu adresáři `.kramerius4`. Popis obsahu konfiguračních XML souborů najdete v dokumentaci [Hazelcast](https://docs.hazelcast.org/docs/latest/manual/html-single/#understanding-configuration) |
+| `hazelcast.waitTime`      |                                              | |
+| `hazelcast.leaseTime`     |                                              | |
 
 ---
 

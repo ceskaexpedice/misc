@@ -1,6 +1,6 @@
 # Návody pro vývojáře a integrátory
 
-TODO
+...
 
 ## Související dokumentace
 

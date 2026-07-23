@@ -23,12 +23,12 @@ Kramerius využívá vyhledávací engine **Solr** a definuje tato hlavní jádr
 Hlavní vyhledávací jádro pro klientské aplikace (veřejné i administrační rozhraní).
 
 ### Processing Core
-TODO
+...
 
 Interní index repozitáře, nahrazuje dříve používaný Resource Index Fedory.
 
 ### Logs Core
-TODO
+...
 Ukládání informací o přístupu uživatelů a zdroj pro statistiky a reporty.
 
 ### Navazujici dokumentace

@@ -38,4 +38,4 @@ Po úspěšném dokončení procesu jsou dokumenty ze zdrojové knihovny přenes
 
 ## Související pluginy
 
-TODO
+...

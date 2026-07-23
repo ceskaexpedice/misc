@@ -4,7 +4,7 @@ Předpoklady
 běžící instance Krameria, Java runtime, lokální vývojové prostředí
 
 1. Stažení a spuštění Keycloaku
-TODO viz deployment on-premise 
+... viz deployment on-premise 
    Stáhněte distribuční balíček Keycloaku a rozbalte jej.
    Spusťte server s port offsetem, aby nedošlo ke kolizi s Krameriem:
    Keycloak poběží na portu 8083

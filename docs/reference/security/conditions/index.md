@@ -34,5 +34,5 @@ Ověřuje licenční podmínky.
 
 ---
 
-### TODO další kriteria
+### ... další kriteria
 

@@ -1,6 +1,6 @@
 # On Premise 
 
-TODO
+...
 - ➡️ [Instalace](installation.md)
 
 ## Navazujici dokumentace
