@@ -14,18 +14,18 @@ Tato část dokumentace popisuje systémovou architekturu Krameria:
 
 Systém obsahuje následující komponenty:
 
-| Komponenta          | Účel                             | Zdroj                                                                                                                | Verze         |
-|---------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------|
-| Kramerius Core      | REST API, integrace              | [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)                             | 7.2.2         |
-| Reader UI           | uživatelské rozhraní pro čtenáře | [https://github.com/ceskaexpedice/kramerius-web-client-v3](https://github.com/ceskaexpedice/kramerius-web-client-v3) | 3.0.20-beta   |
-| Admin UI            | administrace systému             | [https://github.com/ceskaexpedice/kramerius-admin-client](https://github.com/ceskaexpedice/kramerius-admin-client)   | 1.6.1         |
-| Keycloak            | autentizace                      | [https://www.keycloak.org/](https://www.keycloak.org/)                                                                                        | 22.0.11-1.10  |
-| Solr                | vyhledavani                      | [https://solr.apache.org/](https://solr.apache.org/)                                                                                         | 9.6.0         |
-| Fedora / Akubra     | repository a storage             | [https://github.com/ceskaexpedice/akubra](https://github.com/ceskaexpedice/akubra)                                                                          | 1.7           |
-| Image Server        | poskytování obrazových dat       | [https://hub.docker.com/r/ceskaexpedice/iipsrv-nginx](https://hub.docker.com/r/ceskaexpedice/iipsrv-nginx)                                                                                                                    | vlastni build |
-| Process Platform    | orchestrace background procesů   | [https://github.com/ceskaexpedice/process-platform](https://github.com/ceskaexpedice/process-platform)                                                                | 1.5.1         |
-| PostgreSQL          | persistence                      | [https://www.postgresql.org/](https://www.postgresql.org/)                                                                                      | 14.10         |
-| Hazelcast           | distribuované zámky              | [https://github.com/ceskaexpedice/hazelcast-locks-server](https://github.com/ceskaexpedice/hazelcast-locks-server)                                                          | 2.0           |
+| Komponenta          | Účel                             | Zdroj                                                                                                                | Verze         | Distribuce |
+|---------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------|------------|
+| Kramerius Core      | REST API, integrace              | [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)                             | 7.2.2         | Kramerius  |
+| Reader UI           | uživatelské rozhraní pro čtenáře | [https://github.com/ceskaexpedice/kramerius-web-client-v3](https://github.com/ceskaexpedice/kramerius-web-client-v3) | 3.0.20-beta   | Kramerius  |
+| Admin UI            | administrace systému             | [https://github.com/ceskaexpedice/kramerius-admin-client](https://github.com/ceskaexpedice/kramerius-admin-client)   | 1.6.1         | Kramerius  |
+| Keycloak            | autentizace                      | [https://www.keycloak.org/](https://www.keycloak.org/)                                                               | 22.0.11-1.10  | Kramerius|
+| Solr                | vyhledavani                      | [https://solr.apache.org/](https://solr.apache.org/)                                                                 | 9.6.0         |Oficialni|
+| Fedora / Akubra     | repository a storage             | [https://github.com/ceskaexpedice/akubra](https://github.com/ceskaexpedice/akubra)                                   | 1.7           |Kramerius|
+| Image Server        | poskytování obrazových dat       | [https://hub.docker.com/r/ceskaexpedice/iipsrv-nginx](https://hub.docker.com/r/ceskaexpedice/iipsrv-nginx)           | vlastni build |Kramerius|
+| Process Platform    | orchestrace background procesů   | [https://github.com/ceskaexpedice/process-platform](https://github.com/ceskaexpedice/process-platform)               | 1.5.1         |Kramerius|
+| PostgreSQL          | persistence                      | [https://www.postgresql.org/](https://www.postgresql.org/)                                                           | 14.10         |Oficialni|
+| Hazelcast           | distribuované zámky              | [https://github.com/ceskaexpedice/hazelcast-locks-server](https://github.com/ceskaexpedice/hazelcast-locks-server)   | 2.0           |Kramerius|
 
 ---
 
