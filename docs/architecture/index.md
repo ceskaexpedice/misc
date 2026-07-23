@@ -7,15 +7,6 @@ Tato část dokumentace popisuje systémovou architekturu Krameria:
 - hlavní komponenty
 - jejich odpovědnosti
 - komunikační toky
-- integrační vrstvy
-- runtime vztahy mezi službami
-
-Cílem této části není detailní konfigurace jednotlivých komponent, ale pochopení:
-
-- jak jsou části systému propojeny
-- jaké mají odpovědnosti
-- jak probíhá zpracování dat
-- jaké jsou hlavní architektonické principy
 
 ---
 
