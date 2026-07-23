@@ -1,5 +1,3 @@
-[Index](../index.md)
-
 # 📚 Doménové pojmy (kurátorský slovník)
 
 Tato sekce obsahuje vysvětlení pojmů, se kterými pracují kurátoři při správě digitálních dokumentů v systému Kramerius.

@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md)
-
 # Zpracování (Processing)
 
 Subsystém Processing je zodpovědný za asynchronní vykonávání systémových operací, jako je indexace, import a údržbové úlohy.

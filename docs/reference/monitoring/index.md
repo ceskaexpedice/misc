@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md) 
-
 # Monitoring pomalých dotazů
 
 Od verze **7.0.40** je možno monitorovat dotazy, u kterých je delší doba odpovědi než je definovaná hodnota threshold.

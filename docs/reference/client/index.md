@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md) 
-
 # Web klient
 
 Tato sekce obsahuje referenci k modulu **Web klient**, který slouží pro ctenare.

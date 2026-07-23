@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Architektura](../../architecture/index.md)
-
 # Kramerius Core
 
 ## Přehled

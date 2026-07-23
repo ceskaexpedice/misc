@@ -1,4 +1,4 @@
-[Index](../../../../index.md) / [Reference](../../../index.md)  / [Process Platform](../../../process-platform/index.md)  / [Workers](../../workers/index.md)
+[Úvod](../../../../index.md) > [Reference](../../../index.md)  / [Process Platform](../../../process-platform/index.md)  / [Workers](../../workers/index.md)
 
 # Curator Worker
 

@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md)
-
 # Solr Cores Reference
 
 Tato stránka poskytuje přehled hlavních Solr jader používaných v systému **Kramerius 7** a jejich účel.

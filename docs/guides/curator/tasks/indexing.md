@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Úlohy](index.md)
+[Úvod](../../../index.md) > [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md) / [Úlohy](index.md)
 
 # Spuštění indexace
 

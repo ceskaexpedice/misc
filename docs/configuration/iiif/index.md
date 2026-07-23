@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
-
 # IIIF
 
 Kromě standardního zobrazení obrázků v jejich nativním formátu má aplikace Kramerius 5 možnost prezentovat je pomocí integrované prohlížečky Seadragon (http://www.zoom.it).

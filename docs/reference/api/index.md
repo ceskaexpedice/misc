@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md)
-
 # Dokumentace Kramerius REST API
 
 Kramerius je systém pro správu digitálních knihoven, který poskytuje komplexní řešení pro přístup, vyhledávání a správu digitálních dokumentů. Systém Kramerius je široce využíván na různých místech, kde umožňuje přístup k digitalizovaným knihovním zdrojům pomocí REST API.

@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Architektura](../../architecture/index.md)  / [Zabezpečení](../../architecture/security/index.md)
+[Úvod](../../index.md) > [Architektura](../../architecture/index.md)  / [Zabezpečení](../../architecture/security/index.md)
 
 ## Práva
 

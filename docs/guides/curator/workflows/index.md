@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
+[Úvod](../../../index.md) > [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
 
 # Pracovní postupy (Workflows)
 

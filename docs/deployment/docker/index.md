@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Deployment](../../deployment/index.md)
-
 # Docker Compose deployment
 
 - ➡️ [Instalace](installation.md)

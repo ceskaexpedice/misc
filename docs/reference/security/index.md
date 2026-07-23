@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Reference](../../reference/index.md)
-
 # Zabezpečení
 
 Tato část obsahuje úplný technický popis bezpečnostního modelu Krameria.

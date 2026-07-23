@@ -1,4 +1,4 @@
-[Index](../../index.md / [Deployment](../../deployment/index.md)
+[Úvod](../../index.md) > [Deployment](../../deployment/index.md)
 
 # Popis instalace a nastavení On premise
 

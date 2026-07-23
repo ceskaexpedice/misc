@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Konfigurace](../../index.md)  / [Core](../index.md)
+[Úvod](../../../index.md) > [Konfigurace](../../index.md)  / [Core](../index.md)
 
 # Configuration Properties
 Tato stránka poskytuje **referenční přehled zakladnich konfiguračních parametrů**. Obsahuje defaultní hodnoty, účel a doporučené nastavení.

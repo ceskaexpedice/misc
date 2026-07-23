@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Architektura](../../architecture/index.md)
-
 # Process Platform
 
 Processing v Krameriu se skládá z:

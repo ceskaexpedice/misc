@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
-
 # Process platform konfigurace
 
 - ➡️ [Konfigurace skrze Core](../core/configuration-properties/configuration-process-platform.md)

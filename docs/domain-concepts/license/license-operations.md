@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
+[Úvod](../../index.md) > [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
 
 Objektům v repozitáři může být přiřazena jedna nebo více licencí. Příkladem licence je _DNNT_ nebo _public domain_.
 Licence, v kombinaci s dalším nastavením, umožňuje vykonávání akcí nad určenými objekty. Typickou akcí je zobrazení plných stránek.

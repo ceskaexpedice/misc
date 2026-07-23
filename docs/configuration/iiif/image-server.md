@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
+[Úvod](../../index.md) > [Konfigurace](../../configuration/index.md)
 
 # Image server
 

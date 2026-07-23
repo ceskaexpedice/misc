@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
-
 # Vyhledávání
 
 Pro vyhledávání dokumentů používá Kramerius indexační vrstvu založenou na Apache Solr.

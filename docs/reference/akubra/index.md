@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md)
-
 # Akubra
 
 Tato sekce obsahuje referenci k modulu **Akubra**, který slouží pro práci s digitálním obsahem a správu repozitářů v rámci systému.

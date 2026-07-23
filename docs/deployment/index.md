@@ -1,5 +1,3 @@
-[Index](../index.md)
-
 # 🚢 Deployment
 
 Tato kapitola popisuje **způsoby nasazení (deploymentu) systému Kramerius**.  

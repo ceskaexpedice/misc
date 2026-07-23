@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
-
 # Distributed locks
 
 Konfigurace se děje skrze Kramerius Core v ramci konfigurace Akubra:

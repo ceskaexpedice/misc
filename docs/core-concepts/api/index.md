@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
-
 # REST API
 
 Hlavní způsob komunikace s Krameriem představuje REST API.

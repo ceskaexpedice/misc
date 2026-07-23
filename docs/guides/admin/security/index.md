@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Navody](../../../guides/index.md) / [Administrator](../index.md)
+[Úvod](../../../index.md) > [Navody](../../../guides/index.md) / [Administrator](../index.md)
 
 # Bezpečnost – Návody pro administrátora
 

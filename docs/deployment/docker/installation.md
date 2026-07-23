@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Deployment](../../deployment/index.md)
+[Úvod](../../index.md) > [Deployment](../../deployment/index.md)
 
 # Kramerius docker compose 
 

@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md) 
-
 # Kramerius Core
 
 ## Přehled

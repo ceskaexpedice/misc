@@ -1,5 +1,3 @@
-[Index](../index.md)
-
 # 🧩 Architektura
 
 Tato část dokumentace popisuje systémovou architekturu Krameria:

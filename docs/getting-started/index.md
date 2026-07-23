@@ -1,5 +1,3 @@
-[Index](../index.md)
-
 # 🚀 Začínáme
 
 Tato sekce slouží jako **vstupní rozcestník do dokumentace Kramerius** podle role, ve které systém používáte.

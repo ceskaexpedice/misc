@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Navody](../../../guides/index.md) / [Administrator](../index.md)  / [ČDK](../cdk/index.md)
+[Úvod](../../../index.md) > [Navody](../../../guides/index.md) / [Administrator](../index.md)  / [ČDK](../cdk/index.md)
 
 # Zapojení knihovny do České digitální knihovny (ČDK)
 

@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
-
 # Procesy
 
 Některé operace v systému probíhají asynchronně.

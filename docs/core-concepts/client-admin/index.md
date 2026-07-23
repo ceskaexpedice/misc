@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
-
 # Klientska aplikace Admin
 
 Administrativní aplikace určená správcům systému.

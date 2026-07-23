@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md) 
-
 # Admin klient
 
 Tato sekce obsahuje referenci k modulu **Admin klient**, který slouží pro administratory.

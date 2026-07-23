@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
+[Úvod](../../index.md) > [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
 
 # Text pro neveřejné dokumenty pro použití v Krameriovi:
 `takto` označené pasáže je třeba upravit podle potřeb konkrétní knihovny

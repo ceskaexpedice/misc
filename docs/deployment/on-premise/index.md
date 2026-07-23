@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Deployment](../../deployment/index.md)
-
 # On Premise 
 
 TODO

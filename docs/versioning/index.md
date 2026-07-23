@@ -1,5 +1,3 @@
-[Index](../index.md)
-
 # 📦 Verzování
 
 Kramerius je ekosystém vzájemně spolupracujících aplikací, nikoliv jeden samostatný software. Kromě **Kramerius Core** zahrnuje také další samostatně vyvíjené komponenty, například **Process Platform** nebo **Akubra**. 

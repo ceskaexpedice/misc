@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)  
-
 # Kramerius Core
 
 Po prvním spuštění aplikačního serveru s nainstalovanou aplikací Kramerius (pod systémovým uživatelem `kramerius4`) je v domovském adresáři uživatele `kramerius4` 

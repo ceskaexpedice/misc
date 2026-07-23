@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
-
 # Akubra
 
 Konfigurace se děje skrze Kramerius Core:

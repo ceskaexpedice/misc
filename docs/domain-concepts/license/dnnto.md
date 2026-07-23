@@ -1,4 +1,4 @@
-[Index](../../index.md) / [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
+[Úvod](../../index.md) > [Doménové pojmy](../../domain-concepts/index.md)  / [Licence](../license/index.md)
 
 # Text k licenci DNNT-O pro použití v Krameriovi:
 

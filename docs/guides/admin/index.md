@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Návody](../../guides/index.md)
-
 # Návody pro administrátora
 
 Tato sekce obsahuje praktické návody pro správu a provoz systému Kramerius.

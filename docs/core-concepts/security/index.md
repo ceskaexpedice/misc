@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md)
-
 # Zabezpečení
 
 Tato dokumentace popisuje **aplikační úroveň zabezpečení** v systému Kramerius.

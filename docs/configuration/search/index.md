@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Konfigurace](../../configuration/index.md)
-
 # Vyhledavani
 
 Konfigurace přístupu k SOLR se děje skrze Kramerius Core:

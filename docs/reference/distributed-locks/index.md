@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md) 
-
 # Zamkovy server
 
 Tato sekce obsahuje referenci k modulu **Zamkovy server**, který slouží pro synchronizaci v konkurencnim prostredi.

@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Reference](../../../reference/index.md) / [Search](../../search/index.md) 
+[Úvod](../../../index.md) > [Reference](../../../reference/index.md) / [Search](../../search/index.md) 
 
 # Search core
 

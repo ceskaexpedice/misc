@@ -1,5 +1,3 @@
-[Index](../../index.md) / [Základní koncepty](../../core-concepts/index.md) 
-
 # Akubra
 
 Digitální objekty jsou ukládány v repository vrstvě.

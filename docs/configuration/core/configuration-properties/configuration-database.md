@@ -1,4 +1,4 @@
-[Index](../../../index.md) / [Konfigurace](../../index.md)  / [Core](../index.md)
+[Úvod](../../../index.md) > [Konfigurace](../../index.md)  / [Core](../index.md)
 
 # Databaze konfigurace
 

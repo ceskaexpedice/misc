@@ -1,5 +1,3 @@
-[Index](../index.md) / [Reference](../index.md)
-
 # Česká digitální knihovna (CDK)
 
 ## Uvod
