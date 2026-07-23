@@ -1,6 +1,6 @@
 [Index](../index.md)
 
-# 🏗️ Architektura
+# 🧩 Architektura
 
 Tato část dokumentace popisuje systémovou architekturu Krameria:
 
@@ -21,21 +21,20 @@ Cílem této části není detailní konfigurace jednotlivých komponent, ale po
 
 ## Hlavní komponenty
 
-Systém typicky obsahuje následující komponenty:
+Systém obsahuje následující komponenty:
 
-| Komponenta               | Účel                             |
-|--------------------------|----------------------------------|
-| Kramerius Core           | REST API, integrace              |
-| Reader UI                | uživatelské rozhraní pro čtenáře |
-| Admin UI                 | administrace systému             |
-| Keycloak                 | autentizace                      |
-| Solr                     | vyhledavani                      |
-| Fedora / Akubra          | repository a storage             |
-| Image Server             | poskytování obrazových dat       |
-| Process Platform Manager | orchestrace background procesů   |
-| Process Platform Worker  | zpracování tasků                 |
-| PostgreSQL               | persistence                      |
-| Hazelcast                | distribuované zámky              |
+| Komponenta          | Účel                             | Zdroj | Verze |
+|---------------------|----------------------------------|-------|-------|
+| Kramerius Core      | REST API, integrace              | https://github.com/ceskaexpedice/kramerius      | 7.2.2 |
+| Reader UI           | uživatelské rozhraní pro čtenáře | https://github.com/ceskaexpedice/kramerius-web-client-v3  |       |
+| Admin UI            | administrace systému             | https://github.com/ceskaexpedice/kramerius-admin-client      | 1.6.1 |
+| Keycloak            | autentizace                      | https://www.keycloak.org/      |       |
+| Solr                | vyhledavani                      | https://solr.apache.org/      | 9.6.0 |
+| Fedora / Akubra     | repository a storage             | https://github.com/ceskaexpedice/akubra      | 1.7   |
+| Image Server        | poskytování obrazových dat       |       |       |
+| Process Platform    | orchestrace background procesů   | https://github.com/ceskaexpedice/process-platform      | 1.5.1 |
+| PostgreSQL          | persistence                      |  https://www.postgresql.org/     | 14.10 |
+| Hazelcast           | distribuované zámky              | https://github.com/ceskaexpedice/hazelcast-locks-server      | 2.0   |
 
 ---
 

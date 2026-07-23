@@ -137,7 +137,7 @@ Pokud víte, co hledáte:
 - 📖 [Reference](reference/index.md)
 - 📦 [Verzovani](versioning/index.md)
 
-## 🧩 Co je Kramerius
+## Co je Kramerius
 
 Kramerius je open-source systém pro správu a zpřístupnění digitálních knihovních sbírek.
 
