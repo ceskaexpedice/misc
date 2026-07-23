@@ -9,12 +9,15 @@ import argparse
 import re
 import sys
 from datetime import datetime
-from pathlib import Path
+from pathlib import Path, PurePosixPath
+from urllib.parse import quote
 
 
 DEFAULT_OUTPUT_NAME = "kramerius-doc.md"
 DEFAULT_OUTPUT_DIR = "out"
 INDEX_SEARCH_SECTION_HEADING = "## 🔍 Hledání v dokumentaci"
+DOCUMENTATION_BASE_URL_PLACEHOLDER = "{{KRAMERIUS_DOCUMENTATION_BASE_URL}}"
+EXCLUDED_MARKDOWN_PATH_PREFIXES = (PurePosixPath("assets/mermaid"),)
 
 DOCS_SECTION_ORDER = {
     "getting-started": 10,
@@ -121,8 +124,17 @@ def path_components_key(parts: tuple[str, ...]) -> tuple[object, ...]:
     return tuple(key)
 
 
-def collect_markdown_files(docs_root: Path, output_path: Path) -> list[Path]:
+def is_excluded_markdown_path(path: Path, docs_root: Path) -> bool:
+    relative_path = PurePosixPath(path.relative_to(docs_root).as_posix())
+    return any(
+        relative_path == prefix or prefix in relative_path.parents
+        for prefix in EXCLUDED_MARKDOWN_PATH_PREFIXES
+    )
+
+
+def collect_markdown_files(docs_root: Path, output_path: Path) -> tuple[list[Path], int]:
     files: list[Path] = []
+    excluded_count = 0
     resolved_output = output_path.resolve()
 
     for path in docs_root.rglob("*.md"):
@@ -132,10 +144,14 @@ def collect_markdown_files(docs_root: Path, output_path: Path) -> list[Path]:
         if path.resolve() == resolved_output:
             continue
 
+        if is_excluded_markdown_path(path, docs_root):
+            excluded_count += 1
+            continue
+
         files.append(path)
 
     files.sort(key=lambda item: markdown_sort_key(item, docs_root))
-    return files
+    return files, excluded_count
 
 
 def remove_index_search_section(text: str) -> str:
@@ -182,18 +198,35 @@ def format_generated_at(value: str | None) -> str:
     return parsed_datetime.isoformat(timespec="seconds")
 
 
-def build_document(root: Path, output_path: Path, generated_at: str | None) -> tuple[int, int]:
+def documentation_url_template(path: Path, docs_root: Path) -> str:
+    relative_path = PurePosixPath(path.relative_to(docs_root).as_posix())
+    if relative_path.name.casefold() == "index.md":
+        route_parts = relative_path.parts[:-1]
+    else:
+        route_parts = (*relative_path.parts[:-1], relative_path.stem)
+
+    encoded_route = "/".join(quote(part, safe="-._~") for part in route_parts)
+    if not encoded_route:
+        return DOCUMENTATION_BASE_URL_PLACEHOLDER + "/"
+
+    return f"{DOCUMENTATION_BASE_URL_PLACEHOLDER}/{encoded_route}/"
+
+
+def build_document(root: Path, output_path: Path, generated_at: str | None) -> tuple[int, int, int]:
     docs_root = root / "docs"
     if not docs_root.is_dir():
         raise NotADirectoryError(f"Adresar s dokumentaci neexistuje: {docs_root}")
 
-    markdown_files = collect_markdown_files(docs_root, output_path)
+    markdown_files, excluded_count = collect_markdown_files(docs_root, output_path)
     if not markdown_files:
         raise RuntimeError(f"Nebyly nalezeny zadne markdown soubory v {docs_root}.")
 
     included_count = 0
     skipped_empty_count = 0
-    chunks: list[str] = [f"Build date: {format_generated_at(generated_at)}", ""]
+    chunks: list[str] = [
+        f"Build date: {format_generated_at(generated_at)}",
+        "",
+    ]
 
     for path in markdown_files:
         text = read_non_empty_text(path, docs_root)
@@ -203,6 +236,7 @@ def build_document(root: Path, output_path: Path, generated_at: str | None) -> t
 
         relative_path = path.relative_to(docs_root).as_posix()
         chunks.append(f"=== {relative_path} ===")
+        chunks.append(documentation_url_template(path, docs_root))
         chunks.append("")
         chunks.append(text)
         chunks.append("")
@@ -212,7 +246,7 @@ def build_document(root: Path, output_path: Path, generated_at: str | None) -> t
         raise RuntimeError("Vsechny nalezene markdown soubory jsou prazdne.")
 
     output_path.write_text("\n".join(chunks).rstrip() + "\n", encoding="utf-8")
-    return included_count, skipped_empty_count
+    return included_count, skipped_empty_count, excluded_count
 
 
 def parse_args() -> argparse.Namespace:
@@ -251,10 +285,11 @@ def main() -> int:
     output_path = output_path.resolve()
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    included_count, skipped_empty_count = build_document(root, output_path, args.generated_at)
+    included_count, skipped_empty_count, excluded_count = build_document(root, output_path, args.generated_at)
     print(f"Vytvoreno: {output_path}")
     print(f"Zahrnuto markdown souboru: {included_count}")
     print(f"Preskoceno prazdnych souboru: {skipped_empty_count}")
+    print(f"Preskoceno vyloucenych markdown souboru: {excluded_count}")
     return 0
 
 
