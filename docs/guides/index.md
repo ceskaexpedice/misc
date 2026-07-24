@@ -4,7 +4,7 @@ Tato sekce obsahuje **praktické návody a postupy**, které vás provedou konkr
 
 Návody jsou členěny především **podle role**, ve které Kramerius používáte.
 
-## 🧑‍🏫 Návody – Kurátor
+## Návody – Kurátor
 Praktické návody pro práci s obsahem:
 - správa digitálních dokumentů
 - práce se sbírkami
@@ -16,7 +16,7 @@ Praktické návody pro práci s obsahem:
 
 ---
 
-## 🛠 Návody – Administrátor
+## Návody – Administrátor
 Návody pro instalaci a provoz systému:
 - instalace a první spuštění
 - konfigurace jednotlivých komponent
@@ -28,7 +28,7 @@ Návody pro instalaci a provoz systému:
 
 ---
 
-## 👨‍💻 Návody – Vývojář
+## Návody – Vývojář
 Návody pro vývoj a integraci:
 - práce s REST API
 - autentizace a tokeny

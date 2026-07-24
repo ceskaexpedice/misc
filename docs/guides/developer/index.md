@@ -1,3 +1,5 @@
+[Úvod](../../index.md) > [Návody](../../guides/index.md)
+
 # Návody pro vývojáře a integrátory
 
 ...
