@@ -1,4 +1,4 @@
-# 🧑‍🏫 Začínáme – Kurátor / Knihovník
+# Kurátor / Knihovník
 
 Tato stránka slouží jako **vstupní rozcestník pro kurátory a odborné pracovníky knihoven**, kteří pracují se systémem Kramerius z pohledu **správy obsahu a procesů**.
 

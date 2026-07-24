@@ -1,4 +1,4 @@
-# 👨‍💻 Zaciname – Vývojář / Integrátor
+# Vývojář / Integrátor
 
 Tato stránka slouží jako **vstupní rozcestník pro vývojáře a integrátory**, kteří pracují s platformou Kramerius z pohledu **integrace, rozšiřování a vývoje vlastních řešení**.
 
