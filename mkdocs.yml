@@ -45,7 +45,13 @@ nav:
       - Kurátor: getting-started/curator.md
       - Administrátor: getting-started/admin.md
       - Vývojář: getting-started/developer.md
-  - Základní koncepty:
+  - Doménové pojmy: domain-concepts/index.md
+  - Návody:
+      - Přehled: guides/index.md
+      - Kurátor: guides/curator/index.md
+      - Administrátor: guides/admin/index.md
+      - Vývojář: guides/developer/index.md
+  - Technické koncepty:
       - Přehled: core-concepts/index.md
       - Kramerius Core: core-concepts/core/index.md
       - Akubra: core-concepts/akubra/index.md
@@ -54,7 +60,6 @@ nav:
       - Procesy: core-concepts/process-platform/index.md
       - ČDK: core-concepts/cdk/index.md
       - API: core-concepts/api/index.md
-  - Doménové pojmy: domain-concepts/index.md
   - Architektura:
       - Přehled: architecture/index.md
       - Kramerius Core: architecture/core/index.md
@@ -71,11 +76,6 @@ nav:
       - Procesy: configuration/process-platform/index.md
       - Zámky: configuration/distributed-locks/index.md
       - Image server: configuration/iiif/index.md
-  - Návody:
-      - Přehled: guides/index.md
-      - Kurátor: guides/curator/index.md
-      - Administrátor: guides/admin/index.md
-      - Vývojář: guides/developer/index.md
   - Nasazení:
       - Přehled: deployment/index.md
       - Docker: deployment/docker/index.md
