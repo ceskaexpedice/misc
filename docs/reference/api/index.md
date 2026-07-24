@@ -4,9 +4,10 @@ Kramerius je systém pro správu digitálních knihoven, který poskytuje komple
 
 Toto REST API je standardně dostupné na nainstalovaném serveru pod kontextem: `~/search/api/*` a je formálně rozděleno na tři části:
 
-- **Klientská část**: Umožňuje uživatelům přistupovat k dostupným zdrojům knihovny.
-- **Administrační část**: Slouží pro správu a údržbu systému.
-- **API pro externí aplikace**: Endpointy pro podporu externích aplikací 
+- **[Klientská část](https://k7.inovatika.dev/search/openapi/client/v7.0/index.html)**: Umožňuje uživatelům přistupovat k dostupným zdrojům knihovny.
+- **[Administrační část](https://k7.inovatika.dev/search/openapi/admin/v7.0/index.html)**: Slouží pro správu a údržbu systému.
+- **[Externí část](https://k7.inovatika.dev/search/openapi/exts/v7.0/index.html)**: Endpointy pro podporu externích aplikací
+- **[OAI PMH](oai-pmh-protocol.md)**: OAI
 
 
 API je rozděleno do modulů pro jednodušší integraci a údržbu. Klientské části API jsou zdokumentovány pomocí **OpenAPI** a je přístupná v každé instanci K7.
@@ -43,24 +44,6 @@ V těchto případech je třeba zpracovat XML či textové odpovědi podle struk
   - **500 Internal Server Error**: Interní chyba serveru.
 
 V případě chyby API vrací chybové odpovědi ve formátu JSON.
-
----
-
-## Kramerius REST API
-
-### Klientská část
-Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/client/v7.0/index.html). 
-
-
-### Administrační část
-Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/admin/v7.0/index.html). 
-
-
-### Externí část
-Swagger dokumentace dostupných endpointů je k dispozici [zde](https://k7.inovatika.dev/search/openapi/exts/v7.0/index.html).
-
-### OAI PMH
-popis je k dispozici [zde](oai-pmh-protocol.md).
 
 ---
 
