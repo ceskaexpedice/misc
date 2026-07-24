@@ -40,7 +40,11 @@ theme:
     - content.code.copy
 
 nav:
-  - Úvod: index.md
+  - Úvod:
+      - Přehled: index.md
+      - Kurátor: getting-started/curator.md
+      - Administrátor: getting-started/admin.md
+      - Vývojář: getting-started/developer.md
   - Základní koncepty:
       - Přehled: core-concepts/index.md
       - Kramerius Core: core-concepts/core/index.md
