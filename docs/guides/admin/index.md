@@ -1,5 +1,3 @@
-[Úvod](../../index.md) > [Návody](../../guides/index.md)
-
 # Návody pro administrátora
 
 Tato sekce obsahuje praktické návody pro správu a provoz systému Kramerius.
@@ -14,8 +12,6 @@ Návody jsou rozděleny do několika tematických oblastí:
 ### [Nastavení autentizace, autorizace a zabezpečení systému](security/index.md)
 ### [ČDK](cdk/index.md)
 ### [Diagnostika a řešení nejčastějších problémů](troubleshooting/index.md)
-
-Pokud se systémem začínáte, doporučujeme nejprve projít dokumentaci *Začínáme pro administrátory* a seznámit se se základními pojmy používanými v Krameriu.
 
 ## Související dokumentace
 

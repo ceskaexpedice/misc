@@ -1,6 +1,6 @@
 [Úvod](../../../index.md) > [Návody](../../../guides/index.md) / [Kurátor](../../curator/index.md)
 
-# 🚨 Řešení problémů (Troubleshooting)
+# Řešení problémů (Troubleshooting)
 
 Tato sekce pomáhá řešit problémy, které mohou nastat při práci se systémem Kramerius.
 
