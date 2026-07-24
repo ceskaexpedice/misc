@@ -14,12 +14,12 @@ základní sdílené properties jsou v souboru `configuration.properties`, jedno
 Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru 
 umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění Krameria, resp. příslušného externího procesu.
 
-- ➡️ [configuration.properties](configuration-properties/index.md)
+### [Configuration properties](configuration-properties/index.md)
+### [Search properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
+### [Migration properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
+### [Migration properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
-
-- ➡️ [search.properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
-- ➡️ [migration.properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
-- ➡️ [migration.properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
+---
 
 ## Lokalizace textů
 

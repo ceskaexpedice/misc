@@ -1,4 +1,4 @@
-[Úvod](../../../index.md) > [Konfigurace](../../index.md)  / [Core](../index.md)
+[Úvod](../../../index.md) > [Konfigurace](../../index.md)  / [Core](../index.md) / [Configuration properties](index.md)
 
 # Process platform konfigurace
 
