@@ -61,18 +61,18 @@ až po vývoj a integraci jednotlivých komponent.
 
 ---
 
-## 👤 Kurátor / práce s dokumenty
+## Kurátor / práce s dokumenty
 
 Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 
-👉 🛠️ **[Návody pro kurátory](guides/curator/index.md)**
+👉 **[Návody pro kurátory](guides/curator/index.md)**
 - import dokumentů
 - indexace
 - práce se sbírkami
 - sledování procesů
 - zapojení knihovny do ČDK
 
-👉 🧠 **[Doménové pojmy](domain-concepts/index.md)**
+👉 **[Doménové pojmy](domain-concepts/index.md)**
 - dokument
 - metadata
 - sbírka
@@ -81,57 +81,57 @@ Práce s digitálními dokumenty, sbírkami a jejich zpracováním.
 
 ---
 
-## ⚙️ Administrátor / provoz systému
+## Administrátor / provoz systému
 
 Správa systému, procesů a konfigurace.
 
-👉 🛠️ **[Návody pro administrátora](guides/admin/index.md)**
+👉 **[Návody pro administrátora](guides/admin/index.md)**
 - monitoring procesů
 - správa běžících úloh
 - konfigurace systému
 
-👉 ⚙️ **[Konfigurace](configuration/index.md)**
+👉 **[Konfigurace](configuration/index.md)**
 - nastavení Krameria
 - indexace
 - storage a úložiště
 
-👉 🚢 **[Deployment](deployment/index.md)**
+👉 **[Deployment](deployment/index.md)**
 - nasazení systému
 - runtime prostředí
 - Tomcat / služby
 
 ---
 
-## 👨‍💻 Vývojář / integrace
+## Vývojář / integrace
 
 Integrace, API a interní fungování systému.
 
-👉 📖 **[Reference](reference/index.md)**
+👉 **[Reference](reference/index.md)**
 - REST API
 - datové modely
 - formáty (FOXML, METS)
 
-👉 ⚙️ **[Technické koncepty](core-concepts/index.md)**
+👉 **[Technické koncepty](core-concepts/index.md)**
 - Akubra
 - procesní platforma
 - indexace
 - security model
 
-👉 🧩 **[Architektura](architecture/index.md)**
+👉 **[Architektura](architecture/index.md)**
 - komponenty systému
 - vazby mezi moduly
 
 ---
 
-## 🧭 Rychlé vstupy
+## Rychlé vstupy
 
 Pokud víte, co hledáte:
 
-- 📚 [Doménové pojmy](domain-concepts/index.md)
-- ⚙️ [Technické koncepty](core-concepts/index.md)
-- 🛠️ [Návody](guides/index.md)
-- 📖 [Reference](reference/index.md)
-- 📦 [Verzovani](versioning/index.md)
+- [Doménové pojmy](domain-concepts/index.md)
+- [Technické koncepty](core-concepts/index.md)
+- [Návody](guides/index.md)
+- [Reference](reference/index.md)
+- [Verzovani](versioning/index.md)
 
 ## Co je Kramerius
 
@@ -156,11 +156,11 @@ Jádro systému běží jako Java aplikace v Tomcatu a tvoří integrační vrst
 
 ---
 
-## 📦 Verze a vydávání
+## Verze a vydávání
 
 Informace o verzování produktů, kompatibilitě jednotlivých komponent a pravidlech vydávání.
 
-👉 📦 **[Verzování](versioning/index.md)**
+👉 **[Verzování](versioning/index.md)**
 
 - schéma verzování Kramerius Core
 - verzování Process Platform a Akubra
@@ -169,7 +169,7 @@ Informace o verzování produktů, kompatibilitě jednotlivých komponent a prav
 
 ---
 
-## 🔧 Přispívání
+## Přispívání
 
 Dokumentace se vyvíjí spolu se systémem Kramerius.
 
