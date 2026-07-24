@@ -3,9 +3,10 @@
 Po prvním spuštění aplikačního serveru s nainstalovanou aplikací Kramerius (pod systémovým uživatelem `kramerius4`) je v domovském adresáři uživatele `kramerius4` 
 vytvořen adresář `.kramerius4` a v něm prázdné soubory:
 
-- `configuration.properties`
-- `search.properties`
-- `migration.properties`
+### [Configuration properties](configuration-properties/index.md)
+### [Search properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
+### [Migration properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
+### [Migration properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
 Konfigurační soubory využívají rozšířenou syntaxi properties podporovanou knihovnou Apache Commons-Configuration. Soubory jsou uspořádány ve dvoustupňové hierarchii: 
 základní sdílené properties jsou v souboru `configuration.properties`, jednotlivé plugin moduly externích procesů je pak rozšiřují ve svých konfiguračních souborech 
@@ -13,11 +14,6 @@ základní sdílené properties jsou v souboru `configuration.properties`, jedno
 
 Defaultní hodnoty properties jsou definovány uvnitř aplikačního archivu `search.war`. Hodnoty je možné předefinovat jejich uvedením ve stejně pojmenovaném souboru 
 umístěném v adresáři `$USER_HOME/.kramerius4`. Tyto konfigurační soubory (prázdné) jsou vytvořeny automaticky při prvním spuštění Krameria, resp. příslušného externího procesu.
-
-### [Configuration properties](configuration-properties/index.md)
-### [Search properties](https://github.com/ceskaexpedice/kramerius/blob/master/search/src/java/res/configuration.properties)
-### [Migration properties (konverze z K3)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-cmdtool/src/main/resources/res/configuration.properties)
-### [Migration properties (konverze z METS-NDK)](https://github.com/ceskaexpedice/kramerius/blob/master/processes/import-mets/src/main/resources/res/configuration.properties)
 
 ---
 
