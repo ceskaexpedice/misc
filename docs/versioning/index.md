@@ -5,6 +5,8 @@ Každá z těchto komponent má vlastní životní cyklus a vlastní schéma ver
 
 ## [➡️ Tabulka komponent a verzí](../reference/index.md)
 
+Uvádíme vždy nejnovější "stable" verze.
+
 ## Kramerius Core
 
 Kramerius Core používá čtyřdílné číslo verze:
