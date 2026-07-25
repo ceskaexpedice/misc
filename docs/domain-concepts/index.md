@@ -15,6 +15,7 @@ Nejedná se o technickou dokumentaci systému, ale o **uživatelský pohled na d
 ### D
 
 - [Datastream](datastream.md)
+- [Datový model](https://github.com/ceskaexpedice/akubra/wiki/Data-Model)
 - [Digitální dokument](digital-object.md)
 - [Dokument](document.md)
 
