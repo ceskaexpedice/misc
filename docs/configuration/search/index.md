@@ -37,13 +37,32 @@ Popis instalace:
 ## jádro sdnnt-sync
 ...
 
-## Aktualizace schématu (jádro search)
-Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktualizovat schéma (zejména soubor managed-schema) Postup je následující:
+## Aktualizace schématu 
 
-- Stáhněte si konfigurační soubory a slovníky buď z instalačního balíčku nebo přímo z git [repozitáře](https://github.com/ceskaexpedice/kramerius/tree/master/installation/solr-7.x/search/conf).
-- Stáhnuté soubory umístěte do adresáře `<solr_home>/server/solr/search`.
+
+
+### Aktualizace schématu (jádro search) - single solr
+
+Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktualizovat schéma (zejména soubor `managed-schema`) Postup je následující:
+
+- Stáhněte si konfigurační soubory a slovníky z instalačního balíčku.
+- Stáhnuté soubory umístěte do adresáře `<solr_home>/server/solr/search`. 
+
+![solr-path](../assets/solr-core-path.png)
+
+
 - Otevřte administrační prostředí solru `http://localhost:8983/`.
+
+
 - V záložce core-admin vyberte jádro `search` a zmáčkněte tlačítko `reload`.
+
+![solr-admin-reload](../assets/solr-admin-reload.png)
+
+
+
+### Aktualizace schématu (jádro search) - solr cloud
+
+...
 
 ## Navazujici dokumentace
 
