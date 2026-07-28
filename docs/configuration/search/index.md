@@ -45,7 +45,7 @@ Popis instalace:
 
 Při přechodu na některou vyšší verzi Krameria může nastat potřeba aktualizovat schéma (zejména soubor `managed-schema`) Postup je následující:
 
-- Stáhněte si konfigurační soubory a slovníky z instalačního balíčku.
+- Stáhněte si konfigurační soubory a slovníky z instalačního balíčku. Verze instalačních balčků je [zde](https://github.com/ceskaexpedice/kramerius/releases) 
 - Stáhnuté soubory umístěte do adresáře `<solr_home>/server/solr/search`. 
 
 ![solr-path](../assets/solr-core-path.png)
